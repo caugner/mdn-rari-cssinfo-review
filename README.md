@@ -12,9 +12,11 @@ Serve the committed site with Python 3:
 python3 -m http.server 8765 --directory site
 ```
 
-Open <http://localhost:8765>. Filter by locale, title/slug, status, row, and change type. Expand a page for rendered values, a word diff, the original HTML diff, and macro diagnostics. The repeated-changes view groups identical row changes within a locale. Select a group to explore its affected pages.
+Open <http://localhost:8765>. The page list starts with en-US. Expand a page and choose a locale under "This page in other locales" to keep its before/after table beside the en-US review. A row summary compares affected definitions and change types, using the pinned localized row labels. Matching change types do not establish semantic equivalence of translated wording. Locales absent from this macro snapshot are shown as "Not in snapshot", which does not imply that the translation does not exist.
 
-Filters, sort order, pagination, group selection, and a selected page are stored in the URL fragment. "Copy view link" shares the entire view. "Link to this page" adds the page selection. Browser Back and Forward restore previous views.
+Filter by locale, title/slug, status, row, and change type. Expand a page for rendered values, a word diff, the original HTML diff, and macro diagnostics. The repeated-changes view groups identical row changes within a locale. Select a group to explore its affected pages.
+
+Filters, sort order, pagination, group selection, a selected page, and its comparison locale are stored in the URL fragment. "Copy view link" shares the entire view. "Link to this page" adds the page selection. Browser Back and Forward restore previous views.
 
 ## Reproduce
 

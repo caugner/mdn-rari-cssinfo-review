@@ -157,6 +157,34 @@ def load_build(root):
     return result
 
 
+def field_labels(content, run, locales):
+    template = json.loads((content / 'jsondata/L10n-Template.json').read_text())
+    legacy = json.loads((run / 'deps/main/rari/mdn-data/package/l10n/css.json').read_text())
+    fields = {
+        'initial': ('xref_cssinitial', None),
+        'appliesTo': ('xref_cssappliesto', 'appliesTo'),
+        'inherited': ('xref_cssinherited', None),
+        'percentages': ('xref_csspercentages', 'percentages'),
+        'computed': ('xref_csscomputed', None),
+        'animationType': ('xref_cssanimationtype', 'animationType'),
+        'stacking': (None, 'createsStackingContext'),
+        'relatedAtRule': ('xref_cssrelated_at_rule', 'relatedAtRule'),
+    }
+    result = {}
+    for locale in locales:
+        labels = result.setdefault(locale.lower(), {})
+        for field, keys in fields.items():
+            for source, key in zip((template, legacy), keys):
+                if not key:
+                    continue
+                values = source[key]
+                value = values.get(locale, values.get('en-US', key))
+                row = extract({'body': [{'type': 'prose', 'value': {'content':
+                    f'<table class="properties"><tr><th>{value}</th><td></td></tr></table>'}}]})['rows'][0]
+                labels[row['label']] = field
+    return result
+
+
 def generate(run, content, translated, output):
     pins = json.loads((ROOT / 'inputs/pins.json').read_text())
     expected = inventory(content, translated)
@@ -221,7 +249,7 @@ def generate(run, content, translated, output):
     manifest = {'pins': pins, 'count': len(records), 'status': dict(Counter(r['status'] for r in records)),
                 'locales': dict(sorted(Counter(r['locale'] for r in records).items())),
                 'builds': {side: {'pages': len(built), 'missing': sorted(set(expected) - set(built))} for side, built in builds.items()}}
-    write_json(output / 'data/index.json', {'manifest': manifest, 'pages': records, 'groups': sorted(groups.values(), key=lambda g: (-len(g['pages']), g['id']))})
+    write_json(output / 'data/index.json', {'fieldLabels': field_labels(content, run, pins['locales']), 'manifest': manifest, 'pages': records, 'groups': sorted(groups.values(), key=lambda g: (-len(g['pages']), g['id']))})
     print(json.dumps(manifest, indent=2))
 
 
