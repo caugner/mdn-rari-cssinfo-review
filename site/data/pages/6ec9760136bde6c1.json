@@ -1,0 +1,1 @@
+{"after":{"rows":[],"tables":[]},"before":{"rows":[],"tables":[]},"diagnostics":{"main":[{"fields":[["message","mdn/data has no entry for CSS property \"user-modify\""],["source","templ-mdn-data-missing"],["name","CSS property \"user-modify\""]],"line":13}],"pr":[{"fields":[["message","Webref lookup failed: property 'user-modify' not found"]],"line":13}]},"diff":"","rows":[]}
