@@ -18,6 +18,20 @@ Filter by locale, title/slug, status, row, and change type. Expand a page for re
 
 Filters, sort order, pagination, group selection, a selected page, and its comparison locale are stored in the URL fragment. "Copy view link" shares the entire view. "Link to this page" adds the page selection. Browser Back and Forward restore previous views.
 
+## Locale diff artifacts
+
+Download one self-contained Markdown report per locale from the site's `artifacts/` directory, or download all nine as `artifacts/cssinfo-locale-diffs.zip`. Each report includes a review prompt, pinned provenance, every page in the locale, complete table HTML diffs, and macro diagnostic deltas. Identical full-table diffs are grouped with their complete page lists. No pages or diff hunks are truncated.
+
+The prompt asks for evidence-backed improvements, regressions, and changes requiring verification, with severity, confidence, affected page counts, and examples. A new WebRef value is not automatically treated as an improvement. Larger reports are several hundred KiB; use file-based review and account for every group when working in batches.
+
+Regenerate artifacts from the committed comparison data without rebuilding rari:
+
+```sh
+python3 scripts/export_locale_diffs.py
+```
+
+The full reproduction script also regenerates these artifacts. The manifest records report sizes, coverage, and SHA-256 checksums; the ZIP has fixed entry timestamps for reproducible packaging.
+
 ## Reproduce
 
 Requirements: Git, Python 3.12+, Rust 1.97, a C/C++ toolchain, network access for Git and Cargo, and enough disk space for two Rust build directories and the content checkouts. The site has no JavaScript package dependencies.

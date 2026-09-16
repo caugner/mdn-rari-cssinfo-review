@@ -250,6 +250,8 @@ def generate(run, content, translated, output):
                 'locales': dict(sorted(Counter(r['locale'] for r in records).items())),
                 'builds': {side: {'pages': len(built), 'missing': sorted(set(expected) - set(built))} for side, built in builds.items()}}
     write_json(output / 'data/index.json', {'fieldLabels': field_labels(content, run, pins['locales']), 'manifest': manifest, 'pages': records, 'groups': sorted(groups.values(), key=lambda g: (-len(g['pages']), g['id']))})
+    from export_locale_diffs import export_reports
+    export_reports(output)
     print(json.dumps(manifest, indent=2))
 
 

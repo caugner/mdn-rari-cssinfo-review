@@ -1,0 +1,129 @@
+{
+  "reports": [
+    {
+      "locale": "en-US",
+      "pages": 596,
+      "diffGroups": 425,
+      "diagnosticGroups": 152,
+      "status": {
+        "changed": 546,
+        "missing-both": 2,
+        "table-added": 18,
+        "table-removed": 24,
+        "unchanged": 6
+      },
+      "file": "cssinfo-en-US.md",
+      "bytes": 799944,
+      "sha256": "65817a83819780a058cf1d38a1d531987c0ca53e68b7641257b1a4957b7a702a"
+    },
+    {
+      "locale": "es",
+      "pages": 191,
+      "diffGroups": 161,
+      "diagnosticGroups": 21,
+      "status": {
+        "changed": 172,
+        "missing-both": 2,
+        "table-removed": 17
+      },
+      "file": "cssinfo-es.md",
+      "bytes": 332932,
+      "sha256": "e88c03240bf8f1062d77096d6cf1d4ff0bb162c699a992c25fb18d655ce590c8"
+    },
+    {
+      "locale": "fr",
+      "pages": 596,
+      "diffGroups": 438,
+      "diagnosticGroups": 52,
+      "status": {
+        "changed": 553,
+        "missing-both": 2,
+        "table-added": 17,
+        "table-removed": 24
+      },
+      "file": "cssinfo-fr.md",
+      "bytes": 833397,
+      "sha256": "4f4c7acc707b6b88df6e021af13f6c5f58dbcbda45d0300a62fbb26cb85a216e"
+    },
+    {
+      "locale": "ja",
+      "pages": 580,
+      "diffGroups": 421,
+      "diagnosticGroups": 48,
+      "status": {
+        "changed": 539,
+        "missing-both": 1,
+        "table-added": 16,
+        "table-removed": 24
+      },
+      "file": "cssinfo-ja.md",
+      "bytes": 836492,
+      "sha256": "f69a29a39cca333961c57aefaeee782dacb7cb20fc243b1302b9a30104fec030"
+    },
+    {
+      "locale": "ko",
+      "pages": 137,
+      "diffGroups": 117,
+      "diagnosticGroups": 1,
+      "status": {
+        "changed": 136,
+        "table-removed": 1
+      },
+      "file": "cssinfo-ko.md",
+      "bytes": 244809,
+      "sha256": "dfa2ca19bcba9d094b8c174e97159c09945c6dca783fa0db1661de9268f80346"
+    },
+    {
+      "locale": "pt-BR",
+      "pages": 82,
+      "diffGroups": 77,
+      "diagnosticGroups": 3,
+      "status": {
+        "changed": 80,
+        "table-removed": 2
+      },
+      "file": "cssinfo-pt-BR.md",
+      "bytes": 157448,
+      "sha256": "670612c5259bb35c081968ece5466de8853c11006034f7fce495094cc6c41eca"
+    },
+    {
+      "locale": "ru",
+      "pages": 148,
+      "diffGroups": 133,
+      "diagnosticGroups": 5,
+      "status": {
+        "changed": 147,
+        "table-removed": 1
+      },
+      "file": "cssinfo-ru.md",
+      "bytes": 286274,
+      "sha256": "646e8219f06336269fa35bdb080e1dd2c0e671f116713b2323659efdd75d13e0"
+    },
+    {
+      "locale": "zh-CN",
+      "pages": 367,
+      "diffGroups": 273,
+      "diagnosticGroups": 16,
+      "status": {
+        "changed": 354,
+        "table-removed": 13
+      },
+      "file": "cssinfo-zh-CN.md",
+      "bytes": 542472,
+      "sha256": "d9c6fb5a1fa976a65f2708292b048518632c049fd9686ec32e33fd950e14e035"
+    },
+    {
+      "locale": "zh-TW",
+      "pages": 23,
+      "diffGroups": 20,
+      "diagnosticGroups": 1,
+      "status": {
+        "changed": 22,
+        "table-removed": 1
+      },
+      "file": "cssinfo-zh-TW.md",
+      "bytes": 51021,
+      "sha256": "c431b2c7b680d416d228422d7db5238524c1c805f1ec89067a5e630b38173fe2"
+    }
+  ]
+}
