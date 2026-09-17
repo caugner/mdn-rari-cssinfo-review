@@ -69,6 +69,10 @@ python3 scripts/reproduce.py \
 
 Use `--out` to keep the committed site unchanged while checking reproduction. Without `--verify`, the script regenerates the output without comparing it to the committed dataset.
 
+For a reusable instruction set that refreshes the PR revision, rebuilds the
+generated data and reports, and deploys the result, see [the rebuild and
+redeploy prompt](docs/rebuild-and-redeploy-prompt.md).
+
 ## Comparison scope
 
 The comparison extracts `table.properties` from the rendered document prose. Rows are paired by table number and localized row label, with occurrence numbers for repeated labels. Text comparison decodes HTML entities and collapses whitespace. HTML comparison retains links and formatting. Renamed labels appear as a removed and an added row. Table-level markup differences remain visible in the original HTML diff even when individual row values are identical.
