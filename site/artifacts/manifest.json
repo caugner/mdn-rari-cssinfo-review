@@ -13,8 +13,8 @@
         "unchanged": 6
       },
       "file": "cssinfo-en-US.md",
-      "bytes": 799944,
-      "sha256": "65817a83819780a058cf1d38a1d531987c0ca53e68b7641257b1a4957b7a702a"
+      "bytes": 798577,
+      "sha256": "9f2d3598c167f6f9fc22d3624dd6d071040cd5eef07a5ba1086bea4b5b2dcd81"
     },
     {
       "locale": "es",
@@ -27,8 +27,8 @@
         "table-removed": 17
       },
       "file": "cssinfo-es.md",
-      "bytes": 332932,
-      "sha256": "e88c03240bf8f1062d77096d6cf1d4ff0bb162c699a992c25fb18d655ce590c8"
+      "bytes": 332173,
+      "sha256": "e702b381bea865381954a08fe923c38d851a5ddb404fcc9310b3aad33303aab6"
     },
     {
       "locale": "fr",
@@ -42,8 +42,8 @@
         "table-removed": 24
       },
       "file": "cssinfo-fr.md",
-      "bytes": 833397,
-      "sha256": "4f4c7acc707b6b88df6e021af13f6c5f58dbcbda45d0300a62fbb26cb85a216e"
+      "bytes": 832113,
+      "sha256": "5bd322351f3341e9f3ac90ac39b8b03bdb4b69c9764d685e3ad2a08d997e531e"
     },
     {
       "locale": "ja",
@@ -57,8 +57,8 @@
         "table-removed": 24
       },
       "file": "cssinfo-ja.md",
-      "bytes": 836492,
-      "sha256": "f69a29a39cca333961c57aefaeee782dacb7cb20fc243b1302b9a30104fec030"
+      "bytes": 835199,
+      "sha256": "81c42d0d4dc38979c450899be5dab245838e72456e530cddb2171b212ae46ece"
     },
     {
       "locale": "ko",
@@ -70,8 +70,8 @@
         "table-removed": 1
       },
       "file": "cssinfo-ko.md",
-      "bytes": 244809,
-      "sha256": "dfa2ca19bcba9d094b8c174e97159c09945c6dca783fa0db1661de9268f80346"
+      "bytes": 244444,
+      "sha256": "42c762dfe13729f52e8e65ebd40490121fb89823e6122cb752b3e96feb3f3df6"
     },
     {
       "locale": "pt-BR",
@@ -83,8 +83,8 @@
         "table-removed": 2
       },
       "file": "cssinfo-pt-BR.md",
-      "bytes": 157448,
-      "sha256": "670612c5259bb35c081968ece5466de8853c11006034f7fce495094cc6c41eca"
+      "bytes": 157163,
+      "sha256": "e7dc7046ced9f9f410454f9fe02f923d70a0696a92d4acd342f9920e661d136a"
     },
     {
       "locale": "ru",
@@ -96,8 +96,8 @@
         "table-removed": 1
       },
       "file": "cssinfo-ru.md",
-      "bytes": 286274,
-      "sha256": "646e8219f06336269fa35bdb080e1dd2c0e671f116713b2323659efdd75d13e0"
+      "bytes": 285870,
+      "sha256": "28a2a73b6399d11cd3a1240396bb8fa5c4796f9f20f7c00c7a855d897aa23b62"
     },
     {
       "locale": "zh-CN",
@@ -109,8 +109,8 @@
         "table-removed": 13
       },
       "file": "cssinfo-zh-CN.md",
-      "bytes": 542472,
-      "sha256": "d9c6fb5a1fa976a65f2708292b048518632c049fd9686ec32e33fd950e14e035"
+      "bytes": 541696,
+      "sha256": "c2cb5ffafdde65ddce23ea8b67f9485314675d1bea1474f2d2b844b3943a5cdb"
     },
     {
       "locale": "zh-TW",
@@ -122,8 +122,8 @@
         "table-removed": 1
       },
       "file": "cssinfo-zh-TW.md",
-      "bytes": 51021,
-      "sha256": "c431b2c7b680d416d228422d7db5238524c1c805f1ec89067a5e630b38173fe2"
+      "bytes": 50959,
+      "sha256": "9ad20320ada63d687e1f31e5e0cb48b2047a97b4116b62d46a31c44fc908772c"
     }
   ]
 }

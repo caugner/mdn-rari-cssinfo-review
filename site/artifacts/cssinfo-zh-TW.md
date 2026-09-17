@@ -49,7 +49,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Comparison: rari main versus PR #912, including its dependency #911.
 - Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `70ee3b7a8bfdc5ed3df4c4e1a2123c6c94c52d2688bbc4af0991677656ba52d0` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `1ace167aeddb754fa7441574e1af8ea5776416df3e6f0b7d27997d57c0f31b46` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -62,7 +62,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 | --- | --- |
 | content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
 | rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
-| rari-pr | [d15026992660690f2418fe09f0d16d76fa13ebb1](https://github.com/mdn/rari/commit/d15026992660690f2418fe09f0d16d76fa13ebb1) |
+| rari-pr | [e1953aa720f43d6049e8ff1d6889525f8cb7af64](https://github.com/mdn/rari/commit/e1953aa720f43d6049e8ff1d6889525f8cb7af64) |
 | translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
 
 ## Coverage
@@ -207,7 +207,7 @@ Pages: P007.
 ```diff
 --- main
 +++ PR 912
-@@ -4,123 +4,31 @@
+@@ -4,123 +4,29 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
  </th>
@@ -239,9 +239,8 @@ Pages: P007.
 -</a>: <code>stretch</code>
 -</li>
 -</ul>
-+<td>
-+<code>參見各個單獨屬性</code>
- </td>
+-</td>
++<td>參見各個單獨屬性</td>
  </tr>
  <tr>
 -<th scope="row">適用於</th>
@@ -348,7 +347,7 @@ Pages: P019.
 ```diff
 --- main
 +++ PR 912
-@@ -4,85 +4,31 @@
+@@ -4,85 +4,29 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
  </th>
@@ -380,9 +379,8 @@ Pages: P019.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>參見各個單獨屬性</code>
- </td>
+-</td>
++<td>參見各個單獨屬性</td>
  </tr>
  <tr>
 -<th scope="row">適用於</th>
@@ -564,7 +562,7 @@ Pages: P006.
 ```diff
 --- main
 +++ PR 912
-@@ -4,96 +4,35 @@
+@@ -4,96 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
  </th>
@@ -591,9 +589,8 @@ Pages: P006.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>參見各個單獨屬性</code>
- </td>
+-</td>
++<td>參見各個單獨屬性</td>
  </tr>
  <tr>
 -<th scope="row">適用於</th>
@@ -988,7 +985,7 @@ Pages: P023.
 ```diff
 --- main
 +++ PR 912
-@@ -9,30 +9,31 @@
+@@ -9,30 +9,30 @@
  </td>
  </tr>
  <tr>
@@ -1013,8 +1010,7 @@ Pages: P023.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
  </th>
 -<td>百分比、<code>auto</code> 或絕對長度</td>
-+<td>與指定值相同，但 <length-percentage> 值已計算</length-percentage>
-+</td>
++<td>與指定值相同，但 &lt;length-percentage&gt; 值已計算</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1039,7 +1035,7 @@ Pages: P015.
 ```diff
 --- main
 +++ PR 912
-@@ -9,30 +9,31 @@
+@@ -9,30 +9,30 @@
  </td>
  </tr>
  <tr>
@@ -1064,8 +1060,7 @@ Pages: P015.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
  </th>
 -<td>百分比、<code>auto</code> 或絕對長度</td>
-+<td>與指定值相同，但 <length-percentage> 值已計算</length-percentage>
-+</td>
++<td>與指定值相同，但 &lt;length-percentage&gt; 值已計算</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>

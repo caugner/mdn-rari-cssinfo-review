@@ -49,7 +49,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Comparison: rari main versus PR #912, including its dependency #911.
 - Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `d544b141050b7638155a3f5da2c0efced7e58aa6a8f9a2de3feaf7d665e7e4a7` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `a8be35a4141670fa488720e75ba76fcae5fc21387c1cb3d3df4c94f1caebb498` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -62,7 +62,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 | --- | --- |
 | content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
 | rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
-| rari-pr | [d15026992660690f2418fe09f0d16d76fa13ebb1](https://github.com/mdn/rari/commit/d15026992660690f2418fe09f0d16d76fa13ebb1) |
+| rari-pr | [e1953aa720f43d6049e8ff1d6889525f8cb7af64](https://github.com/mdn/rari/commit/e1953aa720f43d6049e8ff1d6889525f8cb7af64) |
 | translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
 
 ## Coverage
@@ -93,15 +93,15 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P004 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2c711dc3080a79d8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D039 | - | - |
 | P005 | [Web/CSS/Reference/Properties/align-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3590443f7e396996) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/align-items/index.md)) | changed | 1 → 1 | D060 | - | - |
 | P006 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=516e9a584f063c31) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D098 | - | - |
-| P007 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bfc9b582f3c1cb27) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D106 | - | - |
-| P008 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b6b69336e9550b58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D117 | - | - |
+| P007 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bfc9b582f3c1cb27) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D107 | - | - |
+| P008 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b6b69336e9550b58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D100 | - | - |
 | P009 | [Web/CSS/Reference/Properties/animation-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1ffdb511f0aaeaea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-direction/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P010 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0430496fe4e994fe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D116 | - | - |
+| P010 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0430496fe4e994fe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D117 | - | - |
 | P011 | [Web/CSS/Reference/Properties/animation-fill-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=eda5502b40b6c149) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-fill-mode/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P012 | [Web/CSS/Reference/Properties/animation-iteration-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0e12c3e4d8a619cf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-iteration-count/index.md)) | changed | 1 → 1 | D031 | - | - |
 | P013 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=90822521ffa34c24) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D083 | - | - |
 | P014 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ad3d227daea8c8d5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D080 | - | - |
-| P015 | [Web/CSS/Reference/Properties/background](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89455c8c0564340e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background/index.md)) | changed | 1 → 1 | D105 | - | - |
+| P015 | [Web/CSS/Reference/Properties/background](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89455c8c0564340e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background/index.md)) | changed | 1 → 1 | D106 | - | - |
 | P016 | [Web/CSS/Reference/Properties/background-attachment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e90d9a2ce3155b0d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-attachment/index.md)) | changed | 1 → 1 | D026 | - | - |
 | P017 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=eaca15e41feb30df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D023 | - | - |
 | P018 | [Web/CSS/Reference/Properties/background-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=125dc44bfcc8e117) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-color/index.md)) | changed | 1 → 1 | D024 | - | - |
@@ -113,8 +113,8 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P024 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9d7d7d77a9c1ac51) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D003 | - | - |
 | P025 | [Web/CSS/Reference/Properties/border-bottom-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b4b0d45ce098a572) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-style/index.md)) | changed | 1 → 1 | D005 | - | - |
 | P026 | [Web/CSS/Reference/Properties/border-bottom-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7a5e6d8d18089f55) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-width/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P027 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=96096ab6d14087ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D110 | - | - |
-| P028 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0dbbf8543cd1286d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D102 | - | - |
+| P027 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=96096ab6d14087ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D111 | - | - |
+| P028 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0dbbf8543cd1286d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D103 | - | - |
 | P029 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4a277c8d296ee77e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D018 | - | - |
 | P030 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ae36e5b5495d533d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D019 | - | - |
 | P031 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3c4c503be120031d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D016 | - | - |
@@ -129,7 +129,7 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P040 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0e29c4947cd144c4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D003 | - | - |
 | P041 | [Web/CSS/Reference/Properties/border-right-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fbd28bb39ebfccc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-style/index.md)) | changed | 1 → 1 | D005 | - | - |
 | P042 | [Web/CSS/Reference/Properties/border-right-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f8938e629bf9186a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-width/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P043 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=78a934dfeceb8109) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D112 | - | - |
+| P043 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=78a934dfeceb8109) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D113 | - | - |
 | P044 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5205fea43d00d49b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D097 | - | - |
 | P045 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=48f5cd73fb6533cd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D003 | - | - |
 | P046 | [Web/CSS/Reference/Properties/border-top-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7f7c02a4c2d98fb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-style/index.md)) | changed | 1 → 1 | D005 | - | - |
@@ -137,28 +137,28 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P048 | [Web/CSS/Reference/Properties/border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8a99e0d7854266f0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-width/index.md)) | changed | 1 → 1 | D085 | - | - |
 | P049 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c78869c8a6354091) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D048 | - | - |
 | P050 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89ae3a55b1937443) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D041 | - | - |
-| P051 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5780968af8952083) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D114 | - | - |
+| P051 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5780968af8952083) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D115 | - | - |
 | P052 | [Web/CSS/Reference/Properties/contain](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6006a23d29d0ace7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/contain/index.md)) | changed | 1 → 1 | D062 | - | - |
-| P053 | [Web/CSS/Reference/Properties/container](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=64ad04f2744330c2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container/index.md)) | changed | 1 → 1 | D108 | - | - |
+| P053 | [Web/CSS/Reference/Properties/container](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=64ad04f2744330c2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container/index.md)) | changed | 1 → 1 | D109 | - | - |
 | P054 | [Web/CSS/Reference/Properties/container-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d8147f60ed194e72) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container-name/index.md)) | changed | 1 → 1 | D055 | - | - |
 | P055 | [Web/CSS/Reference/Properties/container-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=dee67153f7bdae4d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container-type/index.md)) | changed | 1 → 1 | D056 | - | - |
 | P056 | [Web/CSS/Reference/Properties/content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4a0603505ea68754) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/content/index.md)) | changed | 1 → 1 | D036 | - | - |
 | P057 | [Web/CSS/Reference/Properties/content-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b588b7ad1d64c638) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/content-visibility/index.md)) | changed | 1 → 1 | D066 | - | - |
 | P058 | [Web/CSS/Reference/Properties/cursor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a3e5ef93e575eec5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/cursor/index.md)) | changed | 1 → 1 | D061 | - | - |
 | P059 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b56e323f38f8258e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D082 | - | - |
-| P060 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ea0da41a619a2628) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D092 | - | - |
+| P060 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ea0da41a619a2628) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D093 | - | - |
 | P061 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=fb6a91a91f908c80) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D068 | - | - |
 | P062 | [Web/CSS/Reference/Properties/flex-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=dc6232505d8a5564) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-direction/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P063 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e4b830cf57eac9b2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D107 | - | - |
+| P063 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e4b830cf57eac9b2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D108 | - | - |
 | P064 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c6cb0d86d47579e1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D070 | - | - |
 | P065 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=086cbdc6796464de) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D069 | - | - |
 | P066 | [Web/CSS/Reference/Properties/flex-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7b5927ca9062ccac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-wrap/index.md)) | changed | 1 → 1 | D009 | - | - |
 | P067 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f0d16e22142941ad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D081 | - | - |
 | P068 | [Web/CSS/Reference/Properties/font-feature-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3afd795bb90d7ba2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-feature-settings/index.md)) | changed | 1 → 1 | D015 | - | - |
 | P069 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=19a4bb15eca403a8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D013 | - | - |
-| P070 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=04b145f4ecf50d14) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D115 | - | - |
+| P070 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=04b145f4ecf50d14) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D116 | - | - |
 | P071 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c02668e08c3a848c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P072 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6d1c3ff5cb97ebb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D088 | - | - |
+| P072 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6d1c3ff5cb97ebb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D087 | - | - |
 | P073 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=086834bc618e8231) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D071 | - | - |
 | P074 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=823ed069d453f713) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D044 | - | - |
 | P075 | [Web/CSS/Reference/Properties/hyphens](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=05f3defa83181901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/hyphens/index.md)) | changed | 1 → 1 | D006 | - | - |
@@ -168,12 +168,12 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P079 | [Web/CSS/Reference/Properties/letter-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8a271692c0c37be4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/letter-spacing/index.md)) | changed | 1 → 1 | D028 | - | - |
 | P080 | [Web/CSS/Reference/Properties/line-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8af7e67d0ef7ee53) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/line-break/index.md)) | changed | 1 → 1 | D006 | - | - |
 | P081 | [Web/CSS/Reference/Properties/line-clamp](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=cc8b4c4ad19574ea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/line-clamp/index.md)) | changed | 1 → 1 | D034 | - | - |
-| P082 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=738734fc82718941) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D100 | - | - |
+| P082 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=738734fc82718941) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D101 | - | - |
 | P083 | [Web/CSS/Reference/Properties/margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ebc18bc4fa3b1689) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-bottom/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P084 | [Web/CSS/Reference/Properties/margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d3187eda2dc9b72f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-left/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P085 | [Web/CSS/Reference/Properties/margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a38bb26bff630dab) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-right/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P086 | [Web/CSS/Reference/Properties/margin-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f92cb6efcdbbf55d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-top/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P087 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42ea44008601d37d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D104 | - | - |
+| P087 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42ea44008601d37d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D105 | - | - |
 | P088 | [Web/CSS/Reference/Properties/max-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6db4094e1d4f0803) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/max-height/index.md)) | changed | 1 → 1 | D043 | - | - |
 | P089 | [Web/CSS/Reference/Properties/max-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ff667b0df7093e77) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/max-width/index.md)) | changed | 1 → 1 | D046 | - | - |
 | P090 | [Web/CSS/Reference/Properties/min-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9dfeb02faf8c6219) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/min-height/index.md)) | changed | 1 → 1 | D042 | - | - |
@@ -183,21 +183,21 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P094 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bba77aa2a932c38e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D073 | - | - |
 | P095 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=22c6a26164e8feb6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D052 | - | - |
 | P096 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=09ac23fd122a5c93) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D040 | - | - |
-| P097 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c2c4acf333b1db3d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D093 | - | - |
+| P097 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c2c4acf333b1db3d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D092 | - | - |
 | P098 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c85ea02428b173b6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D054 | - | - |
 | P099 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d258334e888fb9fb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D058 | - | - |
 | P100 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=12bd9980cde4e9b4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D038 | - | - |
 | P101 | [Web/CSS/Reference/Properties/overflow-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fa25713bc706ef6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow-anchor/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P102 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=85f2201835470d2f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D111 | - | - |
-| P103 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=61f2061d57220e23) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D101 | - | - |
+| P102 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=85f2201835470d2f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D112 | - | - |
+| P103 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=61f2061d57220e23) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D102 | - | - |
 | P104 | [Web/CSS/Reference/Properties/padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9de6f4a373538604) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-bottom/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P105 | [Web/CSS/Reference/Properties/padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c3a4d9612077c129) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-left/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P106 | [Web/CSS/Reference/Properties/padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6b9691ac1a9fc825) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-right/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P107 | [Web/CSS/Reference/Properties/padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7ae835257d68924c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-top/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P108 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=53c28e7eb830488c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D076 | - | - |
-| P109 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2eee3b9504f49c36) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D089 | - | - |
-| P110 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d71cdac9a1e8eecf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D090 | - | - |
-| P111 | [Web/CSS/Reference/Properties/place-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f93a49349fd39159) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-self/index.md)) | changed | 1 → 1 | D087 | - | - |
+| P109 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2eee3b9504f49c36) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D090 | - | - |
+| P110 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d71cdac9a1e8eecf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D088 | - | - |
+| P111 | [Web/CSS/Reference/Properties/place-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f93a49349fd39159) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-self/index.md)) | changed | 1 → 1 | D089 | - | - |
 | P112 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=08d473cec4ac8f96) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D063 | - | - |
 | P113 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=433d07e3cc05c0fd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D049 | - | - |
 | P114 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f3442a1eb2cc28c3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D084 | - | - |
@@ -206,15 +206,15 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P117 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b208db5811ddc755) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D099 | - | - |
 | P118 | [Web/CSS/Reference/Properties/stop-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a3a8c115e7621916) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/stop-color/index.md)) | changed | 1 → 1 | D010 | - | - |
 | P119 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42088e947b86dd48) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D065 | - | - |
-| P120 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8cdf47b9da622d3c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D113 | - | - |
-| P121 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=83e4fed9954730a3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D109 | - | - |
+| P120 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8cdf47b9da622d3c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D114 | - | - |
+| P121 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=83e4fed9954730a3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D110 | - | - |
 | P122 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4f6e365648de6233) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D064 | - | - |
 | P123 | [Web/CSS/Reference/Properties/text-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=fe6aa6d1eaf89571) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-wrap/index.md)) | changed | 1 → 1 | D035 | - | - |
-| P124 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2baa75b12b59b901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D077 | - | - |
-| P125 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1810b84f2d8521e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D103 | - | - |
+| P124 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2baa75b12b59b901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D078 | - | - |
+| P125 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1810b84f2d8521e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D104 | - | - |
 | P126 | [Web/CSS/Reference/Properties/transition-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a9dbfd7027eac6db) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition-duration/index.md)) | changed | 1 → 1 | D032 | - | - |
 | P127 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5987dceaed26c3d6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D030 | - | - |
-| P128 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=33987f985e7ea4af) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D078 | - | - |
+| P128 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=33987f985e7ea4af) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D077 | - | - |
 | P129 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0c503df8be59d84a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D050 | - | - |
 | P130 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fcc0ed846f0c98d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D029 | - | - |
 | P131 | [Web/CSS/Reference/Properties/visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d18d9f8e3664100e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/visibility/index.md)) | changed | 1 → 1 | D059 | - | - |
@@ -247,7 +247,7 @@ Pages: P104, P105, P106, P107.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,21 +19,21 @@
+@@ -23,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -259,8 +259,7 @@ Pages: P104, P105, P106, P107.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>계산된 <length-percentage> 값</length-percentage>
-+</td>
++<td>계산된 &lt;length-percentage&gt; 값</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -298,7 +297,7 @@ Pages: P083, P084, P085, P086.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,21 +19,21 @@
+@@ -23,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -310,8 +309,7 @@ Pages: P083, P084, P085, P086.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>auto 키워드 또는 계산된 <length-percentage> 값</length-percentage>
-+</td>
++<td>auto 키워드 또는 계산된 &lt;length-percentage&gt; 값</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -900,7 +898,7 @@ Pages: P033.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,21 @@
+@@ -23,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -912,8 +910,7 @@ Pages: P033.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>네 개의 값으로, 각각 숫자, auto 키워드, 또는 계산된 <length-percentage> 값입니다.</length-percentage>
-+</td>
++<td>네 개의 값으로, 각각 숫자, auto 키워드, 또는 계산된 &lt;length-percentage&gt; 값입니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1019,14 +1016,13 @@ Pages: P032.
  </tr>
  <tr>
  <th scope="row">
-@@ -26,8 +22,8 @@
+@@ -26,8 +22,7 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>
 -<code>none</code> or the image with its URI made absolute</td>
-+<td>none 키워드 또는 계산된 <img>
-+</td>
++<td>none 키워드 또는 계산된 &lt;image&gt;</td>
  </tr>
  <tr>
  <th scope="row">
@@ -1289,7 +1285,7 @@ Pages: P019.
 -<td>as specified, but with <a href="/ko/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</td>
-+<td>각 항목이 <img> 또는 none 키워드인 목록</td>
++<td>각 항목이 &lt;image&gt; 또는 none 키워드인 목록</td>
  </tr>
  <tr>
  <th scope="row">
@@ -1871,7 +1867,7 @@ Pages: P090.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -1883,8 +1879,7 @@ Pages: P090.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>지정된 대로지만, <length-percentage> 값은 계산됩니다.</length-percentage>
-+</td>
++<td>지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1917,7 +1912,7 @@ Pages: P088.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,21 +19,21 @@
+@@ -19,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -1929,8 +1924,8 @@ Pages: P088.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>the percentage as specified or the absolute length or <code>none</code>
-+<td>지정된 대로지만, <length-percentage> 값은 계산됩니다.</length-percentage>
- </td>
+-</td>
++<td>지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1963,7 +1958,7 @@ Pages: P074.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -1975,8 +1970,7 @@ Pages: P074.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>a percentage or <code>auto</code> or the absolute length</td>
-+<td>지정된 대로지만, <length-percentage> 값은 계산됩니다.</length-percentage>
-+</td>
++<td>지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2009,7 +2003,7 @@ Pages: P091.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2021,8 +2015,7 @@ Pages: P091.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>지정된 대로지만, <length-percentage> 값은 계산됩니다.</length-percentage>
-+</td>
++<td>지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2055,7 +2048,7 @@ Pages: P089.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,21 +19,21 @@
+@@ -19,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2067,8 +2060,8 @@ Pages: P089.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>the percentage as specified or the absolute length or <code>none</code>
-+<td>지정된 대로지만, <length-percentage> 값은 계산됩니다.</length-percentage>
- </td>
+-</td>
++<td>지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2101,7 +2094,7 @@ Pages: P133.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2113,8 +2106,7 @@ Pages: P133.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>a percentage or <code>auto</code> or the absolute length</td>
-+<td>지정된 대로지만, <length-percentage> 값은 계산됩니다.</length-percentage>
-+</td>
++<td>지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2816,7 +2808,7 @@ Pages: P061.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2828,8 +2820,7 @@ Pages: P061.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>지정된 키워드 또는 계산된 <length-percentage> 값</length-percentage>
-+</td>
++<td>지정된 키워드 또는 계산된 &lt;length-percentage&gt; 값</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -3138,6 +3129,56 @@ Pages: P108.
 
 ### D077: 1 page(s)
 
+Pages: P128.
+
+```diff
+--- main
++++ PR 912
+@@ -10,7 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>transformable elements</td>
++<td>transform이 가능한 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -19,25 +19,20 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>refer to the size of bounding box</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as specified, but with relative lengths converted into absolute lengths</td>
++<td>none 키워드 또는 계산된 &lt;length-percentage&gt; 값 쌍과 절대 길이</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>relative to the width of the reference box (for the first value) or the height (for the second value)</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>a transform</td>
+-</tr>
+-<tr>
+-<th scope="row">Creates <a href="/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context">stacking context</a>
+-</th>
+-<td>yes</td>
++<td>계산값 기준이지만 none의 경우는 아래 참고</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D078: 1 page(s)
+
 Pages: P124.
 
 ```diff
@@ -3186,57 +3227,6 @@ Pages: P124.
  </table>
 ```
 
-### D078: 1 page(s)
-
-Pages: P128.
-
-```diff
---- main
-+++ PR 912
-@@ -10,7 +10,7 @@
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>transformable elements</td>
-+<td>transform이 가능한 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -19,25 +19,21 @@
- <td>no</td>
- </tr>
- <tr>
--<th scope="row">Percentages</th>
--<td>refer to the size of bounding box</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>none 키워드 또는 계산된 <length-percentage> 값 쌍과 절대 길이</length-percentage>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>relative to the width of the reference box (for the first value) or the height (for the second value)</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>a transform</td>
--</tr>
--<tr>
--<th scope="row">Creates <a href="/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context">stacking context</a>
--</th>
--<td>yes</td>
-+<td>계산값 기준이지만 none의 경우는 아래 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
 ### D079: 1 page(s)
 
 Pages: P115.
@@ -3253,13 +3243,12 @@ Pages: P115.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,18 +22,14 @@
+@@ -22,18 +22,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as specified</td>
-+<td>none 키워드 또는 3개의 <number> 목록</number>
-+</td>
++<td>none 키워드 또는 3개의 &lt;number&gt; 목록</td>
  </tr>
  <tr>
  <th scope="row">
@@ -3450,7 +3439,7 @@ Pages: P048.
 ```diff
 --- main
 +++ PR 912
-@@ -4,104 +4,35 @@
+@@ -4,104 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -3477,9 +3466,8 @@ Pages: P048.
 -</a>: <code>medium</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -3574,7 +3562,7 @@ Pages: P038.
 ```diff
 --- main
 +++ PR 912
-@@ -4,114 +4,35 @@
+@@ -4,114 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -3601,9 +3589,8 @@ Pages: P038.
 -</a>: <code>0</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -3703,6 +3690,140 @@ Pages: P038.
 
 ### D087: 1 page(s)
 
+Pages: P072.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,11 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+-<code>row-gap</code>
+-</a>: <code>normal</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
+-<code>column-gap</code>
+-</a>: <code>normal</code>
+-</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>multi-column elements, flex containers, grid containers</td>
++<td>multi-column containers, flex containers, grid containers, and grid lanes containers</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,35 +20,17 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+-<code>row-gap</code>
+-</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
+-<code>column-gap</code>
+-</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>refer to corresponding dimension of the content area</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+-<code>row-gap</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
+-<code>column-gap</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
+-</ul>
+-</td>
++<td>계산값 유형별</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D088: 1 page(s)
+
+Pages: P110.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,11 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
+-<code>align-items</code>
+-</a>: <code>normal</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
+-<code>justify-items</code>
+-</a>: <code>legacy</code>
+-</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,18 +20,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
+-<code>align-items</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
+-<code>justify-items</code>
+-</a>: as specified</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D089: 1 page(s)
+
 Pages: P111.
 
 ```diff
@@ -3762,86 +3883,7 @@ Pages: P111.
  <th scope="row">
 ```
 
-### D088: 1 page(s)
-
-Pages: P072.
-
-```diff
---- main
-+++ PR 912
-@@ -4,24 +4,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
--<code>column-gap</code>
--</a>: <code>normal</code>
--</li>
--</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>multi-column elements, flex containers, grid containers</td>
-+<td>multi-column containers, flex containers, grid containers, and grid lanes containers</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -33,35 +22,17 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
--<code>column-gap</code>
--</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>refer to corresponding dimension of the content area</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
--<code>column-gap</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--</ul>
--</td>
-+<td>계산값 유형별</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D089: 1 page(s)
+### D090: 1 page(s)
 
 Pages: P109.
 
@@ -3898,63 +3940,6 @@ Pages: P109.
  <th scope="row">
 ```
 
-### D090: 1 page(s)
-
-Pages: P110.
-
-```diff
---- main
-+++ PR 912
-@@ -4,24 +4,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
--<code>align-items</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
--<code>justify-items</code>
--</a>: <code>legacy</code>
--</li>
--</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements</td>
-+<td>모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -33,18 +22,7 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
--<code>align-items</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
--<code>justify-items</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
 ### D091: 1 page(s)
 
 Pages: P022.
@@ -3962,7 +3947,7 @@ Pages: P022.
 ```diff
 --- main
 +++ PR 912
-@@ -4,256 +4,35 @@
+@@ -4,256 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -4050,9 +4035,8 @@ Pages: P022.
 -</ul>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -4229,7 +4213,7 @@ Pages: P022.
  </tr>
  </tbody>
  </table>
-@@ -263,256 +42,35 @@
+@@ -263,256 +40,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -4317,9 +4301,8 @@ Pages: P022.
 -</ul>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -4500,6 +4483,97 @@ Pages: P022.
 
 ### D092: 1 page(s)
 
+Pages: P097.
+
+```diff
+--- main
++++ PR 912
+@@ -4,29 +4,11 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
+-<code>outline-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
+-<code>outline-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
+-<code>outline-color</code>
+-</a>: <code>auto</code>
+-</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,47 +20,13 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
+-<code>outline-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
+-<code>outline-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
+-<code>outline-color</code>
+-</a>: For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
+-<code>outline-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
+-<code>outline-style</code>
+-</a>: by computed value type</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
+-<code>outline-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
+-</ul>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D093: 1 page(s)
+
 Pages: P060.
 
 ```diff
@@ -4592,98 +4666,6 @@ Pages: P060.
  </table>
 ```
 
-### D093: 1 page(s)
-
-Pages: P097.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
--<code>outline-color</code>
--</a>: <code>auto</code>
--</li>
--</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements</td>
-+<td>모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,47 +22,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
--<code>outline-color</code>
--</a>: For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
--<code>outline-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
 ### D094: 1 page(s)
 
 Pages: P023.
@@ -4691,7 +4673,7 @@ Pages: P023.
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -4713,9 +4695,8 @@ Pages: P023.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성을 참고하세요.</code>
- </td>
+-</td>
++<td>각 개별 속성을 참고하세요.</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -4726,7 +4707,7 @@ Pages: P023.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -4785,7 +4766,7 @@ Pages: P034.
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -4807,9 +4788,8 @@ Pages: P034.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성을 참고하세요.</code>
- </td>
+-</td>
++<td>각 개별 속성을 참고하세요.</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -4820,7 +4800,7 @@ Pages: P034.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -4879,7 +4859,7 @@ Pages: P039.
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -4901,9 +4881,8 @@ Pages: P039.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성을 참고하세요.</code>
- </td>
+-</td>
++<td>각 개별 속성을 참고하세요.</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -4914,7 +4893,7 @@ Pages: P039.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -4973,7 +4952,7 @@ Pages: P044.
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -4995,9 +4974,8 @@ Pages: P044.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성을 참고하세요.</code>
- </td>
+-</td>
++<td>각 개별 속성을 참고하세요.</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5008,7 +4986,7 @@ Pages: P044.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -5067,14 +5045,12 @@ Pages: P006.
 ```diff
 --- main
 +++ PR 912
-@@ -4,33 +4,35 @@
+@@ -4,33 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>There is no practical initial value for it.</td>
-+<td>
-+<code>각 개별 속성 참고</code>
-+</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5159,7 +5135,7 @@ Pages: P117.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,39 +19,21 @@
+@@ -40,39 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5189,8 +5165,8 @@ Pages: P117.
 -<code>scroll-padding-top</code>
 -</a>: as specified</li>
 -</ul>
-+<td>각 면마다 auto 키워드 또는 계산된 <length-percentage> 값</length-percentage>
- </td>
+-</td>
++<td>각 면마다 auto 키워드 또는 계산된 &lt;length-percentage&gt; 값</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -5208,6 +5184,61 @@ Pages: P117.
 ```
 
 ### D100: 1 page(s)
+
+Pages: P008.
+
+```diff
+--- main
++++ PR 912
+@@ -4,36 +4,33 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>
+-<code>0s</code>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements, <a href="/ko/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> and <a href="/ko/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
+-</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
+ </th>
+-<td>no</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as specified</td>
++<td>각 개별 속성 참고</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>각 개별 속성 참고</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>각 개별 속성 참고</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D101: 1 page(s)
 
 Pages: P082.
 
@@ -5305,7 +5336,7 @@ Pages: P082.
  </table>
 ```
 
-### D101: 1 page(s)
+### D102: 1 page(s)
 
 Pages: P103.
 
@@ -5403,14 +5434,14 @@ Pages: P103.
  </table>
 ```
 
-### D102: 1 page(s)
+### D103: 1 page(s)
 
 Pages: P028.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,43 +4,13 @@
+@@ -4,43 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -5442,9 +5473,8 @@ Pages: P028.
 -</a>: <code>stretch</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성을 참고하세요.</code>
- </td>
+-</td>
++<td>각 개별 속성을 참고하세요.</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5457,7 +5487,7 @@ Pages: P028.
  </tr>
  <tr>
  <th scope="row">
-@@ -49,77 +19,16 @@
+@@ -49,77 +17,16 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5539,14 +5569,14 @@ Pages: P028.
  </table>
 ```
 
-### D103: 1 page(s)
+### D104: 1 page(s)
 
 Pages: P125.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,44 +4,13 @@
+@@ -4,44 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -5578,9 +5608,8 @@ Pages: P125.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5594,7 +5623,7 @@ Pages: P125.
  </tr>
  <tr>
  <th scope="row">
-@@ -53,36 +22,13 @@
+@@ -53,36 +20,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -5635,14 +5664,14 @@ Pages: P125.
  </table>
 ```
 
-### D104: 1 page(s)
+### D105: 1 page(s)
 
 Pages: P087.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,56 +4,13 @@
+@@ -4,56 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -5689,9 +5718,8 @@ Pages: P087.
 -</a>: <code>add</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5702,7 +5730,7 @@ Pages: P087.
  </tr>
  <tr>
  <th scope="row">
-@@ -62,106 +19,20 @@
+@@ -62,106 +17,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5817,14 +5845,14 @@ Pages: P087.
  </table>
 ```
 
-### D105: 1 page(s)
+### D106: 1 page(s)
 
 Pages: P015.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,58 +4,13 @@
+@@ -4,58 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -5871,9 +5899,8 @@ Pages: P015.
 -</a>: <code>transparent</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5886,7 +5913,7 @@ Pages: P015.
  </tr>
  <tr>
  <th scope="row">
-@@ -64,111 +19,20 @@
+@@ -64,111 +17,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -6006,14 +6033,14 @@ Pages: P015.
  </table>
 ```
 
-### D106: 1 page(s)
+### D107: 1 page(s)
 
 Pages: P007.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,59 +4,13 @@
+@@ -4,59 +4,11 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -6065,9 +6092,8 @@ Pages: P007.
 -</a>: <code>auto</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -6076,7 +6102,7 @@ Pages: P007.
  </tr>
  <tr>
  <th scope="row">
-@@ -68,53 +22,13 @@
+@@ -68,53 +20,13 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -6134,14 +6160,14 @@ Pages: P007.
  </table>
 ```
 
-### D107: 1 page(s)
+### D108: 1 page(s)
 
 Pages: P063.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,64 +4,35 @@
+@@ -4,64 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -6158,9 +6184,8 @@ Pages: P063.
 -</a>: <code>nowrap</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -6218,14 +6243,14 @@ Pages: P063.
  </table>
 ```
 
-### D108: 1 page(s)
+### D109: 1 page(s)
 
 Pages: P053.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,80 +4,35 @@
+@@ -4,80 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -6242,9 +6267,8 @@ Pages: P053.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -6318,14 +6342,14 @@ Pages: P053.
  </table>
 ```
 
-### D109: 1 page(s)
+### D110: 1 page(s)
 
 Pages: P121.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,90 +4,35 @@
+@@ -4,90 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -6347,9 +6371,8 @@ Pages: P121.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -6428,14 +6451,14 @@ Pages: P121.
  </table>
 ```
 
-### D110: 1 page(s)
+### D111: 1 page(s)
 
 Pages: P027.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,96 +4,35 @@
+@@ -4,96 +4,33 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -6462,9 +6485,8 @@ Pages: P027.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>각 개별 속성 참고</code>
- </td>
+-</td>
++<td>각 개별 속성 참고</td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -6544,7 +6566,7 @@ Pages: P027.
  </table>
 ```
 
-### D111: 1 page(s)
+### D112: 1 page(s)
 
 Pages: P102.
 
@@ -6581,7 +6603,7 @@ Pages: P102.
  <th scope="row">
 ```
 
-### D112: 1 page(s)
+### D113: 1 page(s)
 
 Pages: P043.
 
@@ -6622,7 +6644,7 @@ Pages: P043.
  </table>
 ```
 
-### D113: 1 page(s)
+### D114: 1 page(s)
 
 Pages: P120.
 
@@ -6664,7 +6686,7 @@ Pages: P120.
  <th scope="row">
 ```
 
-### D114: 1 page(s)
+### D115: 1 page(s)
 
 Pages: P051.
 
@@ -6708,7 +6730,7 @@ Pages: P051.
  </table>
 ```
 
-### D115: 1 page(s)
+### D116: 1 page(s)
 
 Pages: P070.
 
@@ -6745,7 +6767,7 @@ Pages: P070.
  <th scope="row">
 ```
 
-### D116: 1 page(s)
+### D117: 1 page(s)
 
 Pages: P010.
 
@@ -6785,60 +6807,6 @@ Pages: P010.
  </th>
 -<td>Not animatable</td>
 +<td>애니메이션 불가</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D117: 1 page(s)
-
-Pages: P008.
-
-```diff
---- main
-+++ PR 912
-@@ -5,35 +5,34 @@
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
- <td>
--<code>0s</code>
-+<code>각 개별 속성 참고</code>
- </td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements, <a href="/ko/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> and <a href="/ko/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
--</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as specified</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>각 개별 속성 참고</td>
  </tr>
  </tbody>
  </table>

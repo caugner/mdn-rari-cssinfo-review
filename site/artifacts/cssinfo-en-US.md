@@ -49,7 +49,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Comparison: rari main versus PR #912, including its dependency #911.
 - Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `e4fd170b7ec5ec5553ef6915d8c80143806eaca3cdb8bf924856276a2ba03c34` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `ff6ff89a4709ec31ca0ca2482aa2416ad4120a9de0e013d7c856d30f4770d5af` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -62,7 +62,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 | --- | --- |
 | content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
 | rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
-| rari-pr | [d15026992660690f2418fe09f0d16d76fa13ebb1](https://github.com/mdn/rari/commit/d15026992660690f2418fe09f0d16d76fa13ebb1) |
+| rari-pr | [e1953aa720f43d6049e8ff1d6889525f8cb7af64](https://github.com/mdn/rari/commit/e1953aa720f43d6049e8ff1d6889525f8cb7af64) |
 | translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
 
 ## Coverage
@@ -135,34 +135,34 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P046 | [Web/CSS/Reference/Properties/-webkit-mask-repeat-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9847a7138f6f1875) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-mask-repeat-y/index.md)) | table-removed | 1 → 0 | D093 | - | I114 x1 |
 | P047 | [Web/CSS/Reference/Properties/-webkit-tap-highlight-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7ff94b292b74173e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-tap-highlight-color/index.md)) | table-removed | 1 → 0 | D087 | - | I115 x1 |
 | P048 | [Web/CSS/Reference/Properties/-webkit-text-fill-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d6b94f73a1960faf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-text-fill-color/index.md)) | changed | 1 → 1 | D063 | - | - |
-| P049 | [Web/CSS/Reference/Properties/-webkit-text-stroke](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1558c1eb6957942a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-text-stroke/index.md)) | changed | 1 → 1 | D340 | - | - |
+| P049 | [Web/CSS/Reference/Properties/-webkit-text-stroke](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1558c1eb6957942a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-text-stroke/index.md)) | changed | 1 → 1 | D339 | - | - |
 | P050 | [Web/CSS/Reference/Properties/-webkit-text-stroke-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e3bcf89249b69b22) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-text-stroke-color/index.md)) | changed | 1 → 1 | D063 | - | - |
 | P051 | [Web/CSS/Reference/Properties/-webkit-text-stroke-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=83b77f57e3abc0de) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-text-stroke-width/index.md)) | changed | 1 → 1 | D062 | - | I003 x1 |
 | P052 | [Web/CSS/Reference/Properties/-webkit-touch-callout](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b88438fc41fa7b51) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/-webkit-touch-callout/index.md)) | table-removed | 1 → 0 | D089 | - | I116 x1 |
 | P053 | [Web/CSS/Reference/Properties/accent-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c34322d634144b0f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/accent-color/index.md)) | changed | 1 → 1 | D283 | - | - |
 | P054 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a052e8a13a2e399d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D190 | - | - |
 | P055 | [Web/CSS/Reference/Properties/align-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c940f986a6896a54) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/align-items/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P056 | [Web/CSS/Reference/Properties/align-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=da5cfe161951c7a7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/align-self/index.md)) | changed | 1 → 1 | D284 | - | - |
+| P056 | [Web/CSS/Reference/Properties/align-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=da5cfe161951c7a7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/align-self/index.md)) | changed | 1 → 1 | D285 | - | - |
 | P057 | [Web/CSS/Reference/Properties/alignment-baseline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ccb9cc09240fc8a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/alignment-baseline/index.md)) | changed | 1 → 1 | D065 | - | - |
-| P058 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=97a0c828924978f5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D363 | - | - |
+| P058 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=97a0c828924978f5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D362 | - | - |
 | P059 | [Web/CSS/Reference/Properties/anchor-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5741e72fbc3f070c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/anchor-name/index.md)) | changed | 1 → 1 | D254 | - | - |
 | P060 | [Web/CSS/Reference/Properties/anchor-scope](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4948b79e545e9539) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/anchor-scope/index.md)) | unchanged | 1 → 1 | - | - | - |
 | P061 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=43caa3c66143ef0b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D376 | - | - |
-| P062 | [Web/CSS/Reference/Properties/animation-composition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a6030a623224d9cf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-composition/index.md)) | changed | 1 → 1 | D286 | - | - |
-| P063 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c3b76565fb6468de) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D420 | - | - |
+| P062 | [Web/CSS/Reference/Properties/animation-composition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a6030a623224d9cf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-composition/index.md)) | changed | 1 → 1 | D288 | - | - |
+| P063 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c3b76565fb6468de) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D365 | - | - |
 | P064 | [Web/CSS/Reference/Properties/animation-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f12fb0b32fff1d26) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-direction/index.md)) | changed | 1 → 1 | D027 | - | - |
-| P065 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=edf83cb09db4776a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D418 | - | - |
+| P065 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=edf83cb09db4776a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D419 | - | - |
 | P066 | [Web/CSS/Reference/Properties/animation-fill-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=50f702a8879b0822) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-fill-mode/index.md)) | changed | 1 → 1 | D027 | - | - |
-| P067 | [Web/CSS/Reference/Properties/animation-iteration-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=99d2dfc1b588f279) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-iteration-count/index.md)) | changed | 1 → 1 | D149 | - | I011 x1 |
-| P068 | [Web/CSS/Reference/Properties/animation-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c721004b12ea485d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-name/index.md)) | changed | 1 → 1 | D148 | - | - |
+| P067 | [Web/CSS/Reference/Properties/animation-iteration-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=99d2dfc1b588f279) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-iteration-count/index.md)) | changed | 1 → 1 | D150 | - | I011 x1 |
+| P068 | [Web/CSS/Reference/Properties/animation-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c721004b12ea485d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-name/index.md)) | changed | 1 → 1 | D149 | - | - |
 | P069 | [Web/CSS/Reference/Properties/animation-play-state](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c9df3b6490c08793) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-play-state/index.md)) | changed | 1 → 1 | D027 | - | - |
 | P070 | [Web/CSS/Reference/Properties/animation-range](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b6e27b52e3373afc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-range/index.md)) | changed | 1 → 1 | D395 | - | - |
 | P071 | [Web/CSS/Reference/Properties/animation-range-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8160ab8b2852643a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-range-end/index.md)) | changed | 1 → 1 | D056 | - | I079 x1 |
 | P072 | [Web/CSS/Reference/Properties/animation-range-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=643236ae02b8424f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-range-start/index.md)) | changed | 1 → 1 | D056 | - | I079 x1 |
-| P073 | [Web/CSS/Reference/Properties/animation-timeline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=529cd9d6287b26c8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-timeline/index.md)) | changed | 1 → 1 | D300 | - | - |
-| P074 | [Web/CSS/Reference/Properties/animation-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=42dcc0e7d277370a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-timing-function/index.md)) | changed | 1 → 1 | D151 | - | - |
+| P073 | [Web/CSS/Reference/Properties/animation-timeline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=529cd9d6287b26c8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-timeline/index.md)) | changed | 1 → 1 | D301 | - | - |
+| P074 | [Web/CSS/Reference/Properties/animation-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=42dcc0e7d277370a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/animation-timing-function/index.md)) | changed | 1 → 1 | D148 | - | - |
 | P075 | [Web/CSS/Reference/Properties/appearance](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e8b024bd8641ce72) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/appearance/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P076 | [Web/CSS/Reference/Properties/aspect-ratio](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a27d9c496364f1c9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/aspect-ratio/index.md)) | changed | 1 → 1 | D287 | - | - |
+| P076 | [Web/CSS/Reference/Properties/aspect-ratio](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a27d9c496364f1c9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/aspect-ratio/index.md)) | changed | 1 → 1 | D289 | - | - |
 | P077 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ccef2eff844fa865) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D269 | - | - |
 | P078 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ad9e0d4d74369d9f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P079 | [Web/CSS/Reference/Properties/background](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=aef244c880771f88) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/background/index.md)) | changed | 1 → 1 | D378 | - | - |
@@ -178,31 +178,31 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P089 | [Web/CSS/Reference/Properties/background-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1bf108de25dd55e7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/background-repeat/index.md)) | changed | 1 → 1 | D133 | - | - |
 | P090 | [Web/CSS/Reference/Properties/background-repeat-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6cd470fe0bc8c52c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/background-repeat-x/index.md)) | table-added | 0 → 1 | D035 | I127 x1 | - |
 | P091 | [Web/CSS/Reference/Properties/background-repeat-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1786f745cde0505c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/background-repeat-y/index.md)) | table-added | 0 → 1 | D035 | I128 x1 | - |
-| P092 | [Web/CSS/Reference/Properties/background-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=077819e0bc1f4cad) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/background-size/index.md)) | changed | 1 → 1 | D412 | - | I087 x1 |
+| P092 | [Web/CSS/Reference/Properties/background-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=077819e0bc1f4cad) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/background-size/index.md)) | changed | 1 → 1 | D413 | - | I087 x1 |
 | P093 | [Web/CSS/Reference/Properties/baseline-shift](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=63f9e94cb73479c6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/baseline-shift/index.md)) | changed | 1 → 1 | D274 | - | I003 x1, I067 x1 |
-| P094 | [Web/CSS/Reference/Properties/baseline-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=867385805652ae25) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/baseline-source/index.md)) | changed | 1 → 1 | D234 | - | I045 x1 |
+| P094 | [Web/CSS/Reference/Properties/baseline-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=867385805652ae25) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/baseline-source/index.md)) | changed | 1 → 1 | D235 | - | I045 x1 |
 | P095 | [Web/CSS/Reference/Properties/block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=54dfa8f70bf26612) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/block-size/index.md)) | changed | 1 → 1 | D153 | - | I083 x1 |
-| P096 | [Web/CSS/Reference/Properties/border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=354e6298b13281bb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border/index.md)) | changed | 1 → 1 | D348 | - | - |
-| P097 | [Web/CSS/Reference/Properties/border-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5e4776dff39d0c7b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block/index.md)) | changed | 1 → 1 | D328 | - | - |
+| P096 | [Web/CSS/Reference/Properties/border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=354e6298b13281bb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border/index.md)) | changed | 1 → 1 | D347 | - | - |
+| P097 | [Web/CSS/Reference/Properties/border-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5e4776dff39d0c7b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block/index.md)) | changed | 1 → 1 | D327 | - | - |
 | P098 | [Web/CSS/Reference/Properties/border-block-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=650336a292cf36b2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-color/index.md)) | changed | 1 → 1 | D382 | - | - |
-| P099 | [Web/CSS/Reference/Properties/border-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=99cdcb1e3dd5377a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-end/index.md)) | changed | 1 → 1 | D349 | - | - |
+| P099 | [Web/CSS/Reference/Properties/border-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=99cdcb1e3dd5377a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-end/index.md)) | changed | 1 → 1 | D348 | - | - |
 | P100 | [Web/CSS/Reference/Properties/border-block-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=75ef66c5b0ef8f02) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-end-color/index.md)) | changed | 1 → 1 | D016 | - | - |
 | P101 | [Web/CSS/Reference/Properties/border-block-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=82ce6b176643795d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-end-style/index.md)) | changed | 1 → 1 | D018 | - | - |
 | P102 | [Web/CSS/Reference/Properties/border-block-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b9690d556663485d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-end-width/index.md)) | changed | 1 → 1 | D017 | - | I034 x1 |
-| P103 | [Web/CSS/Reference/Properties/border-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e1dc38603d161b0a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-start/index.md)) | changed | 1 → 1 | D350 | - | - |
+| P103 | [Web/CSS/Reference/Properties/border-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e1dc38603d161b0a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-start/index.md)) | changed | 1 → 1 | D349 | - | - |
 | P104 | [Web/CSS/Reference/Properties/border-block-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2713f43a5204956b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-start-color/index.md)) | changed | 1 → 1 | D016 | - | - |
 | P105 | [Web/CSS/Reference/Properties/border-block-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ca8d08ae228b10ca) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-start-style/index.md)) | changed | 1 → 1 | D018 | - | - |
 | P106 | [Web/CSS/Reference/Properties/border-block-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4af4e87f318979a5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-start-width/index.md)) | changed | 1 → 1 | D017 | - | I034 x1 |
 | P107 | [Web/CSS/Reference/Properties/border-block-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=93eb9e64249f9f53) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-style/index.md)) | changed | 1 → 1 | D374 | - | - |
 | P108 | [Web/CSS/Reference/Properties/border-block-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=65dc6132926d8dbd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-block-width/index.md)) | changed | 1 → 1 | D396 | - | - |
-| P109 | [Web/CSS/Reference/Properties/border-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7f84fb45b84a1168) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom/index.md)) | changed | 1 → 1 | D359 | - | - |
+| P109 | [Web/CSS/Reference/Properties/border-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7f84fb45b84a1168) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom/index.md)) | changed | 1 → 1 | D358 | - | - |
 | P110 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=551359b2d90862a6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D022 | - | - |
 | P111 | [Web/CSS/Reference/Properties/border-bottom-left-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=93057dff35ca95f6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom-left-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P112 | [Web/CSS/Reference/Properties/border-bottom-right-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=93cde8c216a3e1ba) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom-right-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P113 | [Web/CSS/Reference/Properties/border-bottom-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3a39b884868d2468) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom-style/index.md)) | changed | 1 → 1 | D024 | - | - |
 | P114 | [Web/CSS/Reference/Properties/border-bottom-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7ec88e90e3f74037) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-bottom-width/index.md)) | changed | 1 → 1 | D023 | - | I034 x1 |
 | P115 | [Web/CSS/Reference/Properties/border-collapse](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b2a3ed6485939ede) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-collapse/index.md)) | changed | 1 → 1 | D053 | - | - |
-| P116 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f830818aadccb5c2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D406 | - | - |
+| P116 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f830818aadccb5c2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D407 | - | - |
 | P117 | [Web/CSS/Reference/Properties/border-end-end-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7fc3e353da01e62a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-end-end-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P118 | [Web/CSS/Reference/Properties/border-end-start-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a8a6fc36efd71dcc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-end-start-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P119 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=123d3f825b460539) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D368 | - | - |
@@ -211,33 +211,33 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P122 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1c1b745321077e44) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D120 | - | I012 x1, I059 x1 |
 | P123 | [Web/CSS/Reference/Properties/border-image-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a8cda4c1a2c3bf02) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-image-source/index.md)) | changed | 1 → 1 | D124 | - | - |
 | P124 | [Web/CSS/Reference/Properties/border-image-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fad7ea9c891b4b37) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-image-width/index.md)) | changed | 1 → 1 | D121 | - | I011 x1, I025 x1 |
-| P125 | [Web/CSS/Reference/Properties/border-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=dfe45f05c3e28eaa) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline/index.md)) | changed | 1 → 1 | D329 | - | - |
+| P125 | [Web/CSS/Reference/Properties/border-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=dfe45f05c3e28eaa) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline/index.md)) | changed | 1 → 1 | D328 | - | - |
 | P126 | [Web/CSS/Reference/Properties/border-inline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7a101297908167e1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-color/index.md)) | changed | 1 → 1 | D383 | - | - |
-| P127 | [Web/CSS/Reference/Properties/border-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2949f0dd6246388f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-end/index.md)) | changed | 1 → 1 | D351 | - | - |
+| P127 | [Web/CSS/Reference/Properties/border-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2949f0dd6246388f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-end/index.md)) | changed | 1 → 1 | D350 | - | - |
 | P128 | [Web/CSS/Reference/Properties/border-inline-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e55b80c8b8ed8890) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-end-color/index.md)) | changed | 1 → 1 | D016 | - | - |
 | P129 | [Web/CSS/Reference/Properties/border-inline-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ae8763510aaab489) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-end-style/index.md)) | changed | 1 → 1 | D018 | - | - |
 | P130 | [Web/CSS/Reference/Properties/border-inline-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6f544d48d0b235dd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-end-width/index.md)) | changed | 1 → 1 | D017 | - | I034 x1 |
-| P131 | [Web/CSS/Reference/Properties/border-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=31d2ec54f0b8865f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-start/index.md)) | changed | 1 → 1 | D352 | - | - |
+| P131 | [Web/CSS/Reference/Properties/border-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=31d2ec54f0b8865f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-start/index.md)) | changed | 1 → 1 | D351 | - | - |
 | P132 | [Web/CSS/Reference/Properties/border-inline-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ff596fe09f480752) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-start-color/index.md)) | changed | 1 → 1 | D016 | - | - |
 | P133 | [Web/CSS/Reference/Properties/border-inline-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=618b353282cbcc55) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-start-style/index.md)) | changed | 1 → 1 | D018 | - | - |
 | P134 | [Web/CSS/Reference/Properties/border-inline-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1b31d3319a77f9c1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-start-width/index.md)) | changed | 1 → 1 | D017 | - | I034 x1 |
 | P135 | [Web/CSS/Reference/Properties/border-inline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7409a9615c5be2ab) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-style/index.md)) | changed | 1 → 1 | D375 | - | - |
 | P136 | [Web/CSS/Reference/Properties/border-inline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6cd0c36b5f341ac6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-inline-width/index.md)) | changed | 1 → 1 | D397 | - | - |
-| P137 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=39c16f7f11747fad) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D360 | - | - |
+| P137 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=39c16f7f11747fad) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D359 | - | - |
 | P138 | [Web/CSS/Reference/Properties/border-left-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=069fd3b913a0eccb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-left-color/index.md)) | changed | 1 → 1 | D022 | - | - |
 | P139 | [Web/CSS/Reference/Properties/border-left-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=dd1f286b31aa043c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-left-style/index.md)) | changed | 1 → 1 | D024 | - | - |
 | P140 | [Web/CSS/Reference/Properties/border-left-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=da303514c1dc662f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-left-width/index.md)) | changed | 1 → 1 | D023 | - | I034 x1 |
 | P141 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d13103b9bb490bf6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D326 | - | - |
-| P142 | [Web/CSS/Reference/Properties/border-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=20a04be66019d1c4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-right/index.md)) | changed | 1 → 1 | D361 | - | - |
+| P142 | [Web/CSS/Reference/Properties/border-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=20a04be66019d1c4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-right/index.md)) | changed | 1 → 1 | D360 | - | - |
 | P143 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=63c161038d18a8a3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D022 | - | - |
 | P144 | [Web/CSS/Reference/Properties/border-right-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=28ea429dcc2f1107) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-right-style/index.md)) | changed | 1 → 1 | D024 | - | - |
 | P145 | [Web/CSS/Reference/Properties/border-right-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=07f87f0147ab2a7c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-right-width/index.md)) | changed | 1 → 1 | D023 | - | I034 x1 |
-| P146 | [Web/CSS/Reference/Properties/border-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fc9400a7b8d285e9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-shape/index.md)) | changed | 1 → 1 | D295 | - | - |
-| P147 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=31168e450a9ba99c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D411 | - | I009 x1 |
+| P146 | [Web/CSS/Reference/Properties/border-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fc9400a7b8d285e9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-shape/index.md)) | changed | 1 → 1 | D296 | - | - |
+| P147 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=31168e450a9ba99c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D412 | - | I009 x1 |
 | P148 | [Web/CSS/Reference/Properties/border-start-end-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=82cf50ebc72d4a80) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-start-end-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P149 | [Web/CSS/Reference/Properties/border-start-start-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=52cca8e2d184b714) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-start-start-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P150 | [Web/CSS/Reference/Properties/border-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=949298da5a27dd62) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-style/index.md)) | changed | 1 → 1 | D399 | - | - |
-| P151 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=294f55dd4f9a8d07) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D362 | - | - |
+| P151 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=294f55dd4f9a8d07) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D361 | - | - |
 | P152 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8d559cb39d3207fb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D022 | - | - |
 | P153 | [Web/CSS/Reference/Properties/border-top-left-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ea32866d80c0e218) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-top-left-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
 | P154 | [Web/CSS/Reference/Properties/border-top-right-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=513002be99ba7835) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/border-top-right-radius/index.md)) | changed | 1 → 1 | D003 | - | I003 x1, I023 x1 |
@@ -258,29 +258,29 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P169 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0e94c204dfa62d32) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P170 | [Web/CSS/Reference/Properties/break-after](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3bf1079d5e9952f0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/break-after/index.md)) | changed | 1 → 1 | D049 | - | - |
 | P171 | [Web/CSS/Reference/Properties/break-before](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=81d37138112797c7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/break-before/index.md)) | changed | 1 → 1 | D049 | - | - |
-| P172 | [Web/CSS/Reference/Properties/break-inside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b393eac18b357a4c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/break-inside/index.md)) | changed | 1 → 1 | D225 | - | - |
-| P173 | [Web/CSS/Reference/Properties/caption-side](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7c0c65323bd9545b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caption-side/index.md)) | changed | 1 → 1 | D246 | - | - |
-| P174 | [Web/CSS/Reference/Properties/caret](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3f4d36bd60fa0d1b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caret/index.md)) | changed | 1 → 1 | D353 | - | - |
+| P172 | [Web/CSS/Reference/Properties/break-inside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b393eac18b357a4c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/break-inside/index.md)) | changed | 1 → 1 | D226 | - | - |
+| P173 | [Web/CSS/Reference/Properties/caption-side](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7c0c65323bd9545b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caption-side/index.md)) | changed | 1 → 1 | D247 | - | - |
+| P174 | [Web/CSS/Reference/Properties/caret](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3f4d36bd60fa0d1b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caret/index.md)) | changed | 1 → 1 | D352 | - | - |
 | P175 | [Web/CSS/Reference/Properties/caret-animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a6574bee74d32dea) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caret-animation/index.md)) | changed | 1 → 1 | D198 | - | - |
 | P176 | [Web/CSS/Reference/Properties/caret-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=473ddd57aada8b8f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caret-color/index.md)) | changed | 1 → 1 | D197 | - | I027 x1 |
 | P177 | [Web/CSS/Reference/Properties/caret-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=995047783099e972) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/caret-shape/index.md)) | changed | 1 → 1 | D196 | - | - |
-| P178 | [Web/CSS/Reference/Properties/clear](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3594a2f320a0aaec) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/clear/index.md)) | changed | 1 → 1 | D226 | - | - |
+| P178 | [Web/CSS/Reference/Properties/clear](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3594a2f320a0aaec) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/clear/index.md)) | changed | 1 → 1 | D227 | - | - |
 | P179 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5f235049aa4d3e0e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D199 | - | - |
 | P180 | [Web/CSS/Reference/Properties/clip-path](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=098e1202a86cfb3b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/clip-path/index.md)) | changed | 1 → 1 | D262 | - | - |
-| P181 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bd70c7b5d8d69692) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D413 | - | - |
+| P181 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bd70c7b5d8d69692) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D414 | - | - |
 | P182 | [Web/CSS/Reference/Properties/color-interpolation-filters](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f398b3e31fcdc3ca) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/color-interpolation-filters/index.md)) | changed | 1 → 1 | D146 | - | - |
-| P183 | [Web/CSS/Reference/Properties/color-scheme](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=54aa1fa09ee42c82) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/color-scheme/index.md)) | changed | 1 → 1 | D315 | - | I097 x1 |
+| P183 | [Web/CSS/Reference/Properties/color-scheme](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=54aa1fa09ee42c82) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/color-scheme/index.md)) | changed | 1 → 1 | D318 | - | I097 x1 |
 | P184 | [Web/CSS/Reference/Properties/column-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7641f8ed78dbb739) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-count/index.md)) | changed | 1 → 1 | D183 | - | - |
 | P185 | [Web/CSS/Reference/Properties/column-fill](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=97c195b169900b13) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-fill/index.md)) | changed | 1 → 1 | D051 | - | - |
 | P186 | [Web/CSS/Reference/Properties/column-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=069b1db80ce3766b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-gap/index.md)) | changed | 1 → 1 | D050 | - | I050 x1, I088 x1 |
 | P187 | [Web/CSS/Reference/Properties/column-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=13a6734705d00be3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-height/index.md)) | changed | 1 → 1 | D046 | - | - |
 | P188 | [Web/CSS/Reference/Properties/column-rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=454e5cc3eb80e4a5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule/index.md)) | changed | 1 → 1 | D403 | - | - |
 | P189 | [Web/CSS/Reference/Properties/column-rule-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=458afb5f5cda0168) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-break/index.md)) | table-added | 0 → 1 | D034 | I129 x1 | I044 x1 |
-| P190 | [Web/CSS/Reference/Properties/column-rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=10ec5713c57e9700) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-color/index.md)) | changed | 1 → 1 | D236 | - | I044 x1, I085 x1 |
-| P191 | [Web/CSS/Reference/Properties/column-rule-inset-cap-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=75c701ee3b725b76) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-inset-cap-end/index.md)) | table-added | 0 → 1 | D074 | I130 x1 | I003 x1, I044 x1, I061 x1 |
-| P192 | [Web/CSS/Reference/Properties/column-rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=673c6be603af1356) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-style/index.md)) | changed | 1 → 1 | D235 | - | I044 x1 |
+| P190 | [Web/CSS/Reference/Properties/column-rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=10ec5713c57e9700) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-color/index.md)) | changed | 1 → 1 | D237 | - | I044 x1, I085 x1 |
+| P191 | [Web/CSS/Reference/Properties/column-rule-inset-cap-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=75c701ee3b725b76) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-inset-cap-end/index.md)) | table-added | 0 → 1 | D081 | I130 x1 | I003 x1, I044 x1, I061 x1 |
+| P192 | [Web/CSS/Reference/Properties/column-rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=673c6be603af1356) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-style/index.md)) | changed | 1 → 1 | D236 | - | I044 x1 |
 | P193 | [Web/CSS/Reference/Properties/column-rule-visibility-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=074e2df238bb8ca8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-visibility-items/index.md)) | table-added | 0 → 1 | D033 | I131 x1 | I043 x1 |
-| P194 | [Web/CSS/Reference/Properties/column-rule-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9879df0e34ee0888) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-width/index.md)) | changed | 1 → 1 | D237 | - | I044 x1, I046 x1, I085 x1 |
+| P194 | [Web/CSS/Reference/Properties/column-rule-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9879df0e34ee0888) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-rule-width/index.md)) | changed | 1 → 1 | D238 | - | I044 x1, I046 x1, I085 x1 |
 | P195 | [Web/CSS/Reference/Properties/column-span](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=81d54e87f9aa85fe) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-span/index.md)) | changed | 1 → 1 | D032 | - | - |
 | P196 | [Web/CSS/Reference/Properties/column-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a5ab8005c5880081) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-width/index.md)) | changed | 1 → 1 | D046 | - | - |
 | P197 | [Web/CSS/Reference/Properties/column-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a765b5aad13f5369) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/column-wrap/index.md)) | changed | 1 → 1 | D051 | - | - |
@@ -292,8 +292,8 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P203 | [Web/CSS/Reference/Properties/contain-intrinsic-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0b350eade154ff64) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/contain-intrinsic-size/index.md)) | changed | 1 → 1 | D400 | - | - |
 | P204 | [Web/CSS/Reference/Properties/contain-intrinsic-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=91f3af5ec1da6514) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/contain-intrinsic-width/index.md)) | changed | 1 → 1 | D019 | - | - |
 | P205 | [Web/CSS/Reference/Properties/container](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9298bdaaaa4ebff9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/container/index.md)) | changed | 1 → 1 | D402 | - | - |
-| P206 | [Web/CSS/Reference/Properties/container-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c79484e2ac466c89) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/container-name/index.md)) | changed | 1 → 1 | D297 | - | - |
-| P207 | [Web/CSS/Reference/Properties/container-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bcb83dfc16cd21b4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/container-type/index.md)) | changed | 1 → 1 | D301 | - | - |
+| P206 | [Web/CSS/Reference/Properties/container-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c79484e2ac466c89) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/container-name/index.md)) | changed | 1 → 1 | D298 | - | - |
+| P207 | [Web/CSS/Reference/Properties/container-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bcb83dfc16cd21b4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/container-type/index.md)) | changed | 1 → 1 | D302 | - | - |
 | P208 | [Web/CSS/Reference/Properties/content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=03b2ec0c64f1d3c5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/content/index.md)) | changed | 1 → 1 | D181 | - | - |
 | P209 | [Web/CSS/Reference/Properties/content-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4a53010275187bb1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/content-visibility/index.md)) | changed | 1 → 1 | D323 | - | - |
 | P210 | [Web/CSS/Reference/Properties/corner-block-end-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0c8a7f6b3a473de4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-block-end-shape/index.md)) | changed | 1 → 1 | D390 | - | - |
@@ -307,54 +307,54 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P218 | [Web/CSS/Reference/Properties/corner-inline-start-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=722cd70f870548fd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-inline-start-shape/index.md)) | changed | 1 → 1 | D068 | - | - |
 | P219 | [Web/CSS/Reference/Properties/corner-left-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2609ac26a67746bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-left-shape/index.md)) | changed | 1 → 1 | D392 | - | - |
 | P220 | [Web/CSS/Reference/Properties/corner-right-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0e7a49f995338f46) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-right-shape/index.md)) | changed | 1 → 1 | D394 | - | - |
-| P221 | [Web/CSS/Reference/Properties/corner-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8b1429ec834d705c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-shape/index.md)) | changed | 1 → 1 | D365 | - | - |
+| P221 | [Web/CSS/Reference/Properties/corner-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8b1429ec834d705c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-shape/index.md)) | changed | 1 → 1 | D364 | - | - |
 | P222 | [Web/CSS/Reference/Properties/corner-start-end-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a31b880559c98efa) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-start-end-shape/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P223 | [Web/CSS/Reference/Properties/corner-start-start-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=10020a7a0af5f242) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-start-start-shape/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P224 | [Web/CSS/Reference/Properties/corner-top-left-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ed48a786a132e105) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-top-left-shape/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P225 | [Web/CSS/Reference/Properties/corner-top-right-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=50a50e11d888386c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-top-right-shape/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P226 | [Web/CSS/Reference/Properties/corner-top-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=269ab2e74718de06) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/corner-top-shape/index.md)) | changed | 1 → 1 | D393 | - | - |
 | P227 | [Web/CSS/Reference/Properties/counter-increment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5eec5a263b68af9d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/counter-increment/index.md)) | changed | 1 → 1 | D064 | - | - |
-| P228 | [Web/CSS/Reference/Properties/counter-reset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=55575886821090b5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/counter-reset/index.md)) | changed | 1 → 1 | D314 | - | - |
+| P228 | [Web/CSS/Reference/Properties/counter-reset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=55575886821090b5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/counter-reset/index.md)) | changed | 1 → 1 | D317 | - | - |
 | P229 | [Web/CSS/Reference/Properties/counter-set](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9454b55f12111ba7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/counter-set/index.md)) | changed | 1 → 1 | D064 | - | - |
 | P230 | [Web/CSS/Reference/Properties/cursor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=769624bedf6d9561) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/cursor/index.md)) | changed | 1 → 1 | D320 | - | - |
 | P231 | [Web/CSS/Reference/Properties/cx](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=843396343f476f98) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/cx/index.md)) | changed | 1 → 1 | D161 | - | I003 x1, I068 x1 |
 | P232 | [Web/CSS/Reference/Properties/cy](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=04f35a291319ccc4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/cy/index.md)) | changed | 1 → 1 | D160 | - | I003 x1, I062 x1 |
 | P233 | [Web/CSS/Reference/Properties/d](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d773d4cd6c6aab8e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/d/index.md)) | changed | 1 → 1 | D159 | - | - |
-| P234 | [Web/CSS/Reference/Properties/direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=866790a725c32818) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/direction/index.md)) | changed | 1 → 1 | D289 | - | - |
+| P234 | [Web/CSS/Reference/Properties/direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=866790a725c32818) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/direction/index.md)) | changed | 1 → 1 | D291 | - | - |
 | P235 | [Web/CSS/Reference/Properties/display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=712fcad1b03775ae) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/display/index.md)) | changed | 1 → 1 | D293 | - | - |
 | P236 | [Web/CSS/Reference/Properties/dominant-baseline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5c049db8cb290a8f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/dominant-baseline/index.md)) | changed | 1 → 1 | D189 | - | - |
-| P237 | [Web/CSS/Reference/Properties/dynamic-range-limit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c6a2d0fcd665d0bd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/dynamic-range-limit/index.md)) | changed | 1 → 1 | D305 | - | - |
-| P238 | [Web/CSS/Reference/Properties/empty-cells](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a6bc1901366952d0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/empty-cells/index.md)) | changed | 1 → 1 | D247 | - | - |
+| P237 | [Web/CSS/Reference/Properties/dynamic-range-limit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c6a2d0fcd665d0bd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/dynamic-range-limit/index.md)) | changed | 1 → 1 | D306 | - | - |
+| P238 | [Web/CSS/Reference/Properties/empty-cells](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a6bc1901366952d0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/empty-cells/index.md)) | changed | 1 → 1 | D248 | - | - |
 | P239 | [Web/CSS/Reference/Properties/field-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bcf308530149570a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/field-sizing/index.md)) | changed | 1 → 1 | D191 | - | - |
 | P240 | [Web/CSS/Reference/Properties/fill](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a90bb0ba72f9dcb9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/fill/index.md)) | changed | 1 → 1 | D194 | - | - |
 | P241 | [Web/CSS/Reference/Properties/fill-opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=11c7979e6e3443e6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/fill-opacity/index.md)) | changed | 1 → 1 | D195 | - | I011 x1 |
 | P242 | [Web/CSS/Reference/Properties/fill-rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=978198d443cb1d20) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/fill-rule/index.md)) | changed | 1 → 1 | D193 | - | - |
 | P243 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d3a7c590a29ae896) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D270 | - | - |
-| P244 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f5989a2d6d685a08) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D354 | - | I004 x1 |
-| P245 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3109360c36a594a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D228 | - | I075 x1 |
+| P244 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f5989a2d6d685a08) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D353 | - | I004 x1 |
+| P245 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3109360c36a594a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D229 | - | I075 x1 |
 | P246 | [Web/CSS/Reference/Properties/flex-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fd6b192dd605af66) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-direction/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P247 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=58bb65903a84c417) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D384 | - | - |
-| P248 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=368aebec5821c17b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D229 | - | I003 x1 |
-| P249 | [Web/CSS/Reference/Properties/flex-line-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=72dd1b43ac06b067) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-line-count/index.md)) | changed | 1 → 1 | D302 | - | I011 x1, I037 x1, I051 x1, I098 x1 |
-| P250 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c4ee58369444c017) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D230 | - | I011 x1 |
+| P248 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=368aebec5821c17b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D230 | - | I003 x1 |
+| P249 | [Web/CSS/Reference/Properties/flex-line-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=72dd1b43ac06b067) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-line-count/index.md)) | changed | 1 → 1 | D303 | - | I011 x1, I037 x1, I051 x1, I098 x1 |
+| P250 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c4ee58369444c017) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D231 | - | I011 x1 |
 | P251 | [Web/CSS/Reference/Properties/flex-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=dee712f456dacfa5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flex-wrap/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P252 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b7823656c7e39aa2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D257 | - | - |
 | P253 | [Web/CSS/Reference/Properties/flood-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=15a3782bd3a5225b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flood-color/index.md)) | changed | 1 → 1 | D165 | - | - |
-| P254 | [Web/CSS/Reference/Properties/flood-opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fc5cf4bdb1b061f9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flood-opacity/index.md)) | changed | 1 → 1 | D419 | - | I011 x1 |
+| P254 | [Web/CSS/Reference/Properties/flood-opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fc5cf4bdb1b061f9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/flood-opacity/index.md)) | changed | 1 → 1 | D420 | - | I011 x1 |
 | P255 | [Web/CSS/Reference/Properties/font](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fb18febc5f1aea4b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font/index.md)) | changed | 1 → 1 | D373 | - | - |
-| P256 | [Web/CSS/Reference/Properties/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=08e69ccfa495af48) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-family/index.md)) | changed | 1 → 1 | D327 | - | I047 x1 |
+| P256 | [Web/CSS/Reference/Properties/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=08e69ccfa495af48) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-family/index.md)) | changed | 1 → 1 | D425 | - | I047 x1 |
 | P257 | [Web/CSS/Reference/Properties/font-feature-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5aada3d248371212) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-feature-settings/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P258 | [Web/CSS/Reference/Properties/font-kerning](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d6bc11b7ca74af49) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-kerning/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P259 | [Web/CSS/Reference/Properties/font-language-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a11704d3ff1481d0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-language-override/index.md)) | changed | 1 → 1 | D117 | - | - |
+| P259 | [Web/CSS/Reference/Properties/font-language-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a11704d3ff1481d0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-language-override/index.md)) | changed | 1 → 1 | D118 | - | - |
 | P260 | [Web/CSS/Reference/Properties/font-optical-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5d3709846e7917bf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-optical-sizing/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P261 | [Web/CSS/Reference/Properties/font-palette](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=214b9654732e7ca5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-palette/index.md)) | changed | 1 → 1 | D119 | - | - |
+| P261 | [Web/CSS/Reference/Properties/font-palette](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=214b9654732e7ca5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-palette/index.md)) | changed | 1 → 1 | D117 | - | - |
 | P262 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=05281a543f95fe77) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D113 | - | I055 x1 |
-| P263 | [Web/CSS/Reference/Properties/font-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3d79072d5add708c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-size-adjust/index.md)) | changed | 1 → 1 | D115 | - | - |
+| P263 | [Web/CSS/Reference/Properties/font-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3d79072d5add708c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-size-adjust/index.md)) | changed | 1 → 1 | D114 | - | - |
 | P264 | [Web/CSS/Reference/Properties/font-smooth](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8bd57aa497ba6b75) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-smooth/index.md)) | table-removed | 1 → 0 | D036 | - | I125 x1 |
 | P265 | [Web/CSS/Reference/Properties/font-stretch](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a7db266e64e4fceb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-stretch/index.md)) | changed | 1 → 1 | D100 | - | - |
-| P266 | [Web/CSS/Reference/Properties/font-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3fc07d833cdf8334) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-style/index.md)) | changed | 1 → 1 | D114 | - | I040 x1 |
-| P267 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fc3dece1115b6d83) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D415 | - | - |
-| P268 | [Web/CSS/Reference/Properties/font-synthesis-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9180c8a34a6ea825) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis-position/index.md)) | changed | 1 → 1 | D414 | - | - |
+| P266 | [Web/CSS/Reference/Properties/font-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3fc07d833cdf8334) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-style/index.md)) | changed | 1 → 1 | D115 | - | I040 x1 |
+| P267 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fc3dece1115b6d83) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D416 | - | - |
+| P268 | [Web/CSS/Reference/Properties/font-synthesis-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9180c8a34a6ea825) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis-position/index.md)) | changed | 1 → 1 | D415 | - | - |
 | P269 | [Web/CSS/Reference/Properties/font-synthesis-small-caps](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2f4d421fb7c8a91f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis-small-caps/index.md)) | changed | 1 → 1 | D009 | - | - |
 | P270 | [Web/CSS/Reference/Properties/font-synthesis-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c5ceb6cee89d332a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis-style/index.md)) | changed | 1 → 1 | D009 | - | - |
 | P271 | [Web/CSS/Reference/Properties/font-synthesis-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3ead1a4ad30d66ea) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-synthesis-weight/index.md)) | changed | 1 → 1 | D009 | - | - |
@@ -367,41 +367,41 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P278 | [Web/CSS/Reference/Properties/font-variant-numeric](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b533322f7f01aaa5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-variant-numeric/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P279 | [Web/CSS/Reference/Properties/font-variant-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6c9036e10c5b5193) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-variant-position/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P280 | [Web/CSS/Reference/Properties/font-variation-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=86d4b5ae0201594c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-variation-settings/index.md)) | changed | 1 → 1 | D125 | - | - |
-| P281 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4278cc4b26bb4148) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D118 | - | - |
+| P281 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4278cc4b26bb4148) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D119 | - | - |
 | P282 | [Web/CSS/Reference/Properties/font-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=446dc28d03e010c9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/font-width/index.md)) | changed | 1 → 1 | D116 | - | I022 x1 |
 | P283 | [Web/CSS/Reference/Properties/forced-color-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6b4d6f93cf7cc9fa) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/forced-color-adjust/index.md)) | changed | 1 → 1 | D067 | - | - |
-| P284 | [Web/CSS/Reference/Properties/frame-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=435aeeee290745f0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/frame-sizing/index.md)) | changed | 1 → 1 | D239 | - | I086 x1 |
-| P285 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9cb026efa0aff657) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D343 | - | I050 x1, I052 x1 |
+| P284 | [Web/CSS/Reference/Properties/frame-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=435aeeee290745f0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/frame-sizing/index.md)) | changed | 1 → 1 | D240 | - | I086 x1 |
+| P285 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9cb026efa0aff657) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D340 | - | I050 x1, I052 x1 |
 | P286 | [Web/CSS/Reference/Properties/grid](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=60a2db1f9f1dc781) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid/index.md)) | changed | 1 → 1 | D379 | I150 x3, I151 x3 | - |
-| P287 | [Web/CSS/Reference/Properties/grid-area](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f224fb8adb23f6c1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-area/index.md)) | changed | 1 → 1 | D355 | - | - |
+| P287 | [Web/CSS/Reference/Properties/grid-area](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f224fb8adb23f6c1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-area/index.md)) | changed | 1 → 1 | D354 | - | - |
 | P288 | [Web/CSS/Reference/Properties/grid-auto-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a00c44b18543403b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-auto-columns/index.md)) | changed | 1 → 1 | D057 | - | - |
 | P289 | [Web/CSS/Reference/Properties/grid-auto-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f4dc0117cbcf6532) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-auto-flow/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P290 | [Web/CSS/Reference/Properties/grid-auto-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c81d576e1a43cde8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-auto-rows/index.md)) | changed | 1 → 1 | D057 | - | - |
-| P291 | [Web/CSS/Reference/Properties/grid-column](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8983fccf1fba5ebd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-column/index.md)) | changed | 1 → 1 | D331 | - | - |
+| P291 | [Web/CSS/Reference/Properties/grid-column](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8983fccf1fba5ebd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-column/index.md)) | changed | 1 → 1 | D329 | - | - |
 | P292 | [Web/CSS/Reference/Properties/grid-column-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9ced13bdb91f1f90) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-column-end/index.md)) | changed | 1 → 1 | D025 | - | - |
 | P293 | [Web/CSS/Reference/Properties/grid-column-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=166c6280b9763e94) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-column-start/index.md)) | changed | 1 → 1 | D025 | - | - |
-| P294 | [Web/CSS/Reference/Properties/grid-row](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5dde20e88a4554be) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-row/index.md)) | changed | 1 → 1 | D332 | - | - |
+| P294 | [Web/CSS/Reference/Properties/grid-row](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5dde20e88a4554be) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-row/index.md)) | changed | 1 → 1 | D330 | - | - |
 | P295 | [Web/CSS/Reference/Properties/grid-row-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8e187dd3c1a04380) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-row-end/index.md)) | changed | 1 → 1 | D025 | - | - |
 | P296 | [Web/CSS/Reference/Properties/grid-row-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=266bce0d83f6a6a5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-row-start/index.md)) | changed | 1 → 1 | D025 | - | - |
-| P297 | [Web/CSS/Reference/Properties/grid-template](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=649aa0dd813997ae) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-template/index.md)) | changed | 1 → 1 | D345 | - | - |
-| P298 | [Web/CSS/Reference/Properties/grid-template-areas](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=73b81b92f3b0c7bb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-template-areas/index.md)) | changed | 1 → 1 | D313 | - | - |
+| P297 | [Web/CSS/Reference/Properties/grid-template](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=649aa0dd813997ae) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-template/index.md)) | changed | 1 → 1 | D344 | - | - |
+| P298 | [Web/CSS/Reference/Properties/grid-template-areas](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=73b81b92f3b0c7bb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-template-areas/index.md)) | changed | 1 → 1 | D316 | - | - |
 | P299 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0e52f517060d911f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D055 | - | I052 x1 |
 | P300 | [Web/CSS/Reference/Properties/grid-template-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=93b2fafc3210154b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/grid-template-rows/index.md)) | changed | 1 → 1 | D055 | - | I052 x1 |
-| P301 | [Web/CSS/Reference/Properties/hanging-punctuation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e28164457dbe8442) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/hanging-punctuation/index.md)) | changed | 1 → 1 | D218 | - | - |
+| P301 | [Web/CSS/Reference/Properties/hanging-punctuation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e28164457dbe8442) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/hanging-punctuation/index.md)) | changed | 1 → 1 | D219 | - | - |
 | P302 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7afe0a2dd120348a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D200 | - | I083 x1 |
 | P303 | [Web/CSS/Reference/Properties/hyphenate-character](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1551afdb885696fe) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/hyphenate-character/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P304 | [Web/CSS/Reference/Properties/hyphenate-limit-chars](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8da597ba2197ebc0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/hyphenate-limit-chars/index.md)) | changed | 1 → 1 | D220 | - | - |
+| P304 | [Web/CSS/Reference/Properties/hyphenate-limit-chars](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8da597ba2197ebc0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/hyphenate-limit-chars/index.md)) | changed | 1 → 1 | D221 | - | - |
 | P305 | [Web/CSS/Reference/Properties/hyphens](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b345409693115b94) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/hyphens/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P306 | [Web/CSS/Reference/Properties/image-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5c1fea6753880b69) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/image-orientation/index.md)) | changed | 1 → 1 | D319 | - | - |
+| P306 | [Web/CSS/Reference/Properties/image-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5c1fea6753880b69) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/image-orientation/index.md)) | changed | 1 → 1 | D284 | - | - |
 | P307 | [Web/CSS/Reference/Properties/image-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8f4126933b610768) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/image-rendering/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P308 | [Web/CSS/Reference/Properties/image-resolution](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=16acdd7b74232662) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/image-resolution/index.md)) | changed | 1 → 1 | D318 | - | I013 x1 |
+| P308 | [Web/CSS/Reference/Properties/image-resolution](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=16acdd7b74232662) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/image-resolution/index.md)) | changed | 1 → 1 | D311 | - | I013 x1 |
 | P309 | [Web/CSS/Reference/Properties/initial-letter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=04334964ee961b72) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/initial-letter/index.md)) | changed | 1 → 1 | D110 | - | - |
 | P310 | [Web/CSS/Reference/Properties/inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0efde87c85c2e778) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inline-size/index.md)) | changed | 1 → 1 | D154 | - | I083 x1 |
-| P311 | [Web/CSS/Reference/Properties/inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d8e173a097c9dba1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset/index.md)) | changed | 1 → 1 | D358 | - | - |
-| P312 | [Web/CSS/Reference/Properties/inset-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f06566abff85630d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-block/index.md)) | changed | 1 → 1 | D333 | - | - |
+| P311 | [Web/CSS/Reference/Properties/inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d8e173a097c9dba1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset/index.md)) | changed | 1 → 1 | D357 | - | - |
+| P312 | [Web/CSS/Reference/Properties/inset-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f06566abff85630d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-block/index.md)) | changed | 1 → 1 | D331 | - | - |
 | P313 | [Web/CSS/Reference/Properties/inset-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2d9c7ed7d077f91f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-block-end/index.md)) | changed | 1 → 1 | D060 | - | I057 x1 |
 | P314 | [Web/CSS/Reference/Properties/inset-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=41f37dfe957255e5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-block-start/index.md)) | changed | 1 → 1 | D060 | - | I057 x1 |
-| P315 | [Web/CSS/Reference/Properties/inset-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fa3ca14924e4b19a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-inline/index.md)) | changed | 1 → 1 | D334 | - | - |
+| P315 | [Web/CSS/Reference/Properties/inset-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fa3ca14924e4b19a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-inline/index.md)) | changed | 1 → 1 | D332 | - | - |
 | P316 | [Web/CSS/Reference/Properties/inset-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0409facf7b991192) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-inline-end/index.md)) | changed | 1 → 1 | D061 | - | I057 x1 |
 | P317 | [Web/CSS/Reference/Properties/inset-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8bcbe4ca20f47db9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/inset-inline-start/index.md)) | changed | 1 → 1 | D061 | - | I057 x1 |
 | P318 | [Web/CSS/Reference/Properties/interactivity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5bc01f6faf844cbd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/interactivity/index.md)) | unchanged | 1 → 1 | - | - | - |
@@ -410,8 +410,8 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P321 | [Web/CSS/Reference/Properties/interest-delay-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7ac8fb12e353a0f8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/interest-delay-start/index.md)) | changed | 1 → 1 | D066 | - | - |
 | P322 | [Web/CSS/Reference/Properties/interpolate-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=210106b2d9c03a90) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/interpolate-size/index.md)) | changed | 1 → 1 | D067 | - | - |
 | P323 | [Web/CSS/Reference/Properties/isolation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=294993fb519f3a96) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/isolation/index.md)) | changed | 1 → 1 | D182 | - | - |
-| P324 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f46be727175615a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D227 | - | - |
-| P325 | [Web/CSS/Reference/Properties/justify-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a58ecd48a869276d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/justify-items/index.md)) | changed | 1 → 1 | D311 | - | - |
+| P324 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f46be727175615a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D228 | - | - |
+| P325 | [Web/CSS/Reference/Properties/justify-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a58ecd48a869276d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/justify-items/index.md)) | changed | 1 → 1 | D314 | - | - |
 | P326 | [Web/CSS/Reference/Properties/justify-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=477a9c26bc57b7c9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/justify-self/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P327 | [Web/CSS/Reference/Properties/left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=def83750d01b653d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/left/index.md)) | changed | 1 → 1 | D059 | - | I057 x1 |
 | P328 | [Web/CSS/Reference/Properties/letter-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=cce8ecf97e44fe15) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/letter-spacing/index.md)) | changed | 1 → 1 | D140 | - | I082 x1 |
@@ -421,9 +421,9 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P332 | [Web/CSS/Reference/Properties/line-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c24319459b0e589f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/line-height/index.md)) | changed | 1 → 1 | D141 | - | I041 x1 |
 | P333 | [Web/CSS/Reference/Properties/line-height-step](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=81722b4193bfe66e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/line-height-step/index.md)) | changed | 1 → 1 | D062 | - | I003 x1 |
 | P334 | [Web/CSS/Reference/Properties/link-parameters](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0819d718d548d1ba) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/link-parameters/index.md)) | changed | 1 → 1 | D147 | - | - |
-| P335 | [Web/CSS/Reference/Properties/list-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1cec6588ea6b289e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style/index.md)) | changed | 1 → 1 | D346 | - | - |
-| P336 | [Web/CSS/Reference/Properties/list-style-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bbd52dfcaccd47bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style-image/index.md)) | changed | 1 → 1 | D317 | - | - |
-| P337 | [Web/CSS/Reference/Properties/list-style-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3cdbfbd7da9075ac) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style-position/index.md)) | changed | 1 → 1 | D310 | - | - |
+| P335 | [Web/CSS/Reference/Properties/list-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1cec6588ea6b289e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style/index.md)) | changed | 1 → 1 | D345 | - | - |
+| P336 | [Web/CSS/Reference/Properties/list-style-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bbd52dfcaccd47bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style-image/index.md)) | changed | 1 → 1 | D310 | - | - |
+| P337 | [Web/CSS/Reference/Properties/list-style-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3cdbfbd7da9075ac) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style-position/index.md)) | changed | 1 → 1 | D313 | - | - |
 | P338 | [Web/CSS/Reference/Properties/list-style-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=54dd6a5c9bd83ae6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/list-style-type/index.md)) | changed | 1 → 1 | D032 | - | - |
 | P339 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2fdb94f252c4a86c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D366 | - | I003 x1, I054 x1 |
 | P340 | [Web/CSS/Reference/Properties/margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=771aa0db981df325) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/margin-block/index.md)) | changed | 1 → 1 | D380 | - | - |
@@ -444,19 +444,19 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P355 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=03ec6439f75b4552) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D377 | - | - |
 | P356 | [Web/CSS/Reference/Properties/mask-border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3bb26ba5371506a9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border/index.md)) | changed | 1 → 1 | D371 | - | - |
 | P357 | [Web/CSS/Reference/Properties/mask-border-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e6f2daae12524450) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-mode/index.md)) | changed | 1 → 1 | D054 | - | - |
-| P358 | [Web/CSS/Reference/Properties/mask-border-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6f1bcc86892dd2a3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-outset/index.md)) | changed | 1 → 1 | D264 | - | I003 x1 |
+| P358 | [Web/CSS/Reference/Properties/mask-border-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6f1bcc86892dd2a3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-outset/index.md)) | changed | 1 → 1 | D263 | - | I003 x1 |
 | P359 | [Web/CSS/Reference/Properties/mask-border-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0034896ecd73fb95) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-repeat/index.md)) | changed | 1 → 1 | D054 | - | - |
-| P360 | [Web/CSS/Reference/Properties/mask-border-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=43ef7083b966bfd6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-slice/index.md)) | changed | 1 → 1 | D259 | - | I003 x1, I060 x1 |
-| P361 | [Web/CSS/Reference/Properties/mask-border-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=be4c351a158758e1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-source/index.md)) | changed | 1 → 1 | D266 | - | - |
-| P362 | [Web/CSS/Reference/Properties/mask-border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ad661342600609c3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-width/index.md)) | changed | 1 → 1 | D260 | - | I084 x1 |
+| P360 | [Web/CSS/Reference/Properties/mask-border-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=43ef7083b966bfd6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-slice/index.md)) | changed | 1 → 1 | D260 | - | I003 x1, I060 x1 |
+| P361 | [Web/CSS/Reference/Properties/mask-border-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=be4c351a158758e1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-source/index.md)) | changed | 1 → 1 | D267 | - | - |
+| P362 | [Web/CSS/Reference/Properties/mask-border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ad661342600609c3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-border-width/index.md)) | changed | 1 → 1 | D259 | - | I084 x1 |
 | P363 | [Web/CSS/Reference/Properties/mask-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=958b94107a24dbe3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-clip/index.md)) | changed | 1 → 1 | D031 | - | - |
 | P364 | [Web/CSS/Reference/Properties/mask-composite](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=98e578e9481ec2a3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-composite/index.md)) | changed | 1 → 1 | D268 | - | - |
-| P365 | [Web/CSS/Reference/Properties/mask-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0e6a1514582737b4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-image/index.md)) | changed | 1 → 1 | D267 | - | - |
+| P365 | [Web/CSS/Reference/Properties/mask-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0e6a1514582737b4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-image/index.md)) | changed | 1 → 1 | D266 | - | - |
 | P366 | [Web/CSS/Reference/Properties/mask-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a89eace952ffde15) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-mode/index.md)) | changed | 1 → 1 | D031 | - | - |
 | P367 | [Web/CSS/Reference/Properties/mask-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=de12e48a80e907ab) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-origin/index.md)) | changed | 1 → 1 | D031 | - | - |
 | P368 | [Web/CSS/Reference/Properties/mask-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a7559be456918e57) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-position/index.md)) | changed | 1 → 1 | D261 | - | I007 x1, I058 x1 |
 | P369 | [Web/CSS/Reference/Properties/mask-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4eb7c249a49e4d85) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-repeat/index.md)) | changed | 1 → 1 | D265 | - | - |
-| P370 | [Web/CSS/Reference/Properties/mask-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2f0a3e5723d73334) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-size/index.md)) | changed | 1 → 1 | D263 | - | - |
+| P370 | [Web/CSS/Reference/Properties/mask-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2f0a3e5723d73334) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-size/index.md)) | changed | 1 → 1 | D264 | - | - |
 | P371 | [Web/CSS/Reference/Properties/mask-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=84525d0cb1381389) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mask-type/index.md)) | changed | 1 → 1 | D111 | - | - |
 | P372 | [Web/CSS/Reference/Properties/math-depth](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8c24a8d842f37586) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/math-depth/index.md)) | changed | 1 → 1 | D211 | - | I003 x1 |
 | P373 | [Web/CSS/Reference/Properties/math-shift](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e755ee23165b15fe) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/math-shift/index.md)) | changed | 1 → 1 | D047 | - | - |
@@ -465,38 +465,38 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P376 | [Web/CSS/Reference/Properties/max-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c90c5b5313808799) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/max-height/index.md)) | changed | 1 → 1 | D202 | - | I083 x1 |
 | P377 | [Web/CSS/Reference/Properties/max-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=df9d20188d7ccbd4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/max-inline-size/index.md)) | changed | 1 → 1 | D156 | - | I083 x1 |
 | P378 | [Web/CSS/Reference/Properties/max-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=248a71dddbd32080) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/max-width/index.md)) | changed | 1 → 1 | D205 | - | I083 x1 |
-| P379 | [Web/CSS/Reference/Properties/min-block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=33544159dd675fda) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/min-block-size/index.md)) | changed | 1 → 1 | D416 | - | I083 x1 |
+| P379 | [Web/CSS/Reference/Properties/min-block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=33544159dd675fda) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/min-block-size/index.md)) | changed | 1 → 1 | D417 | - | I083 x1 |
 | P380 | [Web/CSS/Reference/Properties/min-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fca926e91d8c295e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/min-height/index.md)) | changed | 1 → 1 | D201 | - | I083 x1 |
-| P381 | [Web/CSS/Reference/Properties/min-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ccc8f15b3c06b0bd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/min-inline-size/index.md)) | changed | 1 → 1 | D417 | - | I083 x1 |
+| P381 | [Web/CSS/Reference/Properties/min-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ccc8f15b3c06b0bd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/min-inline-size/index.md)) | changed | 1 → 1 | D418 | - | I083 x1 |
 | P382 | [Web/CSS/Reference/Properties/min-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b3c7abc6a8e9ba50) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/min-width/index.md)) | changed | 1 → 1 | D204 | - | I083 x1 |
 | P383 | [Web/CSS/Reference/Properties/mix-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6ec79bff85a38870) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/mix-blend-mode/index.md)) | changed | 1 → 1 | D210 | - | - |
 | P384 | [Web/CSS/Reference/Properties/object-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b7b21468b1913bbf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/object-fit/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P385 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e7fdf1d97e359be2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D275 | - | I017 x1, I070 x1 |
 | P386 | [Web/CSS/Reference/Properties/object-view-box](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=dbd2b881c8afde0c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/object-view-box/index.md)) | changed | 1 → 1 | D294 | - | I036 x1, I089 x1 |
-| P387 | [Web/CSS/Reference/Properties/offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7862382732bc7536) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset/index.md)) | changed | 1 → 1 | D364 | - | - |
+| P387 | [Web/CSS/Reference/Properties/offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7862382732bc7536) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset/index.md)) | changed | 1 → 1 | D363 | - | - |
 | P388 | [Web/CSS/Reference/Properties/offset-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1d93e61b7a9db906) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset-anchor/index.md)) | changed | 1 → 1 | D280 | - | I080 x1 |
 | P389 | [Web/CSS/Reference/Properties/offset-distance](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3bc4396ae82d396a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset-distance/index.md)) | changed | 1 → 1 | D278 | - | I003 x1, I076 x1 |
 | P390 | [Web/CSS/Reference/Properties/offset-path](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=83396ee82a23f48c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset-path/index.md)) | changed | 1 → 1 | D321 | - | - |
 | P391 | [Web/CSS/Reference/Properties/offset-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2eccde88db6d7189) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset-position/index.md)) | changed | 1 → 1 | D279 | - | I024 x1 |
-| P392 | [Web/CSS/Reference/Properties/offset-rotate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2725de17586f9ee5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset-rotate/index.md)) | changed | 1 → 1 | D292 | - | - |
+| P392 | [Web/CSS/Reference/Properties/offset-rotate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2725de17586f9ee5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/offset-rotate/index.md)) | changed | 1 → 1 | D287 | - | - |
 | P393 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5667ef816c2f1bed) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D273 | - | I011 x1, I049 x1 |
 | P394 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=892aaa4a0dfe211a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D192 | - | I003 x1 |
 | P395 | [Web/CSS/Reference/Properties/orphans](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=134f9171c353a339) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/orphans/index.md)) | changed | 1 → 1 | D048 | - | I015 x1 |
-| P396 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4851440221d5fa75) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D347 | - | - |
-| P397 | [Web/CSS/Reference/Properties/outline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d36b7de2d5888b9d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-color/index.md)) | changed | 1 → 1 | D299 | - | - |
-| P398 | [Web/CSS/Reference/Properties/outline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f7749f20eaed7266) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-offset/index.md)) | changed | 1 → 1 | D304 | - | I003 x1 |
-| P399 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fac4df791adf59ea) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D288 | - | - |
-| P400 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=914d8a36284c998f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D303 | - | I034 x1 |
+| P396 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4851440221d5fa75) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D346 | - | - |
+| P397 | [Web/CSS/Reference/Properties/outline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d36b7de2d5888b9d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-color/index.md)) | changed | 1 → 1 | D300 | - | - |
+| P398 | [Web/CSS/Reference/Properties/outline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f7749f20eaed7266) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-offset/index.md)) | changed | 1 → 1 | D305 | - | I003 x1 |
+| P399 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fac4df791adf59ea) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D290 | - | - |
+| P400 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=914d8a36284c998f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D304 | - | I034 x1 |
 | P401 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5204cab71c0a99a4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D187 | - | - |
 | P402 | [Web/CSS/Reference/Properties/overflow-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=832f0daa14029335) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-anchor/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P403 | [Web/CSS/Reference/Properties/overflow-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b595107ec33f7b9f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-block/index.md)) | changed | 1 → 1 | D069 | - | I038 x1 |
-| P404 | [Web/CSS/Reference/Properties/overflow-clip-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0b8f57b509b8fabf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-clip-margin/index.md)) | changed | 1 → 1 | D216 | - | I008 x1 |
+| P404 | [Web/CSS/Reference/Properties/overflow-clip-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0b8f57b509b8fabf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-clip-margin/index.md)) | changed | 1 → 1 | D217 | - | I008 x1 |
 | P405 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c96b4f34d174fd6b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D069 | - | I038 x1 |
-| P406 | [Web/CSS/Reference/Properties/overflow-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9a3228a3a8894313) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-wrap/index.md)) | changed | 1 → 1 | D251 | - | - |
+| P406 | [Web/CSS/Reference/Properties/overflow-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9a3228a3a8894313) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-wrap/index.md)) | changed | 1 → 1 | D252 | - | - |
 | P407 | [Web/CSS/Reference/Properties/overflow-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8f959036ee376b27) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-x/index.md)) | changed | 1 → 1 | D185 | - | I038 x1 |
 | P408 | [Web/CSS/Reference/Properties/overflow-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a29135794e981eba) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overflow-y/index.md)) | changed | 1 → 1 | D186 | - | I038 x1 |
 | P409 | [Web/CSS/Reference/Properties/overlay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c6d4ecd72131fc47) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overlay/index.md)) | changed | 1 → 1 | D324 | - | - |
-| P410 | [Web/CSS/Reference/Properties/overscroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=cf5d187cda67050a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overscroll-behavior/index.md)) | changed | 1 → 1 | D409 | - | - |
+| P410 | [Web/CSS/Reference/Properties/overscroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=cf5d187cda67050a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overscroll-behavior/index.md)) | changed | 1 → 1 | D410 | - | - |
 | P411 | [Web/CSS/Reference/Properties/overscroll-behavior-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b5d0443735916b55) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overscroll-behavior-block/index.md)) | changed | 1 → 1 | D020 | - | - |
 | P412 | [Web/CSS/Reference/Properties/overscroll-behavior-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a75cf2f5fae3d2b5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overscroll-behavior-inline/index.md)) | changed | 1 → 1 | D020 | - | - |
 | P413 | [Web/CSS/Reference/Properties/overscroll-behavior-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5487053b56a27e97) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/overscroll-behavior-x/index.md)) | changed | 1 → 1 | D020 | - | - |
@@ -516,21 +516,21 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P427 | [Web/CSS/Reference/Properties/page-break-after](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=784a4767990c5f6b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/page-break-after/index.md)) | changed | 1 → 1 | D030 | - | - |
 | P428 | [Web/CSS/Reference/Properties/page-break-before](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=53a34f337eb43590) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/page-break-before/index.md)) | changed | 1 → 1 | D030 | - | - |
 | P429 | [Web/CSS/Reference/Properties/page-break-inside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=30e3b3d3b97b5fd1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/page-break-inside/index.md)) | changed | 1 → 1 | D030 | - | - |
-| P430 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2da0b899d961081f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D250 | - | - |
+| P430 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2da0b899d961081f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D251 | - | - |
 | P431 | [Web/CSS/Reference/Properties/path-length](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=cb1b189a5e7e4427) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/path-length/index.md)) | changed | 1 → 1 | D171 | - | I095 x1, I101 x1 |
-| P432 | [Web/CSS/Reference/Properties/perspective](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4e4180a61cb5015b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/perspective/index.md)) | changed | 1 → 1 | D308 | - | - |
+| P432 | [Web/CSS/Reference/Properties/perspective](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4e4180a61cb5015b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/perspective/index.md)) | changed | 1 → 1 | D309 | - | - |
 | P433 | [Web/CSS/Reference/Properties/perspective-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=fea16be78350c794) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/perspective-origin/index.md)) | changed | 1 → 1 | D277 | - | I017 x1, I066 x1 |
-| P434 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5ac2b314a4710205) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D341 | - | - |
-| P435 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b2f2241c41707ce2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D330 | - | - |
-| P436 | [Web/CSS/Reference/Properties/place-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2d5ee454d2cc782f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/place-self/index.md)) | changed | 1 → 1 | D342 | - | - |
-| P437 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2576cb0f8d6627a4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D217 | - | - |
-| P438 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1756b02a80678dcf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D214 | - | - |
+| P434 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5ac2b314a4710205) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D342 | - | - |
+| P435 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b2f2241c41707ce2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D337 | - | - |
+| P436 | [Web/CSS/Reference/Properties/place-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2d5ee454d2cc782f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/place-self/index.md)) | changed | 1 → 1 | D343 | - | - |
+| P437 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2576cb0f8d6627a4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D218 | - | - |
+| P438 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1756b02a80678dcf) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D215 | - | - |
 | P439 | [Web/CSS/Reference/Properties/position-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b8c191ada8427c82) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-anchor/index.md)) | changed | 1 → 1 | D029 | - | - |
 | P440 | [Web/CSS/Reference/Properties/position-area](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=58e071b2f0df832c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-area/index.md)) | changed | 1 → 1 | D255 | - | - |
 | P441 | [Web/CSS/Reference/Properties/position-try](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e3ec281d0982f6dd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-try/index.md)) | changed | 1 → 1 | D401 | - | - |
 | P442 | [Web/CSS/Reference/Properties/position-try-fallbacks](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3f6ea28b445533d4) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-try-fallbacks/index.md)) | changed | 1 → 1 | D029 | - | - |
 | P443 | [Web/CSS/Reference/Properties/position-try-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=12b473f6608b4439) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-try-order/index.md)) | changed | 1 → 1 | D029 | - | - |
-| P444 | [Web/CSS/Reference/Properties/position-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b46eefd3987d3186) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-visibility/index.md)) | changed | 1 → 1 | D408 | - | I035 x1 |
+| P444 | [Web/CSS/Reference/Properties/position-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b46eefd3987d3186) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/position-visibility/index.md)) | changed | 1 → 1 | D409 | - | I035 x1 |
 | P445 | [Web/CSS/Reference/Properties/print-color-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6094b0cc8ba5504f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/print-color-adjust/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P446 | [Web/CSS/Reference/Properties/quotes](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=03deca538499c82a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/quotes/index.md)) | changed | 1 → 1 | D398 | - | - |
 | P447 | [Web/CSS/Reference/Properties/r](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2fcfcf5cf330a398) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/r/index.md)) | changed | 1 → 1 | D158 | - | I003 x1, I064 x1 |
@@ -538,9 +538,9 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P449 | [Web/CSS/Reference/Properties/reading-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=830c84412c5c3e73) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/reading-order/index.md)) | changed | 1 → 1 | D184 | - | I003 x1 |
 | P450 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8f605946c01de650) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D271 | - | - |
 | P451 | [Web/CSS/Reference/Properties/right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=07ff47bdafab212f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/right/index.md)) | changed | 1 → 1 | D059 | - | I057 x1 |
-| P452 | [Web/CSS/Reference/Properties/rotate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b1756860c20d6ef9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rotate/index.md)) | changed | 1 → 1 | D307 | - | - |
+| P452 | [Web/CSS/Reference/Properties/rotate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b1756860c20d6ef9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rotate/index.md)) | changed | 1 → 1 | D308 | - | - |
 | P453 | [Web/CSS/Reference/Properties/row-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ec74c9b42fe4edb6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/row-gap/index.md)) | changed | 1 → 1 | D050 | - | I050 x1, I088 x1 |
-| P454 | [Web/CSS/Reference/Properties/row-rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8c1e6408a866cf1f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/row-rule/index.md)) | table-added | 0 → 1 | D081 | I138 x1 | - |
+| P454 | [Web/CSS/Reference/Properties/row-rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8c1e6408a866cf1f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/row-rule/index.md)) | table-added | 0 → 1 | D080 | I138 x1 | - |
 | P455 | [Web/CSS/Reference/Properties/row-rule-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1ef3c049e70777f9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/row-rule-break/index.md)) | table-added | 0 → 1 | D034 | I133 x1 | I044 x1 |
 | P456 | [Web/CSS/Reference/Properties/row-rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=32f232a34fc53079) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/row-rule-color/index.md)) | table-added | 0 → 1 | D071 | I134 x1 | I044 x1, I085 x1 |
 | P457 | [Web/CSS/Reference/Properties/row-rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e129fc032fa28256) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/row-rule-style/index.md)) | table-added | 0 → 1 | D073 | I135 x1 | I044 x1 |
@@ -549,53 +549,53 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P460 | [Web/CSS/Reference/Properties/ruby-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a42723e0b5b8c136) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/ruby-align/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P461 | [Web/CSS/Reference/Properties/ruby-overhang](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=052c94b68da0cb23) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/ruby-overhang/index.md)) | changed | 1 → 1 | D065 | - | - |
 | P462 | [Web/CSS/Reference/Properties/ruby-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bcea3b47361bbe2a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/ruby-position/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P463 | [Web/CSS/Reference/Properties/rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f2149c20b84acfa8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule/index.md)) | table-added | 0 → 1 | D075 | I144 x1 | - |
-| P464 | [Web/CSS/Reference/Properties/rule-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=66cd21e91b0656b2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-break/index.md)) | table-added | 0 → 1 | D076 | I139 x1 | - |
-| P465 | [Web/CSS/Reference/Properties/rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=847089d800c12429) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-color/index.md)) | table-added | 0 → 1 | D077 | I140 x1 | - |
-| P466 | [Web/CSS/Reference/Properties/rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f05726e989af49ed) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-style/index.md)) | table-added | 0 → 1 | D078 | I141 x1 | - |
-| P467 | [Web/CSS/Reference/Properties/rule-visibility-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=edca352f89a7b051) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-visibility-items/index.md)) | table-added | 0 → 1 | D079 | I142 x1 | I026 x1 |
-| P468 | [Web/CSS/Reference/Properties/rule-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=981737127d3a49ae) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-width/index.md)) | table-added | 0 → 1 | D080 | I143 x1 | - |
+| P463 | [Web/CSS/Reference/Properties/rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f2149c20b84acfa8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule/index.md)) | table-added | 0 → 1 | D074 | I144 x1 | - |
+| P464 | [Web/CSS/Reference/Properties/rule-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=66cd21e91b0656b2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-break/index.md)) | table-added | 0 → 1 | D075 | I139 x1 | - |
+| P465 | [Web/CSS/Reference/Properties/rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=847089d800c12429) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-color/index.md)) | table-added | 0 → 1 | D076 | I140 x1 | - |
+| P466 | [Web/CSS/Reference/Properties/rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f05726e989af49ed) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-style/index.md)) | table-added | 0 → 1 | D077 | I141 x1 | - |
+| P467 | [Web/CSS/Reference/Properties/rule-visibility-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=edca352f89a7b051) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-visibility-items/index.md)) | table-added | 0 → 1 | D078 | I142 x1 | I026 x1 |
+| P468 | [Web/CSS/Reference/Properties/rule-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=981737127d3a49ae) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rule-width/index.md)) | table-added | 0 → 1 | D079 | I143 x1 | - |
 | P469 | [Web/CSS/Reference/Properties/rx](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=da28f9cda93bc53c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/rx/index.md)) | changed | 1 → 1 | D162 | - | I068 x1 |
 | P470 | [Web/CSS/Reference/Properties/ry](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bb3dfd8b87d39e28) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/ry/index.md)) | changed | 1 → 1 | D163 | - | I062 x1 |
-| P471 | [Web/CSS/Reference/Properties/scale](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bdd64101e77a6e4f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scale/index.md)) | changed | 1 → 1 | D306 | - | - |
-| P472 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b32e6e972584f6f2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D243 | - | - |
-| P473 | [Web/CSS/Reference/Properties/scroll-initial-target](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c25b84b94fa443bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-initial-target/index.md)) | changed | 1 → 1 | D291 | - | - |
-| P474 | [Web/CSS/Reference/Properties/scroll-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f78cc576c842945d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin/index.md)) | changed | 1 → 1 | D356 | - | I003 x1 |
-| P475 | [Web/CSS/Reference/Properties/scroll-margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e3f4d124a48ccb9e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-block/index.md)) | changed | 1 → 1 | D335 | - | I003 x1 |
+| P471 | [Web/CSS/Reference/Properties/scale](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=bdd64101e77a6e4f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scale/index.md)) | changed | 1 → 1 | D307 | - | - |
+| P472 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b32e6e972584f6f2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D244 | - | - |
+| P473 | [Web/CSS/Reference/Properties/scroll-initial-target](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c25b84b94fa443bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-initial-target/index.md)) | changed | 1 → 1 | D295 | - | - |
+| P474 | [Web/CSS/Reference/Properties/scroll-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=f78cc576c842945d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin/index.md)) | changed | 1 → 1 | D355 | - | I003 x1 |
+| P475 | [Web/CSS/Reference/Properties/scroll-margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e3f4d124a48ccb9e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-block/index.md)) | changed | 1 → 1 | D333 | - | I003 x1 |
 | P476 | [Web/CSS/Reference/Properties/scroll-margin-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=948cd860eaa60335) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-block-end/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P477 | [Web/CSS/Reference/Properties/scroll-margin-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0e4b756ca5e34ac7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-block-start/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P478 | [Web/CSS/Reference/Properties/scroll-margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=df086aa8ae77e34c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-bottom/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
-| P479 | [Web/CSS/Reference/Properties/scroll-margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9e4111d5c695359a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-inline/index.md)) | changed | 1 → 1 | D336 | - | I003 x1 |
+| P479 | [Web/CSS/Reference/Properties/scroll-margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9e4111d5c695359a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-inline/index.md)) | changed | 1 → 1 | D334 | - | I003 x1 |
 | P480 | [Web/CSS/Reference/Properties/scroll-margin-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0ad2ebcd440cbbcd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-inline-end/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P481 | [Web/CSS/Reference/Properties/scroll-margin-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=83c08f2011d5b15b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-inline-start/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P482 | [Web/CSS/Reference/Properties/scroll-margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=17f78f96139dcdc7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-left/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P483 | [Web/CSS/Reference/Properties/scroll-margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4adaf6b996714f81) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-right/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P484 | [Web/CSS/Reference/Properties/scroll-margin-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=1ed8048d988bebd0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-margin-top/index.md)) | changed | 1 → 1 | D006 | - | I003 x1 |
 | P485 | [Web/CSS/Reference/Properties/scroll-marker-group](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a427659dc2115f8d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-marker-group/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P486 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=93e6d3e9fb1c9c4f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D357 | - | I074 x1 |
-| P487 | [Web/CSS/Reference/Properties/scroll-padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=120faec51a24932d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-block/index.md)) | changed | 1 → 1 | D337 | - | I078 x1 |
+| P486 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=93e6d3e9fb1c9c4f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D356 | - | I074 x1 |
+| P487 | [Web/CSS/Reference/Properties/scroll-padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=120faec51a24932d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-block/index.md)) | changed | 1 → 1 | D335 | - | I078 x1 |
 | P488 | [Web/CSS/Reference/Properties/scroll-padding-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=56e72b72a93434c2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-block-end/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
 | P489 | [Web/CSS/Reference/Properties/scroll-padding-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ae043522bc20dbe9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-block-start/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
 | P490 | [Web/CSS/Reference/Properties/scroll-padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8c2c5d0966cefbab) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-bottom/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
-| P491 | [Web/CSS/Reference/Properties/scroll-padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e108a64b320952d5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-inline/index.md)) | changed | 1 → 1 | D338 | - | I078 x1 |
+| P491 | [Web/CSS/Reference/Properties/scroll-padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e108a64b320952d5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-inline/index.md)) | changed | 1 → 1 | D336 | - | I078 x1 |
 | P492 | [Web/CSS/Reference/Properties/scroll-padding-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7e07c85f70478eb9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-inline-end/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
 | P493 | [Web/CSS/Reference/Properties/scroll-padding-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=03ff49f89d43dfe5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-inline-start/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
 | P494 | [Web/CSS/Reference/Properties/scroll-padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7b678da05cfafd08) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-left/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
 | P495 | [Web/CSS/Reference/Properties/scroll-padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=caf019b3d9e1fa37) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-right/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
 | P496 | [Web/CSS/Reference/Properties/scroll-padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8054a76943938931) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-padding-top/index.md)) | changed | 1 → 1 | D005 | - | I078 x1 |
-| P497 | [Web/CSS/Reference/Properties/scroll-snap-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d4f942da4aad98bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-snap-align/index.md)) | changed | 1 → 1 | D316 | - | - |
+| P497 | [Web/CSS/Reference/Properties/scroll-snap-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d4f942da4aad98bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-snap-align/index.md)) | changed | 1 → 1 | D319 | - | - |
 | P498 | [Web/CSS/Reference/Properties/scroll-snap-stop](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=307a3c08ea67834c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-snap-stop/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P499 | [Web/CSS/Reference/Properties/scroll-snap-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3bb79e9aff7d64e9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-snap-type/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P500 | [Web/CSS/Reference/Properties/scroll-target-group](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=dd05a43b11f110d3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-target-group/index.md)) | changed | 1 → 1 | D032 | - | - |
-| P501 | [Web/CSS/Reference/Properties/scroll-timeline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=11068ddd6f47e6ee) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-timeline/index.md)) | changed | 1 → 1 | D344 | - | - |
-| P502 | [Web/CSS/Reference/Properties/scroll-timeline-axis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=11fa048d08333368) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-timeline-axis/index.md)) | changed | 1 → 1 | D240 | - | - |
-| P503 | [Web/CSS/Reference/Properties/scroll-timeline-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0c5e310e256bc549) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-timeline-name/index.md)) | changed | 1 → 1 | D241 | - | I048 x1 |
-| P504 | [Web/CSS/Reference/Properties/scrollbar-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=68ee435c3bb85dde) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scrollbar-color/index.md)) | changed | 1 → 1 | D242 | - | - |
-| P505 | [Web/CSS/Reference/Properties/scrollbar-gutter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c8304c209064fbd0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scrollbar-gutter/index.md)) | changed | 1 → 1 | D244 | - | - |
-| P506 | [Web/CSS/Reference/Properties/scrollbar-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ddfd78b7e8981ab7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scrollbar-width/index.md)) | changed | 1 → 1 | D245 | - | - |
+| P501 | [Web/CSS/Reference/Properties/scroll-timeline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=11068ddd6f47e6ee) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-timeline/index.md)) | changed | 1 → 1 | D341 | - | - |
+| P502 | [Web/CSS/Reference/Properties/scroll-timeline-axis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=11fa048d08333368) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-timeline-axis/index.md)) | changed | 1 → 1 | D241 | - | - |
+| P503 | [Web/CSS/Reference/Properties/scroll-timeline-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0c5e310e256bc549) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scroll-timeline-name/index.md)) | changed | 1 → 1 | D242 | - | I048 x1 |
+| P504 | [Web/CSS/Reference/Properties/scrollbar-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=68ee435c3bb85dde) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scrollbar-color/index.md)) | changed | 1 → 1 | D243 | - | - |
+| P505 | [Web/CSS/Reference/Properties/scrollbar-gutter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c8304c209064fbd0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scrollbar-gutter/index.md)) | changed | 1 → 1 | D245 | - | - |
+| P506 | [Web/CSS/Reference/Properties/scrollbar-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ddfd78b7e8981ab7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/scrollbar-width/index.md)) | changed | 1 → 1 | D246 | - | - |
 | P507 | [Web/CSS/Reference/Properties/shape-image-threshold](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=2b1b80ef92c8b99b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/shape-image-threshold/index.md)) | changed | 1 → 1 | D421 | - | I003 x1 |
-| P508 | [Web/CSS/Reference/Properties/shape-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=db362244ffc853cc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/shape-margin/index.md)) | changed | 1 → 1 | D231 | - | I003 x1, I063 x1 |
-| P509 | [Web/CSS/Reference/Properties/shape-outside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=63a20597e43a9867) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/shape-outside/index.md)) | changed | 1 → 1 | D232 | I152 x1 | - |
+| P508 | [Web/CSS/Reference/Properties/shape-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=db362244ffc853cc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/shape-margin/index.md)) | changed | 1 → 1 | D232 | - | I003 x1, I063 x1 |
+| P509 | [Web/CSS/Reference/Properties/shape-outside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=63a20597e43a9867) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/shape-outside/index.md)) | changed | 1 → 1 | D233 | I152 x1 | - |
 | P510 | [Web/CSS/Reference/Properties/shape-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=79c151bdc1d7206e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/shape-rendering/index.md)) | changed | 1 → 1 | D173 | - | - |
 | P511 | [Web/CSS/Reference/Properties/speak-as](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c58013266fe1cfee) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/speak-as/index.md)) | changed | 1 → 1 | D423 | - | - |
 | P512 | [Web/CSS/Reference/Properties/stop-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=00753d607da2cc95) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/stop-color/index.md)) | changed | 1 → 1 | D039 | - | - |
@@ -608,64 +608,64 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P519 | [Web/CSS/Reference/Properties/stroke-miterlimit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e3f6a94afcbe789d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/stroke-miterlimit/index.md)) | changed | 1 → 1 | D177 | - | I016 x1 |
 | P520 | [Web/CSS/Reference/Properties/stroke-opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=35a4aa5402123714) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/stroke-opacity/index.md)) | changed | 1 → 1 | D178 | - | I011 x1 |
 | P521 | [Web/CSS/Reference/Properties/stroke-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a4260b76509c15ed) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/stroke-width/index.md)) | changed | 1 → 1 | D176 | - | I014 x1, I077 x1 |
-| P522 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c10e197ea331fb2c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D224 | - | I018 x1 |
+| P522 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c10e197ea331fb2c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D225 | - | I018 x1 |
 | P523 | [Web/CSS/Reference/Properties/table-layout](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=68d899623a12240a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/table-layout/index.md)) | changed | 1 → 1 | D053 | - | - |
-| P524 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c6e7425c4f83b058) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D407 | - | - |
-| P525 | [Web/CSS/Reference/Properties/text-align-last](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=62775da0bb22b6a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-align-last/index.md)) | changed | 1 → 1 | D309 | - | - |
+| P524 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c6e7425c4f83b058) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D408 | - | - |
+| P525 | [Web/CSS/Reference/Properties/text-align-last](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=62775da0bb22b6a0) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-align-last/index.md)) | changed | 1 → 1 | D312 | - | - |
 | P526 | [Web/CSS/Reference/Properties/text-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=53227d7e96876988) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-anchor/index.md)) | changed | 1 → 1 | D166 | - | - |
 | P527 | [Web/CSS/Reference/Properties/text-autospace](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8ffa264c44cecbd5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-autospace/index.md)) | changed | 1 → 1 | D052 | - | - |
 | P528 | [Web/CSS/Reference/Properties/text-box](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=d82f50f455b4964c) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-box/index.md)) | changed | 1 → 1 | D045 | - | - |
 | P529 | [Web/CSS/Reference/Properties/text-box-edge](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=47c82e0fb4a0ec6b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-box-edge/index.md)) | changed | 1 → 1 | D157 | - | - |
 | P530 | [Web/CSS/Reference/Properties/text-box-trim](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=839aebf506e65483) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-box-trim/index.md)) | changed | 1 → 1 | D045 | - | - |
-| P531 | [Web/CSS/Reference/Properties/text-combine-upright](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5605274dec2044ff) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-combine-upright/index.md)) | changed | 1 → 1 | D238 | - | - |
-| P532 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=daa51cff0798bf45) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D405 | - | - |
+| P531 | [Web/CSS/Reference/Properties/text-combine-upright](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5605274dec2044ff) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-combine-upright/index.md)) | changed | 1 → 1 | D239 | - | - |
+| P532 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=daa51cff0798bf45) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D406 | - | - |
 | P533 | [Web/CSS/Reference/Properties/text-decoration-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4c3b9c5673a89450) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-color/index.md)) | changed | 1 → 1 | D138 | - | - |
 | P534 | [Web/CSS/Reference/Properties/text-decoration-inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=df09343ab616013e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-inset/index.md)) | changed | 1 → 1 | D126 | - | I003 x1, I021 x1 |
 | P535 | [Web/CSS/Reference/Properties/text-decoration-line](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0b06e5968515e730) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-line/index.md)) | changed | 1 → 1 | D172 | - | - |
-| P536 | [Web/CSS/Reference/Properties/text-decoration-skip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4b48e20e8b809973) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-skip/index.md)) | changed | 1 → 1 | D424 | - | - |
+| P536 | [Web/CSS/Reference/Properties/text-decoration-skip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4b48e20e8b809973) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-skip/index.md)) | changed | 1 → 1 | D405 | - | - |
 | P537 | [Web/CSS/Reference/Properties/text-decoration-skip-ink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=74db60b0501bce57) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-skip-ink/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P538 | [Web/CSS/Reference/Properties/text-decoration-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=3a320360ae05a3d6) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-style/index.md)) | changed | 1 → 1 | D135 | - | - |
 | P539 | [Web/CSS/Reference/Properties/text-decoration-thickness](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ddab852aa4d52f8d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-decoration-thickness/index.md)) | changed | 1 → 1 | D127 | - | - |
 | P540 | [Web/CSS/Reference/Properties/text-emphasis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c283a342979ca071) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis/index.md)) | changed | 1 → 1 | D388 | - | - |
-| P541 | [Web/CSS/Reference/Properties/text-emphasis-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c97e289a7942116f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis-color/index.md)) | changed | 1 → 1 | D221 | - | - |
-| P542 | [Web/CSS/Reference/Properties/text-emphasis-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7e77c4183f8d1e6d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis-position/index.md)) | changed | 1 → 1 | D410 | - | - |
-| P543 | [Web/CSS/Reference/Properties/text-emphasis-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=619123863c35422a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis-style/index.md)) | changed | 1 → 1 | D219 | - | - |
-| P544 | [Web/CSS/Reference/Properties/text-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=82226961f5fb17ed) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-fit/index.md)) | changed | 1 → 1 | D223 | - | I090 x1 |
+| P541 | [Web/CSS/Reference/Properties/text-emphasis-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c97e289a7942116f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis-color/index.md)) | changed | 1 → 1 | D222 | - | - |
+| P542 | [Web/CSS/Reference/Properties/text-emphasis-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7e77c4183f8d1e6d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis-position/index.md)) | changed | 1 → 1 | D411 | - | - |
+| P543 | [Web/CSS/Reference/Properties/text-emphasis-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=619123863c35422a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-emphasis-style/index.md)) | changed | 1 → 1 | D220 | - | - |
+| P544 | [Web/CSS/Reference/Properties/text-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=82226961f5fb17ed) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-fit/index.md)) | changed | 1 → 1 | D224 | - | I090 x1 |
 | P545 | [Web/CSS/Reference/Properties/text-indent](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e2a9b1748f1e04d8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-indent/index.md)) | changed | 1 → 1 | D276 | - | I003 x1, I072 x1 |
-| P546 | [Web/CSS/Reference/Properties/text-justify](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0dd22253cc9859b1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-justify/index.md)) | changed | 1 → 1 | D233 | - | - |
+| P546 | [Web/CSS/Reference/Properties/text-justify](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0dd22253cc9859b1) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-justify/index.md)) | changed | 1 → 1 | D234 | - | - |
 | P547 | [Web/CSS/Reference/Properties/text-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=61d15f8b7043d1de) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-orientation/index.md)) | changed | 1 → 1 | D208 | - | - |
-| P548 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7b09a65aa0ea676b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D222 | - | I069 x1 |
-| P549 | [Web/CSS/Reference/Properties/text-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ebd99a895ea0a2d8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-rendering/index.md)) | changed | 1 → 1 | D252 | - | - |
+| P548 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7b09a65aa0ea676b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D223 | - | I069 x1 |
+| P549 | [Web/CSS/Reference/Properties/text-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ebd99a895ea0a2d8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-rendering/index.md)) | changed | 1 → 1 | D253 | - | - |
 | P550 | [Web/CSS/Reference/Properties/text-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=a4f227f44d27f3ba) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-shadow/index.md)) | changed | 1 → 1 | D143 | - | - |
-| P551 | [Web/CSS/Reference/Properties/text-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=91ef03ff77533376) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-size-adjust/index.md)) | changed | 1 → 1 | D425 | - | - |
+| P551 | [Web/CSS/Reference/Properties/text-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=91ef03ff77533376) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-size-adjust/index.md)) | changed | 1 → 1 | D424 | - | - |
 | P552 | [Web/CSS/Reference/Properties/text-spacing-trim](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=e33706d9edb0239f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-spacing-trim/index.md)) | changed | 1 → 1 | D052 | - | - |
 | P553 | [Web/CSS/Reference/Properties/text-transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4e5da5cec40b6645) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-transform/index.md)) | changed | 1 → 1 | D144 | - | - |
 | P554 | [Web/CSS/Reference/Properties/text-underline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=80841e6344d49554) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-underline-offset/index.md)) | changed | 1 → 1 | D128 | - | - |
 | P555 | [Web/CSS/Reference/Properties/text-underline-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=5793858cad2eaf07) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-underline-position/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P556 | [Web/CSS/Reference/Properties/text-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=16234b92eb5056fb) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-wrap/index.md)) | changed | 1 → 1 | D180 | - | - |
-| P557 | [Web/CSS/Reference/Properties/text-wrap-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=047220d9a105c797) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-wrap-mode/index.md)) | changed | 1 → 1 | D249 | - | - |
-| P558 | [Web/CSS/Reference/Properties/text-wrap-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=815769ed112e128f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-wrap-style/index.md)) | changed | 1 → 1 | D248 | - | - |
-| P559 | [Web/CSS/Reference/Properties/timeline-scope](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9906f0f19fe32c70) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/timeline-scope/index.md)) | changed | 1 → 1 | D298 | - | I096 x1 |
+| P557 | [Web/CSS/Reference/Properties/text-wrap-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=047220d9a105c797) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-wrap-mode/index.md)) | changed | 1 → 1 | D250 | - | - |
+| P558 | [Web/CSS/Reference/Properties/text-wrap-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=815769ed112e128f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/text-wrap-style/index.md)) | changed | 1 → 1 | D249 | - | - |
+| P559 | [Web/CSS/Reference/Properties/timeline-scope](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9906f0f19fe32c70) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/timeline-scope/index.md)) | changed | 1 → 1 | D299 | - | I096 x1 |
 | P560 | [Web/CSS/Reference/Properties/top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=47ab0770dca68567) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/top/index.md)) | changed | 1 → 1 | D058 | - | I057 x1 |
 | P561 | [Web/CSS/Reference/Properties/touch-action](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=12715b6c4efaa91f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/touch-action/index.md)) | changed | 1 → 1 | D207 | - | - |
 | P562 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=06c25333e124654f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D281 | - | I065 x1 |
 | P563 | [Web/CSS/Reference/Properties/transform-box](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7f925811550c248e) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transform-box/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P564 | [Web/CSS/Reference/Properties/transform-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=639dddd60949f064) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transform-origin/index.md)) | changed | 1 → 1 | D422 | - | I017 x1, I065 x1 |
-| P565 | [Web/CSS/Reference/Properties/transform-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b0aeb11f7e2ba166) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transform-style/index.md)) | changed | 1 → 1 | D312 | - | - |
+| P565 | [Web/CSS/Reference/Properties/transform-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b0aeb11f7e2ba166) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transform-style/index.md)) | changed | 1 → 1 | D315 | - | - |
 | P566 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=497840e4b1466034) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D369 | - | - |
 | P567 | [Web/CSS/Reference/Properties/transition-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ec80a6b8fa0ded68) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition-behavior/index.md)) | changed | 1 → 1 | D212 | - | - |
 | P568 | [Web/CSS/Reference/Properties/transition-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6041538b04ba8b2f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition-delay/index.md)) | changed | 1 → 1 | D043 | - | I010 x1 |
 | P569 | [Web/CSS/Reference/Properties/transition-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=7593a77d43caffb2) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition-duration/index.md)) | changed | 1 → 1 | D043 | - | I010 x1 |
-| P570 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=920ca6662377075a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D150 | - | - |
+| P570 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=920ca6662377075a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D151 | - | - |
 | P571 | [Web/CSS/Reference/Properties/transition-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=110f290a9d9036b8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/transition-timing-function/index.md)) | changed | 1 → 1 | D152 | - | - |
 | P572 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=50782fd6170bb435) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D282 | - | I081 x1 |
 | P573 | [Web/CSS/Reference/Properties/unicode-bidi](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=26db9f5e0b2cb11f) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/unicode-bidi/index.md)) | changed | 1 → 1 | D209 | - | - |
-| P574 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9c8ffcd53c480617) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D215 | - | - |
+| P574 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=9c8ffcd53c480617) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D216 | - | - |
 | P575 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=793cdc4a397eec22) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D145 | - | - |
-| P576 | [Web/CSS/Reference/Properties/view-timeline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=464fe3c00fd36389) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline/index.md)) | changed | 1 → 1 | D339 | - | - |
-| P577 | [Web/CSS/Reference/Properties/view-timeline-axis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b0dc02c628c857a9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline-axis/index.md)) | changed | 1 → 1 | D285 | - | - |
+| P576 | [Web/CSS/Reference/Properties/view-timeline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=464fe3c00fd36389) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline/index.md)) | changed | 1 → 1 | D338 | - | - |
+| P577 | [Web/CSS/Reference/Properties/view-timeline-axis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b0dc02c628c857a9) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline-axis/index.md)) | changed | 1 → 1 | D286 | - | - |
 | P578 | [Web/CSS/Reference/Properties/view-timeline-inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c5008fbf9b530da3) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline-inset/index.md)) | changed | 1 → 1 | D272 | - | I073 x1 |
-| P579 | [Web/CSS/Reference/Properties/view-timeline-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0b572a6aa68db8d5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline-name/index.md)) | changed | 1 → 1 | D296 | - | I048 x1 |
+| P579 | [Web/CSS/Reference/Properties/view-timeline-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=0b572a6aa68db8d5) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-timeline-name/index.md)) | changed | 1 → 1 | D297 | - | I048 x1 |
 | P580 | [Web/CSS/Reference/Properties/view-transition-class](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=c749d0392ab6a1b7) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-transition-class/index.md)) | unchanged | 1 → 1 | - | - | - |
 | P581 | [Web/CSS/Reference/Properties/view-transition-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=34d76d7f07d957aa) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-transition-name/index.md)) | unchanged | 1 → 1 | - | - | - |
 | P582 | [Web/CSS/Reference/Properties/view-transition-scope](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=418d18588a6b6a69) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/view-transition-scope/index.md)) | unchanged | 1 → 1 | - | - | - |
@@ -674,14 +674,14 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P585 | [Web/CSS/Reference/Properties/white-space-collapse](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=8849cbc6a050b829) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/white-space-collapse/index.md)) | changed | 1 → 1 | D010 | - | - |
 | P586 | [Web/CSS/Reference/Properties/widows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=b3fb7b304b98ae6a) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/widows/index.md)) | changed | 1 → 1 | D048 | - | I015 x1 |
 | P587 | [Web/CSS/Reference/Properties/width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=32f113dc31159dfd) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/width/index.md)) | changed | 1 → 1 | D203 | - | I083 x1 |
-| P588 | [Web/CSS/Reference/Properties/will-change](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=aeee22c7628cd8bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/will-change/index.md)) | changed | 1 → 1 | D290 | - | - |
+| P588 | [Web/CSS/Reference/Properties/will-change](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=aeee22c7628cd8bc) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/will-change/index.md)) | changed | 1 → 1 | D292 | - | - |
 | P589 | [Web/CSS/Reference/Properties/word-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=28e3a55d8d7d4daa) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/word-break/index.md)) | changed | 1 → 1 | D010 | - | - |
 | P590 | [Web/CSS/Reference/Properties/word-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=4b354a9fd3515743) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/word-spacing/index.md)) | changed | 1 → 1 | D142 | - | I082 x1 |
 | P591 | [Web/CSS/Reference/Properties/writing-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=02dee09c4a46260b) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/writing-mode/index.md)) | changed | 1 → 1 | D206 | - | - |
 | P592 | [Web/CSS/Reference/Properties/x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=6b04166458e0fa4d) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/x/index.md)) | changed | 1 → 1 | D170 | - | I003 x1, I068 x1 |
 | P593 | [Web/CSS/Reference/Properties/y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ec672dc03bd121ca) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/y/index.md)) | changed | 1 → 1 | D169 | - | I003 x1, I062 x1 |
 | P594 | [Web/CSS/Reference/Properties/z-index](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=ef889758462d85b8) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/z-index/index.md)) | changed | 1 → 1 | D322 | - | - |
-| P595 | [Web/CSS/Reference/Properties/zoom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=279c3c743bad4901) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/zoom/index.md)) | changed | 1 → 1 | D253 | - | I011 x1, I020 x1 |
+| P595 | [Web/CSS/Reference/Properties/zoom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=279c3c743bad4901) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/properties/zoom/index.md)) | changed | 1 → 1 | D214 | - | I011 x1, I020 x1 |
 | P596 | [Web/CSS/Reference/Values/param](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=en-us&status=all&doc=77df6a7eb8e82d46) ([source](https://github.com/mdn/content/blob/8e307de115d41e9214fcacbd7fe89532756816b4/files/en-us/web/css/reference/values/param/index.md)) | missing-both | 0 → 0 | - | I132 x1 | I001 x1, I002 x1 |
 
 ## Complete table diffs
@@ -746,7 +746,7 @@ Pages: P111, P112, P117, P118, P148, P149, P153, P154.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,24 +19,21 @@
+@@ -23,24 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -762,8 +762,7 @@ Pages: P111, P112, P117, P118, P148, P149, P153, P154.
 -</a>s or <a href="/en-US/docs/Web/CSS/Reference/Values/percentage">
 -<code>&lt;percentage&gt;</code>
 -</a>s</td>
-+<td>pair of computed <length-percentage> values</length-percentage>
-+</td>
++<td>pair of computed &lt;length-percentage&gt; values</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -823,7 +822,7 @@ Pages: P488, P489, P490, P492, P493, P494, P495, P496.
 ```diff
 --- main
 +++ PR 912
-@@ -19,14 +19,15 @@
+@@ -19,14 +19,14 @@
  <td>no</td>
  </tr>
  <tr>
@@ -835,8 +834,7 @@ Pages: P488, P489, P490, P492, P493, P494, P495, P496.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified</td>
-+<td>the keyword auto or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1078,7 +1076,7 @@ Pages: P419, P423, P424, P425.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,21 +19,21 @@
+@@ -23,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -1090,8 +1088,7 @@ Pages: P419, P423, P424, P425.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>a computed <length-percentage> value</length-percentage>
-+</td>
++<td>a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1129,7 +1126,7 @@ Pages: P343, P347, P348, P349.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,21 +19,21 @@
+@@ -23,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -1141,8 +1138,7 @@ Pages: P343, P347, P348, P349.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>the keyword auto or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -1273,13 +1269,12 @@ Pages: P200, P201, P202, P204.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,7 +22,8 @@
+@@ -22,7 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, with &lt;length&gt;s values computed</td>
-+<td>as specified, with <length> values computed</length>
-+</td>
++<td>as specified, with &lt;length&gt; values computed</td>
  </tr>
  <tr>
  <th scope="row">
@@ -1575,16 +1570,14 @@ Pages: P352, P353, P354.
  </tr>
  <tr>
  <th scope="row">
-@@ -38,9 +22,9 @@
+@@ -38,9 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</td>
-+<td>as specified, but with <url> values (that are part of a <marker-ref>) made absolute</marker-ref>
-+</url>
-+</td>
++<td>as specified, but with &lt;url&gt; values (that are part of a &lt;marker-ref&gt;) made absolute</td>
  </tr>
  <tr>
  <th scope="row">
@@ -2302,7 +2295,7 @@ Pages: P186, P453.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2314,8 +2307,7 @@ Pages: P186, P453.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</td>
-+<td>specified keyword, else a computed <length-percentage> value</length-percentage>
-+</td>
++<td>specified keyword, else a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2550,7 +2542,7 @@ Pages: P158, P560.
 ```diff
 --- main
 +++ PR 912
-@@ -19,21 +19,21 @@
+@@ -19,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2562,8 +2554,8 @@ Pages: P158, P560.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
-+<td>the keyword auto or a computed <length-percentage> value</length-percentage>
- </td>
+-</td>
++<td>the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2587,7 +2579,7 @@ Pages: P327, P451.
 ```diff
 --- main
 +++ PR 912
-@@ -19,21 +19,21 @@
+@@ -19,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2599,8 +2591,8 @@ Pages: P327, P451.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
-+<td>the keyword auto or a computed <length-percentage> value</length-percentage>
- </td>
+-</td>
++<td>the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2624,7 +2616,7 @@ Pages: P313, P314.
 ```diff
 --- main
 +++ PR 912
-@@ -19,28 +19,21 @@
+@@ -19,28 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2644,8 +2636,7 @@ Pages: P313, P314.
 -</a>, <a href="/en-US/docs/Web/CSS/Reference/Properties/left">
 -<code>left</code>
 -</a> properties except that directions are logical</td>
-+<td>the keyword auto or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2669,7 +2660,7 @@ Pages: P316, P317.
 ```diff
 --- main
 +++ PR 912
-@@ -19,28 +19,21 @@
+@@ -19,28 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -2689,8 +2680,7 @@ Pages: P316, P317.
 -</a>, <a href="/en-US/docs/Web/CSS/Reference/Properties/left">
 -<code>left</code>
 -</a> properties except that directions are logical</td>
-+<td>the keyword auto or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -2834,7 +2824,7 @@ Pages: P211, P218.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -2851,9 +2841,8 @@ Pages: P211, P218.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -3122,6 +3111,328 @@ Pages: P457.
 
 ### D074: 1 page(s)
 
+Pages: P463.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>Same as column-rule and row-rule</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>no</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D075: 1 page(s)
+
+Pages: P464.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>Same as column-rule-break and row-rule-break</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D076: 1 page(s)
+
+Pages: P465.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>Same as column-rule-color and row-rule-color</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>no</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D077: 1 page(s)
+
+Pages: P466.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>Same as column-rule-style and row-rule-style</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>no</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D078: 1 page(s)
+
+Pages: P467.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>Same as column-rule-visibility-items and row-rule-visibility-items</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D079: 1 page(s)
+
+Pages: P468.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>Same as column-rule-width and row-rule-width</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>no</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D080: 1 page(s)
+
+Pages: P454.
+
+```diff
+--- main
++++ PR 912
+@@ -0,0 +1,36 @@
++<table class="properties">
++<tbody>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Applies to</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
++</th>
++<td>see individual properties</td>
++</tr>
++</tbody>
++</table>
+```
+
+### D081: 1 page(s)
+
 Pages: P191.
 
 ```diff
@@ -3163,342 +3474,6 @@ Pages: P191.
 +<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
 +</th>
 +<td>by computed value type</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D075: 1 page(s)
-
-Pages: P463.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>Same as column-rule and row-rule</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>no</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D076: 1 page(s)
-
-Pages: P464.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>Same as column-rule-break and row-rule-break</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D077: 1 page(s)
-
-Pages: P465.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>Same as column-rule-color and row-rule-color</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>no</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D078: 1 page(s)
-
-Pages: P466.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>Same as column-rule-style and row-rule-style</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>no</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D079: 1 page(s)
-
-Pages: P467.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>Same as column-rule-visibility-items and row-rule-visibility-items</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D080: 1 page(s)
-
-Pages: P468.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>Same as column-rule-width and row-rule-width</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>no</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+</tbody>
-+</table>
-```
-
-### D081: 1 page(s)
-
-Pages: P454.
-
-```diff
---- main
-+++ PR 912
-@@ -0,0 +1,38 @@
-+<table class="properties">
-+<tbody>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
-+</th>
-+<td>
-+<code>see individual properties</code>
-+</td>
-+</tr>
-+<tr>
-+<th scope="row">Applies to</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
-+</th>
-+<td>see individual properties</td>
 +</tr>
 +</tbody>
 +</table>
@@ -4480,13 +4455,12 @@ Pages: P030.
  </th>
  <td>
  <a href="/en-US/docs/Web/CSS/Reference/At-rules/@page">
-@@ -21,7 +22,8 @@
+@@ -21,7 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>specified value, with <length>s made absolute.</length>
-+</td>
++<td>specified value, with &lt;length&gt;s made absolute.</td>
  </tr>
  </tbody>
  </table>
@@ -4797,6 +4771,45 @@ Pages: P262.
 
 ### D114: 1 page(s)
 
+Pages: P263.
+
+```diff
+--- main
++++ PR 912
+@@ -10,11 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements and text. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line">
+-<code>::first-line</code>
+-</a>.</td>
++<td>all elements and text</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -26,14 +22,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>the keyword none, or a pair of a metric keyword and a &lt;number&gt;</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/number#interpolation" title="Values of the &lt;number&gt; CSS data type are interpolated as real, floating-point, numbers.">number</a>
+-</td>
++<td>discrete if the keywords differ, otherwise by computed value type</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D115: 1 page(s)
+
 Pages: P266.
 
 ```diff
@@ -4829,47 +4842,6 @@ Pages: P266.
 -<td>by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>
 -</td>
 +<td>by computed value type; normal animates as oblique 0deg</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D115: 1 page(s)
-
-Pages: P263.
-
-```diff
---- main
-+++ PR 912
-@@ -10,11 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements and text. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line">
--<code>::first-line</code>
--</a>.</td>
-+<td>all elements and text</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -26,14 +22,15 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>the keyword none, or a pair of a metric keyword and a <number>
-+</number>
-+</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/number#interpolation" title="Values of the &lt;number&gt; CSS data type are interpolated as real, floating-point, numbers.">number</a>
--</td>
-+<td>discrete if the keywords differ, otherwise by computed value type</td>
  </tr>
  </tbody>
  </table>
@@ -4912,6 +4884,37 @@ Pages: P282.
 
 ### D117: 1 page(s)
 
+Pages: P261.
+
+```diff
+--- main
++++ PR 912
+@@ -10,11 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements and text. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line">
+-<code>::first-line</code>
+-</a>.</td>
++<td>all elements and text</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -26,7 +22,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>specified keyword, identifier or &lt;palette-mix()&gt; function. &lt;palette-mix()&gt; must be simplified to a single keyword or identifier if resulting palette is equivalent.</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D118: 1 page(s)
+
 Pages: P259.
 
 ```diff
@@ -4941,7 +4944,7 @@ Pages: P259.
  <th scope="row">
 ```
 
-### D118: 1 page(s)
+### D119: 1 page(s)
 
 Pages: P281.
 
@@ -4967,39 +4970,6 @@ Pages: P281.
  </th>
 -<td>the keyword or the numerical value as specified, with <code>bolder</code> and <code>lighter</code> transformed to the real value</td>
 +<td>a number, see below</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D119: 1 page(s)
-
-Pages: P261.
-
-```diff
---- main
-+++ PR 912
-@@ -10,11 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements and text. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line">
--<code>::first-line</code>
--</a>.</td>
-+<td>all elements and text</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -26,7 +22,9 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>specified keyword, identifier or <palette-mix()> function. <palette-mix()> must be simplified to a single keyword or identifier if resulting palette is equivalent.</palette-mix()>
-+</palette-mix()>
-+</td>
  </tr>
  <tr>
  <th scope="row">
@@ -5074,7 +5044,7 @@ Pages: P124.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,21 @@
+@@ -23,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5086,8 +5056,7 @@ Pages: P124.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>four values, each either a number, the keyword auto, or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>four values, each either a number, the keyword auto, or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -5193,14 +5162,13 @@ Pages: P123.
  </tr>
  <tr>
  <th scope="row">
-@@ -26,8 +22,8 @@
+@@ -26,8 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>
 -<code>none</code> or the image with its URI made absolute</td>
-+<td>the keyword none or the computed <img>
-+</td>
++<td>the keyword none or the computed &lt;image&gt;</td>
  </tr>
  <tr>
  <th scope="row">
@@ -5306,7 +5274,7 @@ Pages: P539.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,17 @@
+@@ -23,20 +19,16 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5318,8 +5286,7 @@ Pages: P539.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified</td>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
-+</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
  </tr>
  <tr>
  <th scope="row">
@@ -5352,7 +5319,7 @@ Pages: P554.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,17 @@
+@@ -23,20 +19,16 @@
  <td>yes</td>
  </tr>
  <tr>
@@ -5364,8 +5331,7 @@ Pages: P554.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified</td>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
-+</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
  </tr>
  <tr>
  <th scope="row">
@@ -5398,15 +5364,14 @@ Pages: P088.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,21 @@
+@@ -23,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
 +<th scope="row">
 +<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
 +</th>
-+<td>A list, each item consisting of: an offset given as a computed <length-percentage> value, plus an origin keyword</length-percentage>
-+</td>
++<td>A list, each item consisting of: an offset given as a computed &lt;length-percentage&gt; value, plus an origin keyword</td>
 +</tr>
 +<tr>
  <th scope="row">Percentages</th>
@@ -5449,15 +5414,14 @@ Pages: P087.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,21 @@
+@@ -23,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
 +<th scope="row">
 +<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
 +</th>
-+<td>A list, each item consisting of: an offset given as a computed <length-percentage> value, plus an origin keyword</length-percentage>
-+</td>
++<td>A list, each item consisting of: an offset given as a computed &lt;length-percentage&gt; value, plus an origin keyword</td>
 +</tr>
 +<tr>
  <th scope="row">Percentages</th>
@@ -5500,7 +5464,7 @@ Pages: P086.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,31 +19,21 @@
+@@ -23,31 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5522,8 +5486,8 @@ Pages: P086.
 -<code>background-position-y</code>
 -</a>: A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword</li>
 -</ul>
-+<td>a list, each item a pair of offsets (horizontal and vertical) from the top left origin, each offset given as a computed <length-percentage> value</length-percentage>
- </td>
+-</td>
++<td>a list, each item a pair of offsets (horizontal and vertical) from the top left origin, each offset given as a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -5698,7 +5662,7 @@ Pages: P084.
 -<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</td>
-+<td>list, each item either an <img> or the keyword none</td>
++<td>list, each item either an &lt;image&gt; or the keyword none</td>
  </tr>
  <tr>
  <th scope="row">
@@ -5863,7 +5827,7 @@ Pages: P332.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,21 @@
+@@ -23,20 +19,20 @@
  <td>yes</td>
  </tr>
  <tr>
@@ -5875,8 +5839,7 @@ Pages: P332.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>for percentage and length values, the absolute length, otherwise as specified</td>
-+<td>the specified keyword, a number, or a computed <length> value</length>
-+</td>
++<td>the specified keyword, a number, or a computed &lt;length&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -6102,6 +6065,45 @@ Pages: P334.
 
 ### D148: 1 page(s)
 
+Pages: P074.
+
+```diff
+--- main
++++ PR 912
+@@ -10,12 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements, <a href="/en-US/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
+-</td>
++<td>all elements</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -27,13 +22,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>list, each item a computed &lt;easing-function&gt;</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>not animatable</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D149: 1 page(s)
+
 Pages: P068.
 
 ```diff
@@ -6139,7 +6141,7 @@ Pages: P068.
  </table>
 ```
 
-### D149: 1 page(s)
+### D150: 1 page(s)
 
 Pages: P067.
 
@@ -6178,7 +6180,7 @@ Pages: P067.
  </table>
 ```
 
-### D150: 1 page(s)
+### D151: 1 page(s)
 
 Pages: P570.
 
@@ -6205,47 +6207,6 @@ Pages: P570.
  </th>
 -<td>as specified</td>
 +<td>the keyword none else a list of identifiers</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>not animatable</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D151: 1 page(s)
-
-Pages: P074.
-
-```diff
---- main
-+++ PR 912
-@@ -10,12 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements, <a href="/en-US/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
--</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
--</td>
-+<td>all elements</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -27,13 +22,15 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>list, each item a computed <easing-function>
-+</easing-function>
-+</td>
  </tr>
  <tr>
  <th scope="row">
@@ -6311,7 +6272,7 @@ Pages: P095.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,25 +19,21 @@
+@@ -24,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -6327,8 +6288,8 @@ Pages: P095.
 -</a> and <a href="/en-US/docs/Web/CSS/Reference/Properties/height">
 -<code>height</code>
 -</a>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -6366,7 +6327,7 @@ Pages: P310.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,25 +19,21 @@
+@@ -24,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -6382,8 +6343,8 @@ Pages: P310.
 -</a> and <a href="/en-US/docs/Web/CSS/Reference/Properties/height">
 -<code>height</code>
 -</a>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -6421,7 +6382,7 @@ Pages: P375.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,25 +19,21 @@
+@@ -24,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -6437,8 +6398,8 @@ Pages: P375.
 -</a> and <a href="/en-US/docs/Web/CSS/Reference/Properties/max-height">
 -<code>max-height</code>
 -</a>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -6476,7 +6437,7 @@ Pages: P377.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,25 +19,21 @@
+@@ -24,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -6492,8 +6453,8 @@ Pages: P377.
 -</a> and <a href="/en-US/docs/Web/CSS/Reference/Properties/max-height">
 -<code>max-height</code>
 -</a>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -7478,13 +7439,13 @@ Pages: P520.
  </tr>
  <tr>
  <th scope="row">
-@@ -38,14 +22,14 @@
+@@ -38,14 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the specified value, clipped in the range <code>[0,1]</code>
-+<td>the specified value converted to a <number>, clamped to the range [0,1]</number>
- </td>
+-</td>
++<td>the specified value converted to a &lt;number&gt;, clamped to the range [0,1]</td>
  </tr>
  <tr>
  <th scope="row">
@@ -8013,14 +7974,12 @@ Pages: P240.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,13 +22,15 @@
+@@ -22,13 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with <code>&lt;color&gt;</code> values computed and <code>&lt;url&gt;</code> values made absolute</td>
-+<td>as specified, but with <color> values computed and <url> values made absolute</url>
-+</color>
-+</td>
++<td>as specified, but with &lt;color&gt; values computed and &lt;url&gt; values made absolute</td>
  </tr>
  <tr>
  <th scope="row">
@@ -8049,7 +8008,7 @@ Pages: P241.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,23 +19,17 @@
+@@ -19,23 +19,16 @@
  <td>yes</td>
  </tr>
  <tr>
@@ -8064,8 +8023,7 @@ Pages: P241.
 -<td>The same as the specified value after clipping the <a href="/en-US/docs/Web/CSS/Reference/Values/number">
 -<code>&lt;number&gt;</code>
 -</a> to the range [0.0, 1.0].</td>
-+<td>the specified value converted to a <number>, clamped to the range [0,1]</number>
-+</td>
++<td>the specified value converted to a &lt;number&gt;, clamped to the range [0,1]</td>
  </tr>
  <tr>
  <th scope="row">
@@ -8128,7 +8086,7 @@ Pages: P176.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,17 +22,15 @@
+@@ -22,17 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -8136,9 +8094,7 @@ Pages: P176.
 -<code>auto</code> is computed as specified and <code>&lt;color&gt;</code> values are computed as defined for the <a href="/en-US/docs/Web/CSS/Reference/Properties/color">
 -<code>color</code>
 -</a> property.</td>
-+<td>The computed value for auto is auto. For <color> values, see CSS Color 4 § 15. Resolving <color> Values.</color>
-+</color>
-+</td>
++<td>The computed value for auto is auto. For &lt;color&gt; values, see CSS Color 4 § 15. Resolving &lt;color&gt; Values.</td>
  </tr>
  <tr>
  <th scope="row">
@@ -8231,7 +8187,7 @@ Pages: P302.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -8243,8 +8199,7 @@ Pages: P302.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>a percentage or <code>auto</code> or the absolute length</td>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
-+</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -8277,7 +8232,7 @@ Pages: P380.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -8289,8 +8244,7 @@ Pages: P380.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
-+</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -8323,7 +8277,7 @@ Pages: P376.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,21 +19,21 @@
+@@ -19,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -8335,8 +8289,8 @@ Pages: P376.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length or <code>none</code>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -8369,7 +8323,7 @@ Pages: P587.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -8381,8 +8335,7 @@ Pages: P587.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>a percentage or <code>auto</code> or the absolute length</td>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
-+</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -8415,7 +8368,7 @@ Pages: P382.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -8427,8 +8380,7 @@ Pages: P382.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length</td>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
-+</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -8461,7 +8413,7 @@ Pages: P378.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,21 +19,21 @@
+@@ -19,21 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -8473,8 +8425,8 @@ Pages: P378.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length or <code>none</code>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -8756,6 +8708,52 @@ Pages: P199.
 
 ### D214: 1 page(s)
 
+Pages: P595.
+
+```diff
+--- main
++++ PR 912
+@@ -10,7 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>all &lt;length&gt; property values of all elements</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -19,22 +19,14 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>Converted to <a href="/en-US/docs/Web/CSS/Reference/Values/number">
+-<code>&lt;number&gt;</code>
+-</a>
+-</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a> converted to the equivalent <a href="/en-US/docs/Web/CSS/Reference/Values/number">
+-<code>&lt;number&gt;</code>
+-</a>
+-</td>
++<td>as specified, but with &lt;percentage&gt; converted to the equivalent &lt;number&gt;</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>Converted to &lt;number&gt;</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D215: 1 page(s)
+
 Pages: P438.
 
 ```diff
@@ -8792,7 +8790,7 @@ Pages: P438.
  </table>
 ```
 
-### D215: 1 page(s)
+### D216: 1 page(s)
 
 Pages: P574.
 
@@ -8819,7 +8817,7 @@ Pages: P574.
  <th scope="row">
 ```
 
-### D216: 1 page(s)
+### D217: 1 page(s)
 
 Pages: P404.
 
@@ -8857,7 +8855,7 @@ Pages: P404.
  </table>
 ```
 
-### D217: 1 page(s)
+### D218: 1 page(s)
 
 Pages: P437.
 
@@ -8875,7 +8873,7 @@ Pages: P437.
  <th scope="row">
 ```
 
-### D218: 1 page(s)
+### D219: 1 page(s)
 
 Pages: P301.
 
@@ -8902,7 +8900,7 @@ Pages: P301.
  <th scope="row">
 ```
 
-### D219: 1 page(s)
+### D220: 1 page(s)
 
 Pages: P543.
 
@@ -8929,7 +8927,7 @@ Pages: P543.
  <th scope="row">
 ```
 
-### D220: 1 page(s)
+### D221: 1 page(s)
 
 Pages: P304.
 
@@ -8956,7 +8954,7 @@ Pages: P304.
  <th scope="row">
 ```
 
-### D221: 1 page(s)
+### D222: 1 page(s)
 
 Pages: P541.
 
@@ -8984,7 +8982,7 @@ Pages: P541.
  </table>
 ```
 
-### D222: 1 page(s)
+### D223: 1 page(s)
 
 Pages: P548.
 
@@ -9022,7 +9020,7 @@ Pages: P548.
  </table>
 ```
 
-### D223: 1 page(s)
+### D224: 1 page(s)
 
 Pages: P544.
 
@@ -9038,18 +9036,19 @@ Pages: P544.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,7 +22,7 @@
+@@ -22,8 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>specified keyword, or computed <code>&lt;percentage&gt;</code>
-+<td>specified keywords or computed <percentage> value</percentage>
- </td>
+-</td>
++<td>specified keywords or computed &lt;percentage&gt; value</td>
  </tr>
  <tr>
+ <th scope="row">
 ```
 
-### D224: 1 page(s)
+### D225: 1 page(s)
 
 Pages: P522.
 
@@ -9084,7 +9083,7 @@ Pages: P522.
  </table>
 ```
 
-### D225: 1 page(s)
+### D226: 1 page(s)
 
 Pages: P172.
 
@@ -9111,7 +9110,7 @@ Pages: P172.
  <th scope="row">
 ```
 
-### D226: 1 page(s)
+### D227: 1 page(s)
 
 Pages: P178.
 
@@ -9138,7 +9137,7 @@ Pages: P178.
  <th scope="row">
 ```
 
-### D227: 1 page(s)
+### D228: 1 page(s)
 
 Pages: P324.
 
@@ -9165,7 +9164,7 @@ Pages: P324.
  <th scope="row">
 ```
 
-### D228: 1 page(s)
+### D229: 1 page(s)
 
 Pages: P245.
 
@@ -9181,7 +9180,7 @@ Pages: P245.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -9193,8 +9192,7 @@ Pages: P245.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>specified keyword or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>specified keyword or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -9211,7 +9209,7 @@ Pages: P245.
  </table>
 ```
 
-### D229: 1 page(s)
+### D230: 1 page(s)
 
 Pages: P248.
 
@@ -9246,7 +9244,7 @@ Pages: P248.
  </table>
 ```
 
-### D230: 1 page(s)
+### D231: 1 page(s)
 
 Pages: P250.
 
@@ -9281,7 +9279,7 @@ Pages: P250.
  </table>
 ```
 
-### D231: 1 page(s)
+### D232: 1 page(s)
 
 Pages: P508.
 
@@ -9297,7 +9295,7 @@ Pages: P508.
  </tr>
  <tr>
  <th scope="row">
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -9309,8 +9307,7 @@ Pages: P508.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>computed <length-percentage> value</length-percentage>
-+</td>
++<td>computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -9327,7 +9324,7 @@ Pages: P508.
  </table>
 ```
 
-### D232: 1 page(s)
+### D233: 1 page(s)
 
 Pages: P509.
 
@@ -9343,7 +9340,7 @@ Pages: P509.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,21 +22,16 @@
+@@ -22,21 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -9354,9 +9351,7 @@ Pages: P509.
 -</a> following, if supplied), the&nbsp;<a href="/en-US/docs/Web/CSS/Reference/Values/image">
 -<code>&lt;image&gt;</code>
 -</a> with its URI made absolute, otherwise as specified.</td>
-+<td>as defined for <basic-shape> (with <shape-box> following, if supplied); else the computed <img>; else the keyword as specified</shape-box>
-+</basic-shape>
-+</td>
++<td>as defined for &lt;basic-shape&gt; (with &lt;shape-box&gt; following, if supplied); else the computed &lt;image&gt;; else the keyword as specified</td>
  </tr>
  <tr>
  <th scope="row">
@@ -9365,14 +9360,13 @@ Pages: P509.
 -<td>yes, as specified for <a href="/en-US/docs/Web/CSS/Reference/Values/basic-shape">
 -<code>&lt;basic-shape&gt;</code>
 -</a>, otherwise no</td>
-+<td>as defined for <basic-shape>, otherwise discrete</basic-shape>
-+</td>
++<td>as defined for &lt;basic-shape&gt;, otherwise discrete</td>
  </tr>
  </tbody>
  </table>
 ```
 
-### D233: 1 page(s)
+### D234: 1 page(s)
 
 Pages: P546.
 
@@ -9399,7 +9393,7 @@ Pages: P546.
  <th scope="row">
 ```
 
-### D234: 1 page(s)
+### D235: 1 page(s)
 
 Pages: P094.
 
@@ -9426,7 +9420,7 @@ Pages: P094.
  <th scope="row">
 ```
 
-### D235: 1 page(s)
+### D236: 1 page(s)
 
 Pages: P192.
 
@@ -9444,7 +9438,7 @@ Pages: P192.
  <th scope="row">
 ```
 
-### D236: 1 page(s)
+### D237: 1 page(s)
 
 Pages: P190.
 
@@ -9479,7 +9473,7 @@ Pages: P190.
  </table>
 ```
 
-### D237: 1 page(s)
+### D238: 1 page(s)
 
 Pages: P194.
 
@@ -9516,7 +9510,7 @@ Pages: P194.
  </table>
 ```
 
-### D238: 1 page(s)
+### D239: 1 page(s)
 
 Pages: P531.
 
@@ -9550,7 +9544,7 @@ Pages: P531.
  </table>
 ```
 
-### D239: 1 page(s)
+### D240: 1 page(s)
 
 Pages: P284.
 
@@ -9568,7 +9562,7 @@ Pages: P284.
  <th scope="row">
 ```
 
-### D240: 1 page(s)
+### D241: 1 page(s)
 
 Pages: P502.
 
@@ -9602,7 +9596,7 @@ Pages: P502.
  </table>
 ```
 
-### D241: 1 page(s)
+### D242: 1 page(s)
 
 Pages: P503.
 
@@ -9637,7 +9631,7 @@ Pages: P503.
  </table>
 ```
 
-### D242: 1 page(s)
+### D243: 1 page(s)
 
 Pages: P504.
 
@@ -9671,7 +9665,7 @@ Pages: P504.
  </table>
 ```
 
-### D243: 1 page(s)
+### D244: 1 page(s)
 
 Pages: P472.
 
@@ -9705,7 +9699,7 @@ Pages: P472.
  </table>
 ```
 
-### D244: 1 page(s)
+### D245: 1 page(s)
 
 Pages: P505.
 
@@ -9732,7 +9726,7 @@ Pages: P505.
  <th scope="row">
 ```
 
-### D245: 1 page(s)
+### D246: 1 page(s)
 
 Pages: P506.
 
@@ -9759,7 +9753,7 @@ Pages: P506.
  <th scope="row">
 ```
 
-### D246: 1 page(s)
+### D247: 1 page(s)
 
 Pages: P173.
 
@@ -9786,7 +9780,7 @@ Pages: P173.
  <th scope="row">
 ```
 
-### D247: 1 page(s)
+### D248: 1 page(s)
 
 Pages: P238.
 
@@ -9813,7 +9807,7 @@ Pages: P238.
  <th scope="row">
 ```
 
-### D248: 1 page(s)
+### D249: 1 page(s)
 
 Pages: P558.
 
@@ -9840,7 +9834,7 @@ Pages: P558.
  <th scope="row">
 ```
 
-### D249: 1 page(s)
+### D250: 1 page(s)
 
 Pages: P557.
 
@@ -9867,7 +9861,7 @@ Pages: P557.
  <th scope="row">
 ```
 
-### D250: 1 page(s)
+### D251: 1 page(s)
 
 Pages: P430.
 
@@ -9885,7 +9879,7 @@ Pages: P430.
  <th scope="row">
 ```
 
-### D251: 1 page(s)
+### D252: 1 page(s)
 
 Pages: P406.
 
@@ -9912,7 +9906,7 @@ Pages: P406.
  <th scope="row">
 ```
 
-### D252: 1 page(s)
+### D253: 1 page(s)
 
 Pages: P549.
 
@@ -9928,56 +9922,6 @@ Pages: P549.
  </tr>
  <tr>
  <th scope="row">
-```
-
-### D253: 1 page(s)
-
-Pages: P595.
-
-```diff
---- main
-+++ PR 912
-@@ -10,7 +10,8 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>all <length> property values of all elements</length>
-+</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -19,21 +20,18 @@
- <td>no</td>
- </tr>
- <tr>
--<th scope="row">Percentages</th>
--<td>Converted to <a href="/en-US/docs/Web/CSS/Reference/Values/number">
--<code>&lt;number&gt;</code>
--</a>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>as specified, but with <percentage> converted to the equivalent <number>
-+</number>
-+</percentage>
- </td>
- </tr>
- <tr>
--<th scope="row">
--<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
--</th>
--<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a> converted to the equivalent <a href="/en-US/docs/Web/CSS/Reference/Values/number">
--<code>&lt;number&gt;</code>
--</a>
-+<th scope="row">Percentages</th>
-+<td>Converted to <number>
-+</number>
- </td>
- </tr>
- <tr>
 ```
 
 ### D254: 1 page(s)
@@ -10016,14 +9960,12 @@ Pages: P440.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,7 +22,9 @@
+@@ -23,7 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified</td>
-+<td>the keyword none or a pair of keywords, see § 3.1.3 Computed Value and Serialization of <position-area>
-+</position-area>
-+</td>
++<td>the keyword none or a pair of keywords, see § 3.1.3 Computed Value and Serialization of &lt;position-area&gt;</td>
  </tr>
  <tr>
  <th scope="row">
@@ -10126,6 +10068,54 @@ Pages: P168.
 
 ### D259: 1 page(s)
 
+Pages: P362.
+
+```diff
+--- main
++++ PR 912
+@@ -10,9 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements; In SVG, it applies to container elements excluding the <a href="/en-US/docs/Web/SVG/Reference/Element/defs">
+-<code>&lt;defs&gt;</code>
+-</a> element and all graphics elements</td>
++<td>All elements. In SVG, it applies to container elements excluding the defs element, all graphics elements and the use element</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -21,20 +19,20 @@
+ <td>no</td>
+ </tr>
+ <tr>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
++</th>
++<td>all &lt;length&gt;s made absolute, otherwise as specified</td>
++</tr>
++<tr>
+ <th scope="row">Percentages</th>
+ <td>relative to width/height of the mask border image area</td>
+ </tr>
+ <tr>
+ <th scope="row">
+-<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+-</th>
+-<td>as specified, but with relative lengths converted into absolute lengths</td>
+-</tr>
+-<tr>
+-<th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>discrete</td>
++<td>by computed value</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D260: 1 page(s)
+
 Pages: P360.
 
 ```diff
@@ -10170,55 +10160,6 @@ Pages: P360.
  </table>
 ```
 
-### D260: 1 page(s)
-
-Pages: P362.
-
-```diff
---- main
-+++ PR 912
-@@ -10,9 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements; In SVG, it applies to container elements excluding the <a href="/en-US/docs/Web/SVG/Reference/Element/defs">
--<code>&lt;defs&gt;</code>
--</a> element and all graphics elements</td>
-+<td>All elements. In SVG, it applies to container elements excluding the defs element, all graphics elements and the use element</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -21,20 +19,21 @@
- <td>no</td>
- </tr>
- <tr>
-+<th scope="row">
-+<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
-+</th>
-+<td>all <length>s made absolute, otherwise as specified</length>
-+</td>
-+</tr>
-+<tr>
- <th scope="row">Percentages</th>
- <td>relative to width/height of the mask border image area</td>
- </tr>
- <tr>
- <th scope="row">
--<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
--</th>
--<td>as specified, but with relative lengths converted into absolute lengths</td>
--</tr>
--<tr>
--<th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>discrete</td>
-+<td>by computed value</td>
- </tr>
- </tbody>
- </table>
-```
-
 ### D261: 1 page(s)
 
 Pages: P368.
@@ -10237,7 +10178,7 @@ Pages: P368.
  </tr>
  <tr>
  <th scope="row">
-@@ -21,22 +19,21 @@
+@@ -21,22 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10251,8 +10192,7 @@ Pages: P368.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>Consists of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a &lt;length&gt;), otherwise as a percentage.</td>
-+<td>list, each item consists of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a <length>), otherwise as a percentage.</length>
-+</td>
++<td>list, each item consists of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a &lt;length&gt;), otherwise as a percentage.</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10287,7 +10227,7 @@ Pages: P180.
  </tr>
  <tr>
  <th scope="row">
-@@ -21,24 +19,17 @@
+@@ -21,24 +19,16 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10301,8 +10241,7 @@ Pages: P180.
 -<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</td>
-+<td>as specified, but with <url> values made absolute</url>
-+</td>
++<td>as specified, but with &lt;url&gt; values made absolute</td>
  </tr>
  <tr>
  <th scope="row">
@@ -10318,6 +10257,42 @@ Pages: P180.
 ```
 
 ### D263: 1 page(s)
+
+Pages: P358.
+
+```diff
+--- main
++++ PR 912
+@@ -10,9 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements; In SVG, it applies to container elements excluding the <a href="/en-US/docs/Web/SVG/Reference/Element/defs">
+-<code>&lt;defs&gt;</code>
+-</a> element and all graphics elements</td>
++<td>All elements. In SVG, it applies to container elements excluding the defs element, all graphics elements and the use element</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -24,13 +22,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified, but with relative lengths converted into absolute lengths</td>
++<td>all &lt;length&gt;s made absolute, otherwise as specified</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>discrete</td>
++<td>by computed value</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D264: 1 page(s)
 
 Pages: P370.
 
@@ -10348,43 +10323,6 @@ Pages: P370.
  </th>
 -<td>a repeatable list</td>
 +<td>repeatable list</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D264: 1 page(s)
-
-Pages: P358.
-
-```diff
---- main
-+++ PR 912
-@@ -10,9 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements; In SVG, it applies to container elements excluding the <a href="/en-US/docs/Web/SVG/Reference/Element/defs">
--<code>&lt;defs&gt;</code>
--</a> element and all graphics elements</td>
-+<td>All elements. In SVG, it applies to container elements excluding the defs element, all graphics elements and the use element</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -24,13 +22,14 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>all <length>s made absolute, otherwise as specified</length>
-+</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>discrete</td>
-+<td>by computed value</td>
  </tr>
  </tbody>
  </table>
@@ -10421,38 +10359,6 @@ Pages: P369.
 
 ### D266: 1 page(s)
 
-Pages: P361.
-
-```diff
---- main
-+++ PR 912
-@@ -10,9 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements; In SVG, it applies to container elements excluding the <a href="/en-US/docs/Web/SVG/Reference/Element/defs">
--<code>&lt;defs&gt;</code>
--</a> element and all graphics elements</td>
-+<td>All elements. In SVG, it applies to container elements excluding the defs element, all graphics elements and the use element</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -24,9 +22,8 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/url_value">
--<code>&lt;url&gt;</code>
--</a> values made absolute</td>
-+<td>they keyword none or the computed <img>
-+</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D267: 1 page(s)
-
 Pages: P365.
 
 ```diff
@@ -10469,16 +10375,45 @@ Pages: P365.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,9 +22,9 @@
+@@ -24,9 +22,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</td>
-+<td>list, each item the keyword none, a computed <img>, or a computed <url>
-+</url>
-+</td>
++<td>list, each item the keyword none, a computed &lt;image&gt;, or a computed &lt;url&gt;</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D267: 1 page(s)
+
+Pages: P361.
+
+```diff
+--- main
++++ PR 912
+@@ -10,9 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements; In SVG, it applies to container elements excluding the <a href="/en-US/docs/Web/SVG/Reference/Element/defs">
+-<code>&lt;defs&gt;</code>
+-</a> element and all graphics elements</td>
++<td>All elements. In SVG, it applies to container elements excluding the defs element, all graphics elements and the use element</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -24,9 +22,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified, but with <a href="/en-US/docs/Web/CSS/Reference/Values/url_value">
+-<code>&lt;url&gt;</code>
+-</a> values made absolute</td>
++<td>they keyword none or the computed &lt;image&gt;</td>
  </tr>
  <tr>
  <th scope="row">
@@ -10609,7 +10544,7 @@ Pages: P578.
 ```diff
 --- main
 +++ PR 912
-@@ -19,14 +19,15 @@
+@@ -19,14 +19,14 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10621,8 +10556,7 @@ Pages: P578.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>A list where each item may be either 'auto' or a length percentage</td>
-+<td>a list consisting of two-value pairs representing the start and end insets each as either the keyword auto or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>a list consisting of two-value pairs representing the start and end insets each as either the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10671,7 +10605,7 @@ Pages: P093.
 ```diff
 --- main
 +++ PR 912
-@@ -19,18 +19,15 @@
+@@ -19,18 +19,14 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10685,8 +10619,9 @@ Pages: P093.
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
- <td>the specified keyword or a computed <length-percentage> value</length-percentage>
- </td>
+-<td>the specified keyword or a computed <length-percentage> value</length-percentage>
+-</td>
++<td>the specified keyword or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10740,7 +10675,7 @@ Pages: P545.
 ```diff
 --- main
 +++ PR 912
-@@ -19,20 +19,21 @@
+@@ -19,20 +19,20 @@
  <td>yes</td>
  </tr>
  <tr>
@@ -10752,8 +10687,7 @@ Pages: P545.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>the percentage as specified or the absolute length, plus any keywords as specified</td>
-+<td>computed <length-percentage> value, plus any specified keywords</length-percentage>
-+</td>
++<td>computed &lt;length-percentage&gt; value, plus any specified keywords</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10815,7 +10749,7 @@ Pages: P389.
 ```diff
 --- main
 +++ PR 912
-@@ -19,22 +19,21 @@
+@@ -19,22 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10829,8 +10763,7 @@ Pages: P389.
 -<td>for <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a> the absolute value, otherwise a percentage</td>
-+<td>a computed <length-percentage> value</length-percentage>
-+</td>
++<td>a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10854,7 +10787,7 @@ Pages: P391.
 ```diff
 --- main
 +++ PR 912
-@@ -19,23 +19,22 @@
+@@ -19,23 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10868,9 +10801,7 @@ Pages: P391.
 -<td>for <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a> the absolute value, otherwise a percentage</td>
-+<td>The normal or auto keywords, or a computed <position>
-+</position>
-+</td>
++<td>The normal or auto keywords, or a computed &lt;position&gt;</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10895,7 +10826,7 @@ Pages: P388.
 ```diff
 --- main
 +++ PR 912
-@@ -19,23 +19,22 @@
+@@ -19,23 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10909,9 +10840,7 @@ Pages: P388.
 -<td>for <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a> the absolute value, otherwise a percentage</td>
-+<td>the auto keyword or a computed <position>
-+</position>
-+</td>
++<td>the auto keyword or a computed &lt;position&gt;</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -10977,7 +10906,7 @@ Pages: P572.
 ```diff
 --- main
 +++ PR 912
-@@ -19,25 +19,21 @@
+@@ -19,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -10989,8 +10918,7 @@ Pages: P572.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>the keyword none or a pair of computed <length-percentage> values and an absolute length</length-percentage>
-+</td>
++<td>the keyword none or a pair of computed &lt;length-percentage&gt; values and an absolute length</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -11035,6 +10963,27 @@ Pages: P053.
 
 ### D284: 1 page(s)
 
+Pages: P306.
+
+```diff
+--- main
++++ PR 912
+@@ -22,10 +22,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>an <a href="/en-US/docs/Web/CSS/Reference/Values/angle">
+-<code>&lt;angle&gt;</code>
+-</a>, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>
+-</td>
++<td>the specified keyword, or an &lt;angle&gt;, rounded and normalized (see text), plus optionally a flip keyword</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D285: 1 page(s)
+
 Pages: P056.
 
 ```diff
@@ -11056,7 +11005,7 @@ Pages: P056.
  <th scope="row">
 ```
 
-### D285: 1 page(s)
+### D286: 1 page(s)
 
 Pages: P577.
 
@@ -11081,7 +11030,32 @@ Pages: P577.
  </table>
 ```
 
-### D286: 1 page(s)
+### D287: 1 page(s)
+
+Pages: P392.
+
+```diff
+--- main
++++ PR 912
+@@ -22,13 +22,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>computed &lt;angle&gt; value, optionally preceded by auto</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;</td>
++<td>by computed value</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D288: 1 page(s)
 
 Pages: P062.
 
@@ -11106,7 +11080,7 @@ Pages: P062.
  </table>
 ```
 
-### D287: 1 page(s)
+### D289: 1 page(s)
 
 Pages: P076.
 
@@ -11131,7 +11105,7 @@ Pages: P076.
  </table>
 ```
 
-### D288: 1 page(s)
+### D290: 1 page(s)
 
 Pages: P399.
 
@@ -11156,7 +11130,7 @@ Pages: P399.
  </table>
 ```
 
-### D289: 1 page(s)
+### D291: 1 page(s)
 
 Pages: P234.
 
@@ -11181,7 +11155,7 @@ Pages: P234.
  </table>
 ```
 
-### D290: 1 page(s)
+### D292: 1 page(s)
 
 Pages: P588.
 
@@ -11206,7 +11180,57 @@ Pages: P588.
  </table>
 ```
 
-### D291: 1 page(s)
+### D293: 1 page(s)
+
+Pages: P235.
+
+```diff
+--- main
++++ PR 912
+@@ -22,13 +22,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as the specified value, except for positioned and floating elements and the root element. In both cases the computed value may be a keyword other than the one specified.</td>
++<td>a pair of keywords representing the inner and outer display types plus optional list-item flag, or a &lt;display-internal&gt; or &lt;display-box&gt; keyword; see prose in a variety of specs for computation rules</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration</td>
++<td>see § 2.9 Animating and Interpolating display</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D294: 1 page(s)
+
+Pages: P386.
+
+```diff
+--- main
++++ PR 912
+@@ -22,13 +22,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>specified keyword, or computed function</td>
++<td>specified keyword, or computed &lt;basic-shape&gt; function</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as if possible, otherwise discrete</td>
++<td>as &lt;basic-shape&gt; if possible, otherwise discrete</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D295: 1 page(s)
 
 Pages: P473.
 
@@ -11231,87 +11255,7 @@ Pages: P473.
  </table>
 ```
 
-### D292: 1 page(s)
-
-Pages: P392.
-
-```diff
---- main
-+++ PR 912
-@@ -22,13 +22,14 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>computed <angle> value, optionally preceded by auto</angle>
-+</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as &lt;angle&gt;, &lt;basic-shape&gt; or &lt;path()&gt;</td>
-+<td>by computed value</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D293: 1 page(s)
-
-Pages: P235.
-
-```diff
---- main
-+++ PR 912
-@@ -22,13 +22,15 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as the specified value, except for positioned and floating elements and the root element. In both cases the computed value may be a keyword other than the one specified.</td>
-+<td>a pair of keywords representing the inner and outer display types plus optional list-item flag, or a <display-internal> or <display-box> keyword; see prose in a variety of specs for computation rules</display-box>
-+</display-internal>
-+</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>Discrete behavior except when animating to or from <code>none</code> is visible for the entire duration</td>
-+<td>see § 2.9 Animating and Interpolating display</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D294: 1 page(s)
-
-Pages: P386.
-
-```diff
---- main
-+++ PR 912
-@@ -22,13 +22,15 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>specified keyword, or computed function</td>
-+<td>specified keyword, or computed <basic-shape> function</basic-shape>
-+</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as if possible, otherwise discrete</td>
-+<td>as <basic-shape> if possible, otherwise discrete</basic-shape>
-+</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D295: 1 page(s)
+### D296: 1 page(s)
 
 Pages: P146.
 
@@ -11340,7 +11284,7 @@ Pages: P146.
  </table>
 ```
 
-### D296: 1 page(s)
+### D297: 1 page(s)
 
 Pages: P579.
 
@@ -11366,7 +11310,7 @@ Pages: P579.
  </table>
 ```
 
-### D297: 1 page(s)
+### D298: 1 page(s)
 
 Pages: P206.
 
@@ -11392,7 +11336,7 @@ Pages: P206.
  </table>
 ```
 
-### D298: 1 page(s)
+### D299: 1 page(s)
 
 Pages: P559.
 
@@ -11418,7 +11362,7 @@ Pages: P559.
  </table>
 ```
 
-### D299: 1 page(s)
+### D300: 1 page(s)
 
 Pages: P397.
 
@@ -11444,7 +11388,7 @@ Pages: P397.
  </table>
 ```
 
-### D300: 1 page(s)
+### D301: 1 page(s)
 
 Pages: P073.
 
@@ -11470,7 +11414,7 @@ Pages: P073.
  </table>
 ```
 
-### D301: 1 page(s)
+### D302: 1 page(s)
 
 Pages: P207.
 
@@ -11496,7 +11440,7 @@ Pages: P207.
  </table>
 ```
 
-### D302: 1 page(s)
+### D303: 1 page(s)
 
 Pages: P249.
 
@@ -11522,7 +11466,7 @@ Pages: P249.
  </table>
 ```
 
-### D303: 1 page(s)
+### D304: 1 page(s)
 
 Pages: P400.
 
@@ -11550,7 +11494,7 @@ Pages: P400.
  </table>
 ```
 
-### D304: 1 page(s)
+### D305: 1 page(s)
 
 Pages: P398.
 
@@ -11578,7 +11522,7 @@ Pages: P398.
  </table>
 ```
 
-### D305: 1 page(s)
+### D306: 1 page(s)
 
 Pages: P237.
 
@@ -11607,20 +11551,19 @@ Pages: P237.
  </table>
 ```
 
-### D306: 1 page(s)
+### D307: 1 page(s)
 
 Pages: P471.
 
 ```diff
 --- main
 +++ PR 912
-@@ -22,18 +22,14 @@
+@@ -22,18 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified</td>
-+<td>the keyword none, or a list of 3 <number>s</number>
-+</td>
++<td>the keyword none, or a list of 3 &lt;number&gt;s</td>
  </tr>
  <tr>
  <th scope="row">
@@ -11638,21 +11581,19 @@ Pages: P471.
  </table>
 ```
 
-### D307: 1 page(s)
+### D308: 1 page(s)
 
 Pages: P452.
 
 ```diff
 --- main
 +++ PR 912
-@@ -22,18 +22,15 @@
+@@ -22,18 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified</td>
-+<td>the keyword none, or an <angle> with an axis consisting of a list of three <number>s</number>
-+</angle>
-+</td>
++<td>the keyword none, or an &lt;angle&gt; with an axis consisting of a list of three &lt;number&gt;s</td>
  </tr>
  <tr>
  <th scope="row">
@@ -11670,7 +11611,7 @@ Pages: P452.
  </table>
 ```
 
-### D308: 1 page(s)
+### D309: 1 page(s)
 
 Pages: P432.
 
@@ -11702,7 +11643,43 @@ Pages: P432.
  </table>
 ```
 
-### D309: 1 page(s)
+### D310: 1 page(s)
+
+Pages: P336.
+
+```diff
+--- main
++++ PR 912
+@@ -22,7 +22,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>The keyword <code>none</code> or the computed &lt;image&gt;</td>
++<td>the keyword noneor the computed &lt;image&gt;</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D311: 1 page(s)
+
+Pages: P308.
+
+```diff
+--- main
++++ PR 912
+@@ -22,7 +22,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified, except with &lt;resolution&gt; possibly altered by computed for 'snap' value</td>
++<td>specified keyword(s) and/or &lt;resolution&gt; (possibly adjusted for snap, see below)</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D312: 1 page(s)
 
 Pages: P525.
 
@@ -11720,7 +11697,7 @@ Pages: P525.
  <th scope="row">
 ```
 
-### D310: 1 page(s)
+### D313: 1 page(s)
 
 Pages: P337.
 
@@ -11738,7 +11715,7 @@ Pages: P337.
  <th scope="row">
 ```
 
-### D311: 1 page(s)
+### D314: 1 page(s)
 
 Pages: P325.
 
@@ -11756,7 +11733,7 @@ Pages: P325.
  <th scope="row">
 ```
 
-### D312: 1 page(s)
+### D315: 1 page(s)
 
 Pages: P565.
 
@@ -11785,7 +11762,7 @@ Pages: P565.
  </table>
 ```
 
-### D313: 1 page(s)
+### D316: 1 page(s)
 
 Pages: P298.
 
@@ -11803,7 +11780,7 @@ Pages: P298.
  <th scope="row">
 ```
 
-### D314: 1 page(s)
+### D317: 1 page(s)
 
 Pages: P228.
 
@@ -11821,7 +11798,7 @@ Pages: P228.
  <th scope="row">
 ```
 
-### D315: 1 page(s)
+### D318: 1 page(s)
 
 Pages: P183.
 
@@ -11839,7 +11816,7 @@ Pages: P183.
  <th scope="row">
 ```
 
-### D316: 1 page(s)
+### D319: 1 page(s)
 
 Pages: P497.
 
@@ -11855,64 +11832,6 @@ Pages: P497.
  </tr>
  <tr>
  <th scope="row">
-```
-
-### D317: 1 page(s)
-
-Pages: P336.
-
-```diff
---- main
-+++ PR 912
-@@ -22,7 +22,8 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>The keyword <code>none</code> or the computed &lt;image&gt;</td>
-+<td>the keyword noneor the computed <img>
-+</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D318: 1 page(s)
-
-Pages: P308.
-
-```diff
---- main
-+++ PR 912
-@@ -22,7 +22,8 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified, except with &lt;resolution&gt; possibly altered by computed for 'snap' value</td>
-+<td>specified keyword(s) and/or <resolution> (possibly adjusted for snap, see below)</resolution>
-+</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D319: 1 page(s)
-
-Pages: P306.
-
-```diff
---- main
-+++ PR 912
-@@ -22,9 +22,7 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>an <a href="/en-US/docs/Web/CSS/Reference/Values/angle">
--<code>&lt;angle&gt;</code>
--</a>, rounded to the next quarter turn from <code>0deg</code> and normalized, that is moduloing the value by <code>1turn</code>
-+<td>the specified keyword, or an <angle>, rounded and normalized (see text), plus optionally a flip keyword</angle>
- </td>
- </tr>
- <tr>
 ```
 
 ### D320: 1 page(s)
@@ -12025,7 +11944,7 @@ Pages: P157.
 ```diff
 --- main
 +++ PR 912
-@@ -4,104 +4,35 @@
+@@ -4,104 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -12052,9 +11971,8 @@ Pages: P157.
 -</a>: <code>medium</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -12149,7 +12067,7 @@ Pages: P141.
 ```diff
 --- main
 +++ PR 912
-@@ -4,114 +4,35 @@
+@@ -4,114 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -12176,9 +12094,8 @@ Pages: P141.
 -</a>: <code>0</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -12278,51 +12195,12 @@ Pages: P141.
 
 ### D327: 1 page(s)
 
-Pages: P256.
-
-```diff
---- main
-+++ PR 912
-@@ -4,15 +4,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>depends on user agent</td>
-+<td>
-+<code>depends on user agent</code>
-+</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements and text. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line">
--<code>::first-line</code>
--</a>.</td>
-+<td>all elements and text</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -24,7 +22,8 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>list, each item a string and/or <generic-font-family> keywords</generic-font-family>
-+</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D328: 1 page(s)
-
 Pages: P097.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,172 +4,35 @@
+@@ -4,172 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -12380,9 +12258,8 @@ Pages: P097.
 -</ul>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -12496,6 +12373,197 @@ Pages: P097.
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-end-color">
 -<code>border-block-end-color</code>
+-</a>: by computed value type</li>
+-</ul>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D328: 1 page(s)
+
+Pages: P125.
+
+```diff
+--- main
++++ PR 912
+@@ -4,172 +4,33 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-width">
+-<code>border-inline-width</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+-<code>border-inline-start-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
+-</a>: <code>medium</code>
+-</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-style">
+-<code>border-inline-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+-<code>border-inline-start-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+-<code>border-inline-end-style</code>
+-</a>: <code>none</code>
+-</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-color">
+-<code>border-inline-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+-<code>border-inline-end-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-</ul>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
+ </th>
+-<td>no</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-width">
+-<code>border-inline-width</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+-<code>border-inline-start-width</code>
+-</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
+-</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-style">
+-<code>border-inline-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+-<code>border-inline-start-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+-<code>border-inline-end-style</code>
+-</a>: as specified</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-color">
+-<code>border-inline-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
+-</a>: computed color</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+-<code>border-inline-end-color</code>
+-</a>: computed color</li>
+-</ul>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-width">
+-<code>border-inline-width</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+-<code>border-inline-start-width</code>
+-</a>: by computed value type</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
+-</a>: by computed value type</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-style">
+-<code>border-inline-style</code>
+-</a>: discrete</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-color">
+-<code>border-inline-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
+-</a>: by computed value type</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+-<code>border-inline-end-color</code>
 -</a>: by computed value type</li>
 -</ul>
 -</li>
@@ -12508,249 +12576,6 @@ Pages: P097.
 ```
 
 ### D329: 1 page(s)
-
-Pages: P125.
-
-```diff
---- main
-+++ PR 912
-@@ -4,172 +4,35 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-width">
--<code>border-inline-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: <code>medium</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-style">
--<code>border-inline-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-color">
--<code>border-inline-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</li>
--</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
- </th>
--<td>no</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-width">
--<code>border-inline-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-style">
--<code>border-inline-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: as specified</li>
--</ul>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-color">
--<code>border-inline-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: computed color</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: computed color</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-width">
--<code>border-inline-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: by computed value type</li>
--</ul>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-style">
--<code>border-inline-style</code>
--</a>: discrete</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-color">
--<code>border-inline-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>see individual properties</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D330: 1 page(s)
-
-Pages: P435.
-
-```diff
---- main
-+++ PR 912
-@@ -4,19 +4,8 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/align-items">
--<code>align-items</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items">
--<code>justify-items</code>
--</a>: <code>legacy</code>
--</li>
--</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
- </tr>
- <tr>
-@@ -33,18 +22,7 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/align-items">
--<code>align-items</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items">
--<code>justify-items</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D331: 1 page(s)
 
 Pages: P291.
 
@@ -12801,7 +12626,7 @@ Pages: P291.
  <th scope="row">
 ```
 
-### D332: 1 page(s)
+### D330: 1 page(s)
 
 Pages: P294.
 
@@ -12852,7 +12677,7 @@ Pages: P294.
  <th scope="row">
 ```
 
-### D333: 1 page(s)
+### D331: 1 page(s)
 
 Pages: P312.
 
@@ -12937,7 +12762,7 @@ Pages: P312.
  </table>
 ```
 
-### D334: 1 page(s)
+### D332: 1 page(s)
 
 Pages: P315.
 
@@ -13022,7 +12847,7 @@ Pages: P315.
  </table>
 ```
 
-### D335: 1 page(s)
+### D333: 1 page(s)
 
 Pages: P475.
 
@@ -13073,7 +12898,7 @@ Pages: P475.
  <th scope="row">
 ```
 
-### D336: 1 page(s)
+### D334: 1 page(s)
 
 Pages: P479.
 
@@ -13124,7 +12949,7 @@ Pages: P479.
  <th scope="row">
 ```
 
-### D337: 1 page(s)
+### D335: 1 page(s)
 
 Pages: P487.
 
@@ -13193,7 +13018,7 @@ Pages: P487.
  </table>
 ```
 
-### D338: 1 page(s)
+### D336: 1 page(s)
 
 Pages: P491.
 
@@ -13262,14 +13087,65 @@ Pages: P491.
  </table>
 ```
 
-### D339: 1 page(s)
+### D337: 1 page(s)
+
+Pages: P435.
+
+```diff
+--- main
++++ PR 912
+@@ -4,20 +4,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/align-items">
+-<code>align-items</code>
+-</a>: <code>normal</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items">
+-<code>justify-items</code>
+-</a>: <code>legacy</code>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+@@ -33,18 +20,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/align-items">
+-<code>align-items</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items">
+-<code>justify-items</code>
+-</a>: as specified</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D338: 1 page(s)
 
 Pages: P576.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,19 +4,8 @@
+@@ -4,20 +4,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -13286,12 +13162,12 @@ Pages: P576.
 -</a>: <code>block</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
-@@ -27,41 +16,23 @@
+ <th scope="row">Applies to</th>
+@@ -27,41 +14,23 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
  </th>
@@ -13342,14 +13218,14 @@ Pages: P576.
  </table>
 ```
 
-### D340: 1 page(s)
+### D339: 1 page(s)
 
 Pages: P049.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,13 @@
+@@ -4,24 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -13366,9 +13242,8 @@ Pages: P049.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -13377,7 +13252,7 @@ Pages: P049.
  </tr>
  <tr>
  <th scope="row">
-@@ -33,39 +22,13 @@
+@@ -33,39 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -13421,7 +13296,163 @@ Pages: P049.
  </table>
 ```
 
+### D340: 1 page(s)
+
+Pages: P285.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,11 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap">
+-<code>row-gap</code>
+-</a>: <code>normal</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap">
+-<code>column-gap</code>
+-</a>: <code>normal</code>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>multi-column elements, flex containers, grid containers</td>
++<td>multi-column containers, flex containers, grid containers, and grid lanes containers</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,35 +20,17 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap">
+-<code>row-gap</code>
+-</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap">
+-<code>column-gap</code>
+-</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>refer to corresponding dimension of the content area</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap">
+-<code>row-gap</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap">
+-<code>column-gap</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
+-</ul>
+-</td>
++<td>by computed value type</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
 ### D341: 1 page(s)
+
+Pages: P501.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,11 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name">
+-<code>scroll-timeline-name</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis">
+-<code>scroll-timeline-axis</code>
+-</a>: <code>block</code>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>scroll containers</td>
++<td>all elements</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,35 +20,17 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name">
+-<code>scroll-timeline-name</code>
+-</a>: <code>none</code> or an ordered list of identifiers</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis">
+-<code>scroll-timeline-axis</code>
+-</a>: as specified</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name">
+-<code>scroll-timeline-name</code>
+-</a>: Not animatable</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis">
+-<code>scroll-timeline-axis</code>
+-</a>: Not animatable</li>
+-</ul>
+-</td>
++<td>not animatable</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D342: 1 page(s)
 
 Pages: P434.
 
@@ -13478,7 +13509,7 @@ Pages: P434.
  <th scope="row">
 ```
 
-### D342: 1 page(s)
+### D343: 1 page(s)
 
 Pages: P436.
 
@@ -13539,165 +13570,7 @@ Pages: P436.
  <th scope="row">
 ```
 
-### D343: 1 page(s)
-
-Pages: P285.
-
-```diff
---- main
-+++ PR 912
-@@ -4,24 +4,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap">
--<code>row-gap</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap">
--<code>column-gap</code>
--</a>: <code>normal</code>
--</li>
--</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>multi-column elements, flex containers, grid containers</td>
-+<td>multi-column containers, flex containers, grid containers, and grid lanes containers</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -33,35 +22,17 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap">
--<code>row-gap</code>
--</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap">
--<code>column-gap</code>
--</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--</ul>
--</td>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>refer to corresponding dimension of the content area</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap">
--<code>row-gap</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap">
--<code>column-gap</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--</ul>
--</td>
-+<td>by computed value type</td>
- </tr>
- </tbody>
- </table>
-```
-
 ### D344: 1 page(s)
-
-Pages: P501.
-
-```diff
---- main
-+++ PR 912
-@@ -4,24 +4,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name">
--<code>scroll-timeline-name</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis">
--<code>scroll-timeline-axis</code>
--</a>: <code>block</code>
--</li>
--</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>scroll containers</td>
-+<td>all elements</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -33,35 +22,17 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name">
--<code>scroll-timeline-name</code>
--</a>: <code>none</code> or an ordered list of identifiers</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis">
--<code>scroll-timeline-axis</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name">
--<code>scroll-timeline-name</code>
--</a>: Not animatable</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis">
--<code>scroll-timeline-axis</code>
--</a>: Not animatable</li>
--</ul>
--</td>
-+<td>not animatable</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D345: 1 page(s)
 
 Pages: P297.
 
@@ -13805,14 +13678,14 @@ Pages: P297.
  </table>
 ```
 
-### D346: 1 page(s)
+### D345: 1 page(s)
 
 Pages: P335.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,8 @@
+@@ -4,25 +4,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -13834,12 +13707,12 @@ Pages: P335.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
-@@ -32,49 +16,23 @@
+ <th scope="row">Applies to</th>
+@@ -32,49 +14,23 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
  </th>
@@ -13898,14 +13771,14 @@ Pages: P335.
  </table>
 ```
 
-### D347: 1 page(s)
+### D346: 1 page(s)
 
 Pages: P396.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,8 @@
+@@ -4,25 +4,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -13927,12 +13800,12 @@ Pages: P396.
 -</a>: <code>auto</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
-@@ -38,47 +22,13 @@
+ <th scope="row">Applies to</th>
+@@ -38,47 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -13984,14 +13857,14 @@ Pages: P396.
  </table>
 ```
 
-### D348: 1 page(s)
+### D347: 1 page(s)
 
 Pages: P096.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,256 +4,35 @@
+@@ -4,256 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -14079,9 +13952,8 @@ Pages: P096.
 -</ul>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -14260,14 +14132,14 @@ Pages: P096.
  </table>
 ```
 
-### D349: 1 page(s)
+### D348: 1 page(s)
 
 Pages: P099.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,29 +4,13 @@
+@@ -4,29 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -14289,9 +14161,8 @@ Pages: P099.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -14300,7 +14171,7 @@ Pages: P099.
  </tr>
  <tr>
  <th scope="row">
-@@ -38,45 +22,13 @@
+@@ -38,45 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -14341,6 +14212,95 @@ Pages: P099.
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-end-color">
 -<code>border-block-end-color</code>
+-</a>: by computed value type</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D349: 1 page(s)
+
+Pages: P103.
+
+```diff
+--- main
++++ PR 912
+@@ -4,29 +4,11 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width">
+-<code>border-block-start-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style">
+-<code>border-block-start-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color">
+-<code>border-block-start-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-</ul>
+-</td>
++<td>See individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>all elements except ruby base containers and ruby annotation containers</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,45 +20,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width">
+-<code>border-block-start-width</code>
+-</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style">
+-<code>border-block-start-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color">
+-<code>border-block-start-color</code>
+-</a>: computed color</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width">
+-<code>border-block-start-width</code>
+-</a>: by computed value type</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style">
+-<code>border-block-start-style</code>
+-</a>: discrete</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color">
+-<code>border-block-start-color</code>
 -</a>: by computed value type</li>
 -</ul>
 -</td>
@@ -14352,36 +14312,35 @@ Pages: P099.
 
 ### D350: 1 page(s)
 
-Pages: P103.
+Pages: P127.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,29 +4,13 @@
+@@ -4,29 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
 -</a>: <code>medium</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+-<code>border-inline-end-style</code>
 -</a>: <code>none</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+-<code>border-inline-end-color</code>
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -14390,25 +14349,25 @@ Pages: P103.
  </tr>
  <tr>
  <th scope="row">
-@@ -38,45 +22,13 @@
+@@ -38,45 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
 -</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>, snapped as a line width</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+-<code>border-inline-end-style</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+-<code>border-inline-end-color</code>
 -</a>: computed color</li>
 -</ul>
 -</td>
@@ -14421,16 +14380,16 @@ Pages: P103.
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
 -</a>: by computed value type</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+-<code>border-inline-end-style</code>
 -</a>: discrete</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+-<code>border-inline-end-color</code>
 -</a>: by computed value type</li>
 -</ul>
 -</td>
@@ -14442,36 +14401,35 @@ Pages: P103.
 
 ### D351: 1 page(s)
 
-Pages: P127.
+Pages: P131.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,29 +4,13 @@
+@@ -4,29 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+-<code>border-inline-start-width</code>
 -</a>: <code>medium</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+-<code>border-inline-start-style</code>
 -</a>: <code>none</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -14480,25 +14438,25 @@ Pages: P127.
  </tr>
  <tr>
  <th scope="row">
-@@ -38,45 +22,13 @@
+@@ -38,45 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+-<code>border-inline-start-width</code>
 -</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>, snapped as a line width</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+-<code>border-inline-start-style</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
 -</a>: computed color</li>
 -</ul>
 -</td>
@@ -14511,16 +14469,16 @@ Pages: P127.
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+-<code>border-inline-start-width</code>
 -</a>: by computed value type</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+-<code>border-inline-start-style</code>
 -</a>: discrete</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
 -</a>: by computed value type</li>
 -</ul>
 -</td>
@@ -14531,96 +14489,6 @@ Pages: P127.
 ```
 
 ### D352: 1 page(s)
-
-Pages: P131.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>all elements except ruby base containers and ruby annotation containers</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,45 +22,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: discrete</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>see individual properties</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D353: 1 page(s)
 
 Pages: P174.
 
@@ -14711,7 +14579,7 @@ Pages: P174.
  </table>
 ```
 
-### D354: 1 page(s)
+### D353: 1 page(s)
 
 Pages: P244.
 
@@ -14805,7 +14673,7 @@ Pages: P244.
  </table>
 ```
 
-### D355: 1 page(s)
+### D354: 1 page(s)
 
 Pages: P287.
 
@@ -14874,7 +14742,7 @@ Pages: P287.
  <th scope="row">
 ```
 
-### D356: 1 page(s)
+### D355: 1 page(s)
 
 Pages: P474.
 
@@ -14943,7 +14811,7 @@ Pages: P474.
  <th scope="row">
 ```
 
-### D357: 1 page(s)
+### D356: 1 page(s)
 
 Pages: P486.
 
@@ -14982,7 +14850,7 @@ Pages: P486.
  </td>
  </tr>
  <tr>
-@@ -40,33 +19,15 @@
+@@ -40,33 +19,14 @@
  <td>no</td>
  </tr>
  <tr>
@@ -15012,8 +14880,8 @@ Pages: P486.
 -<code>scroll-padding-top</code>
 -</a>: as specified</li>
 -</ul>
-+<td>per side, either the keyword auto or a computed <length-percentage> value</length-percentage>
- </td>
+-</td>
++<td>per side, either the keyword auto or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -15023,7 +14891,7 @@ Pages: P486.
  <th scope="row">
 ```
 
-### D358: 1 page(s)
+### D357: 1 page(s)
 
 Pages: P311.
 
@@ -15114,14 +14982,14 @@ Pages: P311.
  </table>
 ```
 
-### D359: 1 page(s)
+### D358: 1 page(s)
 
 Pages: P109.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -15143,9 +15011,8 @@ Pages: P109.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -15156,7 +15023,7 @@ Pages: P109.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -15198,6 +15065,99 @@ Pages: P109.
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-color">
 -<code>border-bottom-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D359: 1 page(s)
+
+Pages: P137.
+
+```diff
+--- main
++++ PR 912
+@@ -4,31 +4,11 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-color">
+-<code>border-left-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-</ul>
+-</td>
++<td>See individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>all elements except ruby base containers and ruby annotation containers</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,47 +20,13 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-color">
+-<code>border-left-color</code>
+-</a>: computed color</li>
+-</ul>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
+-</a>: discrete</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-color">
+-<code>border-left-color</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
 -</ul>
@@ -15210,36 +15170,35 @@ Pages: P109.
 
 ### D360: 1 page(s)
 
-Pages: P137.
+Pages: P142.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
 -</a>: <code>medium</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
 -</a>: <code>none</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-color">
+-<code>border-right-color</code>
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -15250,25 +15209,25 @@ Pages: P137.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
 -</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>, snapped as a line width</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-color">
+-<code>border-right-color</code>
 -</a>: computed color</li>
 -</ul>
 -</td>
@@ -15281,17 +15240,17 @@ Pages: P137.
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
 -</a>: discrete</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-color">
+-<code>border-right-color</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
 -</ul>
@@ -15304,36 +15263,35 @@ Pages: P137.
 
 ### D361: 1 page(s)
 
-Pages: P142.
+Pages: P151.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,13 @@
+@@ -4,31 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
 -</a>: <code>medium</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
 -</a>: <code>none</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-color">
+-<code>border-top-color</code>
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -15344,25 +15302,25 @@ Pages: P142.
  </tr>
  <tr>
  <th scope="row">
-@@ -40,47 +22,13 @@
+@@ -40,47 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
 -</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>, snapped as a line width</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-color">
+-<code>border-top-color</code>
 -</a>: computed color</li>
 -</ul>
 -</td>
@@ -15375,17 +15333,17 @@ Pages: P142.
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
 -</a>: discrete</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-color">
+-<code>border-top-color</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
 -</ul>
@@ -15398,113 +15356,17 @@ Pages: P142.
 
 ### D362: 1 page(s)
 
-Pages: P151.
-
-```diff
---- main
-+++ PR 912
-@@ -4,31 +4,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>all elements except ruby base containers and ruby annotation containers</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +22,13 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: the absolute <a href="/en-US/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: discrete</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>see individual properties</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D363: 1 page(s)
-
 Pages: P058.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,33 +4,35 @@
+@@ -4,33 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
 -<td>There is no practical initial value for it.</td>
-+<td>
-+<code>see individual properties</code>
-+</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -15544,14 +15406,14 @@ Pages: P058.
  </table>
 ```
 
-### D364: 1 page(s)
+### D363: 1 page(s)
 
 Pages: P387.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,34 +4,8 @@
+@@ -4,35 +4,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -15583,12 +15445,12 @@ Pages: P387.
 -</a>: <code>auto</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
-@@ -42,97 +16,23 @@
+ <th scope="row">Applies to</th>
+@@ -42,97 +14,23 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
  </th>
@@ -15695,7 +15557,7 @@ Pages: P387.
  </table>
 ```
 
-### D365: 1 page(s)
+### D364: 1 page(s)
 
 Pages: P221.
 
@@ -15796,6 +15658,61 @@ Pages: P221.
 -</a>: Animates as per <a href="https://drafts.csswg.org/css-borders/#superellipse-interpolation" class="external" target="_blank" title="External link (opens in new tab)">superellipse interpolation</a>.</li>
 -</ul>
 -</td>
++<td>see individual properties</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D365: 1 page(s)
+
+Pages: P063.
+
+```diff
+--- main
++++ PR 912
+@@ -4,36 +4,33 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>
+-<code>0s</code>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements, <a href="/en-US/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
+-</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
+ </th>
+-<td>no</td>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>see individual properties</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>see individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
+ </th>
+-<td>Not animatable</td>
 +<td>see individual properties</td>
  </tr>
  </tbody>
@@ -16005,7 +15922,7 @@ Pages: P119.
 ```diff
 --- main
 +++ PR 912
-@@ -4,43 +4,13 @@
+@@ -4,43 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16037,9 +15954,8 @@ Pages: P119.
 -</a>: <code>stretch</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16052,7 +15968,7 @@ Pages: P119.
  </tr>
  <tr>
  <th scope="row">
-@@ -49,77 +19,16 @@
+@@ -49,77 +17,16 @@
  <td>no</td>
  </tr>
  <tr>
@@ -16141,7 +16057,7 @@ Pages: P566.
 ```diff
 --- main
 +++ PR 912
-@@ -4,44 +4,13 @@
+@@ -4,44 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16173,9 +16089,8 @@ Pages: P566.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16189,7 +16104,7 @@ Pages: P566.
  </tr>
  <tr>
  <th scope="row">
-@@ -53,36 +22,13 @@
+@@ -53,36 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -16237,7 +16152,7 @@ Pages: P351.
 ```diff
 --- main
 +++ PR 912
-@@ -4,45 +4,13 @@
+@@ -4,45 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16259,9 +16174,8 @@ Pages: P351.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>not defined for shorthand properties</code>
- </td>
+-</td>
++<td>not defined for shorthand properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16286,7 +16200,7 @@ Pages: P351.
  </tr>
  <tr>
  <th scope="row">
-@@ -54,7 +22,7 @@
+@@ -54,7 +20,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -16304,7 +16218,7 @@ Pages: P356.
 ```diff
 --- main
 +++ PR 912
-@@ -4,46 +4,13 @@
+@@ -4,46 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16341,9 +16255,8 @@ Pages: P356.
 -</a>: <code>auto</code>
 -</li>
 -</ul>
-+<td>
-+<code>See individual properties</code>
- </td>
+-</td>
++<td>See individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16354,7 +16267,7 @@ Pages: P356.
  </tr>
  <tr>
  <th scope="row">
-@@ -52,92 +19,16 @@
+@@ -52,92 +17,16 @@
  <td>no</td>
  </tr>
  <tr>
@@ -16511,14 +16424,12 @@ Pages: P514.
  </tr>
  <tr>
  <th scope="row">
-@@ -58,44 +22,15 @@
+@@ -58,44 +22,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as each of the properties of the shorthand:</td>
-+<td>as specified, but with <color> values computed and <url> values made absolute</url>
-+</color>
-+</td>
++<td>as specified, but with &lt;color&gt; values computed and &lt;url&gt; values made absolute</td>
  </tr>
  <tr>
  <th scope="row">
@@ -16569,7 +16480,7 @@ Pages: P255.
 ```diff
 --- main
 +++ PR 912
-@@ -4,52 +4,13 @@
+@@ -4,52 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16610,9 +16521,8 @@ Pages: P255.
 -<code>font-family</code>
 -</a>: depends on user agent</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16625,7 +16535,7 @@ Pages: P255.
  </tr>
  <tr>
  <th scope="row">
-@@ -58,97 +19,20 @@
+@@ -58,97 +17,20 @@
  <td>yes</td>
  </tr>
  <tr>
@@ -16738,7 +16648,7 @@ Pages: P107.
 ```diff
 --- main
 +++ PR 912
-@@ -4,53 +4,35 @@
+@@ -4,53 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16755,9 +16665,8 @@ Pages: P107.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16811,7 +16720,7 @@ Pages: P135.
 ```diff
 --- main
 +++ PR 912
-@@ -4,53 +4,35 @@
+@@ -4,53 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16828,9 +16737,8 @@ Pages: P135.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -16884,7 +16792,7 @@ Pages: P061.
 ```diff
 --- main
 +++ PR 912
-@@ -4,54 +4,8 @@
+@@ -4,55 +4,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -16936,12 +16844,12 @@ Pages: P061.
 -</a>: <code>auto</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
-@@ -68,53 +22,13 @@
+ <th scope="row">Applies to</th>
+@@ -68,53 +20,13 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
@@ -17006,7 +16914,7 @@ Pages: P355.
 ```diff
 --- main
 +++ PR 912
-@@ -4,56 +4,13 @@
+@@ -4,56 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17053,9 +16961,8 @@ Pages: P355.
 -</a>: <code>add</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -17066,7 +16973,7 @@ Pages: P355.
  </tr>
  <tr>
  <th scope="row">
-@@ -62,106 +19,20 @@
+@@ -62,106 +17,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -17188,7 +17095,7 @@ Pages: P079.
 ```diff
 --- main
 +++ PR 912
-@@ -4,58 +4,13 @@
+@@ -4,58 +4,11 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17235,9 +17142,8 @@ Pages: P079.
 -</a>: <code>transparent</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -17250,7 +17156,7 @@ Pages: P079.
  </tr>
  <tr>
  <th scope="row">
-@@ -64,111 +19,20 @@
+@@ -64,111 +17,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -17586,7 +17492,7 @@ Pages: P340.
 ```diff
 --- main
 +++ PR 912
-@@ -4,63 +4,35 @@
+@@ -4,63 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17603,9 +17509,8 @@ Pages: P340.
 -</a>: <code>0</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -17669,7 +17574,7 @@ Pages: P344.
 ```diff
 --- main
 +++ PR 912
-@@ -4,63 +4,35 @@
+@@ -4,63 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17686,9 +17591,8 @@ Pages: P344.
 -</a>: <code>0</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -17752,7 +17656,7 @@ Pages: P098.
 ```diff
 --- main
 +++ PR 912
-@@ -4,64 +4,35 @@
+@@ -4,64 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17769,9 +17673,8 @@ Pages: P098.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -17836,7 +17739,7 @@ Pages: P126.
 ```diff
 --- main
 +++ PR 912
-@@ -4,64 +4,35 @@
+@@ -4,64 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17853,9 +17756,8 @@ Pages: P126.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -17920,7 +17822,7 @@ Pages: P247.
 ```diff
 --- main
 +++ PR 912
-@@ -4,64 +4,35 @@
+@@ -4,64 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -17937,9 +17839,8 @@ Pages: P247.
 -</a>: <code>nowrap</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18004,7 +17905,7 @@ Pages: P319.
 ```diff
 --- main
 +++ PR 912
-@@ -4,64 +4,35 @@
+@@ -4,64 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18021,9 +17922,8 @@ Pages: P319.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18088,7 +17988,7 @@ Pages: P416.
 ```diff
 --- main
 +++ PR 912
-@@ -4,65 +4,35 @@
+@@ -4,65 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18105,9 +18005,8 @@ Pages: P416.
 -</a>: <code>0</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18173,7 +18072,7 @@ Pages: P420.
 ```diff
 --- main
 +++ PR 912
-@@ -4,65 +4,35 @@
+@@ -4,65 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18190,9 +18089,8 @@ Pages: P420.
 -</a>: <code>0</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18258,7 +18156,7 @@ Pages: P540.
 ```diff
 --- main
 +++ PR 912
-@@ -4,65 +4,35 @@
+@@ -4,65 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18275,9 +18173,8 @@ Pages: P540.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18343,7 +18240,7 @@ Pages: P214.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18360,9 +18257,8 @@ Pages: P214.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18429,7 +18325,7 @@ Pages: P210.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18446,9 +18342,8 @@ Pages: P210.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18515,7 +18410,7 @@ Pages: P217.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18532,9 +18427,8 @@ Pages: P217.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18601,7 +18495,7 @@ Pages: P219.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18618,9 +18512,8 @@ Pages: P219.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18687,7 +18580,7 @@ Pages: P226.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18704,9 +18597,8 @@ Pages: P226.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18773,7 +18665,7 @@ Pages: P220.
 ```diff
 --- main
 +++ PR 912
-@@ -4,66 +4,35 @@
+@@ -4,66 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18790,9 +18682,8 @@ Pages: P220.
 -</a>: <code>round</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18859,7 +18750,7 @@ Pages: P070.
 ```diff
 --- main
 +++ PR 912
-@@ -4,68 +4,35 @@
+@@ -4,68 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18876,9 +18767,8 @@ Pages: P070.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -18947,7 +18837,7 @@ Pages: P108.
 ```diff
 --- main
 +++ PR 912
-@@ -4,68 +4,35 @@
+@@ -4,68 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -18964,9 +18854,8 @@ Pages: P108.
 -</a>: <code>medium</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19035,7 +18924,7 @@ Pages: P136.
 ```diff
 --- main
 +++ PR 912
-@@ -4,68 +4,35 @@
+@@ -4,68 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19052,9 +18941,8 @@ Pages: P136.
 -</a>: <code>medium</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19152,7 +19040,7 @@ Pages: P150.
 ```diff
 --- main
 +++ PR 912
-@@ -4,73 +4,35 @@
+@@ -4,73 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19179,9 +19067,8 @@ Pages: P150.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19245,7 +19132,7 @@ Pages: P203.
 ```diff
 --- main
 +++ PR 912
-@@ -4,79 +4,35 @@
+@@ -4,79 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19262,9 +19149,8 @@ Pages: P203.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19344,7 +19230,7 @@ Pages: P441.
 ```diff
 --- main
 +++ PR 912
-@@ -4,79 +4,35 @@
+@@ -4,79 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19361,9 +19247,8 @@ Pages: P441.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19443,7 +19328,7 @@ Pages: P205.
 ```diff
 --- main
 +++ PR 912
-@@ -4,80 +4,35 @@
+@@ -4,80 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19460,9 +19345,8 @@ Pages: P205.
 -</a>: <code>normal</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19543,7 +19427,7 @@ Pages: P188.
 ```diff
 --- main
 +++ PR 912
-@@ -4,81 +4,35 @@
+@@ -4,81 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19565,9 +19449,8 @@ Pages: P188.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19644,7 +19527,7 @@ Pages: P198.
 ```diff
 --- main
 +++ PR 912
-@@ -4,82 +4,35 @@
+@@ -4,82 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19666,9 +19549,8 @@ Pages: P198.
 -</a>: <code>auto</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19741,12 +19623,41 @@ Pages: P198.
 
 ### D405: 1 page(s)
 
+Pages: P536.
+
+```diff
+--- main
++++ PR 912
+@@ -4,9 +4,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
+ </th>
+-<td>
+-<code>objects</code>
+-</td>
++<td>See individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+@@ -22,7 +20,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>See individual properties</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D406: 1 page(s)
+
 Pages: P532.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,90 +4,35 @@
+@@ -4,90 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19768,9 +19679,8 @@ Pages: P532.
 -</a>: <code>none</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19849,14 +19759,14 @@ Pages: P532.
  </table>
 ```
 
-### D406: 1 page(s)
+### D407: 1 page(s)
 
 Pages: P116.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,96 +4,35 @@
+@@ -4,96 +4,33 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
  </th>
@@ -19883,9 +19793,8 @@ Pages: P116.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
-+<td>
-+<code>see individual properties</code>
- </td>
+-</td>
++<td>see individual properties</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -19965,7 +19874,7 @@ Pages: P116.
  </table>
 ```
 
-### D407: 1 page(s)
+### D408: 1 page(s)
 
 Pages: P524.
 
@@ -20002,7 +19911,7 @@ Pages: P524.
  <th scope="row">
 ```
 
-### D408: 1 page(s)
+### D409: 1 page(s)
 
 Pages: P444.
 
@@ -20026,7 +19935,7 @@ Pages: P444.
  <th scope="row">
 ```
 
-### D409: 1 page(s)
+### D410: 1 page(s)
 
 Pages: P410.
 
@@ -20070,7 +19979,7 @@ Pages: P410.
  <th scope="row">
 ```
 
-### D410: 1 page(s)
+### D411: 1 page(s)
 
 Pages: P542.
 
@@ -20103,7 +20012,7 @@ Pages: P542.
  <th scope="row">
 ```
 
-### D411: 1 page(s)
+### D412: 1 page(s)
 
 Pages: P147.
 
@@ -20137,7 +20046,7 @@ Pages: P147.
  </table>
 ```
 
-### D412: 1 page(s)
+### D413: 1 page(s)
 
 Pages: P092.
 
@@ -20163,7 +20072,7 @@ Pages: P092.
  </tr>
  <tr>
  <th scope="row">
-@@ -23,20 +19,21 @@
+@@ -23,20 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -20175,8 +20084,7 @@ Pages: P092.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
  </th>
 -<td>as specified, but with relative lengths converted into absolute lengths</td>
-+<td>list, each item a pair of sizes (one per axis) each represented as either a keyword or a computed <length-percentage> value</length-percentage>
-+</td>
++<td>list, each item a pair of sizes (one per axis) each represented as either a keyword or a computed &lt;length-percentage&gt; value</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -20193,7 +20101,7 @@ Pages: P092.
  </table>
 ```
 
-### D413: 1 page(s)
+### D414: 1 page(s)
 
 Pages: P181.
 
@@ -20230,7 +20138,7 @@ Pages: P181.
  <th scope="row">
 ```
 
-### D414: 1 page(s)
+### D415: 1 page(s)
 
 Pages: P268.
 
@@ -20267,7 +20175,7 @@ Pages: P268.
  <th scope="row">
 ```
 
-### D415: 1 page(s)
+### D416: 1 page(s)
 
 Pages: P267.
 
@@ -20304,7 +20212,7 @@ Pages: P267.
  <th scope="row">
 ```
 
-### D416: 1 page(s)
+### D417: 1 page(s)
 
 Pages: P379.
 
@@ -20331,7 +20239,7 @@ Pages: P379.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,25 +19,21 @@
+@@ -24,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -20347,8 +20255,8 @@ Pages: P379.
 -</a> and <a href="/en-US/docs/Web/CSS/Reference/Properties/min-height">
 -<code>min-height</code>
 -</a>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -20365,7 +20273,7 @@ Pages: P379.
  </table>
 ```
 
-### D417: 1 page(s)
+### D418: 1 page(s)
 
 Pages: P381.
 
@@ -20392,7 +20300,7 @@ Pages: P381.
  </tr>
  <tr>
  <th scope="row">
-@@ -24,25 +19,21 @@
+@@ -24,25 +19,20 @@
  <td>no</td>
  </tr>
  <tr>
@@ -20408,8 +20316,8 @@ Pages: P381.
 -</a> and <a href="/en-US/docs/Web/CSS/Reference/Properties/min-height">
 -<code>min-height</code>
 -</a>
-+<td>as specified, with <length-percentage> values computed</length-percentage>
- </td>
+-</td>
++<td>as specified, with &lt;length-percentage&gt; values computed</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -20426,7 +20334,7 @@ Pages: P381.
  </table>
 ```
 
-### D418: 1 page(s)
+### D419: 1 page(s)
 
 Pages: P065.
 
@@ -20471,7 +20379,7 @@ Pages: P065.
  </table>
 ```
 
-### D419: 1 page(s)
+### D420: 1 page(s)
 
 Pages: P254.
 
@@ -20511,60 +20419,6 @@ Pages: P254.
  </tr>
  <tr>
  <th scope="row">
-```
-
-### D420: 1 page(s)
-
-Pages: P063.
-
-```diff
---- main
-+++ PR 912
-@@ -5,35 +5,34 @@
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
- <td>
--<code>0s</code>
-+<code>see individual properties</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements, <a href="/en-US/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
--</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
--</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Inheritance">Inherited</a>
- </th>
--<td>no</td>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>see individual properties</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>see individual properties</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>see individual properties</td>
- </tr>
- </tbody>
- </table>
 ```
 
 ### D421: 1 page(s)
@@ -20671,33 +20525,6 @@ Pages: P511.
 
 ### D424: 1 page(s)
 
-Pages: P536.
-
-```diff
---- main
-+++ PR 912
-@@ -5,7 +5,7 @@
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Initial value</a>
- </th>
- <td>
--<code>objects</code>
-+<code>See individual properties</code>
- </td>
- </tr>
- <tr>
-@@ -22,7 +22,7 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
- </th>
--<td>as specified</td>
-+<td>See individual properties</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D425: 1 page(s)
-
 Pages: P551.
 
 ```diff
@@ -20740,6 +20567,37 @@ Pages: P551.
  </tr>
  </tbody>
  </table>
+```
+
+### D425: 1 page(s)
+
+Pages: P256.
+
+```diff
+--- main
++++ PR 912
+@@ -8,11 +8,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements and text. It also applies to <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line">
+-<code>::first-line</code>
+-</a>.</td>
++<td>all elements and text</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -24,7 +20,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Computed value</a>
+ </th>
+-<td>as specified</td>
++<td>list, each item a string and/or &lt;generic-font-family&gt; keywords</td>
+ </tr>
+ <tr>
+ <th scope="row">
 ```
 
 ## Macro diagnostic groups
