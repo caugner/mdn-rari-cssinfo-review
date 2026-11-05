@@ -47,9 +47,9 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 
 - Locale: zh-CN; German is excluded from the overall snapshot.
 - Comparison: rari main versus PR #912, including its dependency #911.
-- Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
+- Content snapshot date: 2026-11-05; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `e6308d07d4b08470ee0664fe68b174cf9c6d2bf4301387f4985967afa3b6b667` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `ee8c7115dd0497bfd3dfd60071a33e1bb7c0758714ab79f61a7d6ea3b991a136` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -60,21 +60,21 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 
 | Input | Commit |
 | --- | --- |
-| content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
-| rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
+| content | [5c76c9c822b4083750ff7fcabcd07422ad3a591b](https://github.com/mdn/content/commit/5c76c9c822b4083750ff7fcabcd07422ad3a591b) |
+| rari-main | [83854eb844e340d2abe8a8dc3067d8de5fbf134e](https://github.com/mdn/rari/commit/83854eb844e340d2abe8a8dc3067d8de5fbf134e) |
 | rari-pr | [1ba098b8e78d947e660627a85e6bb8f696db3ef4](https://github.com/mdn/rari/commit/1ba098b8e78d947e660627a85e6bb8f696db3ef4) |
-| translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
+| translated-content | [fd64e208d746f44034cef9530b6a939c13b86639](https://github.com/mdn/translated-content/commit/fd64e208d746f44034cef9530b6a939c13b86639) |
 
 ## Coverage
 
-- Pages: 367.
-- Pages with table HTML differences: 367.
-- Distinct complete table diffs: 272.
+- Pages: 370.
+- Pages with table HTML differences: 370.
+- Distinct complete table diffs: 274.
 - Distinct diagnostic messages: 34.
 
 | Page outcome | Count |
 | --- | ---: |
-| changed | 354 |
+| changed | 357 |
 | table-added | 0 |
 | table-removed | 13 |
 | missing-both | 0 |
@@ -87,379 +87,382 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 
 | ID | Page and evidence | Outcome | Tables | Diff | Main diagnostics | PR diagnostics |
 | --- | --- | --- | --- | --- | --- | --- |
-| P001 | [Web/CSS/Reference/At-rules/@counter-style/additive-symbols](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=83c0ce6d98ee142e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40counter-style/additive-symbols/index.md)) | changed | 1 → 1 | D049 | I014 x1 | - |
-| P002 | [Web/CSS/Reference/At-rules/@counter-style/pad](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b4ae00ab4f405f4d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40counter-style/pad/index.md)) | changed | 1 → 1 | D022 | I014 x1 | - |
-| P003 | [Web/CSS/Reference/At-rules/@counter-style/speak-as](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=cd49208e89b8fabb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40counter-style/speak-as/index.md)) | changed | 1 → 1 | D022 | I014 x1 | - |
-| P004 | [Web/CSS/Reference/At-rules/@font-face/font-display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3ec30673c0df7c20) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40font-face/font-display/index.md)) | changed | 1 → 1 | D052 | I015 x1 | - |
-| P005 | [Web/CSS/Reference/At-rules/@font-face/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=97bb11c8dd627723) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40font-face/font-family/index.md)) | changed | 1 → 1 | D023 | I015 x1 | - |
-| P006 | [Web/CSS/Reference/At-rules/@font-face/font-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b115c33cf0573690) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40font-face/font-style/index.md)) | changed | 1 → 1 | D050 | I015 x1 | - |
-| P007 | [Web/CSS/Reference/At-rules/@font-face/line-gap-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a928884de1bfa797) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40font-face/line-gap-override/index.md)) | changed | 1 → 1 | D051 | I015 x1 | - |
-| P008 | [Web/CSS/Reference/At-rules/@font-face/src](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=74daf56b9ed3405f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40font-face/src/index.md)) | changed | 1 → 1 | D023 | I015 x1 | - |
-| P009 | [Web/CSS/Reference/At-rules/@property/inherits](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6bd94f9a7f29ed53) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40property/inherits/index.md)) | changed | 1 → 1 | D053 | I016 x1 | - |
-| P010 | [Web/CSS/Reference/At-rules/@property/initial-value](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=652e095dc77f89ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40property/initial-value/index.md)) | changed | 1 → 1 | D055 | I016 x1 | - |
-| P011 | [Web/CSS/Reference/At-rules/@property/syntax](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=272887b43230adbd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/at-rules/%40property/syntax/index.md)) | changed | 1 → 1 | D054 | I016 x1 | - |
-| P012 | [Web/CSS/Reference/Properties/--*](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=81149997d96ad5ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/--_star_/index.md)) | table-removed | 1 → 0 | D040 | - | I001 x1 |
-| P013 | [Web/CSS/Reference/Properties/-moz-float-edge](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=04c03034ac411ae8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-moz-float-edge/index.md)) | table-removed | 1 → 0 | D044 | - | I002 x1 |
-| P014 | [Web/CSS/Reference/Properties/-moz-force-broken-image-icon](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=169b59b67a52e6b1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-moz-force-broken-image-icon/index.md)) | table-removed | 1 → 0 | D041 | - | I003 x1 |
-| P015 | [Web/CSS/Reference/Properties/-moz-orient](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=780eeadb6999b613) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-moz-orient/index.md)) | table-removed | 1 → 0 | D047 | - | I004 x1 |
-| P016 | [Web/CSS/Reference/Properties/-moz-user-focus](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5669e33c6c0dd4c2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-moz-user-focus/index.md)) | table-removed | 1 → 0 | D021 | - | I005 x1 |
-| P017 | [Web/CSS/Reference/Properties/-moz-user-input](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c7dd206713559658) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-moz-user-input/index.md)) | table-removed | 1 → 0 | D020 | - | I006 x1 |
-| P018 | [Web/CSS/Reference/Properties/-webkit-border-before](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=138a7cc02fdfc678) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-border-before/index.md)) | table-removed | 1 → 0 | D056 | - | I007 x1 |
-| P019 | [Web/CSS/Reference/Properties/-webkit-box-reflect](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b4b91772f72015e0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-box-reflect/index.md)) | table-removed | 1 → 0 | D021 | - | I008 x1 |
-| P020 | [Web/CSS/Reference/Properties/-webkit-tap-highlight-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=16e3c792411b2d38) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-tap-highlight-color/index.md)) | table-removed | 1 → 0 | D043 | - | I009 x1 |
-| P021 | [Web/CSS/Reference/Properties/-webkit-text-fill-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e0caa119f0bca00d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-text-fill-color/index.md)) | changed | 1 → 1 | D036 | - | - |
-| P022 | [Web/CSS/Reference/Properties/-webkit-text-stroke](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ae2baf9697ff9c8a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-text-stroke/index.md)) | changed | 1 → 1 | D219 | - | - |
-| P023 | [Web/CSS/Reference/Properties/-webkit-text-stroke-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef157ae4b5c9f1aa) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-text-stroke-color/index.md)) | changed | 1 → 1 | D036 | - | - |
-| P024 | [Web/CSS/Reference/Properties/-webkit-text-stroke-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=379fbcab2259083d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-text-stroke-width/index.md)) | changed | 1 → 1 | D189 | - | - |
-| P025 | [Web/CSS/Reference/Properties/-webkit-touch-callout](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9852e2e86561274e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/-webkit-touch-callout/index.md)) | table-removed | 1 → 0 | D045 | - | I010 x1 |
-| P026 | [Web/CSS/Reference/Properties/accent-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=652bee1d85df6f7a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/accent-color/index.md)) | changed | 1 → 1 | D187 | - | - |
-| P027 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2ea58a9a5bf6eba8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D060 | - | - |
-| P028 | [Web/CSS/Reference/Properties/align-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1914412dba433ccf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/align-items/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P029 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6ee5193e02febd6c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D211 | - | - |
-| P030 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7712f59d64fa492e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D212 | - | I017 x3, I018 x3 |
-| P031 | [Web/CSS/Reference/Properties/animation-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=36afbe4732114122) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-direction/index.md)) | changed | 1 → 1 | D017 | - | - |
-| P032 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c0732711a9c4d5fd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D266 | - | - |
-| P033 | [Web/CSS/Reference/Properties/animation-fill-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef2b5bbc6f4073d1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-fill-mode/index.md)) | changed | 1 → 1 | D017 | - | - |
-| P034 | [Web/CSS/Reference/Properties/animation-iteration-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d1079371134e52da) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-iteration-count/index.md)) | changed | 1 → 1 | D144 | - | - |
-| P035 | [Web/CSS/Reference/Properties/animation-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=438ee36760c286f3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-name/index.md)) | changed | 1 → 1 | D143 | - | - |
-| P036 | [Web/CSS/Reference/Properties/animation-play-state](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7abcaadbaaade937) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-play-state/index.md)) | changed | 1 → 1 | D017 | - | - |
-| P037 | [Web/CSS/Reference/Properties/animation-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5172fb3f671a1dda) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/animation-timing-function/index.md)) | changed | 1 → 1 | D142 | - | - |
-| P038 | [Web/CSS/Reference/Properties/appearance](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=974eef19a9339938) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/appearance/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P039 | [Web/CSS/Reference/Properties/aspect-ratio](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4ad3613091a69012) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/aspect-ratio/index.md)) | changed | 1 → 1 | D061 | - | - |
-| P040 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=82376ce56f9e1025) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D113 | - | - |
-| P041 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=878f355f5e2a001d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P042 | [Web/CSS/Reference/Properties/background-attachment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b6b7183cf08a80e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-attachment/index.md)) | changed | 1 → 1 | D126 | - | - |
-| P043 | [Web/CSS/Reference/Properties/background-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5876b4e7d1e63118) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-blend-mode/index.md)) | changed | 2 → 2 | D116 | - | - |
-| P044 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9daea2f3152c0847) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D124 | - | - |
-| P045 | [Web/CSS/Reference/Properties/background-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dabff47c20564f24) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-color/index.md)) | changed | 1 → 1 | D147 | - | - |
-| P046 | [Web/CSS/Reference/Properties/background-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=40aaf316b86c5bd2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-image/index.md)) | changed | 1 → 1 | D155 | - | - |
-| P047 | [Web/CSS/Reference/Properties/background-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b052bb03d2e038c7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-origin/index.md)) | changed | 1 → 1 | D125 | - | - |
-| P048 | [Web/CSS/Reference/Properties/background-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef336ee9acc4ed1c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-position/index.md)) | changed | 1 → 1 | D169 | - | - |
-| P049 | [Web/CSS/Reference/Properties/background-position-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=75c29f7ce5f67274) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-position-x/index.md)) | changed | 1 → 1 | D024 | - | - |
-| P050 | [Web/CSS/Reference/Properties/background-position-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5b5ffc60439fc569) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-position-y/index.md)) | changed | 1 → 1 | D024 | - | - |
-| P051 | [Web/CSS/Reference/Properties/background-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=05f92a76b70349cd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/background-size/index.md)) | changed | 2 → 2 | D267 | - | - |
-| P052 | [Web/CSS/Reference/Properties/block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1ee54da8ba5b3b71) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/block-size/index.md)) | changed | 1 → 1 | D167 | - | - |
-| P053 | [Web/CSS/Reference/Properties/border-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3cc9cab86ebe7e47) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block/index.md)) | changed | 1 → 1 | D199 | - | - |
-| P054 | [Web/CSS/Reference/Properties/border-block-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=09d2c8e71c739525) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-color/index.md)) | changed | 1 → 1 | D222 | - | - |
-| P055 | [Web/CSS/Reference/Properties/border-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f645500454a8040a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-end/index.md)) | changed | 1 → 1 | D221 | - | - |
-| P056 | [Web/CSS/Reference/Properties/border-block-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=da7b59207cebd083) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-end-color/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P057 | [Web/CSS/Reference/Properties/border-block-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b19b91b58546c9fa) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-end-style/index.md)) | changed | 1 → 1 | D015 | - | - |
-| P058 | [Web/CSS/Reference/Properties/border-block-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e7b190595ac70517) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-end-width/index.md)) | changed | 1 → 1 | D016 | - | - |
-| P059 | [Web/CSS/Reference/Properties/border-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f14d494aa2a60108) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-start/index.md)) | changed | 1 → 1 | D225 | - | - |
-| P060 | [Web/CSS/Reference/Properties/border-block-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=38b011fe0831776a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-start-color/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P061 | [Web/CSS/Reference/Properties/border-block-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c2f400ab1b5c2dc4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-start-style/index.md)) | changed | 1 → 1 | D015 | - | - |
-| P062 | [Web/CSS/Reference/Properties/border-block-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=189a46a981322d1a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-start-width/index.md)) | changed | 2 → 2 | D107 | - | - |
-| P063 | [Web/CSS/Reference/Properties/border-block-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=18b325ccf07b8a2c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-style/index.md)) | changed | 1 → 1 | D223 | - | - |
-| P064 | [Web/CSS/Reference/Properties/border-block-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=381b72d814adfd44) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-block-width/index.md)) | changed | 1 → 1 | D224 | - | - |
-| P065 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b4a068d9890e619c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P066 | [Web/CSS/Reference/Properties/border-bottom-left-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fc7ce792b35dbb67) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-bottom-left-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P067 | [Web/CSS/Reference/Properties/border-bottom-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e26e22839160bdee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-bottom-style/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P068 | [Web/CSS/Reference/Properties/border-bottom-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d9abf185193afaf6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-bottom-width/index.md)) | changed | 1 → 1 | D011 | - | - |
-| P069 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ca6207b2fc73220a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D234 | - | - |
-| P070 | [Web/CSS/Reference/Properties/border-end-end-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ccb43fd04698f0a2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-end-end-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P071 | [Web/CSS/Reference/Properties/border-end-start-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a3fcb940dc2dce79) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-end-start-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P072 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2c456e942eef35c7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D226 | - | - |
-| P073 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ae8ea534901cf4a9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D120 | - | - |
-| P074 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=28ddbe6fbd8987c5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D121 | - | - |
-| P075 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7debc71bedc113a4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D159 | - | - |
-| P076 | [Web/CSS/Reference/Properties/border-image-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3e73e4a9e157a102) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-image-source/index.md)) | changed | 1 → 1 | D145 | - | - |
-| P077 | [Web/CSS/Reference/Properties/border-image-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=191d20f2c9db5b4a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-image-width/index.md)) | changed | 1 → 1 | D160 | - | - |
-| P078 | [Web/CSS/Reference/Properties/border-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=31ed09cf7c0acaa0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline/index.md)) | changed | 1 → 1 | D200 | - | - |
-| P079 | [Web/CSS/Reference/Properties/border-inline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e210ea67b799d4a3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-color/index.md)) | changed | 1 → 1 | D228 | - | - |
-| P080 | [Web/CSS/Reference/Properties/border-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6c513b82aaffe022) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-end/index.md)) | changed | 1 → 1 | D227 | - | - |
-| P081 | [Web/CSS/Reference/Properties/border-inline-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6f21f52dd1f95c6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-end-color/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P082 | [Web/CSS/Reference/Properties/border-inline-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2eb604f4837956fc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-end-style/index.md)) | changed | 1 → 1 | D015 | - | - |
-| P083 | [Web/CSS/Reference/Properties/border-inline-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dea6cb9e62089b2b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-end-width/index.md)) | changed | 1 → 1 | D016 | - | - |
-| P084 | [Web/CSS/Reference/Properties/border-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3808caa7529d30fb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-start/index.md)) | changed | 1 → 1 | D231 | - | - |
-| P085 | [Web/CSS/Reference/Properties/border-inline-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=41a6a33236e621a0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-start-color/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P086 | [Web/CSS/Reference/Properties/border-inline-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=08ae388cef00ec1a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-start-style/index.md)) | changed | 2 → 2 | D085 | - | - |
-| P087 | [Web/CSS/Reference/Properties/border-inline-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6df1cbfc33e93789) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-start-width/index.md)) | changed | 1 → 1 | D016 | - | - |
-| P088 | [Web/CSS/Reference/Properties/border-inline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ebf65fe0511e0101) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-style/index.md)) | changed | 1 → 1 | D229 | - | - |
-| P089 | [Web/CSS/Reference/Properties/border-inline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dadbb30db5d5e6f5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-inline-width/index.md)) | changed | 1 → 1 | D230 | - | - |
-| P090 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=452954fc380dac5f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D232 | - | - |
-| P091 | [Web/CSS/Reference/Properties/border-left-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0caff8d8b7882128) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-left-color/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P092 | [Web/CSS/Reference/Properties/border-left-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bd43f3f4a1120c3d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-left-style/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P093 | [Web/CSS/Reference/Properties/border-left-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d96d3de34199d4c5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-left-width/index.md)) | changed | 1 → 1 | D011 | - | - |
-| P094 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a7640657d26de537) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D235 | - | - |
-| P095 | [Web/CSS/Reference/Properties/border-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9930299f3e349c34) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-right/index.md)) | changed | 1 → 1 | D233 | - | - |
-| P096 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=501b5dd4a248ca65) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P097 | [Web/CSS/Reference/Properties/border-right-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=16c078cd7e4edbba) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-right-style/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P098 | [Web/CSS/Reference/Properties/border-right-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=807dbcacbf01d1a6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-right-width/index.md)) | changed | 1 → 1 | D011 | - | - |
-| P099 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=758ae12e12533ef2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D260 | - | - |
-| P100 | [Web/CSS/Reference/Properties/border-start-end-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=03a9273b6445c73b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-start-end-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P101 | [Web/CSS/Reference/Properties/border-start-start-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=18be7e684f3b8912) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-start-start-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P102 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffdd9b9b988f7295) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D236 | - | - |
-| P103 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bd5fda53d267b029) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P104 | [Web/CSS/Reference/Properties/border-top-right-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2c660ba613169c5a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-top-right-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P105 | [Web/CSS/Reference/Properties/border-top-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9f50ebf21d371d01) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-top-style/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P106 | [Web/CSS/Reference/Properties/border-top-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ed4478aa5bc89acf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-top-width/index.md)) | changed | 1 → 1 | D011 | - | - |
-| P107 | [Web/CSS/Reference/Properties/border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3d7d396c89c4afc3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/border-width/index.md)) | changed | 1 → 1 | D237 | - | - |
-| P108 | [Web/CSS/Reference/Properties/bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=12089b890eceaf4b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/bottom/index.md)) | changed | 1 → 1 | D030 | - | - |
-| P109 | [Web/CSS/Reference/Properties/box-decoration-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0c1b15d1ded80584) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/box-decoration-break/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P110 | [Web/CSS/Reference/Properties/box-ordinal-group](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=21f2a13842523884) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/box-ordinal-group/index.md)) | table-removed | 1 → 0 | D042 | - | I011 x1 |
-| P111 | [Web/CSS/Reference/Properties/box-orient](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=760a11e5260f00e6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/box-orient/index.md)) | table-removed | 1 → 0 | D046 | - | I012 x1 |
-| P112 | [Web/CSS/Reference/Properties/box-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=39be3d46ab96deb6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/box-shadow/index.md)) | changed | 1 → 1 | D109 | - | I020 x2, I021 x2, I022 x2, I023 x2, I024 x2 |
-| P113 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ae0b17e448a17721) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D064 | - | - |
-| P114 | [Web/CSS/Reference/Properties/break-after](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a415e0b29fd9b698) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/break-after/index.md)) | changed | 1 → 1 | D069 | - | - |
-| P115 | [Web/CSS/Reference/Properties/break-inside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fa92f2e7cf23c95b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/break-inside/index.md)) | changed | 2 → 2 | D070 | - | - |
-| P116 | [Web/CSS/Reference/Properties/caption-side](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d5711b721c87f271) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/caption-side/index.md)) | changed | 1 → 1 | D090 | - | - |
-| P117 | [Web/CSS/Reference/Properties/caret-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=156f95035224ac7c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/caret-color/index.md)) | changed | 1 → 1 | D119 | - | - |
-| P118 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5fcc4019e812fe82) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D108 | - | - |
-| P119 | [Web/CSS/Reference/Properties/clip-path](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=63b9dc21f6f21cc7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/clip-path/index.md)) | changed | 1 → 1 | D162 | - | - |
-| P120 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2f1c17b1ab7b6b8b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D263 | - | - |
-| P121 | [Web/CSS/Reference/Properties/color-scheme](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=acf94c249e77b24f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/color-scheme/index.md)) | changed | 1 → 1 | D179 | - | - |
-| P122 | [Web/CSS/Reference/Properties/column-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=991ce442451f73b6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-count/index.md)) | changed | 1 → 1 | D094 | - | - |
-| P123 | [Web/CSS/Reference/Properties/column-fill](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=507da84dee6432df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-fill/index.md)) | changed | 1 → 1 | D074 | - | - |
-| P124 | [Web/CSS/Reference/Properties/column-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=57213fb95d5531eb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-gap/index.md)) | changed | 1 → 1 | D028 | - | - |
-| P125 | [Web/CSS/Reference/Properties/column-rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=45cfe1ca1be6c254) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-rule/index.md)) | changed | 1 → 1 | D238 | - | - |
-| P126 | [Web/CSS/Reference/Properties/column-rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=908d362279b4c279) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-rule-color/index.md)) | changed | 1 → 1 | D098 | - | - |
-| P127 | [Web/CSS/Reference/Properties/column-rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=29828987a6b06dab) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-rule-style/index.md)) | changed | 1 → 1 | D073 | - | - |
-| P128 | [Web/CSS/Reference/Properties/column-rule-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a2ac1559eeed8ccf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-rule-width/index.md)) | changed | 1 → 1 | D114 | - | - |
-| P129 | [Web/CSS/Reference/Properties/column-span](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ecfdef026ba905c5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-span/index.md)) | changed | 1 → 1 | D071 | - | - |
-| P130 | [Web/CSS/Reference/Properties/column-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5dc4c46871d37f4b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/column-width/index.md)) | changed | 1 → 1 | D111 | - | - |
-| P131 | [Web/CSS/Reference/Properties/columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aed925dc5bc58260) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/columns/index.md)) | changed | 1 → 1 | D239 | - | - |
-| P132 | [Web/CSS/Reference/Properties/contain](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6e0a489eea3b8d05) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/contain/index.md)) | changed | 1 → 1 | D084 | - | - |
-| P133 | [Web/CSS/Reference/Properties/contain-intrinsic-block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6a427222e7ca654) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/contain-intrinsic-block-size/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P134 | [Web/CSS/Reference/Properties/contain-intrinsic-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d5dd41fc9e91c230) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/contain-intrinsic-height/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P135 | [Web/CSS/Reference/Properties/contain-intrinsic-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c4f224235ad184bd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/contain-intrinsic-inline-size/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P136 | [Web/CSS/Reference/Properties/contain-intrinsic-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=60c500a871a9ff63) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/contain-intrinsic-size/index.md)) | changed | 1 → 1 | D240 | - | - |
-| P137 | [Web/CSS/Reference/Properties/contain-intrinsic-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=71a2182719aca350) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/contain-intrinsic-width/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P138 | [Web/CSS/Reference/Properties/content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=55b0e39a0d09c6d7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/content/index.md)) | changed | 1 → 1 | D115 | - | - |
-| P139 | [Web/CSS/Reference/Properties/content-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8d4d1f81bf475eb1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/content-visibility/index.md)) | changed | 1 → 1 | D079 | - | - |
-| P140 | [Web/CSS/Reference/Properties/corner-block-end-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6268fa0f83ead891) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/corner-block-end-shape/index.md)) | changed | 1 → 1 | D203 | - | - |
-| P141 | [Web/CSS/Reference/Properties/corner-top-right-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f38e8bf0a45886c3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/corner-top-right-shape/index.md)) | changed | 1 → 1 | D106 | - | - |
-| P142 | [Web/CSS/Reference/Properties/counter-increment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a0ed2452e5fbde3f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/counter-increment/index.md)) | changed | 1 → 1 | D035 | - | - |
-| P143 | [Web/CSS/Reference/Properties/counter-reset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d0ea964fb82edaf1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/counter-reset/index.md)) | changed | 1 → 1 | D172 | - | - |
-| P144 | [Web/CSS/Reference/Properties/counter-set](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6be9eb8e3bff61e5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/counter-set/index.md)) | changed | 1 → 1 | D035 | - | - |
-| P145 | [Web/CSS/Reference/Properties/direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=276f0badf4c53f10) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/direction/index.md)) | changed | 1 → 1 | D183 | - | - |
-| P146 | [Web/CSS/Reference/Properties/display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=72005973d7780d2f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/display/index.md)) | changed | 1 → 1 | D177 | - | - |
-| P147 | [Web/CSS/Reference/Properties/empty-cells](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=870a2efa1a753c93) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/empty-cells/index.md)) | changed | 1 → 1 | D089 | - | - |
-| P148 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=50c580752fc15972) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D112 | - | - |
-| P149 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4bbd3d2d858c95e7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex/index.md)) | changed | 2 → 2 | D216 | - | - |
-| P150 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d179352b6aa1ce07) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D134 | - | - |
-| P151 | [Web/CSS/Reference/Properties/flex-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e008b14eb49a8fd0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex-direction/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P152 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=70afcc8aca777f3e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D241 | - | - |
-| P153 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5ba5fabb76517124) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D097 | - | - |
-| P154 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=09d7b2712784acc2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D096 | - | - |
-| P155 | [Web/CSS/Reference/Properties/flex-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=268e91b2b0c4148d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/flex-wrap/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P156 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=657fa3bd1346e207) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D101 | - | - |
-| P157 | [Web/CSS/Reference/Properties/font](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ea57177b87a219ce) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font/index.md)) | changed | 1 → 1 | D242 | - | - |
-| P158 | [Web/CSS/Reference/Properties/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c8a555ac55371e4d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-family/index.md)) | changed | 1 → 1 | D210 | - | - |
-| P159 | [Web/CSS/Reference/Properties/font-feature-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b2423f6e86f8b2ba) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-feature-settings/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P160 | [Web/CSS/Reference/Properties/font-kerning](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b23ba8eacc56200b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-kerning/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P161 | [Web/CSS/Reference/Properties/font-language-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2a339558c2b8034a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-language-override/index.md)) | changed | 1 → 1 | D130 | - | - |
-| P162 | [Web/CSS/Reference/Properties/font-palette](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffdd07d91a9ef4ff) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-palette/index.md)) | changed | 1 → 1 | D129 | - | - |
-| P163 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=903e808d3b9fd02e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D164 | - | - |
-| P164 | [Web/CSS/Reference/Properties/font-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=66360734d38ca503) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-size-adjust/index.md)) | changed | 1 → 1 | D150 | - | - |
-| P165 | [Web/CSS/Reference/Properties/font-smooth](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b2da86f90f000f74) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-smooth/index.md)) | table-removed | 1 → 0 | D020 | - | I013 x1 |
-| P166 | [Web/CSS/Reference/Properties/font-stretch](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=21ae467ddd4bb116) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-stretch/index.md)) | changed | 1 → 1 | D048 | - | - |
-| P167 | [Web/CSS/Reference/Properties/font-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5681e799d728f4db) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-style/index.md)) | changed | 1 → 1 | D151 | - | - |
-| P168 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=28a97d668f055afe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D264 | - | - |
-| P169 | [Web/CSS/Reference/Properties/font-variant](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a528133d42efbbf3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variant/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P170 | [Web/CSS/Reference/Properties/font-variant-alternates](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f0b5a950c4730e32) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variant-alternates/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P171 | [Web/CSS/Reference/Properties/font-variant-caps](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e27c40abdf77cd83) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variant-caps/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P172 | [Web/CSS/Reference/Properties/font-variant-ligatures](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ab6440ef84bd84b3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variant-ligatures/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P173 | [Web/CSS/Reference/Properties/font-variant-numeric](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=34b7acc50cdd980d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variant-numeric/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P174 | [Web/CSS/Reference/Properties/font-variant-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d3485ef7eae2db1e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variant-position/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P175 | [Web/CSS/Reference/Properties/font-variation-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8a62b9a7e83da3fa) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-variation-settings/index.md)) | changed | 1 → 1 | D128 | - | - |
-| P176 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef456b61f78e1ac9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D131 | - | - |
-| P177 | [Web/CSS/Reference/Properties/forced-color-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a33e99f2538fca6f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/forced-color-adjust/index.md)) | changed | 1 → 1 | D180 | - | - |
-| P178 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=14cb5da7274a2488) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D250 | - | - |
-| P179 | [Web/CSS/Reference/Properties/grid-auto-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ed5a4b7a3e34e34b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-auto-columns/index.md)) | changed | 1 → 1 | D037 | - | - |
-| P180 | [Web/CSS/Reference/Properties/grid-auto-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9b5adf79a7d8b6d2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-auto-flow/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P181 | [Web/CSS/Reference/Properties/grid-auto-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fe425f4c855b03c1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-auto-rows/index.md)) | changed | 1 → 1 | D037 | - | - |
-| P182 | [Web/CSS/Reference/Properties/grid-column](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4c3e573971a3329d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-column/index.md)) | changed | 1 → 1 | D213 | - | - |
-| P183 | [Web/CSS/Reference/Properties/grid-row](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4ba586b90ac36d14) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-row/index.md)) | changed | 1 → 1 | D214 | - | - |
-| P184 | [Web/CSS/Reference/Properties/grid-template](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=61457d4e170caac9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-template/index.md)) | changed | 1 → 1 | D207 | - | - |
-| P185 | [Web/CSS/Reference/Properties/grid-template-areas](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=51a7fefe082f45ff) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-template-areas/index.md)) | changed | 1 → 1 | D173 | - | - |
-| P186 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=da09fc23fa24087a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D038 | - | - |
-| P187 | [Web/CSS/Reference/Properties/grid-template-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e95f0d9ccb2b98dc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/grid-template-rows/index.md)) | changed | 1 → 1 | D038 | - | - |
-| P188 | [Web/CSS/Reference/Properties/hanging-punctuation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8a508b9e29092bd7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/hanging-punctuation/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P189 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ba64339fb81352dc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D138 | - | - |
-| P190 | [Web/CSS/Reference/Properties/hyphens](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aa684f4d3172d02a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/hyphens/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P191 | [Web/CSS/Reference/Properties/image-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=720ecb5a4660fa50) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/image-orientation/index.md)) | changed | 2 → 2 | D188 | - | - |
-| P192 | [Web/CSS/Reference/Properties/image-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6134af615faa21fe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/image-rendering/index.md)) | changed | 1 → 1 | D019 | - | - |
-| P193 | [Web/CSS/Reference/Properties/initial-letter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=cba4fc3d9a6bcf8d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/initial-letter/index.md)) | changed | 1 → 1 | D110 | - | - |
-| P194 | [Web/CSS/Reference/Properties/inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f32935fe833451d1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inline-size/index.md)) | changed | 1 → 1 | D168 | - | - |
-| P195 | [Web/CSS/Reference/Properties/inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=292e371d10f57262) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset/index.md)) | changed | 1 → 1 | D256 | - | - |
-| P196 | [Web/CSS/Reference/Properties/inset-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bed1f4a5120f3a0c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset-block/index.md)) | changed | 1 → 1 | D253 | - | - |
-| P197 | [Web/CSS/Reference/Properties/inset-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=81e9a23586a6c300) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset-block-end/index.md)) | changed | 1 → 1 | D032 | - | - |
-| P198 | [Web/CSS/Reference/Properties/inset-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7b186a444004f5bf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset-block-start/index.md)) | changed | 1 → 1 | D032 | - | - |
-| P199 | [Web/CSS/Reference/Properties/inset-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fa44501546625182) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset-inline/index.md)) | changed | 1 → 1 | D254 | - | - |
-| P200 | [Web/CSS/Reference/Properties/inset-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=20809c6806c94f97) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset-inline-end/index.md)) | changed | 1 → 1 | D033 | - | - |
-| P201 | [Web/CSS/Reference/Properties/inset-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2559bf265d679bc0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/inset-inline-start/index.md)) | changed | 1 → 1 | D033 | - | - |
-| P202 | [Web/CSS/Reference/Properties/isolation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0f16aecb92a77d02) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/isolation/index.md)) | changed | 1 → 1 | D059 | - | - |
-| P203 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1b86dbc773fcbd8a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D080 | - | - |
-| P204 | [Web/CSS/Reference/Properties/justify-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f6bf4b30319df64c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/justify-items/index.md)) | changed | 1 → 1 | D176 | - | - |
-| P205 | [Web/CSS/Reference/Properties/justify-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=809b6519b7602bb6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/justify-self/index.md)) | changed | 1 → 1 | D067 | - | - |
-| P206 | [Web/CSS/Reference/Properties/left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0b30fe2cbd195cd1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/left/index.md)) | changed | 1 → 1 | D031 | - | - |
-| P207 | [Web/CSS/Reference/Properties/letter-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6eb0059eaafaebfb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/letter-spacing/index.md)) | changed | 1 → 1 | D156 | - | - |
-| P208 | [Web/CSS/Reference/Properties/line-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b5bf73ca984581d4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/line-break/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P209 | [Web/CSS/Reference/Properties/line-clamp](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e51a6a4e42a313c6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/line-clamp/index.md)) | changed | 1 → 1 | D093 | - | I019 x4, I025 x4, I026 x4 |
-| P210 | [Web/CSS/Reference/Properties/line-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5a12c0d6a33bef04) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/line-height/index.md)) | changed | 1 → 1 | D161 | - | - |
-| P211 | [Web/CSS/Reference/Properties/list-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3084612e1da2140b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/list-style/index.md)) | changed | 1 → 1 | D243 | - | - |
-| P212 | [Web/CSS/Reference/Properties/list-style-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=204ba466ff094d6f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/list-style-image/index.md)) | changed | 1 → 1 | D178 | - | - |
-| P213 | [Web/CSS/Reference/Properties/list-style-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a646843c5a19b2d2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/list-style-position/index.md)) | changed | 1 → 1 | D182 | - | - |
-| P214 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=32d6c6b36f70d95c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D258 | - | - |
-| P215 | [Web/CSS/Reference/Properties/margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7006d69f07780a0f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-block/index.md)) | changed | 1 → 1 | D244 | - | - |
-| P216 | [Web/CSS/Reference/Properties/margin-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=99e151d67d74efff) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-block-end/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P217 | [Web/CSS/Reference/Properties/margin-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fdec9e99e11664df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-block-start/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P218 | [Web/CSS/Reference/Properties/margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a862dbeaf9ecf5c2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-bottom/index.md)) | changed | 1 → 1 | D018 | - | - |
-| P219 | [Web/CSS/Reference/Properties/margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d745eebe8064f32e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-inline/index.md)) | changed | 1 → 1 | D245 | - | - |
-| P220 | [Web/CSS/Reference/Properties/margin-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=17051de569913b03) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-inline-end/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P221 | [Web/CSS/Reference/Properties/margin-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3842c43bd418fdfd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-inline-start/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P222 | [Web/CSS/Reference/Properties/margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5216c454a09ead72) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-left/index.md)) | changed | 1 → 1 | D018 | - | - |
-| P223 | [Web/CSS/Reference/Properties/margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=94358880dc8c5aa0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/margin-right/index.md)) | changed | 1 → 1 | D018 | - | - |
-| P224 | [Web/CSS/Reference/Properties/marker-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=749baed843a9ea10) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/marker-end/index.md)) | changed | 1 → 1 | D034 | - | - |
-| P225 | [Web/CSS/Reference/Properties/marker-mid](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6ff5e0459050403) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/marker-mid/index.md)) | changed | 1 → 1 | D034 | - | - |
-| P226 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=586cf644aec5f6c1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D246 | - | - |
-| P227 | [Web/CSS/Reference/Properties/mask-border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e9d71fb1851d6cd0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-border/index.md)) | changed | 1 → 1 | D204 | - | - |
-| P228 | [Web/CSS/Reference/Properties/mask-border-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=233c91e7eaa0946e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-border-mode/index.md)) | changed | 1 → 1 | D027 | - | - |
-| P229 | [Web/CSS/Reference/Properties/mask-border-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c77cd5d66699a787) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-border-repeat/index.md)) | changed | 1 → 1 | D027 | - | - |
-| P230 | [Web/CSS/Reference/Properties/mask-border-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0c830e43d7c6bc22) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-border-slice/index.md)) | changed | 1 → 1 | D057 | - | - |
-| P231 | [Web/CSS/Reference/Properties/mask-border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c2e03e494441c93f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-border-width/index.md)) | changed | 1 → 1 | D058 | - | - |
-| P232 | [Web/CSS/Reference/Properties/mask-composite](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3de98314430cad94) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-composite/index.md)) | changed | 1 → 1 | D102 | - | - |
-| P233 | [Web/CSS/Reference/Properties/mask-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=600b545b42917f59) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-image/index.md)) | changed | 1 → 1 | D122 | - | - |
-| P234 | [Web/CSS/Reference/Properties/mask-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ee7a7b1fa966fc49) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-mode/index.md)) | changed | 1 → 1 | D104 | - | - |
-| P235 | [Web/CSS/Reference/Properties/mask-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a118b7c0f73690f6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mask-repeat/index.md)) | changed | 1 → 1 | D103 | - | - |
-| P236 | [Web/CSS/Reference/Properties/max-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffe98d3232a835b3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/max-height/index.md)) | changed | 1 → 1 | D153 | - | - |
-| P237 | [Web/CSS/Reference/Properties/max-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3d00f7f6dbfab550) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/max-inline-size/index.md)) | changed | 1 → 1 | D166 | - | - |
-| P238 | [Web/CSS/Reference/Properties/max-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=033fcca9457db889) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/max-width/index.md)) | changed | 1 → 1 | D152 | - | - |
-| P239 | [Web/CSS/Reference/Properties/min-block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=48db52ef0c9576ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/min-block-size/index.md)) | changed | 1 → 1 | D268 | - | - |
-| P240 | [Web/CSS/Reference/Properties/min-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=988910ff4ae335a9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/min-height/index.md)) | changed | 1 → 1 | D137 | - | - |
-| P241 | [Web/CSS/Reference/Properties/min-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5c7d98c5640170d9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/min-inline-size/index.md)) | changed | 1 → 1 | D269 | - | - |
-| P242 | [Web/CSS/Reference/Properties/min-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9f16258c0d72b68c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/min-width/index.md)) | changed | 1 → 1 | D132 | - | - |
-| P243 | [Web/CSS/Reference/Properties/mix-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=922cc7c42b0f5005) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/mix-blend-mode/index.md)) | changed | 1 → 1 | D148 | - | - |
-| P244 | [Web/CSS/Reference/Properties/object-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c6813e1e1871eeb2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/object-fit/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P245 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=afd57e85825647b9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D198 | - | - |
-| P246 | [Web/CSS/Reference/Properties/offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2584ba834a169419) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/offset/index.md)) | changed | 1 → 1 | D209 | - | - |
-| P247 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fbb997f1a07106be) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D195 | - | - |
-| P248 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bf40a48b253a9b69) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D095 | - | - |
-| P249 | [Web/CSS/Reference/Properties/orphans](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0636190d3bc2e23f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/orphans/index.md)) | changed | 1 → 1 | D026 | - | - |
-| P250 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5875e3bbd5861af9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D247 | - | - |
-| P251 | [Web/CSS/Reference/Properties/outline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a73c8bb904a3908e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/outline-color/index.md)) | changed | 1 → 1 | D184 | - | - |
-| P252 | [Web/CSS/Reference/Properties/outline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1da4a744575da3dc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/outline-offset/index.md)) | changed | 1 → 1 | D186 | - | - |
-| P253 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ca52ed270dd066f1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D175 | - | - |
-| P254 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=60539ac663f9b108) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D185 | - | - |
-| P255 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e265faa47ef17513) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D163 | - | - |
-| P256 | [Web/CSS/Reference/Properties/overflow-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f68b94e5d4b89fce) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow-anchor/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P257 | [Web/CSS/Reference/Properties/overflow-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9da875f04d1b33ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow-block/index.md)) | changed | 1 → 1 | D039 | - | - |
-| P258 | [Web/CSS/Reference/Properties/overflow-clip-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d72627db44aeb5a8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow-clip-margin/index.md)) | changed | 1 → 1 | D092 | - | I027 x2, I028 x2, I029 x2, I030 x2 |
-| P259 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f2ee643c3e054f15) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D039 | - | - |
-| P260 | [Web/CSS/Reference/Properties/overflow-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d8502da24d66274c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow-x/index.md)) | changed | 1 → 1 | D117 | - | - |
-| P261 | [Web/CSS/Reference/Properties/overflow-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=afa63b2231ce8da0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overflow-y/index.md)) | changed | 1 → 1 | D118 | - | - |
-| P262 | [Web/CSS/Reference/Properties/overscroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=71fb0f3ac738d3f0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overscroll-behavior/index.md)) | changed | 1 → 1 | D262 | - | - |
-| P263 | [Web/CSS/Reference/Properties/overscroll-behavior-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=69623af69620acf9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overscroll-behavior-x/index.md)) | changed | 1 → 1 | D025 | - | - |
-| P264 | [Web/CSS/Reference/Properties/overscroll-behavior-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=16a81d12ee5c3eb4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/overscroll-behavior-y/index.md)) | changed | 1 → 1 | D025 | - | - |
-| P265 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2724f4204d9bbdb0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D259 | - | - |
-| P266 | [Web/CSS/Reference/Properties/padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1dee953a36906857) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-block/index.md)) | changed | 1 → 1 | D248 | - | - |
-| P267 | [Web/CSS/Reference/Properties/padding-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5bfe1b9db59af266) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-block-end/index.md)) | changed | 1 → 1 | D012 | - | - |
-| P268 | [Web/CSS/Reference/Properties/padding-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c55e55a2160f5fc1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-block-start/index.md)) | changed | 1 → 1 | D012 | - | - |
-| P269 | [Web/CSS/Reference/Properties/padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d5ec25d49a791144) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-bottom/index.md)) | changed | 1 → 1 | D013 | - | - |
-| P270 | [Web/CSS/Reference/Properties/padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fef81619da49e32d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-inline/index.md)) | changed | 1 → 1 | D249 | - | - |
-| P271 | [Web/CSS/Reference/Properties/padding-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4068e4e406d4757b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-inline-end/index.md)) | changed | 1 → 1 | D012 | - | - |
-| P272 | [Web/CSS/Reference/Properties/padding-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bdc45e5b796dd1d7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-inline-start/index.md)) | changed | 1 → 1 | D012 | - | - |
-| P273 | [Web/CSS/Reference/Properties/padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5a02119feb2c1321) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-left/index.md)) | changed | 1 → 1 | D013 | - | - |
-| P274 | [Web/CSS/Reference/Properties/padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2b87da3a48cf3cfb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-right/index.md)) | changed | 1 → 1 | D013 | - | - |
-| P275 | [Web/CSS/Reference/Properties/padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6c677e4bac727c14) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/padding-top/index.md)) | changed | 1 → 1 | D013 | - | - |
-| P276 | [Web/CSS/Reference/Properties/page-break-after](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ccc8379419a01ae7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/page-break-after/index.md)) | changed | 1 → 1 | D068 | - | - |
-| P277 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0bc1950b62e121e3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D088 | - | - |
-| P278 | [Web/CSS/Reference/Properties/perspective](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ee59ab8fa7053096) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/perspective/index.md)) | changed | 1 → 1 | D194 | - | - |
-| P279 | [Web/CSS/Reference/Properties/perspective-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8a71de007619c58d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/perspective-origin/index.md)) | changed | 1 → 1 | D193 | - | - |
-| P280 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f9c046d0bc88ac2c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D215 | - | - |
-| P281 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aba5ae1ff2736b29) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D220 | - | - |
-| P282 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2e69be84c90a5f8e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D082 | - | - |
-| P283 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=92c6746c3cfd10b1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D149 | - | - |
-| P284 | [Web/CSS/Reference/Properties/print-color-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a14982ec8610871c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/print-color-adjust/index.md)) | changed | 1 → 1 | D019 | - | - |
-| P285 | [Web/CSS/Reference/Properties/quotes](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bc535fca7ec2cb1c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/quotes/index.md)) | changed | 1 → 1 | D252 | - | - |
-| P286 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8387a0b563b4844a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D105 | - | - |
-| P287 | [Web/CSS/Reference/Properties/right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bd02412c394c6521) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/right/index.md)) | changed | 1 → 1 | D031 | - | - |
-| P288 | [Web/CSS/Reference/Properties/rotate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d7bcc9cf24118f64) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/rotate/index.md)) | changed | 1 → 1 | D190 | - | - |
-| P289 | [Web/CSS/Reference/Properties/row-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b9d95b757066de96) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/row-gap/index.md)) | changed | 1 → 1 | D028 | - | - |
-| P290 | [Web/CSS/Reference/Properties/scale](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aea12bcf26ce1534) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scale/index.md)) | changed | 1 → 1 | D191 | - | - |
-| P291 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=99125d21dbc8d116) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D075 | - | - |
-| P292 | [Web/CSS/Reference/Properties/scroll-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=070aa9f7922195a0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin/index.md)) | changed | 1 → 1 | D208 | - | - |
-| P293 | [Web/CSS/Reference/Properties/scroll-margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=60dcc127904161d9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-block/index.md)) | changed | 1 → 1 | D205 | - | - |
-| P294 | [Web/CSS/Reference/Properties/scroll-margin-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c99d79959b054ce7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-block-end/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P295 | [Web/CSS/Reference/Properties/scroll-margin-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1c898416764e1bef) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-block-start/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P296 | [Web/CSS/Reference/Properties/scroll-margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=db2fb29a0f2c4f49) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-bottom/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P297 | [Web/CSS/Reference/Properties/scroll-margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f83a48f20cf94495) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-inline/index.md)) | changed | 1 → 1 | D206 | - | - |
-| P298 | [Web/CSS/Reference/Properties/scroll-margin-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0184e8ba743c628a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-inline-end/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P299 | [Web/CSS/Reference/Properties/scroll-margin-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6cb1089a501629f7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-inline-start/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P300 | [Web/CSS/Reference/Properties/scroll-margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6cf06039c52cf290) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-left/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P301 | [Web/CSS/Reference/Properties/scroll-margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a7cb91a0fc5742d8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-right/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P302 | [Web/CSS/Reference/Properties/scroll-margin-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3e632fa715aa5536) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-margin-top/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P303 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4e8032d01e9a576f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D255 | - | - |
-| P304 | [Web/CSS/Reference/Properties/scroll-padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9d5e70d75c343bd7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-block/index.md)) | changed | 1 → 1 | D217 | - | - |
-| P305 | [Web/CSS/Reference/Properties/scroll-padding-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=db474721ab281130) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-block-end/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P306 | [Web/CSS/Reference/Properties/scroll-padding-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e34413a471ba9c18) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-block-start/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P307 | [Web/CSS/Reference/Properties/scroll-padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5f673c54390b4580) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-bottom/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P308 | [Web/CSS/Reference/Properties/scroll-padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a6ad41e6edb56005) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-inline/index.md)) | changed | 1 → 1 | D218 | - | - |
-| P309 | [Web/CSS/Reference/Properties/scroll-padding-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7e70830444c4440d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-inline-end/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P310 | [Web/CSS/Reference/Properties/scroll-padding-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=eb26ec583f510567) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-inline-start/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P311 | [Web/CSS/Reference/Properties/scroll-padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1267003256337236) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-left/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P312 | [Web/CSS/Reference/Properties/scroll-padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dc00d31ee6faf184) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-right/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P313 | [Web/CSS/Reference/Properties/scroll-padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=50e32f035cbcfcbc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-padding-top/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P314 | [Web/CSS/Reference/Properties/scroll-snap-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2a7ac6c9dad9db19) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-snap-align/index.md)) | changed | 1 → 1 | D171 | - | - |
-| P315 | [Web/CSS/Reference/Properties/scroll-snap-stop](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1fe80dad20a55dfe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-snap-stop/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P316 | [Web/CSS/Reference/Properties/scroll-snap-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e559d535c1330574) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scroll-snap-type/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P317 | [Web/CSS/Reference/Properties/scrollbar-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=934572c99e41cde9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scrollbar-color/index.md)) | changed | 1 → 1 | D077 | - | - |
-| P318 | [Web/CSS/Reference/Properties/scrollbar-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dc6189e2ba73b5bd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/scrollbar-width/index.md)) | changed | 1 → 1 | D076 | - | - |
-| P319 | [Web/CSS/Reference/Properties/shape-image-threshold](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=672b4b86d329b48a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/shape-image-threshold/index.md)) | changed | 1 → 1 | D270 | - | - |
-| P320 | [Web/CSS/Reference/Properties/shape-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=45a43493e52c99c4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/shape-margin/index.md)) | changed | 1 → 1 | D136 | - | - |
-| P321 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b51cfd94b9866a97) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D099 | - | - |
-| P322 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=354613cb5723d512) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D265 | - | I031 x1 |
-| P323 | [Web/CSS/Reference/Properties/text-align-last](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=49cd9b88d3947821) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-align-last/index.md)) | changed | 1 → 1 | D078 | - | - |
-| P324 | [Web/CSS/Reference/Properties/text-autospace](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e287538c7acfb7f4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-autospace/index.md)) | changed | 1 → 1 | D086 | - | - |
-| P325 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d63533459ab1db76) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D202 | - | - |
-| P326 | [Web/CSS/Reference/Properties/text-decoration-line](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7d4a432e567b91e4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-decoration-line/index.md)) | changed | 1 → 1 | D127 | - | - |
-| P327 | [Web/CSS/Reference/Properties/text-decoration-skip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffc1c70bb1488070) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-decoration-skip/index.md)) | changed | 1 → 1 | D257 | - | I032 x2, I033 x2, I034 x2 |
-| P328 | [Web/CSS/Reference/Properties/text-decoration-thickness](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=697ebd42f03e7b5f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-decoration-thickness/index.md)) | changed | 1 → 1 | D157 | - | - |
-| P329 | [Web/CSS/Reference/Properties/text-emphasis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5ed2cee21ada18d2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-emphasis/index.md)) | changed | 1 → 1 | D251 | - | - |
-| P330 | [Web/CSS/Reference/Properties/text-emphasis-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1993b8c04844aaa4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-emphasis-color/index.md)) | changed | 1 → 1 | D100 | - | - |
-| P331 | [Web/CSS/Reference/Properties/text-emphasis-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8e0f8fec9a4c426e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-emphasis-position/index.md)) | changed | 1 → 1 | D261 | - | - |
-| P332 | [Web/CSS/Reference/Properties/text-emphasis-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6f9038d9426f9b6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-emphasis-style/index.md)) | changed | 1 → 1 | D081 | - | - |
-| P333 | [Web/CSS/Reference/Properties/text-indent](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f3ff35b2b8cdc5ed) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-indent/index.md)) | changed | 1 → 1 | D135 | - | - |
-| P334 | [Web/CSS/Reference/Properties/text-justify](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8f88c4272be8ac39) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-justify/index.md)) | changed | 1 → 1 | D072 | - | - |
-| P335 | [Web/CSS/Reference/Properties/text-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=529e92f6131922e2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-orientation/index.md)) | changed | 1 → 1 | D065 | - | - |
-| P336 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=021b9bc955e50d08) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D091 | - | - |
-| P337 | [Web/CSS/Reference/Properties/text-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=990786b4ac85f2a3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-rendering/index.md)) | changed | 1 → 1 | D087 | - | - |
-| P338 | [Web/CSS/Reference/Properties/text-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bb30127adce3e9b6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-shadow/index.md)) | changed | 1 → 1 | D146 | - | - |
-| P339 | [Web/CSS/Reference/Properties/text-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=25b9b87f200476e3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-size-adjust/index.md)) | changed | 1 → 1 | D272 | - | - |
-| P340 | [Web/CSS/Reference/Properties/text-transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b954d4bc5522aa5a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-transform/index.md)) | changed | 1 → 1 | D123 | - | - |
-| P341 | [Web/CSS/Reference/Properties/text-underline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=da71e16f69ef3fb5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-underline-offset/index.md)) | changed | 1 → 1 | D158 | - | - |
-| P342 | [Web/CSS/Reference/Properties/text-underline-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f30ff80ccd877ab8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/text-underline-position/index.md)) | changed | 1 → 1 | D019 | - | - |
-| P343 | [Web/CSS/Reference/Properties/top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aa04248fe649e87c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/top/index.md)) | changed | 1 → 1 | D030 | - | - |
-| P344 | [Web/CSS/Reference/Properties/touch-action](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=af40d0cae078b17b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/touch-action/index.md)) | changed | 1 → 1 | D063 | - | - |
-| P345 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=033594f54a50220e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D196 | - | - |
-| P346 | [Web/CSS/Reference/Properties/transform-box](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=697bf57c438cb7e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transform-box/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P347 | [Web/CSS/Reference/Properties/transform-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e1a9945af5294c46) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transform-origin/index.md)) | changed | 1 → 1 | D271 | - | - |
-| P348 | [Web/CSS/Reference/Properties/transform-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f82f8358813f7502) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transform-style/index.md)) | changed | 1 → 1 | D192 | - | - |
-| P349 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d0fac0a67321c280) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D201 | - | - |
-| P350 | [Web/CSS/Reference/Properties/transition-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7ead757e87fed71a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transition-delay/index.md)) | changed | 1 → 1 | D029 | - | - |
-| P351 | [Web/CSS/Reference/Properties/transition-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bf72fc7885002fa8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transition-duration/index.md)) | changed | 1 → 1 | D029 | - | - |
-| P352 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=629fc2bbe221bfe2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D141 | - | - |
-| P353 | [Web/CSS/Reference/Properties/transition-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=787f3ad269f4aa8c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/transition-timing-function/index.md)) | changed | 1 → 1 | D140 | - | - |
-| P354 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8e8ac9f05e100a41) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D197 | - | - |
-| P355 | [Web/CSS/Reference/Properties/unicode-bidi](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e28273e53364e3cd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/unicode-bidi/index.md)) | changed | 1 → 1 | D066 | - | - |
-| P356 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b07ee3dae3dd6574) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D083 | - | - |
-| P357 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c39ad4db0ff043bd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D139 | - | - |
-| P358 | [Web/CSS/Reference/Properties/view-transition-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1c3b1dff1da0c5d3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/view-transition-name/index.md)) | changed | 1 → 1 | D170 | - | - |
-| P359 | [Web/CSS/Reference/Properties/visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=875c57dae15c50cc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/visibility/index.md)) | changed | 1 → 1 | D181 | - | - |
-| P360 | [Web/CSS/Reference/Properties/white-space](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d8beae90f2d17c22) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/white-space/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P361 | [Web/CSS/Reference/Properties/widows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=987c4ad06b45f09d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/widows/index.md)) | changed | 1 → 1 | D026 | - | - |
-| P362 | [Web/CSS/Reference/Properties/width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e34a788759498cc3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/width/index.md)) | changed | 1 → 1 | D133 | - | - |
-| P363 | [Web/CSS/Reference/Properties/will-change](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7ac910471e9ed91b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/will-change/index.md)) | changed | 1 → 1 | D174 | - | - |
-| P364 | [Web/CSS/Reference/Properties/word-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=129041e35ae1bdd4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/word-break/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P365 | [Web/CSS/Reference/Properties/word-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3be4739433a6575b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/word-spacing/index.md)) | changed | 1 → 1 | D165 | - | - |
-| P366 | [Web/CSS/Reference/Properties/writing-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e2cdd54b4fdb67d7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/writing-mode/index.md)) | changed | 1 → 1 | D062 | - | - |
-| P367 | [Web/CSS/Reference/Properties/z-index](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=cbdbbfa91f51cc3a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-cn/web/css/reference/properties/z-index/index.md)) | changed | 1 → 1 | D154 | - | - |
+| P001 | [Web/CSS/Reference/At-rules/@counter-style/additive-symbols](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=83c0ce6d98ee142e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40counter-style/additive-symbols/index.md)) | changed | 1 → 1 | D050 | I014 x1 | - |
+| P002 | [Web/CSS/Reference/At-rules/@counter-style/pad](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b4ae00ab4f405f4d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40counter-style/pad/index.md)) | changed | 1 → 1 | D022 | I014 x1 | - |
+| P003 | [Web/CSS/Reference/At-rules/@counter-style/speak-as](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=cd49208e89b8fabb) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40counter-style/speak-as/index.md)) | changed | 1 → 1 | D022 | I014 x1 | - |
+| P004 | [Web/CSS/Reference/At-rules/@font-face/font-display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3ec30673c0df7c20) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40font-face/font-display/index.md)) | changed | 1 → 1 | D053 | I015 x1 | - |
+| P005 | [Web/CSS/Reference/At-rules/@font-face/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=97bb11c8dd627723) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40font-face/font-family/index.md)) | changed | 1 → 1 | D023 | I015 x1 | - |
+| P006 | [Web/CSS/Reference/At-rules/@font-face/font-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b115c33cf0573690) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40font-face/font-style/index.md)) | changed | 1 → 1 | D051 | I015 x1 | - |
+| P007 | [Web/CSS/Reference/At-rules/@font-face/line-gap-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a928884de1bfa797) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40font-face/line-gap-override/index.md)) | changed | 1 → 1 | D052 | I015 x1 | - |
+| P008 | [Web/CSS/Reference/At-rules/@font-face/src](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=74daf56b9ed3405f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40font-face/src/index.md)) | changed | 1 → 1 | D023 | I015 x1 | - |
+| P009 | [Web/CSS/Reference/At-rules/@property/inherits](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6bd94f9a7f29ed53) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40property/inherits/index.md)) | changed | 1 → 1 | D054 | I016 x1 | - |
+| P010 | [Web/CSS/Reference/At-rules/@property/initial-value](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=652e095dc77f89ee) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40property/initial-value/index.md)) | changed | 1 → 1 | D056 | I016 x1 | - |
+| P011 | [Web/CSS/Reference/At-rules/@property/syntax](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=272887b43230adbd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/at-rules/%40property/syntax/index.md)) | changed | 1 → 1 | D055 | I016 x1 | - |
+| P012 | [Web/CSS/Reference/Properties/--*](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=81149997d96ad5ac) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/--_star_/index.md)) | table-removed | 1 → 0 | D041 | - | I001 x1 |
+| P013 | [Web/CSS/Reference/Properties/-moz-float-edge](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=04c03034ac411ae8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-moz-float-edge/index.md)) | table-removed | 1 → 0 | D045 | - | I002 x1 |
+| P014 | [Web/CSS/Reference/Properties/-moz-force-broken-image-icon](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=169b59b67a52e6b1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-moz-force-broken-image-icon/index.md)) | table-removed | 1 → 0 | D042 | - | I003 x1 |
+| P015 | [Web/CSS/Reference/Properties/-moz-orient](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=780eeadb6999b613) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-moz-orient/index.md)) | table-removed | 1 → 0 | D048 | - | I004 x1 |
+| P016 | [Web/CSS/Reference/Properties/-moz-user-focus](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5669e33c6c0dd4c2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-moz-user-focus/index.md)) | table-removed | 1 → 0 | D021 | - | I005 x1 |
+| P017 | [Web/CSS/Reference/Properties/-moz-user-input](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c7dd206713559658) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-moz-user-input/index.md)) | table-removed | 1 → 0 | D020 | - | I006 x1 |
+| P018 | [Web/CSS/Reference/Properties/-webkit-border-before](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=138a7cc02fdfc678) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-border-before/index.md)) | table-removed | 1 → 0 | D057 | - | I007 x1 |
+| P019 | [Web/CSS/Reference/Properties/-webkit-box-reflect](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b4b91772f72015e0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-box-reflect/index.md)) | table-removed | 1 → 0 | D021 | - | I008 x1 |
+| P020 | [Web/CSS/Reference/Properties/-webkit-tap-highlight-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=16e3c792411b2d38) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-tap-highlight-color/index.md)) | table-removed | 1 → 0 | D044 | - | I009 x1 |
+| P021 | [Web/CSS/Reference/Properties/-webkit-text-fill-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e0caa119f0bca00d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-text-fill-color/index.md)) | changed | 1 → 1 | D037 | - | - |
+| P022 | [Web/CSS/Reference/Properties/-webkit-text-stroke](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ae2baf9697ff9c8a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-text-stroke/index.md)) | changed | 1 → 1 | D221 | - | - |
+| P023 | [Web/CSS/Reference/Properties/-webkit-text-stroke-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef157ae4b5c9f1aa) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-text-stroke-color/index.md)) | changed | 1 → 1 | D037 | - | - |
+| P024 | [Web/CSS/Reference/Properties/-webkit-text-stroke-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=379fbcab2259083d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-text-stroke-width/index.md)) | changed | 1 → 1 | D191 | - | - |
+| P025 | [Web/CSS/Reference/Properties/-webkit-touch-callout](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9852e2e86561274e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/-webkit-touch-callout/index.md)) | table-removed | 1 → 0 | D046 | - | I010 x1 |
+| P026 | [Web/CSS/Reference/Properties/accent-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=652bee1d85df6f7a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/accent-color/index.md)) | changed | 1 → 1 | D189 | - | - |
+| P027 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2ea58a9a5bf6eba8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D061 | - | - |
+| P028 | [Web/CSS/Reference/Properties/align-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1914412dba433ccf) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/align-items/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P029 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6ee5193e02febd6c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D213 | - | - |
+| P030 | [Web/CSS/Reference/Properties/anchor-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bbd5a3f325a52e5c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/anchor-name/index.md)) | changed | 1 → 1 | D096 | - | - |
+| P031 | [Web/CSS/Reference/Properties/anchor-scope](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4b73430ce56c8def) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/anchor-scope/index.md)) | changed | 1 → 1 | D035 | - | - |
+| P032 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7712f59d64fa492e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D214 | - | I017 x3, I018 x3 |
+| P033 | [Web/CSS/Reference/Properties/animation-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=36afbe4732114122) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-direction/index.md)) | changed | 1 → 1 | D017 | - | - |
+| P034 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c0732711a9c4d5fd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D268 | - | - |
+| P035 | [Web/CSS/Reference/Properties/animation-fill-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef2b5bbc6f4073d1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-fill-mode/index.md)) | changed | 1 → 1 | D017 | - | - |
+| P036 | [Web/CSS/Reference/Properties/animation-iteration-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d1079371134e52da) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-iteration-count/index.md)) | changed | 1 → 1 | D147 | - | - |
+| P037 | [Web/CSS/Reference/Properties/animation-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=438ee36760c286f3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-name/index.md)) | changed | 1 → 1 | D146 | - | - |
+| P038 | [Web/CSS/Reference/Properties/animation-play-state](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7abcaadbaaade937) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-play-state/index.md)) | changed | 1 → 1 | D017 | - | - |
+| P039 | [Web/CSS/Reference/Properties/animation-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5172fb3f671a1dda) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/animation-timing-function/index.md)) | changed | 1 → 1 | D145 | - | - |
+| P040 | [Web/CSS/Reference/Properties/appearance](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=974eef19a9339938) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/appearance/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P041 | [Web/CSS/Reference/Properties/aspect-ratio](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4ad3613091a69012) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/aspect-ratio/index.md)) | changed | 1 → 1 | D062 | - | - |
+| P042 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=82376ce56f9e1025) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D116 | - | - |
+| P043 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=878f355f5e2a001d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P044 | [Web/CSS/Reference/Properties/background-attachment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b6b7183cf08a80e9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-attachment/index.md)) | changed | 1 → 1 | D129 | - | - |
+| P045 | [Web/CSS/Reference/Properties/background-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5876b4e7d1e63118) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-blend-mode/index.md)) | changed | 2 → 2 | D119 | - | - |
+| P046 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9daea2f3152c0847) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D127 | - | - |
+| P047 | [Web/CSS/Reference/Properties/background-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dabff47c20564f24) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-color/index.md)) | changed | 1 → 1 | D150 | - | - |
+| P048 | [Web/CSS/Reference/Properties/background-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=40aaf316b86c5bd2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-image/index.md)) | changed | 1 → 1 | D158 | - | - |
+| P049 | [Web/CSS/Reference/Properties/background-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b052bb03d2e038c7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-origin/index.md)) | changed | 1 → 1 | D128 | - | - |
+| P050 | [Web/CSS/Reference/Properties/background-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef336ee9acc4ed1c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-position/index.md)) | changed | 1 → 1 | D172 | - | - |
+| P051 | [Web/CSS/Reference/Properties/background-position-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=75c29f7ce5f67274) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-position-x/index.md)) | changed | 1 → 1 | D024 | - | - |
+| P052 | [Web/CSS/Reference/Properties/background-position-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5b5ffc60439fc569) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-position-y/index.md)) | changed | 1 → 1 | D024 | - | - |
+| P053 | [Web/CSS/Reference/Properties/background-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=05f92a76b70349cd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/background-size/index.md)) | changed | 2 → 2 | D269 | - | - |
+| P054 | [Web/CSS/Reference/Properties/block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1ee54da8ba5b3b71) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/block-size/index.md)) | changed | 1 → 1 | D170 | - | - |
+| P055 | [Web/CSS/Reference/Properties/border-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3cc9cab86ebe7e47) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block/index.md)) | changed | 1 → 1 | D201 | - | - |
+| P056 | [Web/CSS/Reference/Properties/border-block-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=09d2c8e71c739525) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-color/index.md)) | changed | 1 → 1 | D224 | - | - |
+| P057 | [Web/CSS/Reference/Properties/border-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f645500454a8040a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-end/index.md)) | changed | 1 → 1 | D223 | - | - |
+| P058 | [Web/CSS/Reference/Properties/border-block-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=da7b59207cebd083) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-end-color/index.md)) | changed | 1 → 1 | D008 | - | - |
+| P059 | [Web/CSS/Reference/Properties/border-block-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b19b91b58546c9fa) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-end-style/index.md)) | changed | 1 → 1 | D015 | - | - |
+| P060 | [Web/CSS/Reference/Properties/border-block-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e7b190595ac70517) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-end-width/index.md)) | changed | 1 → 1 | D016 | - | - |
+| P061 | [Web/CSS/Reference/Properties/border-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f14d494aa2a60108) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-start/index.md)) | changed | 1 → 1 | D227 | - | - |
+| P062 | [Web/CSS/Reference/Properties/border-block-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=38b011fe0831776a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-start-color/index.md)) | changed | 1 → 1 | D008 | - | - |
+| P063 | [Web/CSS/Reference/Properties/border-block-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c2f400ab1b5c2dc4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-start-style/index.md)) | changed | 1 → 1 | D015 | - | - |
+| P064 | [Web/CSS/Reference/Properties/border-block-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=189a46a981322d1a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-start-width/index.md)) | changed | 2 → 2 | D110 | - | - |
+| P065 | [Web/CSS/Reference/Properties/border-block-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=18b325ccf07b8a2c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-style/index.md)) | changed | 1 → 1 | D225 | - | - |
+| P066 | [Web/CSS/Reference/Properties/border-block-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=381b72d814adfd44) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-block-width/index.md)) | changed | 1 → 1 | D226 | - | - |
+| P067 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b4a068d9890e619c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D010 | - | - |
+| P068 | [Web/CSS/Reference/Properties/border-bottom-left-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fc7ce792b35dbb67) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-bottom-left-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P069 | [Web/CSS/Reference/Properties/border-bottom-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e26e22839160bdee) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-bottom-style/index.md)) | changed | 1 → 1 | D009 | - | - |
+| P070 | [Web/CSS/Reference/Properties/border-bottom-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d9abf185193afaf6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-bottom-width/index.md)) | changed | 1 → 1 | D011 | - | - |
+| P071 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ca6207b2fc73220a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D236 | - | - |
+| P072 | [Web/CSS/Reference/Properties/border-end-end-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ccb43fd04698f0a2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-end-end-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P073 | [Web/CSS/Reference/Properties/border-end-start-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a3fcb940dc2dce79) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-end-start-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P074 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2c456e942eef35c7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D228 | - | - |
+| P075 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ae8ea534901cf4a9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D123 | - | - |
+| P076 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=28ddbe6fbd8987c5) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D124 | - | - |
+| P077 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7debc71bedc113a4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D162 | - | - |
+| P078 | [Web/CSS/Reference/Properties/border-image-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3e73e4a9e157a102) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-image-source/index.md)) | changed | 1 → 1 | D148 | - | - |
+| P079 | [Web/CSS/Reference/Properties/border-image-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=191d20f2c9db5b4a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-image-width/index.md)) | changed | 1 → 1 | D163 | - | - |
+| P080 | [Web/CSS/Reference/Properties/border-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=31ed09cf7c0acaa0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline/index.md)) | changed | 1 → 1 | D202 | - | - |
+| P081 | [Web/CSS/Reference/Properties/border-inline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e210ea67b799d4a3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-color/index.md)) | changed | 1 → 1 | D230 | - | - |
+| P082 | [Web/CSS/Reference/Properties/border-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6c513b82aaffe022) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-end/index.md)) | changed | 1 → 1 | D229 | - | - |
+| P083 | [Web/CSS/Reference/Properties/border-inline-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6f21f52dd1f95c6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-end-color/index.md)) | changed | 1 → 1 | D008 | - | - |
+| P084 | [Web/CSS/Reference/Properties/border-inline-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2eb604f4837956fc) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-end-style/index.md)) | changed | 1 → 1 | D015 | - | - |
+| P085 | [Web/CSS/Reference/Properties/border-inline-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dea6cb9e62089b2b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-end-width/index.md)) | changed | 1 → 1 | D016 | - | - |
+| P086 | [Web/CSS/Reference/Properties/border-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3808caa7529d30fb) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-start/index.md)) | changed | 1 → 1 | D233 | - | - |
+| P087 | [Web/CSS/Reference/Properties/border-inline-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=41a6a33236e621a0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-start-color/index.md)) | changed | 1 → 1 | D008 | - | - |
+| P088 | [Web/CSS/Reference/Properties/border-inline-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=08ae388cef00ec1a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-start-style/index.md)) | changed | 2 → 2 | D087 | - | - |
+| P089 | [Web/CSS/Reference/Properties/border-inline-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6df1cbfc33e93789) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-start-width/index.md)) | changed | 1 → 1 | D016 | - | - |
+| P090 | [Web/CSS/Reference/Properties/border-inline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ebf65fe0511e0101) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-style/index.md)) | changed | 1 → 1 | D231 | - | - |
+| P091 | [Web/CSS/Reference/Properties/border-inline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dadbb30db5d5e6f5) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-inline-width/index.md)) | changed | 1 → 1 | D232 | - | - |
+| P092 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=452954fc380dac5f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D234 | - | - |
+| P093 | [Web/CSS/Reference/Properties/border-left-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0caff8d8b7882128) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-left-color/index.md)) | changed | 1 → 1 | D010 | - | - |
+| P094 | [Web/CSS/Reference/Properties/border-left-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bd43f3f4a1120c3d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-left-style/index.md)) | changed | 1 → 1 | D009 | - | - |
+| P095 | [Web/CSS/Reference/Properties/border-left-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d96d3de34199d4c5) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-left-width/index.md)) | changed | 1 → 1 | D011 | - | - |
+| P096 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a7640657d26de537) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D237 | - | - |
+| P097 | [Web/CSS/Reference/Properties/border-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9930299f3e349c34) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-right/index.md)) | changed | 1 → 1 | D235 | - | - |
+| P098 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=501b5dd4a248ca65) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D010 | - | - |
+| P099 | [Web/CSS/Reference/Properties/border-right-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=16c078cd7e4edbba) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-right-style/index.md)) | changed | 1 → 1 | D009 | - | - |
+| P100 | [Web/CSS/Reference/Properties/border-right-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=807dbcacbf01d1a6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-right-width/index.md)) | changed | 1 → 1 | D011 | - | - |
+| P101 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=758ae12e12533ef2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D262 | - | - |
+| P102 | [Web/CSS/Reference/Properties/border-start-end-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=03a9273b6445c73b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-start-end-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P103 | [Web/CSS/Reference/Properties/border-start-start-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=18be7e684f3b8912) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-start-start-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P104 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffdd9b9b988f7295) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D238 | - | - |
+| P105 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bd5fda53d267b029) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D010 | - | - |
+| P106 | [Web/CSS/Reference/Properties/border-top-right-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2c660ba613169c5a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-top-right-radius/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P107 | [Web/CSS/Reference/Properties/border-top-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9f50ebf21d371d01) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-top-style/index.md)) | changed | 1 → 1 | D009 | - | - |
+| P108 | [Web/CSS/Reference/Properties/border-top-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ed4478aa5bc89acf) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-top-width/index.md)) | changed | 1 → 1 | D011 | - | - |
+| P109 | [Web/CSS/Reference/Properties/border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3d7d396c89c4afc3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/border-width/index.md)) | changed | 1 → 1 | D239 | - | - |
+| P110 | [Web/CSS/Reference/Properties/bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=12089b890eceaf4b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/bottom/index.md)) | changed | 1 → 1 | D030 | - | - |
+| P111 | [Web/CSS/Reference/Properties/box-decoration-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0c1b15d1ded80584) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/box-decoration-break/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P112 | [Web/CSS/Reference/Properties/box-ordinal-group](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=21f2a13842523884) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/box-ordinal-group/index.md)) | table-removed | 1 → 0 | D043 | - | I011 x1 |
+| P113 | [Web/CSS/Reference/Properties/box-orient](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=760a11e5260f00e6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/box-orient/index.md)) | table-removed | 1 → 0 | D047 | - | I012 x1 |
+| P114 | [Web/CSS/Reference/Properties/box-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=39be3d46ab96deb6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/box-shadow/index.md)) | changed | 1 → 1 | D112 | - | I020 x2, I021 x2, I022 x2, I023 x2, I024 x2 |
+| P115 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ae0b17e448a17721) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D065 | - | - |
+| P116 | [Web/CSS/Reference/Properties/break-after](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a415e0b29fd9b698) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/break-after/index.md)) | changed | 1 → 1 | D071 | - | - |
+| P117 | [Web/CSS/Reference/Properties/break-inside](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fa92f2e7cf23c95b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/break-inside/index.md)) | changed | 2 → 2 | D072 | - | - |
+| P118 | [Web/CSS/Reference/Properties/caption-side](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d5711b721c87f271) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/caption-side/index.md)) | changed | 1 → 1 | D092 | - | - |
+| P119 | [Web/CSS/Reference/Properties/caret-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=156f95035224ac7c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/caret-color/index.md)) | changed | 1 → 1 | D122 | - | - |
+| P120 | [Web/CSS/Reference/Properties/clear](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6b3cfa84c6862ef8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/clear/index.md)) | changed | 1 → 1 | D070 | - | - |
+| P121 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5fcc4019e812fe82) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D111 | - | - |
+| P122 | [Web/CSS/Reference/Properties/clip-path](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=63b9dc21f6f21cc7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/clip-path/index.md)) | changed | 1 → 1 | D165 | - | - |
+| P123 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2f1c17b1ab7b6b8b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D265 | - | - |
+| P124 | [Web/CSS/Reference/Properties/color-scheme](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=acf94c249e77b24f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/color-scheme/index.md)) | changed | 1 → 1 | D181 | - | - |
+| P125 | [Web/CSS/Reference/Properties/column-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=991ce442451f73b6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-count/index.md)) | changed | 1 → 1 | D097 | - | - |
+| P126 | [Web/CSS/Reference/Properties/column-fill](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=507da84dee6432df) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-fill/index.md)) | changed | 1 → 1 | D076 | - | - |
+| P127 | [Web/CSS/Reference/Properties/column-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=57213fb95d5531eb) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-gap/index.md)) | changed | 1 → 1 | D028 | - | - |
+| P128 | [Web/CSS/Reference/Properties/column-rule](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=45cfe1ca1be6c254) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-rule/index.md)) | changed | 1 → 1 | D240 | - | - |
+| P129 | [Web/CSS/Reference/Properties/column-rule-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=908d362279b4c279) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-rule-color/index.md)) | changed | 1 → 1 | D101 | - | - |
+| P130 | [Web/CSS/Reference/Properties/column-rule-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=29828987a6b06dab) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-rule-style/index.md)) | changed | 1 → 1 | D075 | - | - |
+| P131 | [Web/CSS/Reference/Properties/column-rule-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a2ac1559eeed8ccf) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-rule-width/index.md)) | changed | 1 → 1 | D117 | - | - |
+| P132 | [Web/CSS/Reference/Properties/column-span](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ecfdef026ba905c5) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-span/index.md)) | changed | 1 → 1 | D073 | - | - |
+| P133 | [Web/CSS/Reference/Properties/column-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5dc4c46871d37f4b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/column-width/index.md)) | changed | 1 → 1 | D114 | - | - |
+| P134 | [Web/CSS/Reference/Properties/columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aed925dc5bc58260) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/columns/index.md)) | changed | 1 → 1 | D241 | - | - |
+| P135 | [Web/CSS/Reference/Properties/contain](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6e0a489eea3b8d05) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/contain/index.md)) | changed | 1 → 1 | D086 | - | - |
+| P136 | [Web/CSS/Reference/Properties/contain-intrinsic-block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6a427222e7ca654) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/contain-intrinsic-block-size/index.md)) | changed | 1 → 1 | D007 | - | - |
+| P137 | [Web/CSS/Reference/Properties/contain-intrinsic-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d5dd41fc9e91c230) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/contain-intrinsic-height/index.md)) | changed | 1 → 1 | D007 | - | - |
+| P138 | [Web/CSS/Reference/Properties/contain-intrinsic-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c4f224235ad184bd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/contain-intrinsic-inline-size/index.md)) | changed | 1 → 1 | D007 | - | - |
+| P139 | [Web/CSS/Reference/Properties/contain-intrinsic-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=60c500a871a9ff63) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/contain-intrinsic-size/index.md)) | changed | 1 → 1 | D242 | - | - |
+| P140 | [Web/CSS/Reference/Properties/contain-intrinsic-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=71a2182719aca350) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/contain-intrinsic-width/index.md)) | changed | 1 → 1 | D007 | - | - |
+| P141 | [Web/CSS/Reference/Properties/content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=55b0e39a0d09c6d7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/content/index.md)) | changed | 1 → 1 | D118 | - | - |
+| P142 | [Web/CSS/Reference/Properties/content-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8d4d1f81bf475eb1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/content-visibility/index.md)) | changed | 1 → 1 | D081 | - | - |
+| P143 | [Web/CSS/Reference/Properties/corner-block-end-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6268fa0f83ead891) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/corner-block-end-shape/index.md)) | changed | 1 → 1 | D205 | - | - |
+| P144 | [Web/CSS/Reference/Properties/corner-top-right-shape](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f38e8bf0a45886c3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/corner-top-right-shape/index.md)) | changed | 1 → 1 | D109 | - | - |
+| P145 | [Web/CSS/Reference/Properties/counter-increment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a0ed2452e5fbde3f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/counter-increment/index.md)) | changed | 1 → 1 | D036 | - | - |
+| P146 | [Web/CSS/Reference/Properties/counter-reset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d0ea964fb82edaf1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/counter-reset/index.md)) | changed | 1 → 1 | D174 | - | - |
+| P147 | [Web/CSS/Reference/Properties/counter-set](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6be9eb8e3bff61e5) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/counter-set/index.md)) | changed | 1 → 1 | D036 | - | - |
+| P148 | [Web/CSS/Reference/Properties/direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=276f0badf4c53f10) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/direction/index.md)) | changed | 1 → 1 | D185 | - | - |
+| P149 | [Web/CSS/Reference/Properties/display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=72005973d7780d2f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/display/index.md)) | changed | 1 → 1 | D179 | - | - |
+| P150 | [Web/CSS/Reference/Properties/empty-cells](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=870a2efa1a753c93) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/empty-cells/index.md)) | changed | 1 → 1 | D091 | - | - |
+| P151 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=50c580752fc15972) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D115 | - | - |
+| P152 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4bbd3d2d858c95e7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex/index.md)) | changed | 2 → 2 | D218 | - | - |
+| P153 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d179352b6aa1ce07) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D137 | - | - |
+| P154 | [Web/CSS/Reference/Properties/flex-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e008b14eb49a8fd0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex-direction/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P155 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=70afcc8aca777f3e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D243 | - | - |
+| P156 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5ba5fabb76517124) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D100 | - | - |
+| P157 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=09d7b2712784acc2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D099 | - | - |
+| P158 | [Web/CSS/Reference/Properties/flex-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=268e91b2b0c4148d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/flex-wrap/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P159 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=657fa3bd1346e207) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D104 | - | - |
+| P160 | [Web/CSS/Reference/Properties/font](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ea57177b87a219ce) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font/index.md)) | changed | 1 → 1 | D244 | - | - |
+| P161 | [Web/CSS/Reference/Properties/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c8a555ac55371e4d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-family/index.md)) | changed | 1 → 1 | D212 | - | - |
+| P162 | [Web/CSS/Reference/Properties/font-feature-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b2423f6e86f8b2ba) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-feature-settings/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P163 | [Web/CSS/Reference/Properties/font-kerning](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b23ba8eacc56200b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-kerning/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P164 | [Web/CSS/Reference/Properties/font-language-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2a339558c2b8034a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-language-override/index.md)) | changed | 1 → 1 | D133 | - | - |
+| P165 | [Web/CSS/Reference/Properties/font-palette](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffdd07d91a9ef4ff) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-palette/index.md)) | changed | 1 → 1 | D132 | - | - |
+| P166 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=903e808d3b9fd02e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D167 | - | - |
+| P167 | [Web/CSS/Reference/Properties/font-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=66360734d38ca503) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-size-adjust/index.md)) | changed | 1 → 1 | D153 | - | - |
+| P168 | [Web/CSS/Reference/Properties/font-smooth](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b2da86f90f000f74) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-smooth/index.md)) | table-removed | 1 → 0 | D020 | - | I013 x1 |
+| P169 | [Web/CSS/Reference/Properties/font-stretch](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=21ae467ddd4bb116) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-stretch/index.md)) | changed | 1 → 1 | D049 | - | - |
+| P170 | [Web/CSS/Reference/Properties/font-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5681e799d728f4db) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-style/index.md)) | changed | 1 → 1 | D154 | - | - |
+| P171 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=28a97d668f055afe) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D266 | - | - |
+| P172 | [Web/CSS/Reference/Properties/font-variant](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a528133d42efbbf3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variant/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P173 | [Web/CSS/Reference/Properties/font-variant-alternates](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f0b5a950c4730e32) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variant-alternates/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P174 | [Web/CSS/Reference/Properties/font-variant-caps](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e27c40abdf77cd83) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variant-caps/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P175 | [Web/CSS/Reference/Properties/font-variant-ligatures](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ab6440ef84bd84b3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variant-ligatures/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P176 | [Web/CSS/Reference/Properties/font-variant-numeric](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=34b7acc50cdd980d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variant-numeric/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P177 | [Web/CSS/Reference/Properties/font-variant-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d3485ef7eae2db1e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variant-position/index.md)) | changed | 1 → 1 | D002 | - | - |
+| P178 | [Web/CSS/Reference/Properties/font-variation-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8a62b9a7e83da3fa) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-variation-settings/index.md)) | changed | 1 → 1 | D131 | - | - |
+| P179 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ef456b61f78e1ac9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D134 | - | - |
+| P180 | [Web/CSS/Reference/Properties/forced-color-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a33e99f2538fca6f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/forced-color-adjust/index.md)) | changed | 1 → 1 | D182 | - | - |
+| P181 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=14cb5da7274a2488) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D252 | - | - |
+| P182 | [Web/CSS/Reference/Properties/grid-auto-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ed5a4b7a3e34e34b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-auto-columns/index.md)) | changed | 1 → 1 | D038 | - | - |
+| P183 | [Web/CSS/Reference/Properties/grid-auto-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9b5adf79a7d8b6d2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-auto-flow/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P184 | [Web/CSS/Reference/Properties/grid-auto-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fe425f4c855b03c1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-auto-rows/index.md)) | changed | 1 → 1 | D038 | - | - |
+| P185 | [Web/CSS/Reference/Properties/grid-column](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4c3e573971a3329d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-column/index.md)) | changed | 1 → 1 | D215 | - | - |
+| P186 | [Web/CSS/Reference/Properties/grid-row](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4ba586b90ac36d14) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-row/index.md)) | changed | 1 → 1 | D216 | - | - |
+| P187 | [Web/CSS/Reference/Properties/grid-template](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=61457d4e170caac9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-template/index.md)) | changed | 1 → 1 | D209 | - | - |
+| P188 | [Web/CSS/Reference/Properties/grid-template-areas](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=51a7fefe082f45ff) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-template-areas/index.md)) | changed | 1 → 1 | D175 | - | - |
+| P189 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=da09fc23fa24087a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D039 | - | - |
+| P190 | [Web/CSS/Reference/Properties/grid-template-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e95f0d9ccb2b98dc) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/grid-template-rows/index.md)) | changed | 1 → 1 | D039 | - | - |
+| P191 | [Web/CSS/Reference/Properties/hanging-punctuation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8a508b9e29092bd7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/hanging-punctuation/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P192 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ba64339fb81352dc) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D141 | - | - |
+| P193 | [Web/CSS/Reference/Properties/hyphens](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aa684f4d3172d02a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/hyphens/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P194 | [Web/CSS/Reference/Properties/image-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=720ecb5a4660fa50) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/image-orientation/index.md)) | changed | 2 → 2 | D190 | - | - |
+| P195 | [Web/CSS/Reference/Properties/image-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6134af615faa21fe) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/image-rendering/index.md)) | changed | 1 → 1 | D019 | - | - |
+| P196 | [Web/CSS/Reference/Properties/initial-letter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=cba4fc3d9a6bcf8d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/initial-letter/index.md)) | changed | 1 → 1 | D113 | - | - |
+| P197 | [Web/CSS/Reference/Properties/inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f32935fe833451d1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inline-size/index.md)) | changed | 1 → 1 | D171 | - | - |
+| P198 | [Web/CSS/Reference/Properties/inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=292e371d10f57262) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset/index.md)) | changed | 1 → 1 | D258 | - | - |
+| P199 | [Web/CSS/Reference/Properties/inset-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bed1f4a5120f3a0c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset-block/index.md)) | changed | 1 → 1 | D255 | - | - |
+| P200 | [Web/CSS/Reference/Properties/inset-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=81e9a23586a6c300) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset-block-end/index.md)) | changed | 1 → 1 | D032 | - | - |
+| P201 | [Web/CSS/Reference/Properties/inset-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7b186a444004f5bf) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset-block-start/index.md)) | changed | 1 → 1 | D032 | - | - |
+| P202 | [Web/CSS/Reference/Properties/inset-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fa44501546625182) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset-inline/index.md)) | changed | 1 → 1 | D256 | - | - |
+| P203 | [Web/CSS/Reference/Properties/inset-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=20809c6806c94f97) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset-inline-end/index.md)) | changed | 1 → 1 | D033 | - | - |
+| P204 | [Web/CSS/Reference/Properties/inset-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2559bf265d679bc0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/inset-inline-start/index.md)) | changed | 1 → 1 | D033 | - | - |
+| P205 | [Web/CSS/Reference/Properties/isolation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0f16aecb92a77d02) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/isolation/index.md)) | changed | 1 → 1 | D060 | - | - |
+| P206 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1b86dbc773fcbd8a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D082 | - | - |
+| P207 | [Web/CSS/Reference/Properties/justify-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f6bf4b30319df64c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/justify-items/index.md)) | changed | 1 → 1 | D178 | - | - |
+| P208 | [Web/CSS/Reference/Properties/justify-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=809b6519b7602bb6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/justify-self/index.md)) | changed | 1 → 1 | D068 | - | - |
+| P209 | [Web/CSS/Reference/Properties/left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0b30fe2cbd195cd1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/left/index.md)) | changed | 1 → 1 | D031 | - | - |
+| P210 | [Web/CSS/Reference/Properties/letter-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6eb0059eaafaebfb) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/letter-spacing/index.md)) | changed | 1 → 1 | D159 | - | - |
+| P211 | [Web/CSS/Reference/Properties/line-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b5bf73ca984581d4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/line-break/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P212 | [Web/CSS/Reference/Properties/line-clamp](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e51a6a4e42a313c6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/line-clamp/index.md)) | changed | 1 → 1 | D095 | - | I019 x4, I025 x4, I026 x4 |
+| P213 | [Web/CSS/Reference/Properties/line-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5a12c0d6a33bef04) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/line-height/index.md)) | changed | 1 → 1 | D164 | - | - |
+| P214 | [Web/CSS/Reference/Properties/list-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3084612e1da2140b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/list-style/index.md)) | changed | 1 → 1 | D245 | - | - |
+| P215 | [Web/CSS/Reference/Properties/list-style-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=204ba466ff094d6f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/list-style-image/index.md)) | changed | 1 → 1 | D180 | - | - |
+| P216 | [Web/CSS/Reference/Properties/list-style-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a646843c5a19b2d2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/list-style-position/index.md)) | changed | 1 → 1 | D184 | - | - |
+| P217 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=32d6c6b36f70d95c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D260 | - | - |
+| P218 | [Web/CSS/Reference/Properties/margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7006d69f07780a0f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-block/index.md)) | changed | 1 → 1 | D246 | - | - |
+| P219 | [Web/CSS/Reference/Properties/margin-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=99e151d67d74efff) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-block-end/index.md)) | changed | 1 → 1 | D014 | - | - |
+| P220 | [Web/CSS/Reference/Properties/margin-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fdec9e99e11664df) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-block-start/index.md)) | changed | 1 → 1 | D014 | - | - |
+| P221 | [Web/CSS/Reference/Properties/margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a862dbeaf9ecf5c2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-bottom/index.md)) | changed | 1 → 1 | D018 | - | - |
+| P222 | [Web/CSS/Reference/Properties/margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d745eebe8064f32e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-inline/index.md)) | changed | 1 → 1 | D247 | - | - |
+| P223 | [Web/CSS/Reference/Properties/margin-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=17051de569913b03) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-inline-end/index.md)) | changed | 1 → 1 | D014 | - | - |
+| P224 | [Web/CSS/Reference/Properties/margin-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3842c43bd418fdfd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-inline-start/index.md)) | changed | 1 → 1 | D014 | - | - |
+| P225 | [Web/CSS/Reference/Properties/margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5216c454a09ead72) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-left/index.md)) | changed | 1 → 1 | D018 | - | - |
+| P226 | [Web/CSS/Reference/Properties/margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=94358880dc8c5aa0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/margin-right/index.md)) | changed | 1 → 1 | D018 | - | - |
+| P227 | [Web/CSS/Reference/Properties/marker-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=749baed843a9ea10) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/marker-end/index.md)) | changed | 1 → 1 | D034 | - | - |
+| P228 | [Web/CSS/Reference/Properties/marker-mid](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6ff5e0459050403) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/marker-mid/index.md)) | changed | 1 → 1 | D034 | - | - |
+| P229 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=586cf644aec5f6c1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D248 | - | - |
+| P230 | [Web/CSS/Reference/Properties/mask-border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e9d71fb1851d6cd0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-border/index.md)) | changed | 1 → 1 | D206 | - | - |
+| P231 | [Web/CSS/Reference/Properties/mask-border-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=233c91e7eaa0946e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-border-mode/index.md)) | changed | 1 → 1 | D027 | - | - |
+| P232 | [Web/CSS/Reference/Properties/mask-border-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c77cd5d66699a787) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-border-repeat/index.md)) | changed | 1 → 1 | D027 | - | - |
+| P233 | [Web/CSS/Reference/Properties/mask-border-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0c830e43d7c6bc22) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-border-slice/index.md)) | changed | 1 → 1 | D058 | - | - |
+| P234 | [Web/CSS/Reference/Properties/mask-border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c2e03e494441c93f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-border-width/index.md)) | changed | 1 → 1 | D059 | - | - |
+| P235 | [Web/CSS/Reference/Properties/mask-composite](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3de98314430cad94) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-composite/index.md)) | changed | 1 → 1 | D105 | - | - |
+| P236 | [Web/CSS/Reference/Properties/mask-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=600b545b42917f59) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-image/index.md)) | changed | 1 → 1 | D125 | - | - |
+| P237 | [Web/CSS/Reference/Properties/mask-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ee7a7b1fa966fc49) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-mode/index.md)) | changed | 1 → 1 | D107 | - | - |
+| P238 | [Web/CSS/Reference/Properties/mask-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a118b7c0f73690f6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mask-repeat/index.md)) | changed | 1 → 1 | D106 | - | - |
+| P239 | [Web/CSS/Reference/Properties/max-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffe98d3232a835b3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/max-height/index.md)) | changed | 1 → 1 | D156 | - | - |
+| P240 | [Web/CSS/Reference/Properties/max-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3d00f7f6dbfab550) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/max-inline-size/index.md)) | changed | 1 → 1 | D169 | - | - |
+| P241 | [Web/CSS/Reference/Properties/max-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=033fcca9457db889) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/max-width/index.md)) | changed | 1 → 1 | D155 | - | - |
+| P242 | [Web/CSS/Reference/Properties/min-block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=48db52ef0c9576ac) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/min-block-size/index.md)) | changed | 1 → 1 | D270 | - | - |
+| P243 | [Web/CSS/Reference/Properties/min-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=988910ff4ae335a9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/min-height/index.md)) | changed | 1 → 1 | D140 | - | - |
+| P244 | [Web/CSS/Reference/Properties/min-inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5c7d98c5640170d9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/min-inline-size/index.md)) | changed | 1 → 1 | D271 | - | - |
+| P245 | [Web/CSS/Reference/Properties/min-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9f16258c0d72b68c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/min-width/index.md)) | changed | 1 → 1 | D135 | - | - |
+| P246 | [Web/CSS/Reference/Properties/mix-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=922cc7c42b0f5005) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/mix-blend-mode/index.md)) | changed | 1 → 1 | D151 | - | - |
+| P247 | [Web/CSS/Reference/Properties/object-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c6813e1e1871eeb2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/object-fit/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P248 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=afd57e85825647b9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D200 | - | - |
+| P249 | [Web/CSS/Reference/Properties/offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2584ba834a169419) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/offset/index.md)) | changed | 1 → 1 | D211 | - | - |
+| P250 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fbb997f1a07106be) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D197 | - | - |
+| P251 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bf40a48b253a9b69) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D098 | - | - |
+| P252 | [Web/CSS/Reference/Properties/orphans](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0636190d3bc2e23f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/orphans/index.md)) | changed | 1 → 1 | D026 | - | - |
+| P253 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5875e3bbd5861af9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D249 | - | - |
+| P254 | [Web/CSS/Reference/Properties/outline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a73c8bb904a3908e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/outline-color/index.md)) | changed | 1 → 1 | D186 | - | - |
+| P255 | [Web/CSS/Reference/Properties/outline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1da4a744575da3dc) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/outline-offset/index.md)) | changed | 1 → 1 | D188 | - | - |
+| P256 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ca52ed270dd066f1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D177 | - | - |
+| P257 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=60539ac663f9b108) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D187 | - | - |
+| P258 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e265faa47ef17513) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D166 | - | - |
+| P259 | [Web/CSS/Reference/Properties/overflow-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f68b94e5d4b89fce) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow-anchor/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P260 | [Web/CSS/Reference/Properties/overflow-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9da875f04d1b33ac) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow-block/index.md)) | changed | 1 → 1 | D040 | - | - |
+| P261 | [Web/CSS/Reference/Properties/overflow-clip-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d72627db44aeb5a8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow-clip-margin/index.md)) | changed | 1 → 1 | D094 | - | I027 x2, I028 x2, I029 x2, I030 x2 |
+| P262 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f2ee643c3e054f15) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D040 | - | - |
+| P263 | [Web/CSS/Reference/Properties/overflow-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d8502da24d66274c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow-x/index.md)) | changed | 1 → 1 | D120 | - | - |
+| P264 | [Web/CSS/Reference/Properties/overflow-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=afa63b2231ce8da0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overflow-y/index.md)) | changed | 1 → 1 | D121 | - | - |
+| P265 | [Web/CSS/Reference/Properties/overscroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=71fb0f3ac738d3f0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overscroll-behavior/index.md)) | changed | 1 → 1 | D264 | - | - |
+| P266 | [Web/CSS/Reference/Properties/overscroll-behavior-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=69623af69620acf9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overscroll-behavior-x/index.md)) | changed | 1 → 1 | D025 | - | - |
+| P267 | [Web/CSS/Reference/Properties/overscroll-behavior-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=16a81d12ee5c3eb4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/overscroll-behavior-y/index.md)) | changed | 1 → 1 | D025 | - | - |
+| P268 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2724f4204d9bbdb0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D261 | - | - |
+| P269 | [Web/CSS/Reference/Properties/padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1dee953a36906857) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-block/index.md)) | changed | 1 → 1 | D250 | - | - |
+| P270 | [Web/CSS/Reference/Properties/padding-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5bfe1b9db59af266) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-block-end/index.md)) | changed | 1 → 1 | D012 | - | - |
+| P271 | [Web/CSS/Reference/Properties/padding-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c55e55a2160f5fc1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-block-start/index.md)) | changed | 1 → 1 | D012 | - | - |
+| P272 | [Web/CSS/Reference/Properties/padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d5ec25d49a791144) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-bottom/index.md)) | changed | 1 → 1 | D013 | - | - |
+| P273 | [Web/CSS/Reference/Properties/padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=fef81619da49e32d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-inline/index.md)) | changed | 1 → 1 | D251 | - | - |
+| P274 | [Web/CSS/Reference/Properties/padding-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4068e4e406d4757b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-inline-end/index.md)) | changed | 1 → 1 | D012 | - | - |
+| P275 | [Web/CSS/Reference/Properties/padding-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bdc45e5b796dd1d7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-inline-start/index.md)) | changed | 1 → 1 | D012 | - | - |
+| P276 | [Web/CSS/Reference/Properties/padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5a02119feb2c1321) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-left/index.md)) | changed | 1 → 1 | D013 | - | - |
+| P277 | [Web/CSS/Reference/Properties/padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2b87da3a48cf3cfb) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-right/index.md)) | changed | 1 → 1 | D013 | - | - |
+| P278 | [Web/CSS/Reference/Properties/padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6c677e4bac727c14) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/padding-top/index.md)) | changed | 1 → 1 | D013 | - | - |
+| P279 | [Web/CSS/Reference/Properties/page-break-after](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ccc8379419a01ae7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/page-break-after/index.md)) | changed | 1 → 1 | D069 | - | - |
+| P280 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0bc1950b62e121e3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D090 | - | - |
+| P281 | [Web/CSS/Reference/Properties/perspective](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ee59ab8fa7053096) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/perspective/index.md)) | changed | 1 → 1 | D196 | - | - |
+| P282 | [Web/CSS/Reference/Properties/perspective-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8a71de007619c58d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/perspective-origin/index.md)) | changed | 1 → 1 | D195 | - | - |
+| P283 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f9c046d0bc88ac2c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D217 | - | - |
+| P284 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aba5ae1ff2736b29) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D222 | - | - |
+| P285 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2e69be84c90a5f8e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D084 | - | - |
+| P286 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=92c6746c3cfd10b1) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D152 | - | - |
+| P287 | [Web/CSS/Reference/Properties/print-color-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a14982ec8610871c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/print-color-adjust/index.md)) | changed | 1 → 1 | D019 | - | - |
+| P288 | [Web/CSS/Reference/Properties/quotes](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bc535fca7ec2cb1c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/quotes/index.md)) | changed | 1 → 1 | D254 | - | - |
+| P289 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8387a0b563b4844a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D108 | - | - |
+| P290 | [Web/CSS/Reference/Properties/right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bd02412c394c6521) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/right/index.md)) | changed | 1 → 1 | D031 | - | - |
+| P291 | [Web/CSS/Reference/Properties/rotate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d7bcc9cf24118f64) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/rotate/index.md)) | changed | 1 → 1 | D192 | - | - |
+| P292 | [Web/CSS/Reference/Properties/row-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b9d95b757066de96) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/row-gap/index.md)) | changed | 1 → 1 | D028 | - | - |
+| P293 | [Web/CSS/Reference/Properties/scale](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aea12bcf26ce1534) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scale/index.md)) | changed | 1 → 1 | D193 | - | - |
+| P294 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=99125d21dbc8d116) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D077 | - | - |
+| P295 | [Web/CSS/Reference/Properties/scroll-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=070aa9f7922195a0) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin/index.md)) | changed | 1 → 1 | D210 | - | - |
+| P296 | [Web/CSS/Reference/Properties/scroll-margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=60dcc127904161d9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-block/index.md)) | changed | 1 → 1 | D207 | - | - |
+| P297 | [Web/CSS/Reference/Properties/scroll-margin-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c99d79959b054ce7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-block-end/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P298 | [Web/CSS/Reference/Properties/scroll-margin-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1c898416764e1bef) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-block-start/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P299 | [Web/CSS/Reference/Properties/scroll-margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=db2fb29a0f2c4f49) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-bottom/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P300 | [Web/CSS/Reference/Properties/scroll-margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f83a48f20cf94495) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-inline/index.md)) | changed | 1 → 1 | D208 | - | - |
+| P301 | [Web/CSS/Reference/Properties/scroll-margin-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=0184e8ba743c628a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-inline-end/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P302 | [Web/CSS/Reference/Properties/scroll-margin-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6cb1089a501629f7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-inline-start/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P303 | [Web/CSS/Reference/Properties/scroll-margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=6cf06039c52cf290) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-left/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P304 | [Web/CSS/Reference/Properties/scroll-margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a7cb91a0fc5742d8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-right/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P305 | [Web/CSS/Reference/Properties/scroll-margin-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3e632fa715aa5536) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-margin-top/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P306 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=4e8032d01e9a576f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D257 | - | - |
+| P307 | [Web/CSS/Reference/Properties/scroll-padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=9d5e70d75c343bd7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-block/index.md)) | changed | 1 → 1 | D219 | - | - |
+| P308 | [Web/CSS/Reference/Properties/scroll-padding-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=db474721ab281130) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-block-end/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P309 | [Web/CSS/Reference/Properties/scroll-padding-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e34413a471ba9c18) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-block-start/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P310 | [Web/CSS/Reference/Properties/scroll-padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5f673c54390b4580) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-bottom/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P311 | [Web/CSS/Reference/Properties/scroll-padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=a6ad41e6edb56005) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-inline/index.md)) | changed | 1 → 1 | D220 | - | - |
+| P312 | [Web/CSS/Reference/Properties/scroll-padding-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7e70830444c4440d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-inline-end/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P313 | [Web/CSS/Reference/Properties/scroll-padding-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=eb26ec583f510567) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-inline-start/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P314 | [Web/CSS/Reference/Properties/scroll-padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1267003256337236) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-left/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P315 | [Web/CSS/Reference/Properties/scroll-padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dc00d31ee6faf184) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-right/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P316 | [Web/CSS/Reference/Properties/scroll-padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=50e32f035cbcfcbc) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-padding-top/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P317 | [Web/CSS/Reference/Properties/scroll-snap-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=2a7ac6c9dad9db19) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-snap-align/index.md)) | changed | 1 → 1 | D173 | - | - |
+| P318 | [Web/CSS/Reference/Properties/scroll-snap-stop](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1fe80dad20a55dfe) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-snap-stop/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P319 | [Web/CSS/Reference/Properties/scroll-snap-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e559d535c1330574) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scroll-snap-type/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P320 | [Web/CSS/Reference/Properties/scrollbar-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=934572c99e41cde9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scrollbar-color/index.md)) | changed | 1 → 1 | D079 | - | - |
+| P321 | [Web/CSS/Reference/Properties/scrollbar-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=dc6189e2ba73b5bd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/scrollbar-width/index.md)) | changed | 1 → 1 | D078 | - | - |
+| P322 | [Web/CSS/Reference/Properties/shape-image-threshold](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=672b4b86d329b48a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/shape-image-threshold/index.md)) | changed | 1 → 1 | D272 | - | - |
+| P323 | [Web/CSS/Reference/Properties/shape-margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=45a43493e52c99c4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/shape-margin/index.md)) | changed | 1 → 1 | D139 | - | - |
+| P324 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b51cfd94b9866a97) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D102 | - | - |
+| P325 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=354613cb5723d512) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D267 | - | I031 x1 |
+| P326 | [Web/CSS/Reference/Properties/text-align-last](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=49cd9b88d3947821) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-align-last/index.md)) | changed | 1 → 1 | D080 | - | - |
+| P327 | [Web/CSS/Reference/Properties/text-autospace](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e287538c7acfb7f4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-autospace/index.md)) | changed | 1 → 1 | D088 | - | - |
+| P328 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d63533459ab1db76) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D204 | - | - |
+| P329 | [Web/CSS/Reference/Properties/text-decoration-line](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7d4a432e567b91e4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-decoration-line/index.md)) | changed | 1 → 1 | D130 | - | - |
+| P330 | [Web/CSS/Reference/Properties/text-decoration-skip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=ffc1c70bb1488070) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-decoration-skip/index.md)) | changed | 1 → 1 | D259 | - | I032 x2, I033 x2, I034 x2 |
+| P331 | [Web/CSS/Reference/Properties/text-decoration-thickness](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=697ebd42f03e7b5f) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-decoration-thickness/index.md)) | changed | 1 → 1 | D160 | - | - |
+| P332 | [Web/CSS/Reference/Properties/text-emphasis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=5ed2cee21ada18d2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-emphasis/index.md)) | changed | 1 → 1 | D253 | - | - |
+| P333 | [Web/CSS/Reference/Properties/text-emphasis-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1993b8c04844aaa4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-emphasis-color/index.md)) | changed | 1 → 1 | D103 | - | - |
+| P334 | [Web/CSS/Reference/Properties/text-emphasis-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8e0f8fec9a4c426e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-emphasis-position/index.md)) | changed | 1 → 1 | D263 | - | - |
+| P335 | [Web/CSS/Reference/Properties/text-emphasis-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e6f9038d9426f9b6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-emphasis-style/index.md)) | changed | 1 → 1 | D083 | - | - |
+| P336 | [Web/CSS/Reference/Properties/text-indent](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f3ff35b2b8cdc5ed) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-indent/index.md)) | changed | 1 → 1 | D138 | - | - |
+| P337 | [Web/CSS/Reference/Properties/text-justify](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8f88c4272be8ac39) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-justify/index.md)) | changed | 1 → 1 | D074 | - | - |
+| P338 | [Web/CSS/Reference/Properties/text-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=529e92f6131922e2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-orientation/index.md)) | changed | 1 → 1 | D066 | - | - |
+| P339 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=021b9bc955e50d08) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D093 | - | - |
+| P340 | [Web/CSS/Reference/Properties/text-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=990786b4ac85f2a3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-rendering/index.md)) | changed | 1 → 1 | D089 | - | - |
+| P341 | [Web/CSS/Reference/Properties/text-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bb30127adce3e9b6) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-shadow/index.md)) | changed | 1 → 1 | D149 | - | - |
+| P342 | [Web/CSS/Reference/Properties/text-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=25b9b87f200476e3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-size-adjust/index.md)) | changed | 1 → 1 | D274 | - | - |
+| P343 | [Web/CSS/Reference/Properties/text-transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b954d4bc5522aa5a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-transform/index.md)) | changed | 1 → 1 | D126 | - | - |
+| P344 | [Web/CSS/Reference/Properties/text-underline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=da71e16f69ef3fb5) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-underline-offset/index.md)) | changed | 1 → 1 | D161 | - | - |
+| P345 | [Web/CSS/Reference/Properties/text-underline-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f30ff80ccd877ab8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/text-underline-position/index.md)) | changed | 1 → 1 | D019 | - | - |
+| P346 | [Web/CSS/Reference/Properties/top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=aa04248fe649e87c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/top/index.md)) | changed | 1 → 1 | D030 | - | - |
+| P347 | [Web/CSS/Reference/Properties/touch-action](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=af40d0cae078b17b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/touch-action/index.md)) | changed | 1 → 1 | D064 | - | - |
+| P348 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=033594f54a50220e) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D198 | - | - |
+| P349 | [Web/CSS/Reference/Properties/transform-box](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=697bf57c438cb7e9) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transform-box/index.md)) | changed | 1 → 1 | D001 | - | - |
+| P350 | [Web/CSS/Reference/Properties/transform-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e1a9945af5294c46) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transform-origin/index.md)) | changed | 1 → 1 | D273 | - | - |
+| P351 | [Web/CSS/Reference/Properties/transform-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=f82f8358813f7502) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transform-style/index.md)) | changed | 1 → 1 | D194 | - | - |
+| P352 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d0fac0a67321c280) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D203 | - | - |
+| P353 | [Web/CSS/Reference/Properties/transition-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7ead757e87fed71a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transition-delay/index.md)) | changed | 1 → 1 | D029 | - | - |
+| P354 | [Web/CSS/Reference/Properties/transition-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=bf72fc7885002fa8) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transition-duration/index.md)) | changed | 1 → 1 | D029 | - | - |
+| P355 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=629fc2bbe221bfe2) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D144 | - | - |
+| P356 | [Web/CSS/Reference/Properties/transition-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=787f3ad269f4aa8c) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/transition-timing-function/index.md)) | changed | 1 → 1 | D143 | - | - |
+| P357 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=8e8ac9f05e100a41) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D199 | - | - |
+| P358 | [Web/CSS/Reference/Properties/unicode-bidi](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e28273e53364e3cd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/unicode-bidi/index.md)) | changed | 1 → 1 | D067 | - | - |
+| P359 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=b07ee3dae3dd6574) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D085 | - | - |
+| P360 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=c39ad4db0ff043bd) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D142 | - | - |
+| P361 | [Web/CSS/Reference/Properties/view-transition-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=1c3b1dff1da0c5d3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/view-transition-name/index.md)) | changed | 1 → 1 | D035 | - | - |
+| P362 | [Web/CSS/Reference/Properties/visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=875c57dae15c50cc) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/visibility/index.md)) | changed | 1 → 1 | D183 | - | - |
+| P363 | [Web/CSS/Reference/Properties/white-space](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=d8beae90f2d17c22) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/white-space/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P364 | [Web/CSS/Reference/Properties/widows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=987c4ad06b45f09d) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/widows/index.md)) | changed | 1 → 1 | D026 | - | - |
+| P365 | [Web/CSS/Reference/Properties/width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e34a788759498cc3) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/width/index.md)) | changed | 1 → 1 | D136 | - | - |
+| P366 | [Web/CSS/Reference/Properties/will-change](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=7ac910471e9ed91b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/will-change/index.md)) | changed | 1 → 1 | D176 | - | - |
+| P367 | [Web/CSS/Reference/Properties/word-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=129041e35ae1bdd4) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/word-break/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P368 | [Web/CSS/Reference/Properties/word-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=3be4739433a6575b) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/word-spacing/index.md)) | changed | 1 → 1 | D168 | - | - |
+| P369 | [Web/CSS/Reference/Properties/writing-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=e2cdd54b4fdb67d7) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/writing-mode/index.md)) | changed | 1 → 1 | D063 | - | - |
+| P370 | [Web/CSS/Reference/Properties/z-index](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-cn&status=all&doc=cbdbbfa91f51cc3a) ([source](https://github.com/mdn/translated-content/blob/fd64e208d746f44034cef9530b6a939c13b86639/files/zh-cn/web/css/reference/properties/z-index/index.md)) | changed | 1 → 1 | D157 | - | - |
 
 ## Complete table diffs
 
 ### D001: 12 page(s)
 
-Pages: P028, P038, P041, P109, P151, P155, P180, P244, P256, P315, P316, P346.
+Pages: P028, P040, P043, P111, P154, P158, P183, P247, P259, P318, P319, P349.
 
 ```diff
 --- main
@@ -491,7 +494,7 @@ Pages: P028, P038, P041, P109, P151, P155, P180, P244, P256, P315, P316, P346.
 
 ### D002: 8 page(s)
 
-Pages: P159, P160, P169, P170, P171, P172, P173, P174.
+Pages: P162, P163, P172, P173, P174, P175, P176, P177.
 
 ```diff
 --- main
@@ -534,7 +537,7 @@ Pages: P159, P160, P169, P170, P171, P172, P173, P174.
 
 ### D003: 8 page(s)
 
-Pages: P305, P306, P307, P309, P310, P311, P312, P313.
+Pages: P308, P309, P310, P312, P313, P314, P315, P316.
 
 ```diff
 --- main
@@ -581,7 +584,7 @@ Pages: P305, P306, P307, P309, P310, P311, P312, P313.
 
 ### D004: 8 page(s)
 
-Pages: P294, P295, P296, P298, P299, P300, P301, P302.
+Pages: P297, P298, P299, P301, P302, P303, P304, P305.
 
 ```diff
 --- main
@@ -613,7 +616,7 @@ Pages: P294, P295, P296, P298, P299, P300, P301, P302.
 
 ### D005: 6 page(s)
 
-Pages: P066, P070, P071, P100, P101, P104.
+Pages: P068, P072, P073, P102, P103, P106.
 
 ```diff
 --- main
@@ -668,7 +671,7 @@ Pages: P066, P070, P071, P100, P101, P104.
 
 ### D006: 5 page(s)
 
-Pages: P188, P190, P208, P360, P364.
+Pages: P191, P193, P211, P363, P367.
 
 ```diff
 --- main
@@ -707,7 +710,7 @@ Pages: P188, P190, P208, P360, P364.
 
 ### D007: 4 page(s)
 
-Pages: P133, P134, P135, P137.
+Pages: P136, P137, P138, P140.
 
 ```diff
 --- main
@@ -746,7 +749,7 @@ Pages: P133, P134, P135, P137.
 
 ### D008: 4 page(s)
 
-Pages: P056, P060, P081, P085.
+Pages: P058, P062, P083, P087.
 
 ```diff
 --- main
@@ -785,7 +788,7 @@ Pages: P056, P060, P081, P085.
 
 ### D009: 4 page(s)
 
-Pages: P067, P092, P097, P105.
+Pages: P069, P094, P099, P107.
 
 ```diff
 --- main
@@ -826,7 +829,7 @@ Pages: P067, P092, P097, P105.
 
 ### D010: 4 page(s)
 
-Pages: P065, P091, P096, P103.
+Pages: P067, P093, P098, P105.
 
 ```diff
 --- main
@@ -868,7 +871,7 @@ Pages: P065, P091, P096, P103.
 
 ### D011: 4 page(s)
 
-Pages: P068, P093, P098, P106.
+Pages: P070, P095, P100, P108.
 
 ```diff
 --- main
@@ -912,7 +915,7 @@ Pages: P068, P093, P098, P106.
 
 ### D012: 4 page(s)
 
-Pages: P267, P268, P271, P272.
+Pages: P270, P271, P274, P275.
 
 ```diff
 --- main
@@ -963,7 +966,7 @@ Pages: P267, P268, P271, P272.
 
 ### D013: 4 page(s)
 
-Pages: P269, P273, P274, P275.
+Pages: P272, P276, P277, P278.
 
 ```diff
 --- main
@@ -1015,7 +1018,7 @@ Pages: P269, P273, P274, P275.
 
 ### D014: 4 page(s)
 
-Pages: P216, P217, P220, P221.
+Pages: P219, P220, P223, P224.
 
 ```diff
 --- main
@@ -1067,7 +1070,7 @@ Pages: P216, P217, P220, P221.
 
 ### D015: 3 page(s)
 
-Pages: P057, P061, P082.
+Pages: P059, P063, P084.
 
 ```diff
 --- main
@@ -1106,7 +1109,7 @@ Pages: P057, P061, P082.
 
 ### D016: 3 page(s)
 
-Pages: P058, P083, P087.
+Pages: P060, P085, P089.
 
 ```diff
 --- main
@@ -1147,7 +1150,7 @@ Pages: P058, P083, P087.
 
 ### D017: 3 page(s)
 
-Pages: P031, P033, P036.
+Pages: P033, P035, P038.
 
 ```diff
 --- main
@@ -1191,7 +1194,7 @@ Pages: P031, P033, P036.
 
 ### D018: 3 page(s)
 
-Pages: P218, P222, P223.
+Pages: P221, P225, P226.
 
 ```diff
 --- main
@@ -1243,7 +1246,7 @@ Pages: P218, P222, P223.
 
 ### D019: 3 page(s)
 
-Pages: P192, P284, P342.
+Pages: P195, P287, P345.
 
 ```diff
 --- main
@@ -1275,7 +1278,7 @@ Pages: P192, P284, P342.
 
 ### D020: 2 page(s)
 
-Pages: P017, P165.
+Pages: P017, P168.
 
 ```diff
 --- main
@@ -1427,7 +1430,7 @@ Pages: P005, P008.
 
 ### D024: 2 page(s)
 
-Pages: P049, P050.
+Pages: P051, P052.
 
 ```diff
 --- main
@@ -1479,7 +1482,7 @@ Pages: P049, P050.
 
 ### D025: 2 page(s)
 
-Pages: P263, P264.
+Pages: P266, P267.
 
 ```diff
 --- main
@@ -1518,7 +1521,7 @@ Pages: P263, P264.
 
 ### D026: 2 page(s)
 
-Pages: P249, P361.
+Pages: P252, P364.
 
 ```diff
 --- main
@@ -1557,7 +1560,7 @@ Pages: P249, P361.
 
 ### D027: 2 page(s)
 
-Pages: P228, P229.
+Pages: P231, P232.
 
 ```diff
 --- main
@@ -1598,7 +1601,7 @@ Pages: P228, P229.
 
 ### D028: 2 page(s)
 
-Pages: P124, P289.
+Pages: P127, P292.
 
 ```diff
 --- main
@@ -1645,7 +1648,7 @@ Pages: P124, P289.
 
 ### D029: 2 page(s)
 
-Pages: P350, P351.
+Pages: P353, P354.
 
 ```diff
 --- main
@@ -1689,7 +1692,7 @@ Pages: P350, P351.
 
 ### D030: 2 page(s)
 
-Pages: P108, P343.
+Pages: P110, P346.
 
 ```diff
 --- main
@@ -1737,7 +1740,7 @@ Pages: P108, P343.
 
 ### D031: 2 page(s)
 
-Pages: P206, P287.
+Pages: P209, P290.
 
 ```diff
 --- main
@@ -1785,7 +1788,7 @@ Pages: P206, P287.
 
 ### D032: 2 page(s)
 
-Pages: P197, P198.
+Pages: P200, P201.
 
 ```diff
 --- main
@@ -1840,7 +1843,7 @@ Pages: P197, P198.
 
 ### D033: 2 page(s)
 
-Pages: P200, P201.
+Pages: P203, P204.
 
 ```diff
 --- main
@@ -1895,7 +1898,7 @@ Pages: P200, P201.
 
 ### D034: 2 page(s)
 
-Pages: P224, P225.
+Pages: P227, P228.
 
 ```diff
 --- main
@@ -1952,7 +1955,39 @@ Pages: P224, P225.
 
 ### D035: 2 page(s)
 
-Pages: P142, P144.
+Pages: P031, P361.
+
+```diff
+--- main
++++ PR 912
+@@ -16,19 +16,19 @@
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
+ </th>
+-<td>as specified</td>
++<td>与指定值相同</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
+ </th>
+-<td>离散值</td>
++<td>离散</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D036: 2 page(s)
+
+Pages: P145, P147.
 
 ```diff
 --- main
@@ -1982,7 +2017,7 @@ Pages: P142, P144.
  </table>
 ```
 
-### D036: 2 page(s)
+### D037: 2 page(s)
 
 Pages: P021, P023.
 
@@ -2015,9 +2050,9 @@ Pages: P021, P023.
  </table>
 ```
 
-### D037: 2 page(s)
+### D038: 2 page(s)
 
-Pages: P179, P181.
+Pages: P182, P184.
 
 ```diff
 --- main
@@ -2055,9 +2090,9 @@ Pages: P179, P181.
  </table>
 ```
 
-### D038: 2 page(s)
+### D039: 2 page(s)
 
-Pages: P186, P187.
+Pages: P189, P190.
 
 ```diff
 --- main
@@ -2096,9 +2131,9 @@ Pages: P186, P187.
  </table>
 ```
 
-### D039: 2 page(s)
+### D040: 2 page(s)
 
-Pages: P257, P259.
+Pages: P260, P262.
 
 ```diff
 --- main
@@ -2145,7 +2180,7 @@ Pages: P257, P259.
  </table>
 ```
 
-### D040: 1 page(s)
+### D041: 1 page(s)
 
 Pages: P012.
 
@@ -2187,7 +2222,7 @@ Pages: P012.
 -</table>
 ```
 
-### D041: 1 page(s)
+### D042: 1 page(s)
 
 Pages: P014.
 
@@ -2231,9 +2266,9 @@ Pages: P014.
 -</table>
 ```
 
-### D042: 1 page(s)
+### D043: 1 page(s)
 
-Pages: P110.
+Pages: P112.
 
 ```diff
 --- main
@@ -2275,7 +2310,7 @@ Pages: P110.
 -</table>
 ```
 
-### D043: 1 page(s)
+### D044: 1 page(s)
 
 Pages: P020.
 
@@ -2319,7 +2354,7 @@ Pages: P020.
 -</table>
 ```
 
-### D044: 1 page(s)
+### D045: 1 page(s)
 
 Pages: P013.
 
@@ -2363,7 +2398,7 @@ Pages: P013.
 -</table>
 ```
 
-### D045: 1 page(s)
+### D046: 1 page(s)
 
 Pages: P025.
 
@@ -2407,9 +2442,9 @@ Pages: P025.
 -</table>
 ```
 
-### D046: 1 page(s)
+### D047: 1 page(s)
 
-Pages: P111.
+Pages: P113.
 
 ```diff
 --- main
@@ -2454,7 +2489,7 @@ Pages: P111.
 -</table>
 ```
 
-### D047: 1 page(s)
+### D048: 1 page(s)
 
 Pages: P015.
 
@@ -2502,9 +2537,9 @@ Pages: P015.
 -</table>
 ```
 
-### D048: 1 page(s)
+### D049: 1 page(s)
 
-Pages: P166.
+Pages: P169.
 
 ```diff
 --- main
@@ -2550,7 +2585,7 @@ Pages: P166.
  </table>
 ```
 
-### D049: 1 page(s)
+### D050: 1 page(s)
 
 Pages: P001.
 
@@ -2586,7 +2621,7 @@ Pages: P001.
  </table>
 ```
 
-### D050: 1 page(s)
+### D051: 1 page(s)
 
 Pages: P006.
 
@@ -2622,7 +2657,7 @@ Pages: P006.
  </table>
 ```
 
-### D051: 1 page(s)
+### D052: 1 page(s)
 
 Pages: P007.
 
@@ -2657,7 +2692,7 @@ Pages: P007.
  </table>
 ```
 
-### D052: 1 page(s)
+### D053: 1 page(s)
 
 Pages: P004.
 
@@ -2685,7 +2720,7 @@ Pages: P004.
  </table>
 ```
 
-### D053: 1 page(s)
+### D054: 1 page(s)
 
 Pages: P009.
 
@@ -2721,7 +2756,7 @@ Pages: P009.
  </table>
 ```
 
-### D054: 1 page(s)
+### D055: 1 page(s)
 
 Pages: P011.
 
@@ -2757,7 +2792,7 @@ Pages: P011.
  </table>
 ```
 
-### D055: 1 page(s)
+### D056: 1 page(s)
 
 Pages: P010.
 
@@ -2793,7 +2828,7 @@ Pages: P010.
  </table>
 ```
 
-### D056: 1 page(s)
+### D057: 1 page(s)
 
 Pages: P018.
 
@@ -2885,9 +2920,9 @@ Pages: P018.
 -</table>
 ```
 
-### D057: 1 page(s)
+### D058: 1 page(s)
 
-Pages: P230.
+Pages: P233.
 
 ```diff
 --- main
@@ -2935,9 +2970,9 @@ Pages: P230.
  </table>
 ```
 
-### D058: 1 page(s)
+### D059: 1 page(s)
 
-Pages: P231.
+Pages: P234.
 
 ```diff
 --- main
@@ -2985,9 +3020,9 @@ Pages: P231.
  </table>
 ```
 
-### D059: 1 page(s)
+### D060: 1 page(s)
 
-Pages: P202.
+Pages: P205.
 
 ```diff
 --- main
@@ -3024,7 +3059,7 @@ Pages: P202.
  </table>
 ```
 
-### D060: 1 page(s)
+### D061: 1 page(s)
 
 Pages: P027.
 
@@ -3063,9 +3098,9 @@ Pages: P027.
  </table>
 ```
 
-### D061: 1 page(s)
+### D062: 1 page(s)
 
-Pages: P039.
+Pages: P041.
 
 ```diff
 --- main
@@ -3102,9 +3137,9 @@ Pages: P039.
  </table>
 ```
 
-### D062: 1 page(s)
+### D063: 1 page(s)
 
-Pages: P366.
+Pages: P369.
 
 ```diff
 --- main
@@ -3141,9 +3176,9 @@ Pages: P366.
  </table>
 ```
 
-### D063: 1 page(s)
+### D064: 1 page(s)
 
-Pages: P344.
+Pages: P347.
 
 ```diff
 --- main
@@ -3180,9 +3215,9 @@ Pages: P344.
  </table>
 ```
 
-### D064: 1 page(s)
+### D065: 1 page(s)
 
-Pages: P113.
+Pages: P115.
 
 ```diff
 --- main
@@ -3219,9 +3254,9 @@ Pages: P113.
  </table>
 ```
 
-### D065: 1 page(s)
+### D066: 1 page(s)
 
-Pages: P335.
+Pages: P338.
 
 ```diff
 --- main
@@ -3258,9 +3293,9 @@ Pages: P335.
  </table>
 ```
 
-### D066: 1 page(s)
+### D067: 1 page(s)
 
-Pages: P355.
+Pages: P358.
 
 ```diff
 --- main
@@ -3297,9 +3332,9 @@ Pages: P355.
  </table>
 ```
 
-### D067: 1 page(s)
+### D068: 1 page(s)
 
-Pages: P205.
+Pages: P208.
 
 ```diff
 --- main
@@ -3336,9 +3371,9 @@ Pages: P205.
  </table>
 ```
 
-### D068: 1 page(s)
+### D069: 1 page(s)
 
-Pages: P276.
+Pages: P279.
 
 ```diff
 --- main
@@ -3375,9 +3410,48 @@ Pages: P276.
  </table>
 ```
 
-### D069: 1 page(s)
+### D070: 1 page(s)
 
-Pages: P114.
+Pages: P120.
+
+```diff
+--- main
++++ PR 912
+@@ -10,25 +10,25 @@
+ </tr>
+ <tr>
+ <th scope="row">适用元素</th>
+-<td>block-level elements</td>
++<td>块级元素、浮动元素、区域和页面</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
+ </th>
+-<td>as specified</td>
++<td>指定的关键字</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
+ </th>
+-<td>离散值</td>
++<td>离散</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D071: 1 page(s)
+
+Pages: P116.
 
 ```diff
 --- main
@@ -3414,9 +3488,9 @@ Pages: P114.
  </table>
 ```
 
-### D070: 1 page(s)
+### D072: 1 page(s)
 
-Pages: P115.
+Pages: P117.
 
 ```diff
 --- main
@@ -3483,9 +3557,9 @@ Pages: P115.
  </table>
 ```
 
-### D071: 1 page(s)
+### D073: 1 page(s)
 
-Pages: P129.
+Pages: P132.
 
 ```diff
 --- main
@@ -3522,9 +3596,9 @@ Pages: P129.
  </table>
 ```
 
-### D072: 1 page(s)
+### D074: 1 page(s)
 
-Pages: P334.
+Pages: P337.
 
 ```diff
 --- main
@@ -3561,9 +3635,9 @@ Pages: P334.
  </table>
 ```
 
-### D073: 1 page(s)
+### D075: 1 page(s)
 
-Pages: P127.
+Pages: P130.
 
 ```diff
 --- main
@@ -3600,9 +3674,9 @@ Pages: P127.
  </table>
 ```
 
-### D074: 1 page(s)
+### D076: 1 page(s)
 
-Pages: P123.
+Pages: P126.
 
 ```diff
 --- main
@@ -3639,9 +3713,9 @@ Pages: P123.
  </table>
 ```
 
-### D075: 1 page(s)
+### D077: 1 page(s)
 
-Pages: P291.
+Pages: P294.
 
 ```diff
 --- main
@@ -3678,9 +3752,9 @@ Pages: P291.
  </table>
 ```
 
-### D076: 1 page(s)
+### D078: 1 page(s)
 
-Pages: P318.
+Pages: P321.
 
 ```diff
 --- main
@@ -3717,9 +3791,9 @@ Pages: P318.
  </table>
 ```
 
-### D077: 1 page(s)
+### D079: 1 page(s)
 
-Pages: P317.
+Pages: P320.
 
 ```diff
 --- main
@@ -3756,9 +3830,9 @@ Pages: P317.
  </table>
 ```
 
-### D078: 1 page(s)
+### D080: 1 page(s)
 
-Pages: P323.
+Pages: P326.
 
 ```diff
 --- main
@@ -3795,9 +3869,9 @@ Pages: P323.
  </table>
 ```
 
-### D079: 1 page(s)
+### D081: 1 page(s)
 
-Pages: P139.
+Pages: P142.
 
 ```diff
 --- main
@@ -3834,9 +3908,9 @@ Pages: P139.
  </table>
 ```
 
-### D080: 1 page(s)
+### D082: 1 page(s)
 
-Pages: P203.
+Pages: P206.
 
 ```diff
 --- main
@@ -3873,9 +3947,9 @@ Pages: P203.
  </table>
 ```
 
-### D081: 1 page(s)
+### D083: 1 page(s)
 
-Pages: P332.
+Pages: P335.
 
 ```diff
 --- main
@@ -3912,9 +3986,9 @@ Pages: P332.
  </table>
 ```
 
-### D082: 1 page(s)
+### D084: 1 page(s)
 
-Pages: P282.
+Pages: P285.
 
 ```diff
 --- main
@@ -3951,9 +4025,9 @@ Pages: P282.
  </table>
 ```
 
-### D083: 1 page(s)
+### D085: 1 page(s)
 
-Pages: P356.
+Pages: P359.
 
 ```diff
 --- main
@@ -3990,9 +4064,9 @@ Pages: P356.
  </table>
 ```
 
-### D084: 1 page(s)
+### D086: 1 page(s)
 
-Pages: P132.
+Pages: P135.
 
 ```diff
 --- main
@@ -4029,9 +4103,9 @@ Pages: P132.
  </table>
 ```
 
-### D085: 1 page(s)
+### D087: 1 page(s)
 
-Pages: P086.
+Pages: P088.
 
 ```diff
 --- main
@@ -4098,9 +4172,9 @@ Pages: P086.
  </table>
 ```
 
-### D086: 1 page(s)
+### D088: 1 page(s)
 
-Pages: P324.
+Pages: P327.
 
 ```diff
 --- main
@@ -4137,9 +4211,9 @@ Pages: P324.
  </table>
 ```
 
-### D087: 1 page(s)
+### D089: 1 page(s)
 
-Pages: P337.
+Pages: P340.
 
 ```diff
 --- main
@@ -4176,9 +4250,9 @@ Pages: P337.
  </table>
 ```
 
-### D088: 1 page(s)
+### D090: 1 page(s)
 
-Pages: P277.
+Pages: P280.
 
 ```diff
 --- main
@@ -4215,9 +4289,9 @@ Pages: P277.
  </table>
 ```
 
-### D089: 1 page(s)
+### D091: 1 page(s)
 
-Pages: P147.
+Pages: P150.
 
 ```diff
 --- main
@@ -4254,9 +4328,9 @@ Pages: P147.
  </table>
 ```
 
-### D090: 1 page(s)
+### D092: 1 page(s)
 
-Pages: P116.
+Pages: P118.
 
 ```diff
 --- main
@@ -4293,9 +4367,9 @@ Pages: P116.
  </table>
 ```
 
-### D091: 1 page(s)
+### D093: 1 page(s)
 
-Pages: P336.
+Pages: P339.
 
 ```diff
 --- main
@@ -4336,9 +4410,9 @@ Pages: P336.
  </table>
 ```
 
-### D092: 1 page(s)
+### D094: 1 page(s)
 
-Pages: P258.
+Pages: P261.
 
 ```diff
 --- main
@@ -4417,9 +4491,9 @@ Pages: P258.
  </table>
 ```
 
-### D093: 1 page(s)
+### D095: 1 page(s)
 
-Pages: P209.
+Pages: P212.
 
 ```diff
 --- main
@@ -4515,9 +4589,49 @@ Pages: P209.
  </tbody>
 ```
 
-### D094: 1 page(s)
+### D096: 1 page(s)
 
-Pages: P122.
+Pages: P030.
+
+```diff
+--- main
++++ PR 912
+@@ -10,26 +10,25 @@
+ </tr>
+ <tr>
+ <th scope="row">适用元素</th>
+-<td>All elements that generate a <a href="https://drafts.csswg.org/css-display-4/#principal-box" class="external" target="_blank" title="外部链接（在新标签页中打开）">principal box</a>
+-</td>
++<td>所有生成主框的元素</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
+ </th>
+-<td>as specified</td>
++<td>与指定值相同</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
+ </th>
+-<td>离散值</td>
++<td>离散</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D097: 1 page(s)
+
+Pages: P125.
 
 ```diff
 --- main
@@ -4555,9 +4669,9 @@ Pages: P122.
  </table>
 ```
 
-### D095: 1 page(s)
+### D098: 1 page(s)
 
-Pages: P248.
+Pages: P251.
 
 ```diff
 --- main
@@ -4595,9 +4709,9 @@ Pages: P248.
  </table>
 ```
 
-### D096: 1 page(s)
+### D099: 1 page(s)
 
-Pages: P154.
+Pages: P157.
 
 ```diff
 --- main
@@ -4635,9 +4749,9 @@ Pages: P154.
  </table>
 ```
 
-### D097: 1 page(s)
+### D100: 1 page(s)
 
-Pages: P153.
+Pages: P156.
 
 ```diff
 --- main
@@ -4675,9 +4789,9 @@ Pages: P153.
  </table>
 ```
 
-### D098: 1 page(s)
+### D101: 1 page(s)
 
-Pages: P126.
+Pages: P129.
 
 ```diff
 --- main
@@ -4715,9 +4829,9 @@ Pages: P126.
  </table>
 ```
 
-### D099: 1 page(s)
+### D102: 1 page(s)
 
-Pages: P321.
+Pages: P324.
 
 ```diff
 --- main
@@ -4755,9 +4869,9 @@ Pages: P321.
  </table>
 ```
 
-### D100: 1 page(s)
+### D103: 1 page(s)
 
-Pages: P330.
+Pages: P333.
 
 ```diff
 --- main
@@ -4795,9 +4909,9 @@ Pages: P330.
  </table>
 ```
 
-### D101: 1 page(s)
+### D104: 1 page(s)
 
-Pages: P156.
+Pages: P159.
 
 ```diff
 --- main
@@ -4836,9 +4950,9 @@ Pages: P156.
  </table>
 ```
 
-### D102: 1 page(s)
+### D105: 1 page(s)
 
-Pages: P232.
+Pages: P235.
 
 ```diff
 --- main
@@ -4877,9 +4991,9 @@ Pages: P232.
  </table>
 ```
 
-### D103: 1 page(s)
+### D106: 1 page(s)
 
-Pages: P235.
+Pages: P238.
 
 ```diff
 --- main
@@ -4918,9 +5032,9 @@ Pages: P235.
  </table>
 ```
 
-### D104: 1 page(s)
+### D107: 1 page(s)
 
-Pages: P234.
+Pages: P237.
 
 ```diff
 --- main
@@ -4959,9 +5073,9 @@ Pages: P234.
  </table>
 ```
 
-### D105: 1 page(s)
+### D108: 1 page(s)
 
-Pages: P286.
+Pages: P289.
 
 ```diff
 --- main
@@ -5000,9 +5114,9 @@ Pages: P286.
  </table>
 ```
 
-### D106: 1 page(s)
+### D109: 1 page(s)
 
-Pages: P141.
+Pages: P144.
 
 ```diff
 --- main
@@ -5041,9 +5155,9 @@ Pages: P141.
  </table>
 ```
 
-### D107: 1 page(s)
+### D110: 1 page(s)
 
-Pages: P062.
+Pages: P064.
 
 ```diff
 --- main
@@ -5114,9 +5228,9 @@ Pages: P062.
  </table>
 ```
 
-### D108: 1 page(s)
+### D111: 1 page(s)
 
-Pages: P118.
+Pages: P121.
 
 ```diff
 --- main
@@ -5155,9 +5269,9 @@ Pages: P118.
  </table>
 ```
 
-### D109: 1 page(s)
+### D112: 1 page(s)
 
-Pages: P112.
+Pages: P114.
 
 ```diff
 --- main
@@ -5241,9 +5355,9 @@ Pages: P112.
  </tbody>
 ```
 
-### D110: 1 page(s)
+### D113: 1 page(s)
 
-Pages: P193.
+Pages: P196.
 
 ```diff
 --- main
@@ -5283,9 +5397,9 @@ Pages: P193.
  </table>
 ```
 
-### D111: 1 page(s)
+### D114: 1 page(s)
 
-Pages: P130.
+Pages: P133.
 
 ```diff
 --- main
@@ -5325,9 +5439,9 @@ Pages: P130.
  </table>
 ```
 
-### D112: 1 page(s)
+### D115: 1 page(s)
 
-Pages: P148.
+Pages: P151.
 
 ```diff
 --- main
@@ -5367,9 +5481,9 @@ Pages: P148.
  </table>
 ```
 
-### D113: 1 page(s)
+### D116: 1 page(s)
 
-Pages: P040.
+Pages: P042.
 
 ```diff
 --- main
@@ -5409,9 +5523,9 @@ Pages: P040.
  </table>
 ```
 
-### D114: 1 page(s)
+### D117: 1 page(s)
 
-Pages: P128.
+Pages: P131.
 
 ```diff
 --- main
@@ -5451,9 +5565,9 @@ Pages: P128.
  </table>
 ```
 
-### D115: 1 page(s)
+### D118: 1 page(s)
 
-Pages: P138.
+Pages: P141.
 
 ```diff
 --- main
@@ -5494,9 +5608,9 @@ Pages: P138.
  </table>
 ```
 
-### D116: 1 page(s)
+### D119: 1 page(s)
 
-Pages: P043.
+Pages: P045.
 
 ```diff
 --- main
@@ -5571,9 +5685,9 @@ Pages: P043.
  </table>
 ```
 
-### D117: 1 page(s)
+### D120: 1 page(s)
 
-Pages: P260.
+Pages: P263.
 
 ```diff
 --- main
@@ -5614,9 +5728,9 @@ Pages: P260.
  </table>
 ```
 
-### D118: 1 page(s)
+### D121: 1 page(s)
 
-Pages: P261.
+Pages: P264.
 
 ```diff
 --- main
@@ -5657,9 +5771,9 @@ Pages: P261.
  </table>
 ```
 
-### D119: 1 page(s)
+### D122: 1 page(s)
 
-Pages: P117.
+Pages: P119.
 
 ```diff
 --- main
@@ -5700,9 +5814,9 @@ Pages: P117.
  </table>
 ```
 
-### D120: 1 page(s)
+### D123: 1 page(s)
 
-Pages: P073.
+Pages: P075.
 
 ```diff
 --- main
@@ -5743,9 +5857,9 @@ Pages: P073.
  </table>
 ```
 
-### D121: 1 page(s)
+### D124: 1 page(s)
 
-Pages: P074.
+Pages: P076.
 
 ```diff
 --- main
@@ -5786,9 +5900,9 @@ Pages: P074.
  </table>
 ```
 
-### D122: 1 page(s)
+### D125: 1 page(s)
 
-Pages: P233.
+Pages: P236.
 
 ```diff
 --- main
@@ -5829,9 +5943,9 @@ Pages: P233.
  </table>
 ```
 
-### D123: 1 page(s)
+### D126: 1 page(s)
 
-Pages: P340.
+Pages: P343.
 
 ```diff
 --- main
@@ -5872,9 +5986,9 @@ Pages: P340.
  </table>
 ```
 
-### D124: 1 page(s)
+### D127: 1 page(s)
 
-Pages: P044.
+Pages: P046.
 
 ```diff
 --- main
@@ -5915,9 +6029,9 @@ Pages: P044.
  </table>
 ```
 
-### D125: 1 page(s)
+### D128: 1 page(s)
 
-Pages: P047.
+Pages: P049.
 
 ```diff
 --- main
@@ -5958,9 +6072,9 @@ Pages: P047.
  </table>
 ```
 
-### D126: 1 page(s)
+### D129: 1 page(s)
 
-Pages: P042.
+Pages: P044.
 
 ```diff
 --- main
@@ -6001,9 +6115,9 @@ Pages: P042.
  </table>
 ```
 
-### D127: 1 page(s)
+### D130: 1 page(s)
 
-Pages: P326.
+Pages: P329.
 
 ```diff
 --- main
@@ -6044,9 +6158,9 @@ Pages: P326.
  </table>
 ```
 
-### D128: 1 page(s)
+### D131: 1 page(s)
 
-Pages: P175.
+Pages: P178.
 
 ```diff
 --- main
@@ -6087,9 +6201,9 @@ Pages: P175.
  </table>
 ```
 
-### D129: 1 page(s)
+### D132: 1 page(s)
 
-Pages: P162.
+Pages: P165.
 
 ```diff
 --- main
@@ -6130,9 +6244,9 @@ Pages: P162.
  </table>
 ```
 
-### D130: 1 page(s)
+### D133: 1 page(s)
 
-Pages: P161.
+Pages: P164.
 
 ```diff
 --- main
@@ -6173,9 +6287,9 @@ Pages: P161.
  </table>
 ```
 
-### D131: 1 page(s)
+### D134: 1 page(s)
 
-Pages: P176.
+Pages: P179.
 
 ```diff
 --- main
@@ -6216,9 +6330,9 @@ Pages: P176.
  </table>
 ```
 
-### D132: 1 page(s)
+### D135: 1 page(s)
 
-Pages: P242.
+Pages: P245.
 
 ```diff
 --- main
@@ -6263,9 +6377,9 @@ Pages: P242.
  </table>
 ```
 
-### D133: 1 page(s)
+### D136: 1 page(s)
 
-Pages: P362.
+Pages: P365.
 
 ```diff
 --- main
@@ -6310,9 +6424,9 @@ Pages: P362.
  </table>
 ```
 
-### D134: 1 page(s)
+### D137: 1 page(s)
 
-Pages: P150.
+Pages: P153.
 
 ```diff
 --- main
@@ -6357,9 +6471,9 @@ Pages: P150.
  </table>
 ```
 
-### D135: 1 page(s)
+### D138: 1 page(s)
 
-Pages: P333.
+Pages: P336.
 
 ```diff
 --- main
@@ -6404,9 +6518,9 @@ Pages: P333.
  </table>
 ```
 
-### D136: 1 page(s)
+### D139: 1 page(s)
 
-Pages: P320.
+Pages: P323.
 
 ```diff
 --- main
@@ -6451,9 +6565,9 @@ Pages: P320.
  </table>
 ```
 
-### D137: 1 page(s)
+### D140: 1 page(s)
 
-Pages: P240.
+Pages: P243.
 
 ```diff
 --- main
@@ -6498,9 +6612,9 @@ Pages: P240.
  </table>
 ```
 
-### D138: 1 page(s)
+### D141: 1 page(s)
 
-Pages: P189.
+Pages: P192.
 
 ```diff
 --- main
@@ -6545,9 +6659,9 @@ Pages: P189.
  </table>
 ```
 
-### D139: 1 page(s)
+### D142: 1 page(s)
 
-Pages: P357.
+Pages: P360.
 
 ```diff
 --- main
@@ -6633,9 +6747,9 @@ Pages: P357.
  </table>
 ```
 
-### D140: 1 page(s)
+### D143: 1 page(s)
 
-Pages: P353.
+Pages: P356.
 
 ```diff
 --- main
@@ -6677,9 +6791,9 @@ Pages: P353.
  </table>
 ```
 
-### D141: 1 page(s)
+### D144: 1 page(s)
 
-Pages: P352.
+Pages: P355.
 
 ```diff
 --- main
@@ -6721,9 +6835,9 @@ Pages: P352.
  </table>
 ```
 
-### D142: 1 page(s)
+### D145: 1 page(s)
 
-Pages: P037.
+Pages: P039.
 
 ```diff
 --- main
@@ -6765,9 +6879,9 @@ Pages: P037.
  </table>
 ```
 
-### D143: 1 page(s)
+### D146: 1 page(s)
 
-Pages: P035.
+Pages: P037.
 
 ```diff
 --- main
@@ -6809,9 +6923,9 @@ Pages: P035.
  </table>
 ```
 
-### D144: 1 page(s)
+### D147: 1 page(s)
 
-Pages: P034.
+Pages: P036.
 
 ```diff
 --- main
@@ -6853,9 +6967,9 @@ Pages: P034.
  </table>
 ```
 
-### D145: 1 page(s)
+### D148: 1 page(s)
 
-Pages: P076.
+Pages: P078.
 
 ```diff
 --- main
@@ -6897,9 +7011,9 @@ Pages: P076.
  </table>
 ```
 
-### D146: 1 page(s)
+### D149: 1 page(s)
 
-Pages: P338.
+Pages: P341.
 
 ```diff
 --- main
@@ -6941,9 +7055,9 @@ Pages: P338.
  </table>
 ```
 
-### D147: 1 page(s)
+### D150: 1 page(s)
 
-Pages: P045.
+Pages: P047.
 
 ```diff
 --- main
@@ -6985,9 +7099,9 @@ Pages: P045.
  </table>
 ```
 
-### D148: 1 page(s)
+### D151: 1 page(s)
 
-Pages: P243.
+Pages: P246.
 
 ```diff
 --- main
@@ -7029,9 +7143,9 @@ Pages: P243.
  </table>
 ```
 
-### D149: 1 page(s)
+### D152: 1 page(s)
 
-Pages: P283.
+Pages: P286.
 
 ```diff
 --- main
@@ -7073,9 +7187,9 @@ Pages: P283.
  </table>
 ```
 
-### D150: 1 page(s)
+### D153: 1 page(s)
 
-Pages: P164.
+Pages: P167.
 
 ```diff
 --- main
@@ -7117,9 +7231,9 @@ Pages: P164.
  </table>
 ```
 
-### D151: 1 page(s)
+### D154: 1 page(s)
 
-Pages: P167.
+Pages: P170.
 
 ```diff
 --- main
@@ -7161,9 +7275,9 @@ Pages: P167.
  </table>
 ```
 
-### D152: 1 page(s)
+### D155: 1 page(s)
 
-Pages: P238.
+Pages: P241.
 
 ```diff
 --- main
@@ -7209,9 +7323,9 @@ Pages: P238.
  </table>
 ```
 
-### D153: 1 page(s)
+### D156: 1 page(s)
 
-Pages: P236.
+Pages: P239.
 
 ```diff
 --- main
@@ -7257,9 +7371,9 @@ Pages: P236.
  </table>
 ```
 
-### D154: 1 page(s)
+### D157: 1 page(s)
 
-Pages: P367.
+Pages: P370.
 
 ```diff
 --- main
@@ -7302,9 +7416,9 @@ Pages: P367.
  </table>
 ```
 
-### D155: 1 page(s)
+### D158: 1 page(s)
 
-Pages: P046.
+Pages: P048.
 
 ```diff
 --- main
@@ -7347,9 +7461,9 @@ Pages: P046.
  </table>
 ```
 
-### D156: 1 page(s)
+### D159: 1 page(s)
 
-Pages: P207.
+Pages: P210.
 
 ```diff
 --- main
@@ -7396,9 +7510,9 @@ Pages: P207.
  </table>
 ```
 
-### D157: 1 page(s)
+### D160: 1 page(s)
 
-Pages: P328.
+Pages: P331.
 
 ```diff
 --- main
@@ -7443,9 +7557,9 @@ Pages: P328.
  </table>
 ```
 
-### D158: 1 page(s)
+### D161: 1 page(s)
 
-Pages: P341.
+Pages: P344.
 
 ```diff
 --- main
@@ -7490,9 +7604,9 @@ Pages: P341.
  </table>
 ```
 
-### D159: 1 page(s)
+### D162: 1 page(s)
 
-Pages: P075.
+Pages: P077.
 
 ```diff
 --- main
@@ -7541,9 +7655,9 @@ Pages: P075.
  </table>
 ```
 
-### D160: 1 page(s)
+### D163: 1 page(s)
 
-Pages: P077.
+Pages: P079.
 
 ```diff
 --- main
@@ -7592,9 +7706,9 @@ Pages: P077.
  </table>
 ```
 
-### D161: 1 page(s)
+### D164: 1 page(s)
 
-Pages: P210.
+Pages: P213.
 
 ```diff
 --- main
@@ -7643,9 +7757,9 @@ Pages: P210.
  </table>
 ```
 
-### D162: 1 page(s)
+### D165: 1 page(s)
 
-Pages: P119.
+Pages: P122.
 
 ```diff
 --- main
@@ -7692,9 +7806,9 @@ Pages: P119.
  </table>
 ```
 
-### D163: 1 page(s)
+### D166: 1 page(s)
 
-Pages: P255.
+Pages: P258.
 
 ```diff
 --- main
@@ -7752,9 +7866,9 @@ Pages: P255.
  </table>
 ```
 
-### D164: 1 page(s)
+### D167: 1 page(s)
 
-Pages: P163.
+Pages: P166.
 
 ```diff
 --- main
@@ -7806,9 +7920,9 @@ Pages: P163.
  </table>
 ```
 
-### D165: 1 page(s)
+### D168: 1 page(s)
 
-Pages: P365.
+Pages: P368.
 
 ```diff
 --- main
@@ -7861,9 +7975,9 @@ Pages: P365.
  </table>
 ```
 
-### D166: 1 page(s)
+### D169: 1 page(s)
 
-Pages: P237.
+Pages: P240.
 
 ```diff
 --- main
@@ -7918,9 +8032,9 @@ Pages: P237.
  </table>
 ```
 
-### D167: 1 page(s)
+### D170: 1 page(s)
 
-Pages: P052.
+Pages: P054.
 
 ```diff
 --- main
@@ -7975,9 +8089,9 @@ Pages: P052.
  </table>
 ```
 
-### D168: 1 page(s)
+### D171: 1 page(s)
 
-Pages: P194.
+Pages: P197.
 
 ```diff
 --- main
@@ -8032,9 +8146,9 @@ Pages: P194.
  </table>
 ```
 
-### D169: 1 page(s)
+### D172: 1 page(s)
 
-Pages: P048.
+Pages: P050.
 
 ```diff
 --- main
@@ -8094,41 +8208,9 @@ Pages: P048.
  </table>
 ```
 
-### D170: 1 page(s)
+### D173: 1 page(s)
 
-Pages: P358.
-
-```diff
---- main
-+++ PR 912
-@@ -16,19 +16,19 @@
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
- </th>
--<td>否</td>
-+<td>no</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
- </th>
--<td>as specified</td>
-+<td>与指定值相同</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
- </th>
--<td>离散值</td>
-+<td>离散</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D171: 1 page(s)
-
-Pages: P314.
+Pages: P317.
 
 ```diff
 --- main
@@ -8158,9 +8240,9 @@ Pages: P314.
  </table>
 ```
 
-### D172: 1 page(s)
+### D174: 1 page(s)
 
-Pages: P143.
+Pages: P146.
 
 ```diff
 --- main
@@ -8190,9 +8272,9 @@ Pages: P143.
  </table>
 ```
 
-### D173: 1 page(s)
+### D175: 1 page(s)
 
-Pages: P185.
+Pages: P188.
 
 ```diff
 --- main
@@ -8222,9 +8304,9 @@ Pages: P185.
  </table>
 ```
 
-### D174: 1 page(s)
+### D176: 1 page(s)
 
-Pages: P363.
+Pages: P366.
 
 ```diff
 --- main
@@ -8254,9 +8336,9 @@ Pages: P363.
  </table>
 ```
 
-### D175: 1 page(s)
+### D177: 1 page(s)
 
-Pages: P253.
+Pages: P256.
 
 ```diff
 --- main
@@ -8286,9 +8368,9 @@ Pages: P253.
  </table>
 ```
 
-### D176: 1 page(s)
+### D178: 1 page(s)
 
-Pages: P204.
+Pages: P207.
 
 ```diff
 --- main
@@ -8318,9 +8400,9 @@ Pages: P204.
  </table>
 ```
 
-### D177: 1 page(s)
+### D179: 1 page(s)
 
-Pages: P146.
+Pages: P149.
 
 ```diff
 --- main
@@ -8350,9 +8432,9 @@ Pages: P146.
  </table>
 ```
 
-### D178: 1 page(s)
+### D180: 1 page(s)
 
-Pages: P212.
+Pages: P215.
 
 ```diff
 --- main
@@ -8382,9 +8464,9 @@ Pages: P212.
  </table>
 ```
 
-### D179: 1 page(s)
+### D181: 1 page(s)
 
-Pages: P121.
+Pages: P124.
 
 ```diff
 --- main
@@ -8414,9 +8496,9 @@ Pages: P121.
  </table>
 ```
 
-### D180: 1 page(s)
+### D182: 1 page(s)
 
-Pages: P177.
+Pages: P180.
 
 ```diff
 --- main
@@ -8446,9 +8528,9 @@ Pages: P177.
  </table>
 ```
 
-### D181: 1 page(s)
+### D183: 1 page(s)
 
-Pages: P359.
+Pages: P362.
 
 ```diff
 --- main
@@ -8478,9 +8560,9 @@ Pages: P359.
  </table>
 ```
 
-### D182: 1 page(s)
+### D184: 1 page(s)
 
-Pages: P213.
+Pages: P216.
 
 ```diff
 --- main
@@ -8510,9 +8592,9 @@ Pages: P213.
  </table>
 ```
 
-### D183: 1 page(s)
+### D185: 1 page(s)
 
-Pages: P145.
+Pages: P148.
 
 ```diff
 --- main
@@ -8542,9 +8624,9 @@ Pages: P145.
  </table>
 ```
 
-### D184: 1 page(s)
+### D186: 1 page(s)
 
-Pages: P251.
+Pages: P254.
 
 ```diff
 --- main
@@ -8575,9 +8657,9 @@ Pages: P251.
  </table>
 ```
 
-### D185: 1 page(s)
+### D187: 1 page(s)
 
-Pages: P254.
+Pages: P257.
 
 ```diff
 --- main
@@ -8610,9 +8692,9 @@ Pages: P254.
  </table>
 ```
 
-### D186: 1 page(s)
+### D188: 1 page(s)
 
-Pages: P252.
+Pages: P255.
 
 ```diff
 --- main
@@ -8645,7 +8727,7 @@ Pages: P252.
  </table>
 ```
 
-### D187: 1 page(s)
+### D189: 1 page(s)
 
 Pages: P026.
 
@@ -8680,9 +8762,9 @@ Pages: P026.
  </table>
 ```
 
-### D188: 1 page(s)
+### D190: 1 page(s)
 
-Pages: P191.
+Pages: P194.
 
 ```diff
 --- main
@@ -8741,7 +8823,7 @@ Pages: P191.
  </table>
 ```
 
-### D189: 1 page(s)
+### D191: 1 page(s)
 
 Pages: P024.
 
@@ -8776,9 +8858,9 @@ Pages: P024.
  </table>
 ```
 
-### D190: 1 page(s)
+### D192: 1 page(s)
 
-Pages: P288.
+Pages: P291.
 
 ```diff
 --- main
@@ -8813,9 +8895,9 @@ Pages: P288.
  </table>
 ```
 
-### D191: 1 page(s)
+### D193: 1 page(s)
 
-Pages: P290.
+Pages: P293.
 
 ```diff
 --- main
@@ -8850,9 +8932,9 @@ Pages: P290.
  </table>
 ```
 
-### D192: 1 page(s)
+### D194: 1 page(s)
 
-Pages: P348.
+Pages: P351.
 
 ```diff
 --- main
@@ -8887,9 +8969,9 @@ Pages: P348.
  </table>
 ```
 
-### D193: 1 page(s)
+### D195: 1 page(s)
 
-Pages: P279.
+Pages: P282.
 
 ```diff
 --- main
@@ -8929,9 +9011,9 @@ Pages: P279.
  </table>
 ```
 
-### D194: 1 page(s)
+### D196: 1 page(s)
 
-Pages: P278.
+Pages: P281.
 
 ```diff
 --- main
@@ -8968,9 +9050,9 @@ Pages: P278.
  </table>
 ```
 
-### D195: 1 page(s)
+### D197: 1 page(s)
 
-Pages: P247.
+Pages: P250.
 
 ```diff
 --- main
@@ -9011,9 +9093,9 @@ Pages: P247.
  </table>
 ```
 
-### D196: 1 page(s)
+### D198: 1 page(s)
 
-Pages: P345.
+Pages: P348.
 
 ```diff
 --- main
@@ -9056,9 +9138,9 @@ Pages: P345.
  </table>
 ```
 
-### D197: 1 page(s)
+### D199: 1 page(s)
 
-Pages: P354.
+Pages: P357.
 
 ```diff
 --- main
@@ -9101,9 +9183,9 @@ Pages: P354.
  </table>
 ```
 
-### D198: 1 page(s)
+### D200: 1 page(s)
 
-Pages: P245.
+Pages: P248.
 
 ```diff
 --- main
@@ -9142,9 +9224,9 @@ Pages: P245.
  </table>
 ```
 
-### D199: 1 page(s)
+### D201: 1 page(s)
 
-Pages: P053.
+Pages: P055.
 
 ```diff
 --- main
@@ -9380,9 +9462,9 @@ Pages: P053.
  </ul>
 ```
 
-### D200: 1 page(s)
+### D202: 1 page(s)
 
-Pages: P078.
+Pages: P080.
 
 ```diff
 --- main
@@ -9618,9 +9700,9 @@ Pages: P078.
  </ul>
 ```
 
-### D201: 1 page(s)
+### D203: 1 page(s)
 
-Pages: P349.
+Pages: P352.
 
 ```diff
 --- main
@@ -9741,9 +9823,9 @@ Pages: P349.
  </table>
 ```
 
-### D202: 1 page(s)
+### D204: 1 page(s)
 
-Pages: P325.
+Pages: P328.
 
 ```diff
 --- main
@@ -9914,9 +9996,9 @@ Pages: P325.
  </tr>
 ```
 
-### D203: 1 page(s)
+### D205: 1 page(s)
 
-Pages: P140.
+Pages: P143.
 
 ```diff
 --- main
@@ -10002,9 +10084,9 @@ Pages: P140.
  </tr>
 ```
 
-### D204: 1 page(s)
+### D206: 1 page(s)
 
-Pages: P227.
+Pages: P230.
 
 ```diff
 --- main
@@ -10214,9 +10296,9 @@ Pages: P227.
  </table>
 ```
 
-### D205: 1 page(s)
+### D207: 1 page(s)
 
-Pages: P293.
+Pages: P296.
 
 ```diff
 --- main
@@ -10281,9 +10363,9 @@ Pages: P293.
  </table>
 ```
 
-### D206: 1 page(s)
+### D208: 1 page(s)
 
-Pages: P297.
+Pages: P300.
 
 ```diff
 --- main
@@ -10348,9 +10430,9 @@ Pages: P297.
  </table>
 ```
 
-### D207: 1 page(s)
+### D209: 1 page(s)
 
-Pages: P184.
+Pages: P187.
 
 ```diff
 --- main
@@ -10482,9 +10564,9 @@ Pages: P184.
  </tr>
 ```
 
-### D208: 1 page(s)
+### D210: 1 page(s)
 
-Pages: P292.
+Pages: P295.
 
 ```diff
 --- main
@@ -10565,9 +10647,9 @@ Pages: P292.
  </table>
 ```
 
-### D209: 1 page(s)
+### D211: 1 page(s)
 
-Pages: P246.
+Pages: P249.
 
 ```diff
 --- main
@@ -10776,9 +10858,9 @@ Pages: P246.
  </table>
 ```
 
-### D210: 1 page(s)
+### D212: 1 page(s)
 
-Pages: P158.
+Pages: P161.
 
 ```diff
 --- main
@@ -10824,7 +10906,7 @@ Pages: P158.
  </table>
 ```
 
-### D211: 1 page(s)
+### D213: 1 page(s)
 
 Pages: P029.
 
@@ -10876,9 +10958,9 @@ Pages: P029.
  </table>
 ```
 
-### D212: 1 page(s)
+### D214: 1 page(s)
 
-Pages: P030.
+Pages: P032.
 
 ```diff
 --- main
@@ -10961,9 +11043,9 @@ Pages: P030.
  </table>
 ```
 
-### D213: 1 page(s)
+### D215: 1 page(s)
 
-Pages: P182.
+Pages: P185.
 
 ```diff
 --- main
@@ -11034,9 +11116,9 @@ Pages: P182.
  </table>
 ```
 
-### D214: 1 page(s)
+### D216: 1 page(s)
 
-Pages: P183.
+Pages: P186.
 
 ```diff
 --- main
@@ -11107,9 +11189,9 @@ Pages: P183.
  </table>
 ```
 
-### D215: 1 page(s)
+### D217: 1 page(s)
 
-Pages: P280.
+Pages: P283.
 
 ```diff
 --- main
@@ -11184,9 +11266,9 @@ Pages: P280.
  </table>
 ```
 
-### D216: 1 page(s)
+### D218: 1 page(s)
 
-Pages: P149.
+Pages: P152.
 
 ```diff
 --- main
@@ -11409,9 +11491,9 @@ Pages: P149.
  </table>
 ```
 
-### D217: 1 page(s)
+### D219: 1 page(s)
 
-Pages: P304.
+Pages: P307.
 
 ```diff
 --- main
@@ -11488,9 +11570,9 @@ Pages: P304.
  </table>
 ```
 
-### D218: 1 page(s)
+### D220: 1 page(s)
 
-Pages: P308.
+Pages: P311.
 
 ```diff
 --- main
@@ -11567,7 +11649,7 @@ Pages: P308.
  </table>
 ```
 
-### D219: 1 page(s)
+### D221: 1 page(s)
 
 Pages: P022.
 
@@ -11636,9 +11718,9 @@ Pages: P022.
  </tr>
 ```
 
-### D220: 1 page(s)
+### D222: 1 page(s)
 
-Pages: P281.
+Pages: P284.
 
 ```diff
 --- main
@@ -11690,9 +11772,9 @@ Pages: P281.
  </table>
 ```
 
-### D221: 1 page(s)
+### D223: 1 page(s)
 
-Pages: P055.
+Pages: P057.
 
 ```diff
 --- main
@@ -11774,9 +11856,9 @@ Pages: P055.
  </tr>
 ```
 
-### D222: 1 page(s)
+### D224: 1 page(s)
 
-Pages: P054.
+Pages: P056.
 
 ```diff
 --- main
@@ -11846,9 +11928,9 @@ Pages: P054.
  </tr>
 ```
 
-### D223: 1 page(s)
+### D225: 1 page(s)
 
-Pages: P063.
+Pages: P065.
 
 ```diff
 --- main
@@ -11918,9 +12000,9 @@ Pages: P063.
  </table>
 ```
 
-### D224: 1 page(s)
+### D226: 1 page(s)
 
-Pages: P064.
+Pages: P066.
 
 ```diff
 --- main
@@ -11994,9 +12076,9 @@ Pages: P064.
  </tr>
 ```
 
-### D225: 1 page(s)
+### D227: 1 page(s)
 
-Pages: P059.
+Pages: P061.
 
 ```diff
 --- main
@@ -12078,9 +12160,9 @@ Pages: P059.
  </tr>
 ```
 
-### D226: 1 page(s)
+### D228: 1 page(s)
 
-Pages: P072.
+Pages: P074.
 
 ```diff
 --- main
@@ -12199,9 +12281,9 @@ Pages: P072.
  </tr>
 ```
 
-### D227: 1 page(s)
+### D229: 1 page(s)
 
-Pages: P080.
+Pages: P082.
 
 ```diff
 --- main
@@ -12283,9 +12365,9 @@ Pages: P080.
  </tr>
 ```
 
-### D228: 1 page(s)
+### D230: 1 page(s)
 
-Pages: P079.
+Pages: P081.
 
 ```diff
 --- main
@@ -12355,9 +12437,9 @@ Pages: P079.
  </tr>
 ```
 
-### D229: 1 page(s)
+### D231: 1 page(s)
 
-Pages: P088.
+Pages: P090.
 
 ```diff
 --- main
@@ -12427,9 +12509,9 @@ Pages: P088.
  </table>
 ```
 
-### D230: 1 page(s)
+### D232: 1 page(s)
 
-Pages: P089.
+Pages: P091.
 
 ```diff
 --- main
@@ -12503,9 +12585,9 @@ Pages: P089.
  </tr>
 ```
 
-### D231: 1 page(s)
+### D233: 1 page(s)
 
-Pages: P084.
+Pages: P086.
 
 ```diff
 --- main
@@ -12587,185 +12669,185 @@ Pages: P084.
  </tr>
 ```
 
-### D232: 1 page(s)
-
-Pages: P090.
-
-```diff
---- main
-+++ PR 912
-@@ -4,7 +4,7 @@
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">初始值</a>
- </th>
--<td>该简写所对应的每个属性：<br>
-+<td>参见各独立属性<br>
- <ul>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-width">
-@@ -26,36 +26,32 @@
- </tr>
- <tr>
- <th scope="row">适用元素</th>
--<td>所有元素. It also applies to <a href="/zh-CN/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>除 ruby 基容器和 ruby 标注容器外的所有元素</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
- </th>
--<td>否</td>
-+<td>no</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
- </th>
--<td>该简写所对应的每个属性：<br>
-+<td>参见各独立属性<br>
- <ul>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-width">
- <code>border-left-width</code>
--</a>: the absolute <a href="/zh-CN/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
-+</a>: absolute length, snapped as a border width</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-style">
- <code>border-left-style</code>
--</a>: as specified</li>
-+</a>: 指定的关键字</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-color">
- <code>border-left-color</code>
--</a>: 颜色计算值</li>
-+</a>: 计算后的颜色值和/或一维图像函数</li>
- </ul>
- </td>
- </tr>
-@@ -63,22 +59,20 @@
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
- </th>
--<td>该简写所对应的每个属性：<br>
-+<td>参见各独立属性<br>
- <ul>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-width">
- <code>border-left-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
-+</a>: 按计算值插值</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-style">
- <code>border-left-style</code>
--</a>: 离散值</li>
-+</a>: 离散</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-color">
- <code>border-left-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
-+</a>: 参见说明文字</li>
- </ul>
- </td>
- </tr>
-```
-
-### D233: 1 page(s)
-
-Pages: P095.
-
-```diff
---- main
-+++ PR 912
-@@ -4,7 +4,7 @@
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">初始值</a>
- </th>
--<td>该简写所对应的每个属性：<br>
-+<td>参见各独立属性<br>
- <ul>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-width">
-@@ -26,36 +26,32 @@
- </tr>
- <tr>
- <th scope="row">适用元素</th>
--<td>所有元素. It also applies to <a href="/zh-CN/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>除 ruby 基容器和 ruby 标注容器外的所有元素</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
- </th>
--<td>否</td>
-+<td>no</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
- </th>
--<td>该简写所对应的每个属性：<br>
-+<td>参见各独立属性<br>
- <ul>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-width">
- <code>border-right-width</code>
--</a>: the absolute <a href="/zh-CN/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
-+</a>: absolute length, snapped as a border width</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-style">
- <code>border-right-style</code>
--</a>: as specified</li>
-+</a>: 指定的关键字</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-color">
- <code>border-right-color</code>
--</a>: 颜色计算值</li>
-+</a>: 计算后的颜色值和/或一维图像函数</li>
- </ul>
- </td>
- </tr>
-@@ -63,22 +59,20 @@
- <th scope="row">
- <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
- </th>
--<td>该简写所对应的每个属性：<br>
-+<td>参见各独立属性<br>
- <ul>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-width">
- <code>border-right-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
-+</a>: 按计算值插值</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-style">
- <code>border-right-style</code>
--</a>: 离散值</li>
-+</a>: 离散</li>
- <li>
- <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-color">
- <code>border-right-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
-+</a>: 参见说明文字</li>
- </ul>
- </td>
- </tr>
-```
-
 ### D234: 1 page(s)
 
-Pages: P069.
+Pages: P092.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">初始值</a>
+ </th>
+-<td>该简写所对应的每个属性：<br>
++<td>参见各独立属性<br>
+ <ul>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-width">
+@@ -26,36 +26,32 @@
+ </tr>
+ <tr>
+ <th scope="row">适用元素</th>
+-<td>所有元素. It also applies to <a href="/zh-CN/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>除 ruby 基容器和 ruby 标注容器外的所有元素</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
+ </th>
+-<td>该简写所对应的每个属性：<br>
++<td>参见各独立属性<br>
+ <ul>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-width">
+ <code>border-left-width</code>
+-</a>: the absolute <a href="/zh-CN/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-style">
+ <code>border-left-style</code>
+-</a>: as specified</li>
++</a>: 指定的关键字</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: 颜色计算值</li>
++</a>: 计算后的颜色值和/或一维图像函数</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,22 +59,20 @@
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
+ </th>
+-<td>该简写所对应的每个属性：<br>
++<td>参见各独立属性<br>
+ <ul>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-width">
+ <code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 按计算值插值</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-style">
+ <code>border-left-style</code>
+-</a>: 离散值</li>
++</a>: 离散</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 参见说明文字</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D235: 1 page(s)
+
+Pages: P097.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">初始值</a>
+ </th>
+-<td>该简写所对应的每个属性：<br>
++<td>参见各独立属性<br>
+ <ul>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-width">
+@@ -26,36 +26,32 @@
+ </tr>
+ <tr>
+ <th scope="row">适用元素</th>
+-<td>所有元素. It also applies to <a href="/zh-CN/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>除 ruby 基容器和 ruby 标注容器外的所有元素</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Inheritance">是否是继承属性</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">计算值</a>
+ </th>
+-<td>该简写所对应的每个属性：<br>
++<td>参见各独立属性<br>
+ <ul>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-width">
+ <code>border-right-width</code>
+-</a>: the absolute <a href="/zh-CN/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-style">
+ <code>border-right-style</code>
+-</a>: as specified</li>
++</a>: 指定的关键字</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: 颜色计算值</li>
++</a>: 计算后的颜色值和/或一维图像函数</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,22 +59,20 @@
+ <th scope="row">
+ <a href="/zh-CN/docs/Web/CSS/Guides/Animations/Animatable_properties">动画类型</a>
+ </th>
+-<td>该简写所对应的每个属性：<br>
++<td>参见各独立属性<br>
+ <ul>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-width">
+ <code>border-right-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 按计算值插值</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-style">
+ <code>border-right-style</code>
+-</a>: 离散值</li>
++</a>: 离散</li>
+ <li>
+ <a href="/zh-CN/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 参见说明文字</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D236: 1 page(s)
+
+Pages: P071.
 
 ```diff
 --- main
@@ -12861,9 +12943,9 @@ Pages: P069.
  </tr>
 ```
 
-### D235: 1 page(s)
+### D237: 1 page(s)
 
-Pages: P094.
+Pages: P096.
 
 ```diff
 --- main
@@ -12992,9 +13074,9 @@ Pages: P094.
  </tr>
 ```
 
-### D236: 1 page(s)
+### D238: 1 page(s)
 
-Pages: P102.
+Pages: P104.
 
 ```diff
 --- main
@@ -13080,9 +13162,9 @@ Pages: P102.
  </tr>
 ```
 
-### D237: 1 page(s)
+### D239: 1 page(s)
 
-Pages: P107.
+Pages: P109.
 
 ```diff
 --- main
@@ -13186,9 +13268,9 @@ Pages: P107.
  </tr>
 ```
 
-### D238: 1 page(s)
+### D240: 1 page(s)
 
-Pages: P125.
+Pages: P128.
 
 ```diff
 --- main
@@ -13272,9 +13354,9 @@ Pages: P125.
  </tr>
 ```
 
-### D239: 1 page(s)
+### D241: 1 page(s)
 
-Pages: P131.
+Pages: P134.
 
 ```diff
 --- main
@@ -13370,9 +13452,9 @@ Pages: P131.
  </tr>
 ```
 
-### D240: 1 page(s)
+### D242: 1 page(s)
 
-Pages: P136.
+Pages: P139.
 
 ```diff
 --- main
@@ -13457,9 +13539,9 @@ Pages: P136.
  </tr>
 ```
 
-### D241: 1 page(s)
+### D243: 1 page(s)
 
-Pages: P152.
+Pages: P155.
 
 ```diff
 --- main
@@ -13522,9 +13604,9 @@ Pages: P152.
  </tr>
 ```
 
-### D242: 1 page(s)
+### D244: 1 page(s)
 
-Pages: P157.
+Pages: P160.
 
 ```diff
 --- main
@@ -13715,9 +13797,9 @@ Pages: P157.
  </tr>
 ```
 
-### D243: 1 page(s)
+### D245: 1 page(s)
 
-Pages: P211.
+Pages: P214.
 
 ```diff
 --- main
@@ -13802,9 +13884,9 @@ Pages: P211.
  </tr>
 ```
 
-### D244: 1 page(s)
+### D246: 1 page(s)
 
-Pages: P215.
+Pages: P218.
 
 ```diff
 --- main
@@ -13886,9 +13968,9 @@ Pages: P215.
  </tbody>
 ```
 
-### D245: 1 page(s)
+### D247: 1 page(s)
 
-Pages: P219.
+Pages: P222.
 
 ```diff
 --- main
@@ -13970,9 +14052,9 @@ Pages: P219.
  </tbody>
 ```
 
-### D246: 1 page(s)
+### D248: 1 page(s)
 
-Pages: P226.
+Pages: P229.
 
 ```diff
 --- main
@@ -14248,9 +14330,9 @@ Pages: P226.
  </table>
 ```
 
-### D247: 1 page(s)
+### D249: 1 page(s)
 
-Pages: P250.
+Pages: P253.
 
 ```diff
 --- main
@@ -14327,9 +14409,9 @@ Pages: P250.
  </tr>
 ```
 
-### D248: 1 page(s)
+### D250: 1 page(s)
 
-Pages: P266.
+Pages: P269.
 
 ```diff
 --- main
@@ -14411,9 +14493,9 @@ Pages: P266.
  </tbody>
 ```
 
-### D249: 1 page(s)
+### D251: 1 page(s)
 
-Pages: P270.
+Pages: P273.
 
 ```diff
 --- main
@@ -14495,9 +14577,9 @@ Pages: P270.
  </tbody>
 ```
 
-### D250: 1 page(s)
+### D252: 1 page(s)
 
-Pages: P178.
+Pages: P181.
 
 ```diff
 --- main
@@ -14571,9 +14653,9 @@ Pages: P178.
  </table>
 ```
 
-### D251: 1 page(s)
+### D253: 1 page(s)
 
-Pages: P329.
+Pages: P332.
 
 ```diff
 --- main
@@ -14647,9 +14729,9 @@ Pages: P329.
  </tr>
 ```
 
-### D252: 1 page(s)
+### D254: 1 page(s)
 
-Pages: P285.
+Pages: P288.
 
 ```diff
 --- main
@@ -14690,9 +14772,9 @@ Pages: P285.
  </table>
 ```
 
-### D253: 1 page(s)
+### D255: 1 page(s)
 
-Pages: P196.
+Pages: P199.
 
 ```diff
 --- main
@@ -14785,9 +14867,9 @@ Pages: P196.
  </table>
 ```
 
-### D254: 1 page(s)
+### D256: 1 page(s)
 
-Pages: P199.
+Pages: P202.
 
 ```diff
 --- main
@@ -14880,9 +14962,9 @@ Pages: P199.
  </table>
 ```
 
-### D255: 1 page(s)
+### D257: 1 page(s)
 
-Pages: P303.
+Pages: P306.
 
 ```diff
 --- main
@@ -14975,9 +15057,9 @@ Pages: P303.
  </table>
 ```
 
-### D256: 1 page(s)
+### D258: 1 page(s)
 
-Pages: P195.
+Pages: P198.
 
 ```diff
 --- main
@@ -15081,9 +15163,9 @@ Pages: P195.
  </table>
 ```
 
-### D257: 1 page(s)
+### D259: 1 page(s)
 
-Pages: P327.
+Pages: P330.
 
 ```diff
 --- main
@@ -15164,9 +15246,9 @@ Pages: P327.
  </table>
 ```
 
-### D258: 1 page(s)
+### D260: 1 page(s)
 
-Pages: P214.
+Pages: P217.
 
 ```diff
 --- main
@@ -15274,9 +15356,9 @@ Pages: P214.
  </table>
 ```
 
-### D259: 1 page(s)
+### D261: 1 page(s)
 
-Pages: P265.
+Pages: P268.
 
 ```diff
 --- main
@@ -15384,9 +15466,9 @@ Pages: P265.
  </table>
 ```
 
-### D260: 1 page(s)
+### D262: 1 page(s)
 
-Pages: P099.
+Pages: P101.
 
 ```diff
 --- main
@@ -15425,9 +15507,9 @@ Pages: P099.
  </table>
 ```
 
-### D261: 1 page(s)
+### D263: 1 page(s)
 
-Pages: P331.
+Pages: P334.
 
 ```diff
 --- main
@@ -15470,9 +15552,9 @@ Pages: P331.
  </table>
 ```
 
-### D262: 1 page(s)
+### D264: 1 page(s)
 
-Pages: P262.
+Pages: P265.
 
 ```diff
 --- main
@@ -15528,9 +15610,9 @@ Pages: P262.
  </table>
 ```
 
-### D263: 1 page(s)
+### D265: 1 page(s)
 
-Pages: P120.
+Pages: P123.
 
 ```diff
 --- main
@@ -15577,9 +15659,9 @@ Pages: P120.
  </table>
 ```
 
-### D264: 1 page(s)
+### D266: 1 page(s)
 
-Pages: P168.
+Pages: P171.
 
 ```diff
 --- main
@@ -15626,9 +15708,9 @@ Pages: P168.
  </table>
 ```
 
-### D265: 1 page(s)
+### D267: 1 page(s)
 
-Pages: P322.
+Pages: P325.
 
 ```diff
 --- main
@@ -15686,9 +15768,9 @@ Pages: P322.
  </table>
 ```
 
-### D266: 1 page(s)
+### D268: 1 page(s)
 
-Pages: P032.
+Pages: P034.
 
 ```diff
 --- main
@@ -15736,9 +15818,9 @@ Pages: P032.
  </table>
 ```
 
-### D267: 1 page(s)
+### D269: 1 page(s)
 
-Pages: P051.
+Pages: P053.
 
 ```diff
 --- main
@@ -15841,9 +15923,9 @@ Pages: P051.
  </table>
 ```
 
-### D268: 1 page(s)
+### D270: 1 page(s)
 
-Pages: P239.
+Pages: P242.
 
 ```diff
 --- main
@@ -15904,9 +15986,9 @@ Pages: P239.
  </table>
 ```
 
-### D269: 1 page(s)
+### D271: 1 page(s)
 
-Pages: P241.
+Pages: P244.
 
 ```diff
 --- main
@@ -15967,9 +16049,9 @@ Pages: P241.
  </table>
 ```
 
-### D270: 1 page(s)
+### D272: 1 page(s)
 
-Pages: P319.
+Pages: P322.
 
 ```diff
 --- main
@@ -16011,9 +16093,9 @@ Pages: P319.
  </table>
 ```
 
-### D271: 1 page(s)
+### D273: 1 page(s)
 
-Pages: P347.
+Pages: P350.
 
 ```diff
 --- main
@@ -16062,9 +16144,9 @@ Pages: P347.
  </table>
 ```
 
-### D272: 1 page(s)
+### D274: 1 page(s)
 
-Pages: P339.
+Pages: P342.
 
 ```diff
 --- main
@@ -16286,8 +16368,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P110.
-New or increased occurrences (1 pages): P110.
+PR pages (1): P112.
+New or increased occurrences (1 pages): P112.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I012
@@ -16302,8 +16384,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P111.
-New or increased occurrences (1 pages): P111.
+PR pages (1): P113.
+New or increased occurrences (1 pages): P113.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I013
@@ -16318,8 +16400,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P165.
-New or increased occurrences (1 pages): P165.
+PR pages (1): P168.
+New or increased occurrences (1 pages): P168.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I014
@@ -16410,8 +16492,8 @@ Resolved or decreased occurrences (3 pages): P009, P010, P011.
 ```
 
 Main pages (0): none.
-PR pages (1): P030.
-New or increased occurrences (1 pages): P030.
+PR pages (1): P032.
+New or increased occurrences (1 pages): P032.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I018
@@ -16430,8 +16512,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P030.
-New or increased occurrences (1 pages): P030.
+PR pages (1): P032.
+New or increased occurrences (1 pages): P032.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I019
@@ -16450,8 +16532,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P209.
-New or increased occurrences (1 pages): P209.
+PR pages (1): P212.
+New or increased occurrences (1 pages): P212.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I020
@@ -16470,8 +16552,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P112.
-New or increased occurrences (1 pages): P112.
+PR pages (1): P114.
+New or increased occurrences (1 pages): P114.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I021
@@ -16490,8 +16572,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P112.
-New or increased occurrences (1 pages): P112.
+PR pages (1): P114.
+New or increased occurrences (1 pages): P114.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I022
@@ -16510,8 +16592,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P112.
-New or increased occurrences (1 pages): P112.
+PR pages (1): P114.
+New or increased occurrences (1 pages): P114.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I023
@@ -16530,8 +16612,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P112.
-New or increased occurrences (1 pages): P112.
+PR pages (1): P114.
+New or increased occurrences (1 pages): P114.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I024
@@ -16550,8 +16632,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P112.
-New or increased occurrences (1 pages): P112.
+PR pages (1): P114.
+New or increased occurrences (1 pages): P114.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I025
@@ -16570,8 +16652,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P209.
-New or increased occurrences (1 pages): P209.
+PR pages (1): P212.
+New or increased occurrences (1 pages): P212.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I026
@@ -16590,8 +16672,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P209.
-New or increased occurrences (1 pages): P209.
+PR pages (1): P212.
+New or increased occurrences (1 pages): P212.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I027
@@ -16610,8 +16692,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P258.
-New or increased occurrences (1 pages): P258.
+PR pages (1): P261.
+New or increased occurrences (1 pages): P261.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I028
@@ -16630,8 +16712,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P258.
-New or increased occurrences (1 pages): P258.
+PR pages (1): P261.
+New or increased occurrences (1 pages): P261.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I029
@@ -16650,8 +16732,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P258.
-New or increased occurrences (1 pages): P258.
+PR pages (1): P261.
+New or increased occurrences (1 pages): P261.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I030
@@ -16670,8 +16752,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P258.
-New or increased occurrences (1 pages): P258.
+PR pages (1): P261.
+New or increased occurrences (1 pages): P261.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I031
@@ -16690,8 +16772,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P322.
-New or increased occurrences (1 pages): P322.
+PR pages (1): P325.
+New or increased occurrences (1 pages): P325.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I032
@@ -16710,8 +16792,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P327.
-New or increased occurrences (1 pages): P327.
+PR pages (1): P330.
+New or increased occurrences (1 pages): P330.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I033
@@ -16730,8 +16812,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P327.
-New or increased occurrences (1 pages): P327.
+PR pages (1): P330.
+New or increased occurrences (1 pages): P330.
 Resolved or decreased occurrences (0 pages): none.
 
 ### I034
@@ -16750,8 +16832,8 @@ Resolved or decreased occurrences (0 pages): none.
 ```
 
 Main pages (0): none.
-PR pages (1): P327.
-New or increased occurrences (1 pages): P327.
+PR pages (1): P330.
+New or increased occurrences (1 pages): P330.
 Resolved or decreased occurrences (0 pages): none.
 
 ## Attribution

@@ -1,10 +1,10 @@
 {
-  "snapshotDate": "2026-09-16",
+  "snapshotDate": "2026-11-05",
   "revisions": {
-    "rari-main": "8015a37e8a5c648a6b5cfcabed48932da26c6a94",
+    "rari-main": "83854eb844e340d2abe8a8dc3067d8de5fbf134e",
     "rari-pr": "1ba098b8e78d947e660627a85e6bb8f696db3ef4",
-    "content": "8e307de115d41e9214fcacbd7fe89532756816b4",
-    "translated-content": "1d013d20b24acfe89b8a30eaa5d43268f4731359"
+    "content": "5c76c9c822b4083750ff7fcabcd07422ad3a591b",
+    "translated-content": "fd64e208d746f44034cef9530b6a939c13b86639"
   },
   "packages": {
     "baseline": "3.14.0",

@@ -2,7 +2,7 @@
 
 A static comparison of the `cssinfo` tables produced by rari main and [PR #912](https://github.com/mdn/rari/pull/912), including its dependency #911.
 
-The snapshot covers 2,720 pages across en-US, es, fr, ja, ko, pt-BR, ru, zh-CN, and zh-TW. German is excluded. Both builds use the same content and translated-content revisions, fetched from `origin/main` on 2026-09-16.
+The snapshot covers 2,760 pages across en-US, es, fr, ja, ko, pt-BR, ru, zh-CN, and zh-TW. German is excluded. Both builds use the same content and translated-content revisions, fetched from `origin/main` on 2026-11-05.
 
 ## Explore
 
