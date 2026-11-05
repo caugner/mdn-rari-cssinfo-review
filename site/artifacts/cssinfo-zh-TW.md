@@ -49,7 +49,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Comparison: rari main versus PR #912, including its dependency #911.
 - Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `1ace167aeddb754fa7441574e1af8ea5776416df3e6f0b7d27997d57c0f31b46` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `c9cb170616d078fbbd30936129ee91913ce1542bce8547c985a9d7db150eaa9a` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -62,7 +62,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 | --- | --- |
 | content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
 | rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
-| rari-pr | [e1953aa720f43d6049e8ff1d6889525f8cb7af64](https://github.com/mdn/rari/commit/e1953aa720f43d6049e8ff1d6889525f8cb7af64) |
+| rari-pr | [1ba098b8e78d947e660627a85e6bb8f696db3ef4](https://github.com/mdn/rari/commit/1ba098b8e78d947e660627a85e6bb8f696db3ef4) |
 | translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
 
 ## Coverage
@@ -70,7 +70,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Pages: 23.
 - Pages with table HTML differences: 23.
 - Distinct complete table diffs: 20.
-- Distinct diagnostic messages: 1.
+- Distinct diagnostic messages: 6.
 
 | Page outcome | Count |
 | --- | ---: |
@@ -92,20 +92,20 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P003 | [Web/CSS/Reference/Properties/background-attachment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=24fe71e9aba84342) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/background-attachment/index.md)) | changed | 1 → 1 | D011 | - | - |
 | P004 | [Web/CSS/Reference/Properties/background-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=ea464081c0a09752) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/background-color/index.md)) | changed | 1 → 1 | D016 | - | - |
 | P005 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=930bfd563fc65637) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P006 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=efb4233ed160bd58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P007 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=21490ccb69c8c6d0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P006 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=efb4233ed160bd58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P007 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=21490ccb69c8c6d0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P008 | [Web/CSS/Reference/Properties/border-left-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=9632c384eb95ed1a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-left-color/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P009 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=fcd0bf3b3564b057) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P010 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=2e72e58921a069e6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P011 | [Web/CSS/Reference/Properties/box-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=b7b1c5da0c3367c5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/box-shadow/index.md)) | changed | 1 → 1 | D013 | - | - |
+| P011 | [Web/CSS/Reference/Properties/box-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=b7b1c5da0c3367c5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/box-shadow/index.md)) | changed | 1 → 1 | D013 | - | I002 x2, I003 x2, I004 x2, I005 x2, I006 x2 |
 | P012 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=03f2925dad0a4d4e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D009 | - | - |
 | P013 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=0f155d6d293175f7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D012 | - | - |
-| P014 | [Web/CSS/Reference/Properties/grid-template](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=5d5e7b9a694b265a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/grid-template/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P014 | [Web/CSS/Reference/Properties/grid-template](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=5d5e7b9a694b265a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/grid-template/index.md)) | changed | 1 → 1 | D006 | - | - |
 | P015 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=de043db4c6bee948) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D015 | - | - |
 | P016 | [Web/CSS/Reference/Properties/ruby-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=b6c881c2c9f2d259) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/ruby-position/index.md)) | changed | 1 → 1 | D010 | - | - |
 | P017 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=0d173eceafbeb223) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D020 | - | - |
 | P018 | [Web/CSS/Reference/Properties/transform-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=e861c14e29fb081a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/transform-origin/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P019 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=482a189f818c0fae) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P019 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=482a189f818c0fae) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D003 | - | - |
 | P020 | [Web/CSS/Reference/Properties/transition-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=8d2728c10a59f928) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/transition-duration/index.md)) | changed | 1 → 1 | D017 | - | - |
 | P021 | [Web/CSS/Reference/Properties/transition-timing-function](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=287177eb5710decd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/transition-timing-function/index.md)) | changed | 1 → 1 | D019 | - | - |
 | P022 | [Web/CSS/Reference/Properties/white-space](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=zh-tw&status=all&doc=316c657b48543243) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/zh-tw/web/css/reference/properties/white-space/index.md)) | changed | 1 → 1 | D008 | - | - |
@@ -202,185 +202,54 @@ Pages: P001.
 
 ### D003: 1 page(s)
 
-Pages: P007.
-
-```diff
---- main
-+++ PR 912
-@@ -4,123 +4,29 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
--<code>border-image-source</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
--<code>border-image-slice</code>
--</a>: <code>100%</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: <code>1</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
--<code>border-image-outset</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
--<code>border-image-repeat</code>
--</a>: <code>stretch</code>
--</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
--<th scope="row">適用於</th>
--<td>所有元素，當 <a href="/en-US/docs/Web/CSS/Reference/Properties/border-collapse" class="only-in-en-us">
--<code>border-collapse</code>
--</a> 為 <code>collapse</code> 時，內部表格元素除外。也適用於 <a href="/zh-TW/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>。</td>
-+<th scope="row">Applies to</th>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-TW/docs/Web/CSS/Guides/Cascade/Inheritance">繼承與否</a>
- </th>
--<td>否</td>
--</tr>
--<tr>
--<th scope="row">百分比</th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
--<code>border-image-slice</code>
--</a>: 指框線圖片的大小</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: 指框線圖片區域的寬度或高度</li>
--</ul>
--</td>
-+<td>no</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
--<code>border-image-source</code>
--</a>: <code>none</code> 或 URI 被設為絕對的圖片</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
--<code>border-image-slice</code>
--</a>: 一到四個百分比（如指定）或絕對長度，如果有指定的話，再加上關鍵字 <code>fill</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
--<code>border-image-outset</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
--<code>border-image-repeat</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
- <th scope="row">
--<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">動畫類型</a>
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
--<code>border-image-source</code>
--</a>: 離散</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
--<code>border-image-slice</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
--<code>border-image-outset</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
--<code>border-image-repeat</code>
--</a>: 離散</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D004: 1 page(s)
-
 Pages: P019.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,85 +4,29 @@
+@@ -4,12 +4,12 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
 -<code>transition-delay</code>
 -</a>: <code>0s</code>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-duration">
--<code>transition-duration</code>
--</a>: <code>0s</code>
--</li>
--<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-property" class="only-in-en-us">
++<code>transition-property</code>
++</a>: <code>all</code>
+ </li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-duration">
+@@ -17,17 +17,17 @@
+ </a>: <code>0s</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-property" class="only-in-en-us">
 -<code>transition-property</code>
 -</a>: <code>all</code>
 -</li>
 -<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-timing-function">
--<code>transition-timing-function</code>
--</a>: <code>ease</code>
--</li>
--<li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-timing-function">
+ <code>transition-timing-function</code>
+ </a>: <code>ease</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
--<code>transition-behavior</code>
--</a>: <code>normal</code>
--</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
++<code>transition-delay</code>
++</a>: <code>0s</code>
++</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
+ <code>transition-behavior</code>
+ </a>: <code>normal</code>
+ </li>
+@@ -35,54 +35,49 @@
+ </td>
  </tr>
  <tr>
 -<th scope="row">適用於</th>
@@ -405,30 +274,41 @@ Pages: P019.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
 -<code>transition-delay</code>
 -</a>: as specified</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-duration">
--<code>transition-duration</code>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-property" class="only-in-en-us">
++<code>transition-property</code>
++</a>: 關鍵字 none，或識別符列表</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-duration">
+ <code>transition-duration</code>
 -</a>: as specified</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-property" class="only-in-en-us">
 -<code>transition-property</code>
 -</a>: as specified</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-timing-function">
--<code>transition-timing-function</code>
++</a>: 列表，每一項為一個持續時間</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-timing-function">
+ <code>transition-timing-function</code>
 -</a>: as specified</li>
--<li>
++</a>: 與指定值相同</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
--<code>transition-behavior</code>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
++<code>transition-delay</code>
++</a>: 列表，每一項為一個持續時間</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
+ <code>transition-behavior</code>
 -</a>: as specified</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
++</a>: 與指定值相同</li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">
@@ -442,14 +322,283 @@ Pages: P019.
  </table>
 ```
 
+### D004: 1 page(s)
+
+Pages: P007.
+
+```diff
+--- main
++++ PR 912
+@@ -4,30 +4,30 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
+ <code>border-image-source</code>
+ </a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
+ <code>border-image-slice</code>
+ </a>: <code>100%</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+ <code>border-image-width</code>
+ </a>: <code>1</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
+ <code>border-image-outset</code>
+ </a>: <code>0</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
+ <code>border-image-repeat</code>
+ </a>: <code>stretch</code>
+ </li>
+@@ -35,88 +35,68 @@
+ </td>
+ </tr>
+ <tr>
+-<th scope="row">適用於</th>
+-<td>所有元素，當 <a href="/en-US/docs/Web/CSS/Reference/Properties/border-collapse" class="only-in-en-us">
+-<code>border-collapse</code>
+-</a> 為 <code>collapse</code> 時，內部表格元素除外。也適用於 <a href="/zh-TW/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>。</td>
++<th scope="row">Applies to</th>
++<td>所有元素，但在 border-collapse 為 collapse 時不包含內部表格元素</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-TW/docs/Web/CSS/Guides/Cascade/Inheritance">繼承與否</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">百分比</th>
+-<td>as each of the properties of the shorthand:<br>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
++</th>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
++<code>border-image-source</code>
++</a>: 關鍵字 none 或計算後的 &lt;image&gt;</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
+ <code>border-image-slice</code>
+-</a>: 指框線圖片的大小</li>
++</a>: 四個值，每個為數值或百分比；若有指定，另外還有一個 fill 關鍵字</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+ <code>border-image-width</code>
+-</a>: 指框線圖片區域的寬度或高度</li>
++</a>: 四個值，每個為數值、關鍵字 auto 或計算後的 &lt;length-percentage&gt; 值</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
++<code>border-image-outset</code>
++</a>: 四個值，每個為數值或絕對長度</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
++<code>border-image-repeat</code>
++</a>: 兩個關鍵字，每個軸一個</li>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">
+-<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
+-<code>border-image-source</code>
+-</a>: <code>none</code> 或 URI 被設為絕對的圖片</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
+-<code>border-image-slice</code>
+-</a>: 一到四個百分比（如指定）或絕對長度，如果有指定的話，再加上關鍵字 <code>fill</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+-<code>border-image-width</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
+-<code>border-image-outset</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
+-<code>border-image-repeat</code>
+-</a>: as specified</li>
+-</ul>
+-</td>
+-</tr>
+-<tr>
+-<th scope="row">
+-<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">動畫類型</a>
+-</th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
+ <code>border-image-source</code>
+ </a>: 離散</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-slice" class="only-in-en-us">
+ <code>border-image-slice</code>
+-</a>: by computed value type</li>
++</a>: 依計算值插值</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+ <code>border-image-width</code>
+-</a>: by computed value type</li>
++</a>: 依計算值插值</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-outset" class="only-in-en-us">
+ <code>border-image-outset</code>
+-</a>: by computed value type</li>
++</a>: 依計算值插值</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-image-repeat" class="only-in-en-us">
+ <code>border-image-repeat</code>
+ </a>: 離散</li>
+ </ul>
+```
+
 ### D005: 1 page(s)
+
+Pages: P006.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-top-color">
+@@ -30,68 +30,62 @@
+ </td>
+ </tr>
+ <tr>
+-<th scope="row">適用於</th>
+-<td>所有元素。也適用於 <a href="/zh-TW/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>。</td>
++<th scope="row">Applies to</th>
++<td>除 ruby 基底容器與 ruby 註解容器之外的所有元素</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/zh-TW/docs/Web/CSS/Guides/Cascade/Inheritance">繼承與否</a>
+ </th>
+-<td>否</td>
++<td>no</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: computed color</li>
++</a>: 計算後的顏色值與／或一維影像函數</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: computed color</li>
++</a>: 計算後的顏色值與／或一維影像函數</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-bottom-color">
+ <code>border-bottom-color</code>
+-</a>: computed color</li>
++</a>: 計算後的顏色值與／或一維影像函數</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: computed color</li>
++</a>: 計算後的顏色值與／或一維影像函數</li>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">
+-<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">動畫類型</a>
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 參見敘述文字</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 參見敘述文字</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-bottom-color">
+ <code>border-bottom-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 參見敘述文字</li>
+ <li>
+ <a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 參見敘述文字</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D006: 1 page(s)
 
 Pages: P014.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,92 +4,35 @@
+@@ -4,88 +4,76 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
  </th>
@@ -485,34 +634,73 @@ Pages: P014.
  <a href="/zh-TW/docs/Web/CSS/Guides/Cascade/Inheritance">繼承與否</a>
  </th>
 -<td>否</td>
--</tr>
--<tr>
++<td>no</td>
+ </tr>
+ <tr>
 -<th scope="row">百分比</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<th scope="row">
++<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
++</th>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns" class="only-in-en-us">
--<code>grid-template-columns</code>
--</a>: refer to corresponding dimension of the content area</li>
--<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-rows" class="only-in-en-us">
++<code>grid-template-rows</code>
++</a>: 關鍵字 none 或計算後的軌道列表</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-columns" class="only-in-en-us">
++<code>grid-template-columns</code>
++</a>: 關鍵字 none 或計算後的軌道列表</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-areas" class="only-in-en-us">
++<code>grid-template-areas</code>
++</a>: 關鍵字 none 或字串值列表</li>
++</ul>
++</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>參見各個單獨屬性<br>
++<ul>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-rows" class="only-in-en-us">
++<code>grid-template-rows</code>
++</a>: refer to corresponding dimension of the content area</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-columns" class="only-in-en-us">
+ <code>grid-template-columns</code>
+ </a>: refer to corresponding dimension of the content area</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-template-rows" class="only-in-en-us">
 -<code>grid-template-rows</code>
 -</a>: refer to corresponding dimension of the content area</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-areas" class="only-in-en-us">
++<code>grid-template-areas</code>
++</a>: 不適用</li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
+-<a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
++<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>參見各個單獨屬性<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns" class="only-in-en-us">
--<code>grid-template-columns</code>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-rows" class="only-in-en-us">
++<code>grid-template-rows</code>
++</a>: 若列表長度相同，則對計算後的軌道列表逐項依計算值型別插值（參見 § 7.2.5 軌道列表的計算值 與 § 7.2.3.3 repeat() 的插值／合併）；否則為離散變化</li>
++<li>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-columns" class="only-in-en-us">
+ <code>grid-template-columns</code>
 -</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
++</a>: 若列表長度相同，則對計算後的軌道列表逐項依計算值型別插值（參見 § 7.2.5 軌道列表的計算值 與 § 7.2.3.3 repeat() 的插值／合併）；否則為離散變化</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-template-rows" class="only-in-en-us">
 -<code>grid-template-rows</code>
 -</a>: as specified, but with relative lengths converted into absolute lengths</li>
@@ -522,17 +710,11 @@ Pages: P014.
 -</a>: as specified</li>
 -</ul>
 -</td>
-+<td>參見各個單獨屬性</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
- <th scope="row">
+-</tr>
+-<tr>
+-<th scope="row">
 -<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">動畫類型</a>
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
+-</th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
@@ -545,131 +727,10 @@ Pages: P014.
 -</a>: simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas" class="only-in-en-us">
--<code>grid-template-areas</code>
--</a>: 離散</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D006: 1 page(s)
-
-Pages: P006.
-
-```diff
---- main
-+++ PR 912
-@@ -4,96 +4,33 @@
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value" class="only-in-en-us">預設值</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
--<th scope="row">適用於</th>
--<td>所有元素。也適用於 <a href="/zh-TW/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>。</td>
-+<th scope="row">Applies to</th>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/zh-TW/docs/Web/CSS/Guides/Cascade/Inheritance">繼承與否</a>
- </th>
--<td>否</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: computed color</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: computed color</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: computed color</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>參見各個單獨屬性</td>
- </tr>
- <tr>
- <th scope="row">
--<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">動畫類型</a>
-+<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/zh-TW/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>參見各個單獨屬性</td>
- </tr>
- </tbody>
- </table>
++<a href="/zh-TW/docs/Web/CSS/Reference/Properties/grid-template-areas" class="only-in-en-us">
+ <code>grid-template-areas</code>
+ </a>: 離散</li>
+ </ul>
 ```
 
 ### D007: 1 page(s)
@@ -750,7 +811,7 @@ Pages: P022.
  <a href="/zh-TW/docs/Web/CSS/Guides/Cascade/Inheritance">繼承與否</a>
  </th>
 -<td>是</td>
-+<td>參見各個單獨屬性</td>
++<td>yes</td>
  </tr>
  <tr>
  <th scope="row">
@@ -940,7 +1001,7 @@ Pages: P011.
 ```diff
 --- main
 +++ PR 912
-@@ -9,29 +9,26 @@
+@@ -9,28 +9,71 @@
  </td>
  </tr>
  <tr>
@@ -963,7 +1024,30 @@ Pages: P011.
  <a href="/en-US/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value" class="only-in-en-us">Computed value</a>
  </th>
 -<td>任何長度均為絕對值；任何指定顏色均為計算值；否則按指定值</td>
-+<td>參見各個單獨屬性</td>
++<td>參見各個單獨屬性<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-color" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-color</code>
++</a>: 列表，每一項為計算後的顏色值</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-offset" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-offset</code>
++</a>: 列表，每一項為 none 或一對相對於元素框的偏移（水平與垂直）</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-blur" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-blur</code>
++</a>: 列表，每一項為一個 &lt;length&gt;</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-spread" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-spread</code>
++</a>: 列表，每一項為一個 &lt;length&gt;</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-position" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-position</code>
++</a>: 列表，每一項為其中一個關鍵字</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
@@ -971,11 +1055,32 @@ Pages: P011.
 +<a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>a <a href="/en-US/docs/Web/CSS/Reference/Properties/box-shadow#interpolation" title="The color, x, y, blur and spread (if applicable) components of shadow lists are interpolated independently. If the inset value of any shadow pair differs between both lists, the whole list is uninterpolable. If one list is smaller than the other, it gets padded with transparent shadows with all their lengths set to 0 and its inset value matching the longer list.">shadow list</a>
--</td>
-+<td>參見各個單獨屬性</td>
++<td>參見各個單獨屬性<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-color" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-color</code>
++</a>: 依計算值插值</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-offset" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-offset</code>
++</a>: 依計算值插值，與非 none 值插值時將 none 視為 0 0。</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-blur" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-blur</code>
++</a>: 依計算值插值</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-spread" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-spread</code>
++</a>: 依計算值插值</li>
++<li>
++<a class="page-not-created" data-href="/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-position" title="此說明文件尚未被撰寫，期待你的貢獻！">
++<code>box-shadow-position</code>
++</a>: 依計算值插值</li>
++</ul>
+ </td>
  </tr>
  </tbody>
- </table>
 ```
 
 ### D014: 1 page(s)
@@ -1337,6 +1442,106 @@ Pages: P017.
 Main pages (0): none.
 PR pages (1): P001.
 New or increased occurrences (1 pages): P001.
+Resolved or decreased occurrences (0 pages): none.
+
+### I002
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-blur"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P011.
+New or increased occurrences (1 pages): P011.
+Resolved or decreased occurrences (0 pages): none.
+
+### I003
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-color"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P011.
+New or increased occurrences (1 pages): P011.
+Resolved or decreased occurrences (0 pages): none.
+
+### I004
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-offset"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P011.
+New or increased occurrences (1 pages): P011.
+Resolved or decreased occurrences (0 pages): none.
+
+### I005
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-position"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P011.
+New or increased occurrences (1 pages): P011.
+Resolved or decreased occurrences (0 pages): none.
+
+### I006
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/zh-TW/docs/Web/CSS/Reference/Properties/box-shadow-spread"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P011.
+New or increased occurrences (1 pages): P011.
 Resolved or decreased occurrences (0 pages): none.
 
 ## Attribution

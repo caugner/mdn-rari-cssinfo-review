@@ -4,7 +4,7 @@
       "locale": "en-US",
       "pages": 596,
       "diffGroups": 425,
-      "diagnosticGroups": 152,
+      "diagnosticGroups": 170,
       "status": {
         "changed": 546,
         "missing-both": 2,
@@ -13,28 +13,28 @@
         "unchanged": 6
       },
       "file": "cssinfo-en-US.md",
-      "bytes": 798577,
-      "sha256": "9f2d3598c167f6f9fc22d3624dd6d071040cd5eef07a5ba1086bea4b5b2dcd81"
+      "bytes": 844606,
+      "sha256": "a9ab79358b085dfe48282fff60a9db0eafb0359424d27e2d8cb7c05395ae71a9"
     },
     {
       "locale": "es",
       "pages": 191,
       "diffGroups": 161,
-      "diagnosticGroups": 21,
+      "diagnosticGroups": 24,
       "status": {
         "changed": 172,
         "missing-both": 2,
         "table-removed": 17
       },
       "file": "cssinfo-es.md",
-      "bytes": 332173,
-      "sha256": "e702b381bea865381954a08fe923c38d851a5ddb404fcc9310b3aad33303aab6"
+      "bytes": 355893,
+      "sha256": "eb76310b709bbd08f4bb342531003c17e390387573d9b31a2a8146e7b45f69f5"
     },
     {
       "locale": "fr",
       "pages": 596,
       "diffGroups": 438,
-      "diagnosticGroups": 52,
+      "diagnosticGroups": 70,
       "status": {
         "changed": 553,
         "missing-both": 2,
@@ -42,14 +42,14 @@
         "table-removed": 24
       },
       "file": "cssinfo-fr.md",
-      "bytes": 832113,
-      "sha256": "5bd322351f3341e9f3ac90ac39b8b03bdb4b69c9764d685e3ad2a08d997e531e"
+      "bytes": 882665,
+      "sha256": "dfb58c9a1520a6065f3102b71cb03dad519367fb57462bd0ae9df3c3e36e67ea"
     },
     {
       "locale": "ja",
       "pages": 580,
       "diffGroups": 421,
-      "diagnosticGroups": 48,
+      "diagnosticGroups": 66,
       "status": {
         "changed": 539,
         "missing-both": 1,
@@ -57,73 +57,73 @@
         "table-removed": 24
       },
       "file": "cssinfo-ja.md",
-      "bytes": 835199,
-      "sha256": "81c42d0d4dc38979c450899be5dab245838e72456e530cddb2171b212ae46ece"
+      "bytes": 892004,
+      "sha256": "7d3aad4a1d935bf6cd8326b6607b7e46fa25c88db8b3f7cc2dfab3754997364c"
     },
     {
       "locale": "ko",
       "pages": 137,
-      "diffGroups": 117,
-      "diagnosticGroups": 1,
+      "diffGroups": 116,
+      "diagnosticGroups": 7,
       "status": {
         "changed": 136,
         "table-removed": 1
       },
       "file": "cssinfo-ko.md",
-      "bytes": 244444,
-      "sha256": "42c762dfe13729f52e8e65ebd40490121fb89823e6122cb752b3e96feb3f3df6"
+      "bytes": 269442,
+      "sha256": "a22f484afd4ac5e80829048fa7a28fa9355a638f7f4fa4fe96c5c3f95e14e3b7"
     },
     {
       "locale": "pt-BR",
       "pages": 82,
-      "diffGroups": 77,
-      "diagnosticGroups": 3,
+      "diffGroups": 76,
+      "diagnosticGroups": 11,
       "status": {
         "changed": 80,
         "table-removed": 2
       },
       "file": "cssinfo-pt-BR.md",
-      "bytes": 157163,
-      "sha256": "e7dc7046ced9f9f410454f9fe02f923d70a0696a92d4acd342f9920e661d136a"
+      "bytes": 189765,
+      "sha256": "4f5b0873e0f5d33055366f2623643b9e148d14b2839f8cec8670025234ae7125"
     },
     {
       "locale": "ru",
       "pages": 148,
-      "diffGroups": 133,
-      "diagnosticGroups": 5,
+      "diffGroups": 132,
+      "diagnosticGroups": 16,
       "status": {
         "changed": 147,
         "table-removed": 1
       },
       "file": "cssinfo-ru.md",
-      "bytes": 285870,
-      "sha256": "28a2a73b6399d11cd3a1240396bb8fa5c4796f9f20f7c00c7a855d897aa23b62"
+      "bytes": 311530,
+      "sha256": "0501a96f3c7451ee68b9441ac166961dc9a112e2a352492e82432901b513a29c"
     },
     {
       "locale": "zh-CN",
       "pages": 367,
-      "diffGroups": 273,
-      "diagnosticGroups": 16,
+      "diffGroups": 272,
+      "diagnosticGroups": 34,
       "status": {
         "changed": 354,
         "table-removed": 13
       },
       "file": "cssinfo-zh-CN.md",
-      "bytes": 541696,
-      "sha256": "c2cb5ffafdde65ddce23ea8b67f9485314675d1bea1474f2d2b844b3943a5cdb"
+      "bytes": 581456,
+      "sha256": "d25c7a285ca0a7b61949b2b4fd179fa0457b0c4cd0951f0cbcfc0ff147561009"
     },
     {
       "locale": "zh-TW",
       "pages": 23,
       "diffGroups": 20,
-      "diagnosticGroups": 1,
+      "diagnosticGroups": 6,
       "status": {
         "changed": 22,
         "table-removed": 1
       },
       "file": "cssinfo-zh-TW.md",
-      "bytes": 50959,
-      "sha256": "9ad20320ada63d687e1f31e5e0cb48b2047a97b4116b62d46a31c44fc908772c"
+      "bytes": 59814,
+      "sha256": "baec9d19b968f39f3340f28a344019a200246952997e6ac4d03c7593eafe7969"
     }
   ]
 }

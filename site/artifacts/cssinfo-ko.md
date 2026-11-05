@@ -49,7 +49,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Comparison: rari main versus PR #912, including its dependency #911.
 - Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `a8be35a4141670fa488720e75ba76fcae5fc21387c1cb3d3df4c94f1caebb498` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `323549b944dcf011e5833ada748aae9cc148cb887f3e3eca17fffba6c6f2b316` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -62,15 +62,15 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 | --- | --- |
 | content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
 | rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
-| rari-pr | [e1953aa720f43d6049e8ff1d6889525f8cb7af64](https://github.com/mdn/rari/commit/e1953aa720f43d6049e8ff1d6889525f8cb7af64) |
+| rari-pr | [1ba098b8e78d947e660627a85e6bb8f696db3ef4](https://github.com/mdn/rari/commit/1ba098b8e78d947e660627a85e6bb8f696db3ef4) |
 | translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
 
 ## Coverage
 
 - Pages: 137.
 - Pages with table HTML differences: 137.
-- Distinct complete table diffs: 117.
-- Distinct diagnostic messages: 1.
+- Distinct complete table diffs: 116.
+- Distinct diagnostic messages: 7.
 
 | Page outcome | Count |
 | --- | ---: |
@@ -89,141 +89,141 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | --- | --- | --- | --- | --- | --- | --- |
 | P001 | [orphaned/Web/CSS/-webkit-overflow-scrolling](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3f4b8816b5cd3619) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/orphaned/web/css/-webkit-overflow-scrolling/index.md)) | table-removed | 2 → 0 | D011 | - | - |
 | P002 | [Web/CSS/Reference/At-rules/@font-face/font-display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=92c09c41f0920f6a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/at-rules/%40font-face/font-display/index.md)) | changed | 1 → 1 | D012 | I001 x1 | - |
-| P003 | [Web/CSS/Reference/Properties/accent-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ca2659640ab046b9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/accent-color/index.md)) | changed | 1 → 1 | D057 | - | - |
-| P004 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2c711dc3080a79d8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D039 | - | - |
-| P005 | [Web/CSS/Reference/Properties/align-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3590443f7e396996) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/align-items/index.md)) | changed | 1 → 1 | D060 | - | - |
-| P006 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=516e9a584f063c31) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D098 | - | - |
-| P007 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bfc9b582f3c1cb27) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D107 | - | - |
-| P008 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b6b69336e9550b58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D100 | - | - |
+| P003 | [Web/CSS/Reference/Properties/accent-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ca2659640ab046b9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/accent-color/index.md)) | changed | 1 → 1 | D056 | - | - |
+| P004 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2c711dc3080a79d8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D038 | - | - |
+| P005 | [Web/CSS/Reference/Properties/align-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3590443f7e396996) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/align-items/index.md)) | changed | 1 → 1 | D059 | - | - |
+| P006 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=516e9a584f063c31) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D092 | - | - |
+| P007 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bfc9b582f3c1cb27) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D087 | - | - |
+| P008 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b6b69336e9550b58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D086 | - | I002 x3, I003 x3 |
 | P009 | [Web/CSS/Reference/Properties/animation-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1ffdb511f0aaeaea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-direction/index.md)) | changed | 1 → 1 | D007 | - | - |
-| P010 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0430496fe4e994fe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D117 | - | - |
+| P010 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0430496fe4e994fe) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D116 | - | - |
 | P011 | [Web/CSS/Reference/Properties/animation-fill-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=eda5502b40b6c149) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-fill-mode/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P012 | [Web/CSS/Reference/Properties/animation-iteration-count](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0e12c3e4d8a619cf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/animation-iteration-count/index.md)) | changed | 1 → 1 | D031 | - | - |
-| P013 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=90822521ffa34c24) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D083 | - | - |
-| P014 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ad3d227daea8c8d5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D080 | - | - |
-| P015 | [Web/CSS/Reference/Properties/background](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89455c8c0564340e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background/index.md)) | changed | 1 → 1 | D106 | - | - |
-| P016 | [Web/CSS/Reference/Properties/background-attachment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e90d9a2ce3155b0d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-attachment/index.md)) | changed | 1 → 1 | D026 | - | - |
-| P017 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=eaca15e41feb30df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D023 | - | - |
-| P018 | [Web/CSS/Reference/Properties/background-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=125dc44bfcc8e117) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-color/index.md)) | changed | 1 → 1 | D024 | - | - |
-| P019 | [Web/CSS/Reference/Properties/background-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5d95b69394398a6f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-image/index.md)) | changed | 1 → 1 | D027 | - | - |
-| P020 | [Web/CSS/Reference/Properties/background-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=298e2bbebe5ebd6e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-origin/index.md)) | changed | 1 → 1 | D022 | - | - |
-| P021 | [Web/CSS/Reference/Properties/background-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=478df0688e5259df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-repeat/index.md)) | changed | 1 → 1 | D025 | - | - |
-| P022 | [Web/CSS/Reference/Properties/border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=14e76a5a22a70ad8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border/index.md)) | changed | 2 → 2 | D091 | - | - |
-| P023 | [Web/CSS/Reference/Properties/border-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1d1412442c77f43f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom/index.md)) | changed | 1 → 1 | D094 | - | - |
-| P024 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9d7d7d77a9c1ac51) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P025 | [Web/CSS/Reference/Properties/border-bottom-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b4b0d45ce098a572) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-style/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P026 | [Web/CSS/Reference/Properties/border-bottom-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7a5e6d8d18089f55) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-width/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P027 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=96096ab6d14087ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D111 | - | - |
-| P028 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0dbbf8543cd1286d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D103 | - | - |
-| P029 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4a277c8d296ee77e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D018 | - | - |
-| P030 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ae36e5b5495d533d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D019 | - | - |
-| P031 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3c4c503be120031d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D016 | - | - |
-| P032 | [Web/CSS/Reference/Properties/border-image-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d06fffc19de88aa8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-source/index.md)) | changed | 1 → 1 | D020 | - | - |
-| P033 | [Web/CSS/Reference/Properties/border-image-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f3100146bf075fd7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-width/index.md)) | changed | 1 → 1 | D017 | - | - |
-| P034 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e8d8b65ee7f21273) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D095 | - | - |
-| P035 | [Web/CSS/Reference/Properties/border-left-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0891d5d75f192d40) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left-color/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P036 | [Web/CSS/Reference/Properties/border-left-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7ac04dba94aad3ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left-style/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P037 | [Web/CSS/Reference/Properties/border-left-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0ecb097a4053feba) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left-width/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P038 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e7ec221ec89cb6ed) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D086 | - | - |
-| P039 | [Web/CSS/Reference/Properties/border-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ac72175139ebcd2e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right/index.md)) | changed | 1 → 1 | D096 | - | - |
-| P040 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0e29c4947cd144c4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P041 | [Web/CSS/Reference/Properties/border-right-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fbd28bb39ebfccc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-style/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P042 | [Web/CSS/Reference/Properties/border-right-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f8938e629bf9186a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-width/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P043 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=78a934dfeceb8109) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D113 | - | - |
-| P044 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5205fea43d00d49b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D097 | - | - |
-| P045 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=48f5cd73fb6533cd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P046 | [Web/CSS/Reference/Properties/border-top-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7f7c02a4c2d98fb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-style/index.md)) | changed | 1 → 1 | D005 | - | - |
-| P047 | [Web/CSS/Reference/Properties/border-top-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f70d22df380be791) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-width/index.md)) | changed | 1 → 1 | D004 | - | - |
-| P048 | [Web/CSS/Reference/Properties/border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8a99e0d7854266f0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-width/index.md)) | changed | 1 → 1 | D085 | - | - |
-| P049 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c78869c8a6354091) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D048 | - | - |
-| P050 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89ae3a55b1937443) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D041 | - | - |
-| P051 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5780968af8952083) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D115 | - | - |
-| P052 | [Web/CSS/Reference/Properties/contain](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6006a23d29d0ace7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/contain/index.md)) | changed | 1 → 1 | D062 | - | - |
-| P053 | [Web/CSS/Reference/Properties/container](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=64ad04f2744330c2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container/index.md)) | changed | 1 → 1 | D109 | - | - |
-| P054 | [Web/CSS/Reference/Properties/container-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d8147f60ed194e72) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container-name/index.md)) | changed | 1 → 1 | D055 | - | - |
-| P055 | [Web/CSS/Reference/Properties/container-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=dee67153f7bdae4d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container-type/index.md)) | changed | 1 → 1 | D056 | - | - |
-| P056 | [Web/CSS/Reference/Properties/content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4a0603505ea68754) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/content/index.md)) | changed | 1 → 1 | D036 | - | - |
-| P057 | [Web/CSS/Reference/Properties/content-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b588b7ad1d64c638) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/content-visibility/index.md)) | changed | 1 → 1 | D066 | - | - |
-| P058 | [Web/CSS/Reference/Properties/cursor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a3e5ef93e575eec5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/cursor/index.md)) | changed | 1 → 1 | D061 | - | - |
-| P059 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b56e323f38f8258e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D082 | - | - |
-| P060 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ea0da41a619a2628) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D093 | - | - |
-| P061 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=fb6a91a91f908c80) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D068 | - | - |
+| P013 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=90822521ffa34c24) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D082 | - | - |
+| P014 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ad3d227daea8c8d5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D079 | - | - |
+| P015 | [Web/CSS/Reference/Properties/background](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89455c8c0564340e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background/index.md)) | changed | 1 → 1 | D099 | - | - |
+| P016 | [Web/CSS/Reference/Properties/background-attachment](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e90d9a2ce3155b0d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-attachment/index.md)) | changed | 1 → 1 | D027 | - | - |
+| P017 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=eaca15e41feb30df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D024 | - | - |
+| P018 | [Web/CSS/Reference/Properties/background-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=125dc44bfcc8e117) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-color/index.md)) | changed | 1 → 1 | D025 | - | - |
+| P019 | [Web/CSS/Reference/Properties/background-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5d95b69394398a6f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-image/index.md)) | changed | 1 → 1 | D028 | - | - |
+| P020 | [Web/CSS/Reference/Properties/background-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=298e2bbebe5ebd6e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-origin/index.md)) | changed | 1 → 1 | D023 | - | - |
+| P021 | [Web/CSS/Reference/Properties/background-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=478df0688e5259df) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/background-repeat/index.md)) | changed | 1 → 1 | D026 | - | - |
+| P022 | [Web/CSS/Reference/Properties/border](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=14e76a5a22a70ad8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border/index.md)) | changed | 2 → 2 | D110 | - | - |
+| P023 | [Web/CSS/Reference/Properties/border-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1d1412442c77f43f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom/index.md)) | changed | 1 → 1 | D100 | - | - |
+| P024 | [Web/CSS/Reference/Properties/border-bottom-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9d7d7d77a9c1ac51) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-color/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P025 | [Web/CSS/Reference/Properties/border-bottom-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b4b0d45ce098a572) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-style/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P026 | [Web/CSS/Reference/Properties/border-bottom-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7a5e6d8d18089f55) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-bottom-width/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P027 | [Web/CSS/Reference/Properties/border-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=96096ab6d14087ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-color/index.md)) | changed | 1 → 1 | D104 | - | - |
+| P028 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0dbbf8543cd1286d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D101 | - | - |
+| P029 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4a277c8d296ee77e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D019 | - | - |
+| P030 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ae36e5b5495d533d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D020 | - | - |
+| P031 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3c4c503be120031d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D017 | - | - |
+| P032 | [Web/CSS/Reference/Properties/border-image-source](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d06fffc19de88aa8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-source/index.md)) | changed | 1 → 1 | D021 | - | - |
+| P033 | [Web/CSS/Reference/Properties/border-image-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f3100146bf075fd7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-image-width/index.md)) | changed | 1 → 1 | D018 | - | - |
+| P034 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e8d8b65ee7f21273) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D102 | - | - |
+| P035 | [Web/CSS/Reference/Properties/border-left-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0891d5d75f192d40) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left-color/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P036 | [Web/CSS/Reference/Properties/border-left-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7ac04dba94aad3ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left-style/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P037 | [Web/CSS/Reference/Properties/border-left-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0ecb097a4053feba) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-left-width/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P038 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e7ec221ec89cb6ed) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D090 | - | - |
+| P039 | [Web/CSS/Reference/Properties/border-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ac72175139ebcd2e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right/index.md)) | changed | 1 → 1 | D103 | - | - |
+| P040 | [Web/CSS/Reference/Properties/border-right-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0e29c4947cd144c4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-color/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P041 | [Web/CSS/Reference/Properties/border-right-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fbd28bb39ebfccc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-style/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P042 | [Web/CSS/Reference/Properties/border-right-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f8938e629bf9186a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-right-width/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P043 | [Web/CSS/Reference/Properties/border-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=78a934dfeceb8109) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-spacing/index.md)) | changed | 1 → 1 | D112 | - | - |
+| P044 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5205fea43d00d49b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D105 | - | - |
+| P045 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=48f5cd73fb6533cd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D004 | - | - |
+| P046 | [Web/CSS/Reference/Properties/border-top-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7f7c02a4c2d98fb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-style/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P047 | [Web/CSS/Reference/Properties/border-top-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f70d22df380be791) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-top-width/index.md)) | changed | 1 → 1 | D005 | - | - |
+| P048 | [Web/CSS/Reference/Properties/border-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8a99e0d7854266f0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/border-width/index.md)) | changed | 1 → 1 | D106 | - | - |
+| P049 | [Web/CSS/Reference/Properties/box-sizing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c78869c8a6354091) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/box-sizing/index.md)) | changed | 1 → 1 | D047 | - | - |
+| P050 | [Web/CSS/Reference/Properties/clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89ae3a55b1937443) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/clip/index.md)) | changed | 1 → 1 | D040 | - | - |
+| P051 | [Web/CSS/Reference/Properties/color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5780968af8952083) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/color/index.md)) | changed | 1 → 1 | D114 | - | - |
+| P052 | [Web/CSS/Reference/Properties/contain](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6006a23d29d0ace7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/contain/index.md)) | changed | 1 → 1 | D061 | - | - |
+| P053 | [Web/CSS/Reference/Properties/container](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=64ad04f2744330c2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container/index.md)) | changed | 1 → 1 | D107 | - | - |
+| P054 | [Web/CSS/Reference/Properties/container-name](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d8147f60ed194e72) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container-name/index.md)) | changed | 1 → 1 | D054 | - | - |
+| P055 | [Web/CSS/Reference/Properties/container-type](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=dee67153f7bdae4d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/container-type/index.md)) | changed | 1 → 1 | D055 | - | - |
+| P056 | [Web/CSS/Reference/Properties/content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4a0603505ea68754) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/content/index.md)) | changed | 1 → 1 | D035 | - | - |
+| P057 | [Web/CSS/Reference/Properties/content-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b588b7ad1d64c638) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/content-visibility/index.md)) | changed | 1 → 1 | D065 | - | - |
+| P058 | [Web/CSS/Reference/Properties/cursor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a3e5ef93e575eec5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/cursor/index.md)) | changed | 1 → 1 | D060 | - | - |
+| P059 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b56e323f38f8258e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D081 | - | - |
+| P060 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ea0da41a619a2628) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D091 | - | - |
+| P061 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=fb6a91a91f908c80) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D067 | - | - |
 | P062 | [Web/CSS/Reference/Properties/flex-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=dc6232505d8a5564) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-direction/index.md)) | changed | 1 → 1 | D009 | - | - |
 | P063 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=e4b830cf57eac9b2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D108 | - | - |
-| P064 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c6cb0d86d47579e1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D070 | - | - |
-| P065 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=086cbdc6796464de) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D069 | - | - |
+| P064 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c6cb0d86d47579e1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D069 | - | - |
+| P065 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=086cbdc6796464de) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D068 | - | - |
 | P066 | [Web/CSS/Reference/Properties/flex-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7b5927ca9062ccac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/flex-wrap/index.md)) | changed | 1 → 1 | D009 | - | - |
-| P067 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f0d16e22142941ad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D081 | - | - |
-| P068 | [Web/CSS/Reference/Properties/font-feature-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3afd795bb90d7ba2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-feature-settings/index.md)) | changed | 1 → 1 | D015 | - | - |
-| P069 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=19a4bb15eca403a8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D013 | - | - |
-| P070 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=04b145f4ecf50d14) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D116 | - | - |
-| P071 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c02668e08c3a848c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P072 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6d1c3ff5cb97ebb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D087 | - | - |
-| P073 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=086834bc618e8231) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D071 | - | - |
-| P074 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=823ed069d453f713) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D044 | - | - |
-| P075 | [Web/CSS/Reference/Properties/hyphens](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=05f3defa83181901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/hyphens/index.md)) | changed | 1 → 1 | D006 | - | - |
+| P067 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f0d16e22142941ad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D080 | - | - |
+| P068 | [Web/CSS/Reference/Properties/font-feature-settings](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=3afd795bb90d7ba2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-feature-settings/index.md)) | changed | 1 → 1 | D016 | - | - |
+| P069 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=19a4bb15eca403a8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D014 | - | - |
+| P070 | [Web/CSS/Reference/Properties/font-synthesis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=04b145f4ecf50d14) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-synthesis/index.md)) | changed | 1 → 1 | D115 | - | - |
+| P071 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c02668e08c3a848c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D015 | - | - |
+| P072 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6d1c3ff5cb97ebb8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D085 | - | - |
+| P073 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=086834bc618e8231) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D070 | - | - |
+| P074 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=823ed069d453f713) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D043 | - | - |
+| P075 | [Web/CSS/Reference/Properties/hyphens](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=05f3defa83181901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/hyphens/index.md)) | changed | 1 → 1 | D003 | - | - |
 | P076 | [Web/CSS/Reference/Properties/image-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0d89f7f3effa121e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/image-rendering/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P077 | [Web/CSS/Reference/Properties/isolation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ee7aa4bb198f7f68) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/isolation/index.md)) | changed | 1 → 1 | D037 | - | - |
-| P078 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=46be0fa4420c2c89) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D067 | - | - |
-| P079 | [Web/CSS/Reference/Properties/letter-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8a271692c0c37be4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/letter-spacing/index.md)) | changed | 1 → 1 | D028 | - | - |
-| P080 | [Web/CSS/Reference/Properties/line-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8af7e67d0ef7ee53) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/line-break/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P081 | [Web/CSS/Reference/Properties/line-clamp](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=cc8b4c4ad19574ea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/line-clamp/index.md)) | changed | 1 → 1 | D034 | - | - |
-| P082 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=738734fc82718941) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D101 | - | - |
+| P077 | [Web/CSS/Reference/Properties/isolation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ee7aa4bb198f7f68) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/isolation/index.md)) | changed | 1 → 1 | D036 | - | - |
+| P078 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=46be0fa4420c2c89) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D066 | - | - |
+| P079 | [Web/CSS/Reference/Properties/letter-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8a271692c0c37be4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/letter-spacing/index.md)) | changed | 1 → 1 | D029 | - | - |
+| P080 | [Web/CSS/Reference/Properties/line-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8af7e67d0ef7ee53) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/line-break/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P081 | [Web/CSS/Reference/Properties/line-clamp](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=cc8b4c4ad19574ea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/line-clamp/index.md)) | changed | 1 → 1 | D033 | - | I004 x4, I005 x4, I006 x4 |
+| P082 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=738734fc82718941) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D094 | - | - |
 | P083 | [Web/CSS/Reference/Properties/margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ebc18bc4fa3b1689) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-bottom/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P084 | [Web/CSS/Reference/Properties/margin-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d3187eda2dc9b72f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-left/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P085 | [Web/CSS/Reference/Properties/margin-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a38bb26bff630dab) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-right/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P086 | [Web/CSS/Reference/Properties/margin-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f92cb6efcdbbf55d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/margin-top/index.md)) | changed | 1 → 1 | D002 | - | - |
-| P087 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42ea44008601d37d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D105 | - | - |
-| P088 | [Web/CSS/Reference/Properties/max-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6db4094e1d4f0803) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/max-height/index.md)) | changed | 1 → 1 | D043 | - | - |
-| P089 | [Web/CSS/Reference/Properties/max-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ff667b0df7093e77) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/max-width/index.md)) | changed | 1 → 1 | D046 | - | - |
-| P090 | [Web/CSS/Reference/Properties/min-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9dfeb02faf8c6219) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/min-height/index.md)) | changed | 1 → 1 | D042 | - | - |
-| P091 | [Web/CSS/Reference/Properties/min-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c3c4ccf6a80898d8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/min-width/index.md)) | changed | 1 → 1 | D045 | - | - |
-| P092 | [Web/CSS/Reference/Properties/mix-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=447b182bb4ec4fea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/mix-blend-mode/index.md)) | changed | 1 → 1 | D051 | - | - |
-| P093 | [Web/CSS/Reference/Properties/object-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=34e5e75af3691b2b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/object-fit/index.md)) | changed | 1 → 1 | D074 | - | - |
-| P094 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bba77aa2a932c38e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D073 | - | - |
-| P095 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=22c6a26164e8feb6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D052 | - | - |
-| P096 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=09ac23fd122a5c93) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D040 | - | - |
-| P097 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c2c4acf333b1db3d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D092 | - | - |
-| P098 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c85ea02428b173b6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D054 | - | - |
-| P099 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d258334e888fb9fb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D058 | - | - |
-| P100 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=12bd9980cde4e9b4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D038 | - | - |
+| P087 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42ea44008601d37d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D096 | - | - |
+| P088 | [Web/CSS/Reference/Properties/max-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6db4094e1d4f0803) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/max-height/index.md)) | changed | 1 → 1 | D042 | - | - |
+| P089 | [Web/CSS/Reference/Properties/max-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=ff667b0df7093e77) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/max-width/index.md)) | changed | 1 → 1 | D045 | - | - |
+| P090 | [Web/CSS/Reference/Properties/min-height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9dfeb02faf8c6219) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/min-height/index.md)) | changed | 1 → 1 | D041 | - | - |
+| P091 | [Web/CSS/Reference/Properties/min-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c3c4ccf6a80898d8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/min-width/index.md)) | changed | 1 → 1 | D044 | - | - |
+| P092 | [Web/CSS/Reference/Properties/mix-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=447b182bb4ec4fea) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/mix-blend-mode/index.md)) | changed | 1 → 1 | D050 | - | - |
+| P093 | [Web/CSS/Reference/Properties/object-fit](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=34e5e75af3691b2b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/object-fit/index.md)) | changed | 1 → 1 | D073 | - | - |
+| P094 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bba77aa2a932c38e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D072 | - | - |
+| P095 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=22c6a26164e8feb6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D051 | - | - |
+| P096 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=09ac23fd122a5c93) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D039 | - | - |
+| P097 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c2c4acf333b1db3d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D109 | - | - |
+| P098 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c85ea02428b173b6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D053 | - | - |
+| P099 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d258334e888fb9fb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D057 | - | - |
+| P100 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=12bd9980cde4e9b4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D037 | - | - |
 | P101 | [Web/CSS/Reference/Properties/overflow-anchor](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fa25713bc706ef6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow-anchor/index.md)) | changed | 1 → 1 | D008 | - | - |
-| P102 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=85f2201835470d2f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D112 | - | - |
-| P103 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=61f2061d57220e23) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D102 | - | - |
+| P102 | [Web/CSS/Reference/Properties/overflow-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=85f2201835470d2f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/overflow-inline/index.md)) | changed | 1 → 1 | D111 | - | - |
+| P103 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=61f2061d57220e23) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D095 | - | - |
 | P104 | [Web/CSS/Reference/Properties/padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=9de6f4a373538604) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-bottom/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P105 | [Web/CSS/Reference/Properties/padding-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c3a4d9612077c129) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-left/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P106 | [Web/CSS/Reference/Properties/padding-right](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=6b9691ac1a9fc825) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-right/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P107 | [Web/CSS/Reference/Properties/padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=7ae835257d68924c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/padding-top/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P108 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=53c28e7eb830488c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D076 | - | - |
-| P109 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2eee3b9504f49c36) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D090 | - | - |
-| P110 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d71cdac9a1e8eecf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D088 | - | - |
+| P108 | [Web/CSS/Reference/Properties/paint-order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=53c28e7eb830488c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/paint-order/index.md)) | changed | 1 → 1 | D075 | - | - |
+| P109 | [Web/CSS/Reference/Properties/place-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2eee3b9504f49c36) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-content/index.md)) | changed | 1 → 1 | D088 | - | - |
+| P110 | [Web/CSS/Reference/Properties/place-items](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d71cdac9a1e8eecf) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-items/index.md)) | changed | 1 → 1 | D098 | - | - |
 | P111 | [Web/CSS/Reference/Properties/place-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f93a49349fd39159) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/place-self/index.md)) | changed | 1 → 1 | D089 | - | - |
-| P112 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=08d473cec4ac8f96) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D063 | - | - |
-| P113 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=433d07e3cc05c0fd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D049 | - | - |
-| P114 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f3442a1eb2cc28c3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D084 | - | - |
-| P115 | [Web/CSS/Reference/Properties/scale](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d02469e968deb66f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scale/index.md)) | changed | 1 → 1 | D079 | - | - |
-| P116 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b42041471f7abad6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D075 | - | - |
-| P117 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b208db5811ddc755) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D099 | - | - |
+| P112 | [Web/CSS/Reference/Properties/pointer-events](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=08d473cec4ac8f96) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/pointer-events/index.md)) | changed | 1 → 1 | D062 | - | - |
+| P113 | [Web/CSS/Reference/Properties/position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=433d07e3cc05c0fd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/position/index.md)) | changed | 1 → 1 | D048 | - | - |
+| P114 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=f3442a1eb2cc28c3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D083 | - | - |
+| P115 | [Web/CSS/Reference/Properties/scale](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d02469e968deb66f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scale/index.md)) | changed | 1 → 1 | D078 | - | - |
+| P116 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b42041471f7abad6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D074 | - | - |
+| P117 | [Web/CSS/Reference/Properties/scroll-padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=b208db5811ddc755) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/scroll-padding/index.md)) | changed | 1 → 1 | D093 | - | - |
 | P118 | [Web/CSS/Reference/Properties/stop-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a3a8c115e7621916) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/stop-color/index.md)) | changed | 1 → 1 | D010 | - | - |
-| P119 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42088e947b86dd48) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D065 | - | - |
-| P120 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8cdf47b9da622d3c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D114 | - | - |
-| P121 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=83e4fed9954730a3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D110 | - | - |
-| P122 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4f6e365648de6233) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D064 | - | - |
-| P123 | [Web/CSS/Reference/Properties/text-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=fe6aa6d1eaf89571) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-wrap/index.md)) | changed | 1 → 1 | D035 | - | - |
-| P124 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2baa75b12b59b901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D078 | - | - |
-| P125 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1810b84f2d8521e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D104 | - | - |
+| P119 | [Web/CSS/Reference/Properties/tab-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=42088e947b86dd48) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/tab-size/index.md)) | changed | 1 → 1 | D064 | - | - |
+| P120 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=8cdf47b9da622d3c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D113 | - | I007 x1 |
+| P121 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=83e4fed9954730a3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D097 | - | - |
+| P122 | [Web/CSS/Reference/Properties/text-overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=4f6e365648de6233) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-overflow/index.md)) | changed | 1 → 1 | D063 | - | - |
+| P123 | [Web/CSS/Reference/Properties/text-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=fe6aa6d1eaf89571) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/text-wrap/index.md)) | changed | 1 → 1 | D034 | - | - |
+| P124 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2baa75b12b59b901) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D077 | - | - |
+| P125 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=1810b84f2d8521e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D084 | - | - |
 | P126 | [Web/CSS/Reference/Properties/transition-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=a9dbfd7027eac6db) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition-duration/index.md)) | changed | 1 → 1 | D032 | - | - |
 | P127 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5987dceaed26c3d6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D030 | - | - |
-| P128 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=33987f985e7ea4af) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D077 | - | - |
-| P129 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0c503df8be59d84a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D050 | - | - |
-| P130 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fcc0ed846f0c98d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D029 | - | - |
-| P131 | [Web/CSS/Reference/Properties/visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d18d9f8e3664100e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/visibility/index.md)) | changed | 1 → 1 | D059 | - | - |
-| P132 | [Web/CSS/Reference/Properties/white-space](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89d89275d4601011) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/white-space/index.md)) | changed | 1 → 1 | D033 | - | - |
-| P133 | [Web/CSS/Reference/Properties/width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=11da9804850caa95) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/width/index.md)) | changed | 1 → 1 | D047 | - | - |
-| P134 | [Web/CSS/Reference/Properties/will-change](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bdaaeb5fa2572103) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/will-change/index.md)) | changed | 1 → 1 | D053 | - | - |
-| P135 | [Web/CSS/Reference/Properties/word-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5efa474219576054) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/word-break/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P136 | [Web/CSS/Reference/Properties/word-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=134cd2a9d45c46f9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/word-spacing/index.md)) | changed | 1 → 1 | D021 | - | - |
-| P137 | [Web/CSS/Reference/Properties/z-index](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c0e867d0c9b522e8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/z-index/index.md)) | changed | 1 → 1 | D072 | - | - |
+| P128 | [Web/CSS/Reference/Properties/translate](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=33987f985e7ea4af) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/translate/index.md)) | changed | 1 → 1 | D076 | - | - |
+| P129 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=0c503df8be59d84a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D049 | - | - |
+| P130 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=2fcc0ed846f0c98d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D013 | - | - |
+| P131 | [Web/CSS/Reference/Properties/visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=d18d9f8e3664100e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/visibility/index.md)) | changed | 1 → 1 | D058 | - | - |
+| P132 | [Web/CSS/Reference/Properties/white-space](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=89d89275d4601011) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/white-space/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P133 | [Web/CSS/Reference/Properties/width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=11da9804850caa95) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/width/index.md)) | changed | 1 → 1 | D046 | - | - |
+| P134 | [Web/CSS/Reference/Properties/will-change](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=bdaaeb5fa2572103) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/will-change/index.md)) | changed | 1 → 1 | D052 | - | - |
+| P135 | [Web/CSS/Reference/Properties/word-break](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=5efa474219576054) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/word-break/index.md)) | changed | 1 → 1 | D003 | - | - |
+| P136 | [Web/CSS/Reference/Properties/word-spacing](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=134cd2a9d45c46f9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/word-spacing/index.md)) | changed | 1 → 1 | D022 | - | - |
+| P137 | [Web/CSS/Reference/Properties/z-index](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=ko&status=all&doc=c0e867d0c9b522e8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/ko/web/css/reference/properties/z-index/index.md)) | changed | 1 → 1 | D071 | - | - |
 
 ## Complete table diffs
 
@@ -329,6 +329,33 @@ Pages: P083, P084, P085, P086.
 
 ### D003: 4 page(s)
 
+Pages: P075, P080, P132, P135.
+
+```diff
+--- main
++++ PR 912
+@@ -10,7 +10,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements</td>
++<td>text</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -22,7 +22,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as specified</td>
++<td>지정된 키워드</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D004: 4 page(s)
+
 Pages: P024, P035, P040, P045.
 
 ```diff
@@ -364,7 +391,7 @@ Pages: P024, P035, P040, P045.
  </table>
 ```
 
-### D004: 4 page(s)
+### D005: 4 page(s)
 
 Pages: P026, P037, P042, P047.
 
@@ -403,7 +430,7 @@ Pages: P026, P037, P042, P047.
  </table>
 ```
 
-### D005: 4 page(s)
+### D006: 4 page(s)
 
 Pages: P025, P036, P041, P046.
 
@@ -422,33 +449,6 @@ Pages: P025, P036, P041, P046.
  <tr>
  <th scope="row">
 @@ -24,7 +22,7 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as specified</td>
-+<td>지정된 키워드</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D006: 3 page(s)
-
-Pages: P075, P080, P135.
-
-```diff
---- main
-+++ PR 912
-@@ -10,7 +10,7 @@
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements</td>
-+<td>text</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -22,7 +22,7 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
@@ -710,6 +710,89 @@ Pages: P002.
 
 ### D013: 1 page(s)
 
+Pages: P130.
+
+```diff
+--- main
++++ PR 912
+@@ -10,11 +10,22 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>as each of the properties of the shorthand:. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line" class="only-in-en-us">
+-<code>::first-line</code>
+-</a>.</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/alignment-baseline" class="only-in-en-us">
++<code>alignment-baseline</code>
++</a>: 인라인 레벨 박스, 플렉스 아이템, 그리드 아이템, 테이블 셀, SVG 텍스트 콘텐츠 요소</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/baseline-shift" class="only-in-en-us">
++<code>baseline-shift</code>
++</a>: 인라인 레벨 박스 및 SVG 텍스트 콘텐츠 요소</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/baseline-source" class="only-in-en-us">
++<code>baseline-source</code>
++</a>: inline-level boxes that establish an independent formatting context</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -26,13 +37,43 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/alignment-baseline" class="only-in-en-us">
++<code>alignment-baseline</code>
++</a>: 지정된 키워드</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/baseline-shift" class="only-in-en-us">
++<code>baseline-shift</code>
++</a>: 지정된 키워드 또는 계산된 &lt;length-percentage&gt; 값</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/baseline-source" class="only-in-en-us">
++<code>baseline-source</code>
++</a>: 지정된 키워드</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>discrete</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/alignment-baseline" class="only-in-en-us">
++<code>alignment-baseline</code>
++</a>: discrete</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/baseline-shift" class="only-in-en-us">
++<code>baseline-shift</code>
++</a>: 계산값 유형별</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/baseline-source" class="only-in-en-us">
++<code>baseline-source</code>
++</a>: discrete</li>
++</ul>
++</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D014: 1 page(s)
+
 Pages: P069.
 
 ```diff
@@ -760,7 +843,7 @@ Pages: P069.
  </table>
 ```
 
-### D014: 1 page(s)
+### D015: 1 page(s)
 
 Pages: P071.
 
@@ -798,7 +881,7 @@ Pages: P071.
  </table>
 ```
 
-### D015: 1 page(s)
+### D016: 1 page(s)
 
 Pages: P068.
 
@@ -829,7 +912,7 @@ Pages: P068.
  <th scope="row">
 ```
 
-### D016: 1 page(s)
+### D017: 1 page(s)
 
 Pages: P031.
 
@@ -878,7 +961,7 @@ Pages: P031.
  </table>
 ```
 
-### D017: 1 page(s)
+### D018: 1 page(s)
 
 Pages: P033.
 
@@ -927,7 +1010,7 @@ Pages: P033.
  </table>
 ```
 
-### D018: 1 page(s)
+### D019: 1 page(s)
 
 Pages: P029.
 
@@ -965,7 +1048,7 @@ Pages: P029.
  </table>
 ```
 
-### D019: 1 page(s)
+### D020: 1 page(s)
 
 Pages: P030.
 
@@ -996,7 +1079,7 @@ Pages: P030.
  <th scope="row">
 ```
 
-### D020: 1 page(s)
+### D021: 1 page(s)
 
 Pages: P032.
 
@@ -1028,7 +1111,7 @@ Pages: P032.
  <th scope="row">
 ```
 
-### D021: 1 page(s)
+### D022: 1 page(s)
 
 Pages: P136.
 
@@ -1081,7 +1164,7 @@ Pages: P136.
  </table>
 ```
 
-### D022: 1 page(s)
+### D023: 1 page(s)
 
 Pages: P020.
 
@@ -1119,7 +1202,7 @@ Pages: P020.
  </table>
 ```
 
-### D023: 1 page(s)
+### D024: 1 page(s)
 
 Pages: P017.
 
@@ -1157,7 +1240,7 @@ Pages: P017.
  </table>
 ```
 
-### D024: 1 page(s)
+### D025: 1 page(s)
 
 Pages: P018.
 
@@ -1196,7 +1279,7 @@ Pages: P018.
  </table>
 ```
 
-### D025: 1 page(s)
+### D026: 1 page(s)
 
 Pages: P021.
 
@@ -1227,7 +1310,7 @@ Pages: P021.
  <th scope="row">
 ```
 
-### D026: 1 page(s)
+### D027: 1 page(s)
 
 Pages: P016.
 
@@ -1258,7 +1341,7 @@ Pages: P016.
  <th scope="row">
 ```
 
-### D027: 1 page(s)
+### D028: 1 page(s)
 
 Pages: P019.
 
@@ -1291,7 +1374,7 @@ Pages: P019.
  <th scope="row">
 ```
 
-### D028: 1 page(s)
+### D029: 1 page(s)
 
 Pages: P079.
 
@@ -1330,44 +1413,6 @@ Pages: P079.
 -<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
 -</td>
 +<td>계산값 유형별</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D029: 1 page(s)
-
-Pages: P130.
-
-```diff
---- main
-+++ PR 912
-@@ -10,11 +10,7 @@
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>as each of the properties of the shorthand:. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line" class="only-in-en-us">
--<code>::first-line</code>
--</a>.</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -26,13 +22,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>discrete</td>
-+<td>각 개별 속성 참고</td>
  </tr>
  </tbody>
  </table>
@@ -1492,97 +1537,133 @@ Pages: P126.
 
 ### D033: 1 page(s)
 
-Pages: P132.
-
-```diff
---- main
-+++ PR 912
-@@ -10,19 +10,19 @@
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements</td>
-+<td>text</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>yes</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as specified</td>
-+<td>지정된 키워드</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D034: 1 page(s)
-
 Pages: P081.
 
 ```diff
 --- main
 +++ PR 912
-@@ -10,26 +10,25 @@
+@@ -10,25 +10,84 @@
  </tr>
  <tr>
  <th scope="row">적용대상</th>
 -<td>Block containers except multi-column containers</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/max-lines" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>max-lines</code>
++</a>: 라인 클램프(line-clamp) 컨테이너이거나 영역 분할(region break)를 포착하는 단편화 컨테이너이기도 한 블록 컨테이너</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/block-ellipsis" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>block-ellipsis</code>
++</a>: 블록 컨테이너</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/continue" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>continue</code>
++</a>: 블록 컨테이너 및 다단(multi-column) 컨테이너</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
  </th>
 -<td>no</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/max-lines" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>max-lines</code>
++</a>: no</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/block-ellipsis" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>block-ellipsis</code>
++</a>: yes</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/continue" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>continue</code>
++</a>: no</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as specified</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/max-lines" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>max-lines</code>
++</a>: none 키워드 또는 정수</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/block-ellipsis" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>block-ellipsis</code>
++</a>: 지정된 값</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/continue" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>continue</code>
++</a>: 지정된 키워드</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>an <a href="/en-US/docs/Web/CSS/Reference/Values/integer#interpolation" title="Values of the &lt;integer&gt; CSS data type are interpolated via integer discrete steps. The calculation is done as if they were real, floating-point numbers and the discrete value is obtained using the floor function.">integer</a>
--</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/max-lines" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>max-lines</code>
++</a>: 계산값 유형별</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/block-ellipsis" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>block-ellipsis</code>
++</a>: discrete</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/continue" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>continue</code>
++</a>: discrete</li>
++</ul>
+ </td>
  </tr>
  </tbody>
- </table>
 ```
 
-### D035: 1 page(s)
+### D034: 1 page(s)
 
 Pages: P123.
 
 ```diff
 --- main
 +++ PR 912
-@@ -10,62 +10,29 @@
+@@ -10,7 +10,18 @@
  </tr>
  <tr>
  <th scope="row">적용대상</th>
 -<td>text and block containers</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
++<code>text-wrap-mode</code>
++</a>: text</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
++<code>text-wrap-style</code>
++</a>: 인라인 서식 컨텍스트를 설정하는 블록 컨테이너</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>yes</td>
--</tr>
--<tr>
+@@ -19,34 +30,19 @@
+ <td>yes</td>
+ </tr>
+ <tr>
 -<th scope="row">Percentages</th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
@@ -1596,53 +1677,50 @@ Pages: P123.
 -</a>: no</li>
 -</ul>
 -</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
+-</tr>
+-<tr>
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
--<code>text-wrap-mode</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
+ <code>text-wrap-mode</code>
 -</a>: as specified</li>
--<li>
++</a>: 지정된 키워드</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
--<code>text-wrap-style</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
+ <code>text-wrap-style</code>
 -</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
++</a>: 지정된 키워드</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -54,14 +50,14 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
--<code>text-wrap-mode</code>
--</a>: discrete</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
+ <code>text-wrap-mode</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
--<code>text-wrap-style</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
+ <code>text-wrap-style</code>
+ </a>: discrete</li>
+ </ul>
 ```
 
-### D036: 1 page(s)
+### D035: 1 page(s)
 
 Pages: P056.
 
@@ -1673,7 +1751,7 @@ Pages: P056.
  <th scope="row">
 ```
 
-### D037: 1 page(s)
+### D036: 1 page(s)
 
 Pages: P077.
 
@@ -1707,7 +1785,7 @@ Pages: P077.
  </table>
 ```
 
-### D038: 1 page(s)
+### D037: 1 page(s)
 
 Pages: P100.
 
@@ -1723,19 +1801,24 @@ Pages: P100.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,26 +22,7 @@
+@@ -22,24 +22,16 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
--<code>overflow-x</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
+ <code>overflow-x</code>
 -</a>: as specified, except with <code>visible</code>/<code>clip</code> computing to <code>auto</code>/<code>hidden</code> respectively if one of <a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
 -<code>overflow-x</code>
 -</a> or <a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-y" class="only-in-en-us">
--<code>overflow-y</code>
++</a>: 보통은 지정된 값이지만, 본문 설명 참고</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/overflow-y" class="only-in-en-us">
+ <code>overflow-y</code>
 -</a> is neither <code>visible</code> nor clip</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-y" class="only-in-en-us">
@@ -1745,15 +1828,13 @@ Pages: P100.
 -</a> or <a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-y" class="only-in-en-us">
 -<code>overflow-y</code>
 -</a> is neither <code>visible</code> nor clip</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 보통은 지정된 값이지만, 본문 설명 참고</li>
+ </ul>
+ </td>
  </tr>
- <tr>
- <th scope="row">
 ```
 
-### D039: 1 page(s)
+### D038: 1 page(s)
 
 Pages: P004.
 
@@ -1780,7 +1861,7 @@ Pages: P004.
  <th scope="row">
 ```
 
-### D040: 1 page(s)
+### D039: 1 page(s)
 
 Pages: P096.
 
@@ -1815,7 +1896,7 @@ Pages: P096.
  </table>
 ```
 
-### D041: 1 page(s)
+### D040: 1 page(s)
 
 Pages: P050.
 
@@ -1851,7 +1932,7 @@ Pages: P050.
  </table>
 ```
 
-### D042: 1 page(s)
+### D041: 1 page(s)
 
 Pages: P090.
 
@@ -1896,7 +1977,7 @@ Pages: P090.
  </table>
 ```
 
-### D043: 1 page(s)
+### D042: 1 page(s)
 
 Pages: P088.
 
@@ -1942,7 +2023,7 @@ Pages: P088.
  </table>
 ```
 
-### D044: 1 page(s)
+### D043: 1 page(s)
 
 Pages: P074.
 
@@ -1987,7 +2068,7 @@ Pages: P074.
  </table>
 ```
 
-### D045: 1 page(s)
+### D044: 1 page(s)
 
 Pages: P091.
 
@@ -2032,7 +2113,7 @@ Pages: P091.
  </table>
 ```
 
-### D046: 1 page(s)
+### D045: 1 page(s)
 
 Pages: P089.
 
@@ -2078,7 +2159,7 @@ Pages: P089.
  </table>
 ```
 
-### D047: 1 page(s)
+### D046: 1 page(s)
 
 Pages: P133.
 
@@ -2123,7 +2204,7 @@ Pages: P133.
  </table>
 ```
 
-### D048: 1 page(s)
+### D047: 1 page(s)
 
 Pages: P049.
 
@@ -2150,7 +2231,7 @@ Pages: P049.
  <th scope="row">
 ```
 
-### D049: 1 page(s)
+### D048: 1 page(s)
 
 Pages: P113.
 
@@ -2188,7 +2269,7 @@ Pages: P113.
  </table>
 ```
 
-### D050: 1 page(s)
+### D049: 1 page(s)
 
 Pages: P129.
 
@@ -2215,7 +2296,7 @@ Pages: P129.
  <th scope="row">
 ```
 
-### D051: 1 page(s)
+### D050: 1 page(s)
 
 Pages: P092.
 
@@ -2254,7 +2335,7 @@ Pages: P092.
  </table>
 ```
 
-### D052: 1 page(s)
+### D051: 1 page(s)
 
 Pages: P095.
 
@@ -2302,7 +2383,7 @@ Pages: P095.
  </table>
 ```
 
-### D053: 1 page(s)
+### D052: 1 page(s)
 
 Pages: P134.
 
@@ -2336,7 +2417,7 @@ Pages: P134.
  </table>
 ```
 
-### D054: 1 page(s)
+### D053: 1 page(s)
 
 Pages: P098.
 
@@ -2370,7 +2451,7 @@ Pages: P098.
  </table>
 ```
 
-### D055: 1 page(s)
+### D054: 1 page(s)
 
 Pages: P054.
 
@@ -2405,7 +2486,7 @@ Pages: P054.
  </table>
 ```
 
-### D056: 1 page(s)
+### D055: 1 page(s)
 
 Pages: P055.
 
@@ -2440,7 +2521,7 @@ Pages: P055.
  </table>
 ```
 
-### D057: 1 page(s)
+### D056: 1 page(s)
 
 Pages: P003.
 
@@ -2477,7 +2558,7 @@ Pages: P003.
  </table>
 ```
 
-### D058: 1 page(s)
+### D057: 1 page(s)
 
 Pages: P099.
 
@@ -2514,7 +2595,7 @@ Pages: P099.
  </table>
 ```
 
-### D059: 1 page(s)
+### D058: 1 page(s)
 
 Pages: P131.
 
@@ -2541,7 +2622,7 @@ Pages: P131.
  <th scope="row">
 ```
 
-### D060: 1 page(s)
+### D059: 1 page(s)
 
 Pages: P005.
 
@@ -2568,7 +2649,7 @@ Pages: P005.
  <th scope="row">
 ```
 
-### D061: 1 page(s)
+### D060: 1 page(s)
 
 Pages: P058.
 
@@ -2597,7 +2678,7 @@ Pages: P058.
  <th scope="row">
 ```
 
-### D062: 1 page(s)
+### D061: 1 page(s)
 
 Pages: P052.
 
@@ -2631,7 +2712,7 @@ Pages: P052.
  </table>
 ```
 
-### D063: 1 page(s)
+### D062: 1 page(s)
 
 Pages: P112.
 
@@ -2658,7 +2739,7 @@ Pages: P112.
  <th scope="row">
 ```
 
-### D064: 1 page(s)
+### D063: 1 page(s)
 
 Pages: P122.
 
@@ -2696,7 +2777,7 @@ Pages: P122.
  </table>
 ```
 
-### D065: 1 page(s)
+### D064: 1 page(s)
 
 Pages: P119.
 
@@ -2731,7 +2812,7 @@ Pages: P119.
  </table>
 ```
 
-### D066: 1 page(s)
+### D065: 1 page(s)
 
 Pages: P057.
 
@@ -2765,7 +2846,7 @@ Pages: P057.
  </table>
 ```
 
-### D067: 1 page(s)
+### D066: 1 page(s)
 
 Pages: P078.
 
@@ -2792,7 +2873,7 @@ Pages: P078.
  <th scope="row">
 ```
 
-### D068: 1 page(s)
+### D067: 1 page(s)
 
 Pages: P061.
 
@@ -2837,7 +2918,7 @@ Pages: P061.
  </table>
 ```
 
-### D069: 1 page(s)
+### D068: 1 page(s)
 
 Pages: P065.
 
@@ -2872,7 +2953,7 @@ Pages: P065.
  </table>
 ```
 
-### D070: 1 page(s)
+### D069: 1 page(s)
 
 Pages: P064.
 
@@ -2907,7 +2988,7 @@ Pages: P064.
  </table>
 ```
 
-### D071: 1 page(s)
+### D070: 1 page(s)
 
 Pages: P073.
 
@@ -2953,7 +3034,7 @@ Pages: P073.
  </table>
 ```
 
-### D072: 1 page(s)
+### D071: 1 page(s)
 
 Pages: P137.
 
@@ -2993,7 +3074,7 @@ Pages: P137.
  </table>
 ```
 
-### D073: 1 page(s)
+### D072: 1 page(s)
 
 Pages: P094.
 
@@ -3039,7 +3120,7 @@ Pages: P094.
  </table>
 ```
 
-### D074: 1 page(s)
+### D073: 1 page(s)
 
 Pages: P093.
 
@@ -3066,7 +3147,7 @@ Pages: P093.
  <th scope="row">
 ```
 
-### D075: 1 page(s)
+### D074: 1 page(s)
 
 Pages: P116.
 
@@ -3100,7 +3181,7 @@ Pages: P116.
  </table>
 ```
 
-### D076: 1 page(s)
+### D075: 1 page(s)
 
 Pages: P108.
 
@@ -3127,7 +3208,7 @@ Pages: P108.
  <th scope="row">
 ```
 
-### D077: 1 page(s)
+### D076: 1 page(s)
 
 Pages: P128.
 
@@ -3177,7 +3258,7 @@ Pages: P128.
  </table>
 ```
 
-### D078: 1 page(s)
+### D077: 1 page(s)
 
 Pages: P124.
 
@@ -3227,7 +3308,7 @@ Pages: P124.
  </table>
 ```
 
-### D079: 1 page(s)
+### D078: 1 page(s)
 
 Pages: P115.
 
@@ -3266,7 +3347,7 @@ Pages: P115.
  </table>
 ```
 
-### D080: 1 page(s)
+### D079: 1 page(s)
 
 Pages: P014.
 
@@ -3293,7 +3374,7 @@ Pages: P014.
  <th scope="row">
 ```
 
-### D081: 1 page(s)
+### D080: 1 page(s)
 
 Pages: P067.
 
@@ -3329,7 +3410,7 @@ Pages: P067.
  </table>
 ```
 
-### D082: 1 page(s)
+### D081: 1 page(s)
 
 Pages: P059.
 
@@ -3366,7 +3447,7 @@ Pages: P059.
  </table>
 ```
 
-### D083: 1 page(s)
+### D082: 1 page(s)
 
 Pages: P013.
 
@@ -3403,7 +3484,7 @@ Pages: P013.
  </table>
 ```
 
-### D084: 1 page(s)
+### D083: 1 page(s)
 
 Pages: P114.
 
@@ -3432,288 +3513,149 @@ Pages: P114.
  <th scope="row">
 ```
 
+### D084: 1 page(s)
+
+Pages: P125.
+
+```diff
+--- main
++++ PR 912
+@@ -4,12 +4,12 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
+-<code>transition-delay</code>
+-</a>: <code>0s</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-property">
++<code>transition-property</code>
++</a>: <code>all</code>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/transition-duration">
+@@ -17,17 +17,17 @@
+ </a>: <code>0s</code>
+ </li>
+ <li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/transition-property">
+-<code>transition-property</code>
+-</a>: <code>all</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
+ <code>transition-timing-function</code>
+ </a>: <code>ease</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
++<code>transition-delay</code>
++</a>: <code>0s</code>
++</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
+ <code>transition-behavior</code>
+ </a>: <code>normal</code>
+ </li>
+@@ -36,12 +36,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements, <a href="/ko/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> and <a href="/ko/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
+-</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -53,28 +48,28 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
+-<code>transition-delay</code>
+-</a>: as specified</li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-property">
++<code>transition-property</code>
++</a>: none 키워드 또는 식별자 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/transition-duration">
+ <code>transition-duration</code>
+-</a>: as specified</li>
++</a>: 각 항목이 지속 시간(duration)인 목록</li>
+ <li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/transition-property">
+-<code>transition-property</code>
+-</a>: as specified</li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
++<code>transition-timing-function</code>
++</a>: 지정된 그대로</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
+-<code>transition-timing-function</code>
+-</a>: as specified</li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
++<code>transition-delay</code>
++</a>: 각 항목이 지속 시간(duration)인 목록</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
+ <code>transition-behavior</code>
+-</a>: as specified</li>
++</a>: 지정된 그대로</li>
+ </ul>
+ </td>
+ </tr>
+@@ -82,7 +77,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>애니메이션 불가</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
 ### D085: 1 page(s)
-
-Pages: P048.
-
-```diff
---- main
-+++ PR 912
-@@ -4,104 +4,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: <code>medium</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D086: 1 page(s)
-
-Pages: P038.
-
-```diff
---- main
-+++ PR 912
-@@ -4,114 +4,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
--<code>border-top-left-radius</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
--<code>border-top-right-radius</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
--<code>border-bottom-right-radius</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
--<code>border-bottom-left-radius</code>
--</a>: <code>0</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when <a href="/ko/docs/Web/CSS/Reference/Properties/border-collapse">
--<code>border-collapse</code>
--</a> is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>refer to the corresponding dimension of the border box</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
--<code>border-top-left-radius</code>
--</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
--<code>border-top-right-radius</code>
--</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
--<code>border-bottom-right-radius</code>
--</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
--<code>border-bottom-left-radius</code>
--</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
--<code>border-top-left-radius</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
--<code>border-top-right-radius</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
--<code>border-bottom-right-radius</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
--<code>border-bottom-left-radius</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D087: 1 page(s)
 
 Pages: P072.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,11 @@
+@@ -4,15 +4,15 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: <code>normal</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+ <code>row-gap</code>
+ </a>: <code>normal</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
--<code>column-gap</code>
--</a>: <code>normal</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++<a href="/ko/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
+ <code>column-gap</code>
+ </a>: <code>normal</code>
+ </li>
+@@ -21,7 +21,7 @@
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -3722,23 +3664,27 @@ Pages: P072.
  </tr>
  <tr>
  <th scope="row">
-@@ -33,35 +20,17 @@
+@@ -33,35 +33,28 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+ <code>row-gap</code>
 -</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--<li>
++</a>: 지정된 키워드, 없으면 계산된 &lt;length-percentage&gt; 값</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
--<code>column-gap</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/column-gap" class="only-in-en-us">
+ <code>column-gap</code>
 -</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 지정된 키워드, 없으면 계산된 &lt;length-percentage&gt; 값</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -3766,32 +3712,134 @@ Pages: P072.
  </table>
 ```
 
-### D088: 1 page(s)
+### D086: 1 page(s)
 
-Pages: P110.
+Pages: P008.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,11 @@
+@@ -4,18 +4,24 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>
+-<code>0s</code>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/animation-delay-start" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>animation-delay-start</code>
++</a>: <code>0s</code>
++</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/animation-delay-end" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>animation-delay-end</code>
++</a>: <code>0s</code>
++</li>
++</ul>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements, <a href="/ko/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> and <a href="/ko/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
+-</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -27,13 +33,35 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as specified</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/animation-delay-start" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>animation-delay-start</code>
++</a>: 각 항목이 지속 시간(duration)인 목록</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/animation-delay-end" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>animation-delay-end</code>
++</a>: 각 항목이 지속 시간(duration)인 목록</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/animation-delay-start" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>animation-delay-start</code>
++</a>: 애니메이션 불가</li>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/animation-delay-end" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>animation-delay-end</code>
++</a>: 애니메이션 불가</li>
++</ul>
++</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D087: 1 page(s)
+
+Pages: P007.
+
+```diff
+--- main
++++ PR 912
+@@ -4,20 +4,20 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
--<code>align-items</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
--<code>justify-items</code>
--</a>: <code>legacy</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-name" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-name" class="only-in-en-us">
+ <code>animation-name</code>
+ </a>: <code>none</code>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/animation-duration">
+ <code>animation-duration</code>
+-</a>: <code>0s</code>
++</a>: <code>auto</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-timing-function" class="only-in-en-us">
+ <code>animation-timing-function</code>
+ </a>: <code>ease</code>
+ </li>
+@@ -42,12 +42,12 @@
+ </a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-play-state" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-play-state" class="only-in-en-us">
+ <code>animation-play-state</code>
+ </a>: <code>running</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
+ <code>animation-timeline</code>
+ </a>: <code>auto</code>
+ </li>
+@@ -56,7 +56,7 @@
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -3800,26 +3848,141 @@ Pages: P110.
  </tr>
  <tr>
  <th scope="row">
-@@ -33,18 +20,7 @@
+@@ -68,45 +68,44 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
--<code>align-items</code>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-name" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-name" class="only-in-en-us">
+ <code>animation-name</code>
+-</a>: as specified</li>
++</a>: 각 항목이 대소문자를 구분하는 CSS 식별자 또는 none 키워드인 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/animation-duration">
+ <code>animation-duration</code>
+-</a>: as specified</li>
++</a>: 각 항목이 시간 값 또는 auto 키워드인 목록</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-timing-function" class="only-in-en-us">
+ <code>animation-timing-function</code>
+-</a>: as specified</li>
++</a>: 각 항목이 계산된 &lt;easing-function&gt;인 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/animation-delay">
+ <code>animation-delay</code>
+-</a>: as specified</li>
++</a>: 각 항목이 지속 시간(duration)인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-iteration-count">
++<code>animation-iteration-count</code>
++</a>: 각 항목이 숫자 또는 infinite 키워드인 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/animation-direction">
+ <code>animation-direction</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
--<code>justify-items</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/animation-iteration-count">
+-<code>animation-iteration-count</code>
 -</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 각 항목이 지정된 키워드인 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/animation-fill-mode">
+ <code>animation-fill-mode</code>
+-</a>: as specified</li>
++</a>: 각 항목이 지정된 키워드인 목록</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-play-state" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-play-state" class="only-in-en-us">
+ <code>animation-play-state</code>
+-</a>: as specified</li>
++</a>: 각 항목이 지정된 키워드인 목록</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
+ <code>animation-timeline</code>
+-</a>: a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>
+-</li>
++</a>: 각 항목이 none 키워드, auto 키워드, 대소문자를 구분하는 CSS 식별자, 계산된 scroll() 함수, 또는 계산된 view() 함수인 목록</li>
+ </ul>
+ </td>
+ </tr>
+@@ -114,7 +113,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>애니메이션 불가</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D088: 1 page(s)
+
+Pages: P109.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,24 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>
++<code>normal</code>
++</td>
++</tr>
++<tr>
++<th scope="row">적용대상</th>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/align-content">
+ <code>align-content</code>
+-</a>: <code>normal</code>
+-</li>
++</a>: 블록 컨테이너, 다단 컨테이너, 플렉스 컨테이너, 그리드 컨테이너</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/justify-content">
+ <code>justify-content</code>
+-</a>: <code>normal</code>
+-</li>
++</a>: 다단 컨테이너, 플렉스 컨테이너, 그리드 컨테이너</li>
+ </ul>
+ </td>
+-</tr>
+-<tr>
+-<th scope="row">적용대상</th>
+-<td>multi-line flex containers</td>
  </tr>
  <tr>
  <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/align-content">
+ <code>align-content</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드들</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/justify-content">
+ <code>justify-content</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드들</li>
+ </ul>
+ </td>
+ </tr>
 ```
 
 ### D089: 1 page(s)
@@ -3829,7 +3992,7 @@ Pages: P111.
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,13 @@
+@@ -4,24 +4,24 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
@@ -3853,726 +4016,199 @@ Pages: P111.
  <tr>
  <th scope="row">적용대상</th>
 -<td>block-level boxes, absolutely-positioned boxes, and grid items</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/align-self" class="only-in-en-us">
++<code>align-self</code>
++</a>: 플렉스 아이템, 그리드 아이템, 절대 위치 박스</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/justify-self" class="only-in-en-us">
++<code>justify-self</code>
++</a>: 블록 레벨 박스, 절대 위치 박스, 그리드 아이템</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
-@@ -33,22 +22,7 @@
+@@ -33,20 +33,16 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/align-self" class="only-in-en-us">
--<code>align-self</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/align-self" class="only-in-en-us">
+ <code>align-self</code>
 -</a>: <code>auto</code> computes to itself on absolutely-positioned elements, and to the computed value of <a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
 -<code>align-items</code>
 -</a> on the parent (minus any legacy keywords) on all other boxes, or <code>start</code> if the box has no parent. Its behavior depends on the layout model, as described for <a href="/en-US/docs/Web/CSS/Reference/Properties/justify-self" class="only-in-en-us">
--<code>justify-self</code>
++</a>: 지정된 키워드들</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/justify-self" class="only-in-en-us">
+ <code>justify-self</code>
 -</a>. Otherwise the specified value.</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-self" class="only-in-en-us">
 -<code>justify-self</code>
 -</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 지정된 키워드들</li>
+ </ul>
+ </td>
  </tr>
- <tr>
- <th scope="row">
 ```
 
 ### D090: 1 page(s)
 
-Pages: P109.
+Pages: P038.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,13 @@
+@@ -4,25 +4,25 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/align-content">
--<code>align-content</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/justify-content">
--<code>justify-content</code>
--</a>: <code>normal</code>
--</li>
--</ul>
-+<td>
-+<code>normal</code>
- </td>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
+ <code>border-top-left-radius</code>
+ </a>: <code>0</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
+ <code>border-top-right-radius</code>
+ </a>: <code>0</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
+ <code>border-bottom-right-radius</code>
+ </a>: <code>0</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
+ <code>border-bottom-left-radius</code>
+ </a>: <code>0</code>
+ </li>
+@@ -31,11 +31,7 @@
  </tr>
  <tr>
  <th scope="row">적용대상</th>
--<td>multi-line flex containers</td>
-+<td>각 개별 속성 참고</td>
+-<td>all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when <a href="/ko/docs/Web/CSS/Reference/Properties/border-collapse">
+-<code>border-collapse</code>
+-</a> is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>모든 요소(자세한 내용은 본문 참고)</td>
  </tr>
  <tr>
  <th scope="row">
-@@ -33,18 +22,7 @@
+@@ -44,72 +40,56 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>refer to the corresponding dimension of the border box</td>
+-</tr>
+-<tr>
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/align-content">
--<code>align-content</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/justify-content">
--<code>justify-content</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
+ <code>border-top-left-radius</code>
+-</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: 계산된 &lt;length-percentage&gt; 값 쌍</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
+ <code>border-top-right-radius</code>
+-</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: 계산된 &lt;length-percentage&gt; 값 쌍</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
+ <code>border-bottom-right-radius</code>
+-</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: 계산된 &lt;length-percentage&gt; 값 쌍</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
+ <code>border-bottom-left-radius</code>
+-</a>: two absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/ko/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: 계산된 &lt;length-percentage&gt; 값 쌍</li>
+ </ul>
+ </td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>Refer to corresponding dimension of the border box.</td>
  </tr>
  <tr>
  <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-left-radius" class="only-in-en-us">
+ <code>border-top-left-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: 계산값 기준</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-right-radius" class="only-in-en-us">
+ <code>border-top-right-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: 계산값 기준</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-right-radius" class="only-in-en-us">
+ <code>border-bottom-right-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: 계산값 기준</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-left-radius" class="only-in-en-us">
+ <code>border-bottom-left-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: 계산값 기준</li>
+ </ul>
+ </td>
+ </tr>
 ```
 
 ### D091: 1 page(s)
-
-Pages: P022.
-
-```diff
---- main
-+++ PR 912
-@@ -4,256 +4,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
--<code>border-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: <code>medium</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
--<code>border-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
--<code>border-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
--<code>border-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
--<code>border-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: as specified</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
--<code>border-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: computed color</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: computed color</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: computed color</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: computed color</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
--<code>border-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
--<code>border-style</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
--<code>border-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-@@ -263,256 +40,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
--<code>border-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: <code>medium</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
--<code>border-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
--<code>border-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
--<code>border-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
--<code>border-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: as specified</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
--<code>border-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: computed color</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: computed color</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: computed color</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: computed color</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
--<code>border-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--</ul>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
--<code>border-style</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
--<code>border-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D092: 1 page(s)
-
-Pages: P097.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
--<code>outline-color</code>
--</a>: <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements</td>
-+<td>모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,47 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
--<code>outline-color</code>
--</a>: For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
--<code>outline-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D093: 1 page(s)
 
 Pages: P060.
 
@@ -4612,33 +4248,51 @@ Pages: P060.
  </tr>
  <tr>
  <th scope="row">
-@@ -38,45 +22,17 @@
+@@ -38,20 +22,39 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-grow">
--<code>flex-grow</code>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-grow">
+ <code>flex-grow</code>
 -</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-shrink">
--<code>flex-shrink</code>
++</a>: 지정된 숫자</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-shrink">
+ <code>flex-shrink</code>
 -</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-basis">
--<code>flex-basis</code>
++</a>: 지정된 값</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-basis">
+ <code>flex-basis</code>
 -</a>: as specified, but with relative lengths converted into absolute lengths</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 지정된 키워드 또는 계산된 &lt;length-percentage&gt; 값</li>
++</ul>
++</td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/flex-grow">
++<code>flex-grow</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/flex-shrink">
++<code>flex-shrink</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/flex-basis">
++<code>flex-basis</code>
++</a>: relative to the flex container’s inner main size</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -59,24 +62,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
@@ -4666,379 +4320,7 @@ Pages: P060.
  </table>
 ```
 
-### D094: 1 page(s)
-
-Pages: P023.
-
-```diff
---- main
-+++ PR 912
-@@ -4,31 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
--<code>border-bottom-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
--<code>border-bottom-style</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
--<code>border-bottom-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D095: 1 page(s)
-
-Pages: P034.
-
-```diff
---- main
-+++ PR 912
-@@ -4,31 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
--<code>border-left-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
--<code>border-left-style</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D096: 1 page(s)
-
-Pages: P039.
-
-```diff
---- main
-+++ PR 912
-@@ -4,31 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
--<code>border-right-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
--<code>border-right-style</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
--<code>border-right-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D097: 1 page(s)
-
-Pages: P044.
-
-```diff
---- main
-+++ PR 912
-@@ -4,31 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
--<code>border-top-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
--<code>border-top-style</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D098: 1 page(s)
+### D092: 1 page(s)
 
 Pages: P006.
 
@@ -5090,7 +4372,7 @@ Pages: P006.
  </table>
 ```
 
-### D099: 1 page(s)
+### D093: 1 page(s)
 
 Pages: P117.
 
@@ -5183,62 +4465,7 @@ Pages: P117.
  </table>
 ```
 
-### D100: 1 page(s)
-
-Pages: P008.
-
-```diff
---- main
-+++ PR 912
-@@ -4,36 +4,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>
--<code>0s</code>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements, <a href="/ko/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> and <a href="/ko/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
--</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as specified</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D101: 1 page(s)
+### D094: 1 page(s)
 
 Pages: P082.
 
@@ -5287,7 +4514,7 @@ Pages: P082.
  </tr>
  <tr>
  <th scope="row">
-@@ -44,40 +19,20 @@
+@@ -44,40 +19,39 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5299,14 +4526,24 @@ Pages: P082.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/margin-bottom">
--<code>margin-bottom</code>
++<td>각 개별 속성 참고<br>
+ <ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/margin-top">
++<code>margin-top</code>
++</a>: auto 키워드 또는 계산된 &lt;length-percentage&gt; 값</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/margin-right">
++<code>margin-right</code>
++</a>: auto 키워드 또는 계산된 &lt;length-percentage&gt; 값</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/margin-bottom">
+ <code>margin-bottom</code>
 -</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/margin-left">
--<code>margin-left</code>
++</a>: auto 키워드 또는 계산된 &lt;length-percentage&gt; 값</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/margin-left">
+ <code>margin-left</code>
 -</a>: the percentage as specified or the absolute length</li>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/margin-right">
@@ -5316,9 +4553,9 @@ Pages: P082.
 -<a href="/ko/docs/Web/CSS/Reference/Properties/margin-top">
 -<code>margin-top</code>
 -</a>: the percentage as specified or the absolute length</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: auto 키워드 또는 계산된 &lt;length-percentage&gt; 값</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -5336,7 +4573,7 @@ Pages: P082.
  </table>
 ```
 
-### D102: 1 page(s)
+### D095: 1 page(s)
 
 Pages: P103.
 
@@ -5385,7 +4622,7 @@ Pages: P103.
  </tr>
  <tr>
  <th scope="row">
-@@ -44,40 +19,20 @@
+@@ -44,40 +19,39 @@
  <td>no</td>
  </tr>
  <tr>
@@ -5397,14 +4634,24 @@ Pages: P103.
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/padding-bottom">
--<code>padding-bottom</code>
++<td>각 개별 속성 참고<br>
+ <ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/padding-top">
++<code>padding-top</code>
++</a>: 계산된 &lt;length-percentage&gt; 값</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/padding-right">
++<code>padding-right</code>
++</a>: 계산된 &lt;length-percentage&gt; 값</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/padding-bottom">
+ <code>padding-bottom</code>
 -</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/padding-left">
--<code>padding-left</code>
++</a>: 계산된 &lt;length-percentage&gt; 값</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/padding-left">
+ <code>padding-left</code>
 -</a>: the percentage as specified or the absolute length</li>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/padding-right">
@@ -5414,9 +4661,9 @@ Pages: P103.
 -<a href="/ko/docs/Web/CSS/Reference/Properties/padding-top">
 -<code>padding-top</code>
 -</a>: the percentage as specified or the absolute length</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 계산된 &lt;length-percentage&gt; 값</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
@@ -5434,280 +4681,68 @@ Pages: P103.
  </table>
 ```
 
-### D103: 1 page(s)
-
-Pages: P028.
-
-```diff
---- main
-+++ PR 912
-@@ -4,43 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-source">
--<code>border-image-source</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: <code>100%</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
--<code>border-image-width</code>
--</a>: <code>1</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-outset">
--<code>border-image-outset</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-repeat">
--<code>border-image-repeat</code>
--</a>: <code>stretch</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements, except internal table elements when <a href="/ko/docs/Web/CSS/Reference/Properties/border-collapse">
--<code>border-collapse</code>
--</a> is <code>collapse</code>. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -49,77 +17,16 @@
- <td>no</td>
- </tr>
- <tr>
--<th scope="row">Percentages</th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: refer to the size of the border image</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
--<code>border-image-width</code>
--</a>: refer to the width or height of the border image area</li>
--</ul>
--</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-source">
--<code>border-image-source</code>
--</a>: <code>none</code> or the image with its URI made absolute</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: one to four percentage(s) (as specified) or absolute length(s), plus the keyword <code>fill</code> if specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
--<code>border-image-width</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-outset">
--<code>border-image-outset</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-repeat">
--<code>border-image-repeat</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-source">
--<code>border-image-source</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: by computed value type</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
--<code>border-image-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-outset">
--<code>border-image-outset</code>
--</a>: by computed value type</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-repeat">
--<code>border-image-repeat</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>각 개별 속성을 참고하세요.</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D104: 1 page(s)
-
-Pages: P125.
-
-```diff
---- main
-+++ PR 912
-@@ -4,44 +4,11 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
--<code>transition-delay</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/transition-duration">
--<code>transition-duration</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/transition-property">
--<code>transition-property</code>
--</a>: <code>all</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
--<code>transition-timing-function</code>
--</a>: <code>ease</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
--<code>transition-behavior</code>
--</a>: <code>normal</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements, <a href="/ko/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> and <a href="/ko/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
--</a> <a href="/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudo-elements</a>
--</td>
-+<td>모든 요소</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -53,36 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-delay" class="only-in-en-us">
--<code>transition-delay</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/transition-duration">
--<code>transition-duration</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/transition-property">
--<code>transition-property</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
--<code>transition-timing-function</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
--<code>transition-behavior</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>애니메이션 불가</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D105: 1 page(s)
+### D096: 1 page(s)
 
 Pages: P087.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,56 +4,11 @@
+@@ -4,56 +4,54 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
--<code>mask-image</code>
--</a>: <code>none</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
+ <code>mask-image</code>
+ </a>: <code>none</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
 -<code>mask-mode</code>
 -</a>: <code>match-source</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
++<code>mask-position</code>
++</a>: <code>0% 0%</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
--<code>mask-repeat</code>
--</a>: <code>repeat</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: <code>auto</code>
++</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
+ <code>mask-repeat</code>
+ </a>: <code>repeat</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
 -<code>mask-position</code>
 -</a>: <code>0% 0%</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-origin" class="only-in-en-us">
++<code>mask-origin</code>
++</a>: <code>border-box</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-clip" class="only-in-en-us">
--<code>mask-clip</code>
--</a>: <code>border-box</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-clip" class="only-in-en-us">
+ <code>mask-clip</code>
+ </a>: <code>border-box</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-origin" class="only-in-en-us">
 -<code>mask-origin</code>
 -</a>: <code>border-box</code>
--</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
++</a>: <code>add</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
 -<code>mask-size</code>
 -</a>: <code>auto</code>
@@ -5716,10 +4751,12 @@ Pages: P087.
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
 -<code>mask-composite</code>
 -</a>: <code>add</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
++</a>: <code>match-source</code>
+ </li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5730,37 +4767,100 @@ Pages: P087.
  </tr>
  <tr>
  <th scope="row">
-@@ -62,106 +17,20 @@
+@@ -62,58 +60,82 @@
  <td>no</td>
  </tr>
  <tr>
 -<th scope="row">Percentages</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<th scope="row">
++<a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
++</th>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
--<code>mask-position</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
++<code>mask-image</code>
++</a>: 각 항목이 none 키워드, 계산된 &lt;image&gt;, 또는 계산된 &lt;url&gt;인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
+ <code>mask-position</code>
 -</a>: refer to size of mask painting area minus size of mask layer image (see the text for <a href="/en-US/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
 -<code>background-position</code>
 -</a>)</li>
--</ul>
--</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
++</a>: 각 항목은 기준점을 나타내는 두 개의 키워드와 기준점으로부터의 두 오프셋으로 구성되며, 각 오프셋은 &lt;length&gt;로 주어진 경우 절대 길이, 그렇지 않으면 퍼센트 값입니다.</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: 각 항목은 지정된 대로지만, 길이는 절대 길이로 변환된 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
++<code>mask-repeat</code>
++</a>: 각 항목이 두 개의 키워드(각 차원당 하나) 쌍인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-origin" class="only-in-en-us">
++<code>mask-origin</code>
++</a>: 각 항목이 지정된 키워드 그대로인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-clip" class="only-in-en-us">
++<code>mask-clip</code>
++</a>: 각 항목이 지정된 키워드 그대로인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
++</a>: 각 항목이 지정된 키워드 그대로인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
++</a>: 각 항목이 지정된 키워드 그대로인 목록</li>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+-<th scope="row">
+-<a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+-</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<th scope="row">Percentages</th>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
--<code>mask-image</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
+ <code>mask-image</code>
 -</a>: as specified, but with <a href="/ko/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</li>
--<li>
++</a>: 해당 없음</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
--<code>mask-mode</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
++<code>mask-position</code>
++</a>: refer to size of mask painting area minus size of mask layer image; see text background-position [CSS3BG]</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
++<code>mask-repeat</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-origin" class="only-in-en-us">
++<code>mask-origin</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-clip" class="only-in-en-us">
++<code>mask-clip</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
+ <code>mask-mode</code>
 -</a>: as specified</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
@@ -5786,121 +4886,121 @@ Pages: P087.
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
 -<code>mask-composite</code>
 -</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
++</a>: 해당 없음</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -121,47 +143,42 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
--<code>mask-image</code>
--</a>: discrete</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-image" class="only-in-en-us">
+ <code>mask-image</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
 -<code>mask-mode</code>
 -</a>: discrete</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
++<code>mask-position</code>
++</a>: 반복 가능한 목록</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
--<code>mask-repeat</code>
--</a>: discrete</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: 반복 가능한 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-repeat" class="only-in-en-us">
+ <code>mask-repeat</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-position" class="only-in-en-us">
 -<code>mask-position</code>
 -</a>: a repeatable list</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-origin" class="only-in-en-us">
++<code>mask-origin</code>
++</a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-clip" class="only-in-en-us">
--<code>mask-clip</code>
--</a>: discrete</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-clip" class="only-in-en-us">
+ <code>mask-clip</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-origin" class="only-in-en-us">
 -<code>mask-origin</code>
--</a>: discrete</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
 -<code>mask-size</code>
 -</a>: a repeatable list</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
 -<code>mask-composite</code>
--</a>: discrete</li>
--</ul>
--</td>
--</tr>
++<a href="/ko/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
+ </a>: discrete</li>
+ </ul>
+ </td>
+ </tr>
 -<tr>
 -<th scope="row">Creates <a href="/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context">stacking context</a>
 -</th>
 -<td>yes</td>
-+<td>각 개별 속성 참고</td>
- </tr>
+-</tr>
  </tbody>
  </table>
 ```
 
-### D106: 1 page(s)
+### D097: 1 page(s)
 
-Pages: P015.
+Pages: P121.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,58 +4,11 @@
+@@ -4,62 +4,105 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
--<code>background-image</code>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
+-<code>text-decoration-color</code>
+-</a>: <code>currentcolor</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
++<code>text-decoration-line</code>
++</a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: <code>auto</code>
++</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
+ <code>text-decoration-style</code>
+ </a>: <code>solid</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
+-<code>text-decoration-line</code>
 -</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
--<code>background-position</code>
--</a>: <code>0% 0%</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
--<code>background-size</code>
--</a>: <code>auto auto</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
--<code>background-repeat</code>
--</a>: <code>repeat</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-origin">
--<code>background-origin</code>
--</a>: <code>padding-box</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-clip">
--<code>background-clip</code>
--</a>: <code>border-box</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
--<code>background-attachment</code>
--</a>: <code>scroll</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
--<code>background-color</code>
--</a>: <code>transparent</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
++<code>text-decoration-color</code>
++</a>: <code>currentcolor</code>
+ </li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -5913,42 +5013,326 @@ Pages: P015.
  </tr>
  <tr>
  <th scope="row">
-@@ -64,111 +17,20 @@
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
+ </th>
+-<td>no</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
++<code>text-decoration-line</code>
++</a>: 아니오(위 본문 설명 참고)</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: no</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
++<code>text-decoration-style</code>
++</a>: no</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
++<code>text-decoration-color</code>
++</a>: no</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
+ <code>text-decoration-line</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드들</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: 지정된 대로지만, &lt;length-percentage&gt; 값은 계산됩니다.</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
+ <code>text-decoration-style</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
+ <code>text-decoration-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상</li>
++</ul>
++</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>각 개별 속성 참고<br>
++<ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
++<code>text-decoration-line</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
+ <code>text-decoration-thickness</code>
+-</a>: as specified</li>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
++<code>text-decoration-style</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
++<code>text-decoration-color</code>
++</a>: 해당 없음</li>
+ </ul>
+ </td>
+ </tr>
+@@ -67,25 +110,24 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
+-<code>text-decoration-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
++<code>text-decoration-line</code>
++</a>: discrete</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: 계산값 기준</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
+ <code>text-decoration-style</code>
+ </a>: discrete</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
+-<code>text-decoration-line</code>
+-</a>: discrete</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
+-<code>text-decoration-thickness</code>
+-</a>: by computed value type</li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
++<code>text-decoration-color</code>
++</a>: 계산값 유형별</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D098: 1 page(s)
+
+Pages: P110.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
+@@ -12,7 +12,7 @@
+ </a>: <code>normal</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
+ <code>justify-items</code>
+ </a>: <code>legacy</code>
+ </li>
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/align-items">
+ <code>align-items</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드들</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/justify-items" class="only-in-en-us">
+ <code>justify-items</code>
+-</a>: as specified</li>
++</a>: legacy를 제외한 지정된 키워드들(본문 설명 참고)</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D099: 1 page(s)
+
+Pages: P015.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
+@@ -12,19 +12,24 @@
+ </a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
+ <code>background-position</code>
+ </a>: <code>0% 0%</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
+ <code>background-size</code>
+-</a>: <code>auto auto</code>
++</a>: <code>auto</code>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
+ <code>background-repeat</code>
+ </a>: <code>repeat</code>
++</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
++<code>background-attachment</code>
++</a>: <code>scroll</code>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-origin">
+@@ -37,11 +42,6 @@
+ </a>: <code>border-box</code>
+ </li>
+ <li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
+-<code>background-attachment</code>
+-</a>: <code>scroll</code>
+-</li>
+-<li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
+ <code>background-color</code>
+ </a>: <code>transparent</code>
+@@ -51,11 +51,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line" class="only-in-en-us">
+-<code>::first-line</code>
+-</a>.</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -64,71 +60,82 @@
  <td>no</td>
  </tr>
  <tr>
 -<th scope="row">Percentages</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<th scope="row">
++<a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
++</th>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
--<code>background-position</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
++<code>background-image</code>
++</a>: 각 항목이 &lt;image&gt; 또는 none 키워드인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
+ <code>background-position</code>
 -</a>: refer to the size of the background positioning area minus size of background image; size refers to the width for horizontal offsets and to the height for vertical offsets</li>
--<li>
++</a>: 목록이며, 각 항목은 왼쪽 위 원점으로부터의 가로·세로 오프셋 쌍이며, 각 오프셋은 계산된 &lt;length-percentage&gt; 값으로 주어집니다.</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
--<code>background-size</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
+ <code>background-size</code>
 -</a>: relative to the background positioning area</li>
--</ul>
--</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
++</a>: 각 항목이 두 축 각각의 크기 쌍이며, 각 크기는 키워드 또는 계산된 &lt;length-percentage&gt; 값으로 표현되는 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
++<code>background-repeat</code>
++</a>: 각 항목이 두 개의 키워드(각 차원당 하나) 쌍인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
++<code>background-attachment</code>
++</a>: 각 항목이 지정된 키워드 그대로인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-origin">
++<code>background-origin</code>
++</a>: 각 항목이 지정된 키워드인 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-clip">
++<code>background-clip</code>
++</a>: 지정된 그대로</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
++<code>background-color</code>
++</a>: 계산된 색상</li>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+-<th scope="row">
+-<a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+-</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
--<code>background-image</code>
++<th scope="row">Percentages</th>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
+ <code>background-image</code>
 -</a>: as specified, but with <a href="/ko/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</li>
--<li>
++</a>: 해당 없음</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
--<code>background-position</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
+ <code>background-position</code>
 -</a>: as each of the properties of the shorthand:<br>
 -<ul>
--<li>
++</a>: refer to size of background positioning area minus size of background image; see text</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-position-x" class="only-in-en-us">
 -<code>background-position-x</code>
 -</a>: A list, each item consisting of: an offset given as a combination of an absolute length and a percentage, plus an origin keyword</li>
@@ -5960,140 +5344,749 @@ Pages: P015.
 -</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
--<code>background-size</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
+ <code>background-size</code>
 -</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
--<code>background-repeat</code>
++</a>: see text</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
+ <code>background-repeat</code>
 -</a>: a list, each item consisting of two keywords, one per dimension</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-origin">
--<code>background-origin</code>
++</a>: 해당 없음</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
++<code>background-attachment</code>
++</a>: 해당 없음</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-origin">
+ <code>background-origin</code>
 -</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-clip">
--<code>background-clip</code>
++</a>: 해당 없음</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-clip">
+ <code>background-clip</code>
 -</a>: as specified</li>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
 -<code>background-attachment</code>
 -</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
--<code>background-color</code>
++</a>: 해당 없음</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
+ <code>background-color</code>
 -</a>: computed color</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
++</a>: 해당 없음</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -136,29 +143,20 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
++<td>각 개별 속성 참고<br>
+ <ul>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
 -<code>background-color</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
--<code>background-image</code>
--</a>: discrete</li>
--<li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-image">
+ <code>background-image</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/background-clip">
 -<code>background-clip</code>
 -</a>: a repeatable list</li>
--<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
++<code>background-position</code>
++</a>: 반복 가능한 목록</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-position" class="only-in-en-us">
 -<code>background-position</code>
 -</a>: a repeatable list</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
--<code>background-size</code>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-size" class="only-in-en-us">
+ <code>background-size</code>
 -</a>: a repeatable list</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
--<code>background-repeat</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
--<code>background-attachment</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 반복 가능한 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-repeat">
+ <code>background-repeat</code>
+@@ -167,6 +165,18 @@
+ <a href="/ko/docs/Web/CSS/Reference/Properties/background-attachment">
+ <code>background-attachment</code>
+ </a>: discrete</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-origin">
++<code>background-origin</code>
++</a>: 반복 가능한 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-clip">
++<code>background-clip</code>
++</a>: 반복 가능한 목록</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/background-color">
++<code>background-color</code>
++</a>: 계산값 기준</li>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
 ```
 
-### D107: 1 page(s)
+### D100: 1 page(s)
 
-Pages: P007.
+Pages: P023.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,59 +4,11 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+@@ -26,9 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,22 +38,20 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+ <code>border-bottom-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
+ <code>border-bottom-style</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+ <code>border-bottom-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,13 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+ <code>border-bottom-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
+ <code>border-bottom-style</code>
+@@ -77,8 +72,7 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+ <code>border-bottom-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D101: 1 page(s)
+
+Pages: P028.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-source">
+@@ -36,11 +36,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements, except internal table elements when <a href="/ko/docs/Web/CSS/Reference/Properties/border-collapse">
+-<code>border-collapse</code>
+-</a> is <code>collapse</code>. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>border-collapse가 collapse일 때의 내부 테이블 요소를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -49,46 +45,31 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-name" class="only-in-en-us">
--<code>animation-name</code>
--</a>: <code>none</code>
--</li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
+-<code>border-image-slice</code>
+-</a>: refer to the size of the border image</li>
 -<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-duration">
--<code>animation-duration</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function" class="only-in-en-us">
--<code>animation-timing-function</code>
--</a>: <code>ease</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-delay">
--<code>animation-delay</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-iteration-count">
--<code>animation-iteration-count</code>
--</a>: <code>1</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-direction">
--<code>animation-direction</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-fill-mode">
--<code>animation-fill-mode</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-play-state" class="only-in-en-us">
--<code>animation-play-state</code>
--</a>: <code>running</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
--<code>animation-timeline</code>
--</a>: <code>auto</code>
--</li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
+-<code>border-image-width</code>
+-</a>: refer to the width or height of the border image area</li>
 -</ul>
 -</td>
-+<td>각 개별 속성 참고</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-source">
+ <code>border-image-source</code>
+-</a>: <code>none</code> or the image with its URI made absolute</li>
++</a>: none 키워드 또는 계산된 &lt;image&gt;</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
+ <code>border-image-slice</code>
+-</a>: one to four percentage(s) (as specified) or absolute length(s), plus the keyword <code>fill</code> if specified</li>
++</a>: 네 개의 값으로, 각각 숫자 또는 퍼센트 값이며, 지정된 경우 fill 키워드가 추가됩니다.</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
+ <code>border-image-width</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
++</a>: 네 개의 값으로, 각각 숫자, auto 키워드, 또는 계산된 &lt;length-percentage&gt; 값입니다.</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-outset">
+ <code>border-image-outset</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
++</a>: 네 개의 값으로, 각각 숫자 또는 절대 길이</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-repeat">
+ <code>border-image-repeat</code>
+-</a>: as specified</li>
++</a>: 축마다 하나씩 두 개의 키워드</li>
+ </ul>
+ </td>
+ </tr>
+@@ -96,7 +77,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-source">
+@@ -105,15 +86,15 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-slice">
+ <code>border-image-slice</code>
+-</a>: by computed value type</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-width">
+ <code>border-image-width</code>
+-</a>: by computed value type</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-outset">
+ <code>border-image-outset</code>
+-</a>: by computed value type</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-image-repeat">
+ <code>border-image-repeat</code>
+```
+
+### D102: 1 page(s)
+
+Pages: P034.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+@@ -26,9 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,22 +38,20 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+ <code>border-left-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
+ <code>border-left-style</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,13 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+ <code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
+ <code>border-left-style</code>
+@@ -77,8 +72,7 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D103: 1 page(s)
+
+Pages: P039.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+@@ -26,9 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,22 +38,20 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+ <code>border-right-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
+ <code>border-right-style</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,13 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+ <code>border-right-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
+ <code>border-right-style</code>
+@@ -77,8 +72,7 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D104: 1 page(s)
+
+Pages: P027.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+@@ -31,9 +31,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -45,24 +43,24 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+ <code>border-bottom-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
+ </tr>
+@@ -70,28 +68,24 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+ <code>border-right-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+ <code>border-bottom-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D105: 1 page(s)
+
+Pages: P044.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+@@ -26,9 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,22 +38,20 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+ <code>border-top-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
+ <code>border-top-style</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: computed color</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,13 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+ <code>border-top-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
+ <code>border-top-style</code>
+@@ -77,8 +72,7 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D106: 1 page(s)
+
+Pages: P048.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+@@ -31,9 +31,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -45,32 +43,24 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+ <code>border-top-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+ <code>border-right-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+ <code>border-bottom-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+ <code>border-left-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ </ul>
+ </td>
+ </tr>
+@@ -78,28 +68,24 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+ <code>border-top-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+ <code>border-right-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+ <code>border-bottom-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+ <code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D107: 1 page(s)
+
+Pages: P053.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/container-name">
+@@ -21,7 +21,7 @@
  </tr>
  <tr>
  <th scope="row">적용대상</th>
@@ -6102,205 +6095,33 @@ Pages: P007.
  </tr>
  <tr>
  <th scope="row">
-@@ -68,53 +20,13 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-name" class="only-in-en-us">
--<code>animation-name</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-duration">
--<code>animation-duration</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function" class="only-in-en-us">
--<code>animation-timing-function</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-delay">
--<code>animation-delay</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-direction">
--<code>animation-direction</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-iteration-count">
--<code>animation-iteration-count</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/animation-fill-mode">
--<code>animation-fill-mode</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-play-state" class="only-in-en-us">
--<code>animation-play-state</code>
--</a>: as specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
--<code>animation-timeline</code>
--</a>: a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
+@@ -30,34 +30,19 @@
+ <td>no</td>
  </tr>
  <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>애니메이션 불가</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D108: 1 page(s)
-
-Pages: P063.
-
-```diff
---- main
-+++ PR 912
-@@ -4,64 +4,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-direction">
--<code>flex-direction</code>
--</a>: <code>row</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-wrap">
--<code>flex-wrap</code>
--</a>: <code>nowrap</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>flex containers</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-direction">
--<code>flex-direction</code>
--</a>: as specified</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-wrap">
--<code>flex-wrap</code>
--</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-direction">
--<code>flex-direction</code>
--</a>: discrete</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/flex-wrap">
--<code>flex-wrap</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D109: 1 page(s)
-
-Pages: P053.
-
-```diff
---- main
-+++ PR 912
-@@ -4,80 +4,33 @@
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/container-name">
--<code>container-name</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/container-type">
--<code>container-type</code>
--</a>: <code>normal</code>
--</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">적용대상</th>
--<td>all elements</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
 -<th scope="row">Percentages</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/container-name">
--<code>container-name</code>
++<th scope="row">
++<a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
++</th>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/container-name">
+ <code>container-name</code>
 -</a>: no</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/container-type">
--<code>container-type</code>
++</a>: none 키워드 또는 순서가 있는 식별자 목록</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/container-type">
+ <code>container-type</code>
 -</a>: no</li>
 -</ul>
 -</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
- </th>
+-</tr>
+-<tr>
+-<th scope="row">
+-<a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+-</th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
@@ -6311,163 +6132,518 @@ Pages: P053.
 -<a href="/ko/docs/Web/CSS/Reference/Properties/container-type">
 -<code>container-type</code>
 -</a>: as specified</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
++</a>: 지정된 키워드</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -65,17 +50,16 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/container-name">
--<code>container-name</code>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/container-name">
+ <code>container-name</code>
 -</a>: Not animatable</li>
--<li>
--<a href="/ko/docs/Web/CSS/Reference/Properties/container-type">
--<code>container-type</code>
++</a>: 애니메이션 불가</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/container-type">
+ <code>container-type</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
--</ul>
--</td>
-+<td>각 개별 속성 참고</td>
++</a>: 애니메이션 불가</li>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
+```
+
+### D108: 1 page(s)
+
+Pages: P063.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-direction">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>flex containers</td>
++<td>플렉스 컨테이너</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-direction">
+ <code>flex-direction</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-wrap">
+ <code>flex-wrap</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ </ul>
+ </td>
+ </tr>
+@@ -50,7 +50,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/flex-direction">
+```
+
+### D109: 1 page(s)
+
+Pages: P097.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
+@@ -17,7 +17,7 @@
+ </a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
+ <code>outline-color</code>
+ </a>: <code>auto</code>
+ </li>
+@@ -26,7 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">적용대상</th>
+-<td>all elements</td>
++<td>모든 요소</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,22 +38,20 @@
+ <th scope="row">
+ <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
+ <code>outline-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
+ <code>outline-style</code>
+-</a>: as specified</li>
++</a>: 지정된 키워드</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
+ <code>outline-color</code>
+-</a>: For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.</li>
++</a>: 아래 참고</li>
+ </ul>
+ </td>
+ </tr>
+@@ -61,22 +59,20 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/outline-width">
+ <code>outline-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/outline-style">
+ <code>outline-style</code>
+-</a>: by computed value type</li>
++</a>: 계산값 기준</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
++<a href="/ko/docs/Web/CSS/Reference/Properties/outline-color" class="only-in-en-us">
+ <code>outline-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: 계산값 기준</li>
+ </ul>
+ </td>
+ </tr>
 ```
 
 ### D110: 1 page(s)
 
-Pages: P121.
+Pages: P022.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,90 +4,33 @@
+@@ -4,97 +4,29 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
+ <code>border-width</code>
+-</a>: as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
--<code>text-decoration-color</code>
--</a>: <code>currentcolor</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
+ </a>: <code>medium</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
--<code>text-decoration-style</code>
--</a>: <code>solid</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
+-</a>: <code>medium</code>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
--<code>text-decoration-line</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+-<code>border-bottom-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: <code>medium</code>
+-</li>
+-</ul>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
+ <code>border-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
+ </a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
+-<code>border-bottom-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
 -</a>: <code>none</code>
 -</li>
 -</ul>
--</td>
-+<td>각 개별 속성 참고</td>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
+ <code>border-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+-<code>border-top-color</code>
+ </a>: <code>currentcolor</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+-<code>border-right-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+-<code>border-bottom-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+-<code>border-left-color</code>
+-</a>: <code>currentcolor</code>
+-</li>
+-</ul>
+ </li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
 -<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
 -<code>::first-letter</code>
--</a> and <a href="/en-US/docs/Web/CSS/Reference/Selectors/::first-line" class="only-in-en-us">
--<code>::first-line</code>
 -</a>.</td>
-+<td>각 개별 속성 참고</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
+@@ -106,85 +38,20 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
+ <code>border-width</code>
+-</a>: as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
--<code>text-decoration-line</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+-<code>border-bottom-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-</ul>
+-</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
+ <code>border-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
--<code>text-decoration-style</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
 -</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
--<code>text-decoration-color</code>
--</a>: computed color</li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
+-<code>border-bottom-style</code>
+-</a>: as specified</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
--<code>text-decoration-thickness</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
 -</a>: as specified</li>
 -</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
+-</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
+ <code>border-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+-<code>border-top-color</code>
+-</a>: computed color</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+-<code>border-right-color</code>
+-</a>: computed color</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+-<code>border-bottom-color</code>
+-</a>: computed color</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+-<code>border-left-color</code>
+-</a>: computed color</li>
+-</ul>
+-</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -192,35 +59,12 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
+ <code>border-width</code>
+-</a>: as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color" class="only-in-en-us">
--<code>text-decoration-color</code>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+-<code>border-bottom-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-</ul>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
+ <code>border-style</code>
+@@ -228,30 +72,7 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
+ <code>border-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
+-<code>border-top-color</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style" class="only-in-en-us">
--<code>text-decoration-style</code>
--</a>: discrete</li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
+-<code>border-right-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line" class="only-in-en-us">
--<code>text-decoration-line</code>
--</a>: discrete</li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-color">
+-<code>border-bottom-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
--<code>text-decoration-thickness</code>
--</a>: by computed value type</li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-color">
+-<code>border-left-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
 -</ul>
--</td>
-+<td>각 개별 속성 참고</td>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
-```
-
-### D111: 1 page(s)
-
-Pages: P027.
-
-```diff
---- main
-+++ PR 912
-@@ -4,96 +4,33 @@
+@@ -263,97 +84,29 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">초기값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
+ <code>border-width</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
+ </a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+-<code>border-bottom-width</code>
+-</a>: <code>medium</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: <code>medium</code>
+-</li>
+-</ul>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
+ <code>border-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
+ </a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
+-<code>border-bottom-style</code>
+-</a>: <code>none</code>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
+-</a>: <code>none</code>
+-</li>
+-</ul>
+ </li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
+ <code>border-color</code>
+-</a>: as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
 -<code>border-top-color</code>
--</a>: <code>currentcolor</code>
+ </a>: <code>currentcolor</code>
 -</li>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-color">
@@ -6485,28 +6661,86 @@ Pages: P027.
 -</a>: <code>currentcolor</code>
 -</li>
 -</ul>
--</td>
-+<td>각 개별 속성 참고</td>
+ </li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">적용대상</th>
 -<td>all elements. It also applies to <a href="/ko/docs/Web/CSS/Reference/Selectors/::first-letter">
 -<code>::first-letter</code>
 -</a>.</td>
-+<td>각 개별 속성 참고</td>
++<td>루비 베이스 컨테이너와 루비 주석 컨테이너를 제외한 모든 요소</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/ko/docs/Web/CSS/Guides/Cascade/Inheritance">상속</a>
- </th>
--<td>no</td>
-+<td>각 개별 속성 참고</td>
- </tr>
- <tr>
+@@ -365,85 +118,20 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
+ <code>border-width</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+-<code>border-bottom-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: the absolute <a href="/ko/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-</ul>
+-</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
+ <code>border-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-style">
+-<code>border-top-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-style">
+-<code>border-right-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-style">
+-<code>border-bottom-style</code>
+-</a>: as specified</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-style">
+-<code>border-left-style</code>
+-</a>: as specified</li>
+-</ul>
+-</li>
++</a>: 지정된 키워드</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
+ <code>border-color</code>
+-</a>: as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
@@ -6525,18 +6759,54 @@ Pages: P027.
 -<code>border-left-color</code>
 -</a>: computed color</li>
 -</ul>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
+-</li>
++</a>: 계산된 색상 및/또는 1차원 이미지 함수</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -451,35 +139,12 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
++<td>각 개별 속성 참고<br>
+ <ul>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-width">
+ <code>border-width</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-width">
+-<code>border-top-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-right-width">
+-<code>border-right-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-bottom-width">
+-<code>border-bottom-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-<li>
+-<a href="/ko/docs/Web/CSS/Reference/Properties/border-left-width">
+-<code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
+-</ul>
+-</li>
++</a>: 계산값 기준</li>
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-style">
+ <code>border-style</code>
+@@ -487,30 +152,7 @@
+ <li>
+ <a href="/ko/docs/Web/CSS/Reference/Properties/border-color">
+ <code>border-color</code>
+-</a>: as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
 -<a href="/ko/docs/Web/CSS/Reference/Properties/border-top-color">
@@ -6559,14 +6829,14 @@ Pages: P027.
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
 -</ul>
--</td>
-+<td>각 개별 속성 참고</td>
+-</li>
++</a>: 본문 설명 참고</li>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
 ```
 
-### D112: 1 page(s)
+### D111: 1 page(s)
 
 Pages: P102.
 
@@ -6603,7 +6873,7 @@ Pages: P102.
  <th scope="row">
 ```
 
-### D113: 1 page(s)
+### D112: 1 page(s)
 
 Pages: P043.
 
@@ -6644,7 +6914,7 @@ Pages: P043.
  </table>
 ```
 
-### D114: 1 page(s)
+### D113: 1 page(s)
 
 Pages: P120.
 
@@ -6670,23 +6940,28 @@ Pages: P120.
  </tr>
  <tr>
  <th scope="row">
-@@ -25,8 +22,11 @@
+@@ -25,7 +22,17 @@
  <th scope="row">
  <a href="/ko/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">계산 값</a>
  </th>
 -<td>as specified, except for the <code>match-parent</code> value which is calculated against its parent's <code>direction</code> value and results in a computed value of either <code>left</code> or <code>right</code>
--</td>
-+<td>각 개별 속성 참고</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>각 개별 속성 참고</td>
++<td>각 개별 속성 참고<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/ko/docs/Web/CSS/Reference/Properties/text-align-all" title="이 문서는 아직 작성되지 않았습니다. 기여해 주시겠어요?">
++<code>text-align-all</code>
++</a>: match-parent는 위에서 정의한 대로 계산되고, 그 외의 경우에는 지정된 키워드 그대로입니다.</li>
++<li>
++<a href="/ko/docs/Web/CSS/Reference/Properties/text-align-last" class="only-in-en-us">
++<code>text-align-last</code>
++</a>: match-parent는 위에서 정의한 대로 계산되고, 그 외의 경우에는 지정된 키워드 그대로입니다.</li>
++</ul>
+ </td>
  </tr>
  <tr>
- <th scope="row">
 ```
 
-### D115: 1 page(s)
+### D114: 1 page(s)
 
 Pages: P051.
 
@@ -6730,7 +7005,7 @@ Pages: P051.
  </table>
 ```
 
-### D116: 1 page(s)
+### D115: 1 page(s)
 
 Pages: P070.
 
@@ -6767,7 +7042,7 @@ Pages: P070.
  <th scope="row">
 ```
 
-### D117: 1 page(s)
+### D116: 1 page(s)
 
 Pages: P010.
 
@@ -6837,6 +7112,126 @@ Main pages (1): P002.
 PR pages (0): none.
 New or increased occurrences (0 pages): none.
 Resolved or decreased occurrences (1 pages): P002.
+
+### I002
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/ko/docs/Web/CSS/Reference/Properties/animation-delay-end"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P008.
+New or increased occurrences (1 pages): P008.
+Resolved or decreased occurrences (0 pages): none.
+
+### I003
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/ko/docs/Web/CSS/Reference/Properties/animation-delay-start"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P008.
+New or increased occurrences (1 pages): P008.
+Resolved or decreased occurrences (0 pages): none.
+
+### I004
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/ko/docs/Web/CSS/Reference/Properties/block-ellipsis"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P081.
+New or increased occurrences (1 pages): P081.
+Resolved or decreased occurrences (0 pages): none.
+
+### I005
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/ko/docs/Web/CSS/Reference/Properties/continue"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P081.
+New or increased occurrences (1 pages): P081.
+Resolved or decreased occurrences (0 pages): none.
+
+### I006
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/ko/docs/Web/CSS/Reference/Properties/max-lines"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P081.
+New or increased occurrences (1 pages): P081.
+Resolved or decreased occurrences (0 pages): none.
+
+### I007
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/ko/docs/Web/CSS/Reference/Properties/text-align-all"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P120.
+New or increased occurrences (1 pages): P120.
+Resolved or decreased occurrences (0 pages): none.
 
 ## Attribution
 

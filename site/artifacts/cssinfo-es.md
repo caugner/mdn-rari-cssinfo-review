@@ -49,7 +49,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Comparison: rari main versus PR #912, including its dependency #911.
 - Content snapshot date: 2026-09-16; both content repositories were pinned from origin/main.
 - WebRef CSS: 8.7.4; mdn-data: 2.35.0.
-- Artifact source SHA-256: `da0d02b321382106bc26eca97d30ff0073a90945e761121c7c38078cf5f4e056` (index bytes followed by page-detail bytes in URL order).
+- Artifact source SHA-256: `33c67643dc55674ecdd06b4bc2d35b465e6b849a5be375b37b7495a2f5d92bd0` (index bytes followed by page-detail bytes in URL order).
 - Scope: all source pages matching the cssinfo macro substring in this locale. Only formal-definition tables and cssinfo diagnostics are included.
 - No pages or table diff hunks are truncated. Unchanged pages and absent tables are retained in the inventory.
 - Identical full-table diffs are stored once. Page IDs identify every occurrence; grouping is exact, not semantic.
@@ -62,7 +62,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 | --- | --- |
 | content | [8e307de115d41e9214fcacbd7fe89532756816b4](https://github.com/mdn/content/commit/8e307de115d41e9214fcacbd7fe89532756816b4) |
 | rari-main | [8015a37e8a5c648a6b5cfcabed48932da26c6a94](https://github.com/mdn/rari/commit/8015a37e8a5c648a6b5cfcabed48932da26c6a94) |
-| rari-pr | [e1953aa720f43d6049e8ff1d6889525f8cb7af64](https://github.com/mdn/rari/commit/e1953aa720f43d6049e8ff1d6889525f8cb7af64) |
+| rari-pr | [1ba098b8e78d947e660627a85e6bb8f696db3ef4](https://github.com/mdn/rari/commit/1ba098b8e78d947e660627a85e6bb8f696db3ef4) |
 | translated-content | [1d013d20b24acfe89b8a30eaa5d43268f4731359](https://github.com/mdn/translated-content/commit/1d013d20b24acfe89b8a30eaa5d43268f4731359) |
 
 ## Coverage
@@ -70,7 +70,7 @@ Use concise prose and prioritize actionable findings over a page-by-page recap.
 - Pages: 191.
 - Pages with table HTML differences: 189.
 - Distinct complete table diffs: 161.
-- Distinct diagnostic messages: 21.
+- Distinct diagnostic messages: 24.
 
 | Page outcome | Count |
 | --- | ---: |
@@ -109,14 +109,14 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P020 | [Web/CSS/Reference/Properties/-webkit-mask-repeat-x](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a966761f7852d88e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-mask-repeat-x/index.md)) | table-removed | 1 → 0 | D023 | - | I011 x1 |
 | P021 | [Web/CSS/Reference/Properties/-webkit-mask-repeat-y](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0f9ff5d5caf2de5b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-mask-repeat-y/index.md)) | table-removed | 1 → 0 | D024 | - | I012 x1 |
 | P022 | [Web/CSS/Reference/Properties/-webkit-tap-highlight-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=aa22df4ac1cda98c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-tap-highlight-color/index.md)) | table-removed | 1 → 0 | D021 | - | I013 x1 |
-| P023 | [Web/CSS/Reference/Properties/-webkit-text-stroke](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a3763838144ace84) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-text-stroke/index.md)) | changed | 1 → 1 | D151 | - | - |
+| P023 | [Web/CSS/Reference/Properties/-webkit-text-stroke](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a3763838144ace84) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-text-stroke/index.md)) | changed | 1 → 1 | D134 | - | - |
 | P024 | [Web/CSS/Reference/Properties/-webkit-text-stroke-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=1471f805511c5e21) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-text-stroke-color/index.md)) | changed | 1 → 1 | D062 | - | - |
 | P025 | [Web/CSS/Reference/Properties/-webkit-text-stroke-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=1508a9675cad41f7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/-webkit-text-stroke-width/index.md)) | changed | 1 → 1 | D054 | - | - |
 | P026 | [Web/CSS/Reference/Properties/align-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3afd02fe48a433c6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/align-content/index.md)) | changed | 1 → 1 | D072 | - | - |
 | P027 | [Web/CSS/Reference/Properties/align-self](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=635a5afb7228e8ad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/align-self/index.md)) | changed | 1 → 1 | D090 | - | - |
-| P028 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=d1d126f9a3194ca2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D132 | - | - |
-| P029 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9636b498da63724c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D142 | - | - |
-| P030 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=592a82faf139863a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D134 | - | - |
+| P028 | [Web/CSS/Reference/Properties/all](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=d1d126f9a3194ca2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/all/index.md)) | changed | 1 → 1 | D129 | - | - |
+| P029 | [Web/CSS/Reference/Properties/animation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9636b498da63724c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation/index.md)) | changed | 1 → 1 | D135 | - | - |
+| P030 | [Web/CSS/Reference/Properties/animation-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=592a82faf139863a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation-delay/index.md)) | changed | 1 → 1 | D123 | - | I022 x3, I023 x3 |
 | P031 | [Web/CSS/Reference/Properties/animation-direction](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=7a4bcf951ce56918) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation-direction/index.md)) | changed | 1 → 1 | D007 | - | - |
 | P032 | [Web/CSS/Reference/Properties/animation-duration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=eba078337ab29fdd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation-duration/index.md)) | changed | 1 → 1 | D159 | - | - |
 | P033 | [Web/CSS/Reference/Properties/animation-fill-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b4dc7aa35fc6bb3b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/animation-fill-mode/index.md)) | changed | 1 → 1 | D007 | - | - |
@@ -127,45 +127,45 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P038 | [Web/CSS/Reference/Properties/appearance](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=96ccd7ae81029887) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/appearance/index.md)) | changed | 1 → 1 | D083 | - | - |
 | P039 | [Web/CSS/Reference/Properties/backdrop-filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=380706abbcb01ef6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/backdrop-filter/index.md)) | changed | 1 → 1 | D111 | - | - |
 | P040 | [Web/CSS/Reference/Properties/backface-visibility](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=8c915dec4701e5a4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/backface-visibility/index.md)) | changed | 1 → 1 | D105 | - | - |
-| P041 | [Web/CSS/Reference/Properties/background-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=840cf061b3978c5b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-blend-mode/index.md)) | changed | 1 → 1 | D032 | - | - |
-| P042 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=7f9da4bb78755fa9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D041 | - | - |
-| P043 | [Web/CSS/Reference/Properties/background-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a8cb87b59a2f044f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-image/index.md)) | changed | 1 → 1 | D040 | - | - |
-| P044 | [Web/CSS/Reference/Properties/background-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ff48774faf6c0d9e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-repeat/index.md)) | changed | 1 → 1 | D038 | - | - |
+| P041 | [Web/CSS/Reference/Properties/background-blend-mode](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=840cf061b3978c5b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-blend-mode/index.md)) | changed | 1 → 1 | D033 | - | - |
+| P042 | [Web/CSS/Reference/Properties/background-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=7f9da4bb78755fa9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-clip/index.md)) | changed | 1 → 1 | D042 | - | - |
+| P043 | [Web/CSS/Reference/Properties/background-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a8cb87b59a2f044f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-image/index.md)) | changed | 1 → 1 | D041 | - | - |
+| P044 | [Web/CSS/Reference/Properties/background-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ff48774faf6c0d9e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-repeat/index.md)) | changed | 1 → 1 | D039 | - | - |
 | P045 | [Web/CSS/Reference/Properties/background-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=102742fe3e627c58) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/background-size/index.md)) | changed | 1 → 1 | D156 | - | - |
 | P046 | [Web/CSS/Reference/Properties/block-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=577ba14edc4c907a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/block-size/index.md)) | changed | 1 → 1 | D043 | - | - |
-| P047 | [Web/CSS/Reference/Properties/border-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=267cda6ada67aad9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block/index.md)) | changed | 1 → 1 | D116 | - | - |
-| P048 | [Web/CSS/Reference/Properties/border-block-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=98ee3223b2741fab) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-color/index.md)) | changed | 1 → 1 | D145 | - | - |
-| P049 | [Web/CSS/Reference/Properties/border-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=300020f8918a5562) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-end/index.md)) | changed | 1 → 1 | D124 | - | - |
+| P047 | [Web/CSS/Reference/Properties/border-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=267cda6ada67aad9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block/index.md)) | changed | 1 → 1 | D117 | - | - |
+| P048 | [Web/CSS/Reference/Properties/border-block-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=98ee3223b2741fab) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-color/index.md)) | changed | 1 → 1 | D137 | - | - |
+| P049 | [Web/CSS/Reference/Properties/border-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=300020f8918a5562) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-end/index.md)) | changed | 1 → 1 | D136 | - | - |
 | P050 | [Web/CSS/Reference/Properties/border-block-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=155588ea86e0798b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-end-color/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P051 | [Web/CSS/Reference/Properties/border-block-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c51aad5fa46b31c1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-end-style/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P052 | [Web/CSS/Reference/Properties/border-block-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a53d556461dfa340) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-end-width/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P053 | [Web/CSS/Reference/Properties/border-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f71f9f7b1b8d7de9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-start/index.md)) | changed | 1 → 1 | D125 | - | - |
+| P053 | [Web/CSS/Reference/Properties/border-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f71f9f7b1b8d7de9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-start/index.md)) | changed | 1 → 1 | D140 | - | - |
 | P054 | [Web/CSS/Reference/Properties/border-block-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=8302f8c9c9bc1076) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-start-color/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P055 | [Web/CSS/Reference/Properties/border-block-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=57f846689cade66b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-start-style/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P056 | [Web/CSS/Reference/Properties/border-block-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=1fa7093de0066c41) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-start-width/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P057 | [Web/CSS/Reference/Properties/border-block-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fc4db60a89051350) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-style/index.md)) | changed | 1 → 1 | D139 | - | - |
-| P058 | [Web/CSS/Reference/Properties/border-block-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=99adde9bf347c1b3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-width/index.md)) | changed | 1 → 1 | D152 | - | - |
+| P057 | [Web/CSS/Reference/Properties/border-block-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fc4db60a89051350) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-style/index.md)) | changed | 1 → 1 | D138 | - | - |
+| P058 | [Web/CSS/Reference/Properties/border-block-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=99adde9bf347c1b3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-block-width/index.md)) | changed | 1 → 1 | D139 | - | - |
 | P059 | [Web/CSS/Reference/Properties/border-bottom-left-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e42482e0a7fa2103) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-bottom-left-radius/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P060 | [Web/CSS/Reference/Properties/border-bottom-right-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a42d4ea55178ee96) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-bottom-right-radius/index.md)) | changed | 1 → 1 | D001 | - | - |
-| P061 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=445b5f46d360410f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D137 | - | - |
-| P062 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9c527707d9a73d2b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D035 | - | - |
-| P063 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=109a9a486ebd30ba) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D036 | - | - |
-| P064 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9d205aeb2d4961f4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D034 | - | - |
-| P065 | [Web/CSS/Reference/Properties/border-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=4594ad6ac9d8a222) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline/index.md)) | changed | 1 → 1 | D117 | - | - |
-| P066 | [Web/CSS/Reference/Properties/border-inline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3995e0b7ce5ded49) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-color/index.md)) | changed | 1 → 1 | D146 | - | - |
-| P067 | [Web/CSS/Reference/Properties/border-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b34e726d7a1b4921) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-end/index.md)) | changed | 1 → 1 | D126 | - | - |
+| P061 | [Web/CSS/Reference/Properties/border-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=445b5f46d360410f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image/index.md)) | changed | 1 → 1 | D114 | - | - |
+| P062 | [Web/CSS/Reference/Properties/border-image-outset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9c527707d9a73d2b) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image-outset/index.md)) | changed | 1 → 1 | D036 | - | - |
+| P063 | [Web/CSS/Reference/Properties/border-image-repeat](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=109a9a486ebd30ba) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image-repeat/index.md)) | changed | 1 → 1 | D037 | - | - |
+| P064 | [Web/CSS/Reference/Properties/border-image-slice](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9d205aeb2d4961f4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-image-slice/index.md)) | changed | 1 → 1 | D035 | - | - |
+| P065 | [Web/CSS/Reference/Properties/border-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=4594ad6ac9d8a222) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline/index.md)) | changed | 1 → 1 | D118 | - | - |
+| P066 | [Web/CSS/Reference/Properties/border-inline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3995e0b7ce5ded49) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-color/index.md)) | changed | 1 → 1 | D142 | - | - |
+| P067 | [Web/CSS/Reference/Properties/border-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b34e726d7a1b4921) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-end/index.md)) | changed | 1 → 1 | D141 | - | - |
 | P068 | [Web/CSS/Reference/Properties/border-inline-end-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=42d49d21450034af) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-end-color/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P069 | [Web/CSS/Reference/Properties/border-inline-end-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ea924c32f32bd5fa) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-end-style/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P070 | [Web/CSS/Reference/Properties/border-inline-end-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a780e0ea2dd07e68) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-end-width/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P071 | [Web/CSS/Reference/Properties/border-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=2629cb664f5138f6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-start/index.md)) | changed | 1 → 1 | D127 | - | - |
+| P071 | [Web/CSS/Reference/Properties/border-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=2629cb664f5138f6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-start/index.md)) | changed | 1 → 1 | D145 | - | - |
 | P072 | [Web/CSS/Reference/Properties/border-inline-start-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=72d6f1e523cc0b28) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-start-color/index.md)) | changed | 1 → 1 | D002 | - | - |
 | P073 | [Web/CSS/Reference/Properties/border-inline-start-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9b60f8a456a4d01f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-start-style/index.md)) | changed | 1 → 1 | D004 | - | - |
 | P074 | [Web/CSS/Reference/Properties/border-inline-start-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3abe29ec5ce0dce2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-start-width/index.md)) | changed | 1 → 1 | D003 | - | - |
-| P075 | [Web/CSS/Reference/Properties/border-inline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9f2ed0ee5194faec) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-style/index.md)) | changed | 1 → 1 | D140 | - | - |
-| P076 | [Web/CSS/Reference/Properties/border-inline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=2ac8461f366cd6f8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-width/index.md)) | changed | 1 → 1 | D153 | - | - |
-| P077 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b9f504f0915816ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D130 | - | - |
-| P078 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=22daa880bdc7dd57) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D114 | - | - |
-| P079 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=61801f6d4827afad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D131 | - | - |
+| P075 | [Web/CSS/Reference/Properties/border-inline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9f2ed0ee5194faec) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-style/index.md)) | changed | 1 → 1 | D143 | - | - |
+| P076 | [Web/CSS/Reference/Properties/border-inline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=2ac8461f366cd6f8) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-inline-width/index.md)) | changed | 1 → 1 | D144 | - | - |
+| P077 | [Web/CSS/Reference/Properties/border-left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b9f504f0915816ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-left/index.md)) | changed | 1 → 1 | D121 | - | - |
+| P078 | [Web/CSS/Reference/Properties/border-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=22daa880bdc7dd57) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-radius/index.md)) | changed | 1 → 1 | D146 | - | - |
+| P079 | [Web/CSS/Reference/Properties/border-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=61801f6d4827afad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-top/index.md)) | changed | 1 → 1 | D122 | - | - |
 | P080 | [Web/CSS/Reference/Properties/border-top-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=08da1fc4c022c0e6) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-top-color/index.md)) | changed | 1 → 1 | D107 | - | - |
 | P081 | [Web/CSS/Reference/Properties/border-top-left-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=caef19e5c204e8ac) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-top-left-radius/index.md)) | changed | 1 → 1 | D001 | - | - |
 | P082 | [Web/CSS/Reference/Properties/border-top-right-radius](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e2fc5f2fdb8da1a7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/border-top-right-radius/index.md)) | changed | 1 → 1 | D001 | - | - |
@@ -179,15 +179,15 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P090 | [Web/CSS/Reference/Properties/column-gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=d958ba9d6cf7f348) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/column-gap/index.md)) | changed | 1 → 1 | D097 | - | - |
 | P091 | [Web/CSS/Reference/Properties/display](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=00df85a4a8e4deec) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/display/index.md)) | changed | 1 → 1 | D078 | - | - |
 | P092 | [Web/CSS/Reference/Properties/filter](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e9669754c4f77773) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/filter/index.md)) | changed | 1 → 1 | D112 | - | - |
-| P093 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=402d3f5b9ae542c9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D129 | - | - |
+| P093 | [Web/CSS/Reference/Properties/flex](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=402d3f5b9ae542c9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex/index.md)) | changed | 1 → 1 | D128 | - | - |
 | P094 | [Web/CSS/Reference/Properties/flex-basis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=499f278b8f4484ca) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex-basis/index.md)) | changed | 1 → 1 | D091 | - | - |
 | P095 | [Web/CSS/Reference/Properties/flex-flow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a3119e1031fff253) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex-flow/index.md)) | changed | 1 → 1 | D147 | - | - |
 | P096 | [Web/CSS/Reference/Properties/flex-grow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=bcc8b3919a6f66de) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex-grow/index.md)) | changed | 1 → 1 | D092 | - | - |
 | P097 | [Web/CSS/Reference/Properties/flex-shrink](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c1edb50f8570500e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex-shrink/index.md)) | changed | 1 → 1 | D093 | - | - |
 | P098 | [Web/CSS/Reference/Properties/flex-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0308d2862523b232) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/flex-wrap/index.md)) | changed | 1 → 1 | D088 | - | - |
 | P099 | [Web/CSS/Reference/Properties/float](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=30b5ed0858c1a51c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/float/index.md)) | changed | 1 → 1 | D106 | - | - |
-| P100 | [Web/CSS/Reference/Properties/font](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9799b51a28858402) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font/index.md)) | changed | 1 → 1 | D115 | - | - |
-| P101 | [Web/CSS/Reference/Properties/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=8153288508a33782) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-family/index.md)) | changed | 1 → 1 | D123 | - | - |
+| P100 | [Web/CSS/Reference/Properties/font](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9799b51a28858402) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font/index.md)) | changed | 1 → 1 | D148 | - | - |
+| P101 | [Web/CSS/Reference/Properties/font-family](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=8153288508a33782) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-family/index.md)) | changed | 1 → 1 | D127 | - | - |
 | P102 | [Web/CSS/Reference/Properties/font-language-override](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=1abacab91e0badb9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-language-override/index.md)) | changed | 1 → 1 | D055 | - | - |
 | P103 | [Web/CSS/Reference/Properties/font-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6e0a65ce235db000) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-size/index.md)) | changed | 1 → 1 | D068 | - | - |
 | P104 | [Web/CSS/Reference/Properties/font-size-adjust](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=1b4a69467b4159a2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-size-adjust/index.md)) | changed | 1 → 1 | D066 | - | - |
@@ -195,32 +195,32 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P106 | [Web/CSS/Reference/Properties/font-variant](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=4dbb9d36f641416d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-variant/index.md)) | changed | 1 → 1 | D013 | - | - |
 | P107 | [Web/CSS/Reference/Properties/font-variant-alternates](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0c5358508c50a01f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-variant-alternates/index.md)) | changed | 1 → 1 | D013 | - | - |
 | P108 | [Web/CSS/Reference/Properties/font-weight](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=452155bf01f9163f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/font-weight/index.md)) | changed | 1 → 1 | D064 | - | - |
-| P109 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e4a4553a79ecdaa4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D120 | - | - |
-| P110 | [Web/CSS/Reference/Properties/grid](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=21ae8c4dfe4da5e2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/grid/index.md)) | changed | 1 → 1 | D118 | I020 x3, I021 x3 | - |
+| P109 | [Web/CSS/Reference/Properties/gap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e4a4553a79ecdaa4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/gap/index.md)) | changed | 1 → 1 | D115 | - | - |
+| P110 | [Web/CSS/Reference/Properties/grid](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=21ae8c4dfe4da5e2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/grid/index.md)) | changed | 1 → 1 | D133 | I020 x3, I021 x3 | - |
 | P111 | [Web/CSS/Reference/Properties/grid-auto-rows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6a4dbe4bc608fe2d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/grid-auto-rows/index.md)) | changed | 1 → 1 | D095 | - | - |
 | P112 | [Web/CSS/Reference/Properties/grid-template-areas](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0c675ce55f073b27) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/grid-template-areas/index.md)) | changed | 1 → 1 | D096 | - | - |
 | P113 | [Web/CSS/Reference/Properties/grid-template-columns](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=60381d1fcbe5bfe9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/grid-template-columns/index.md)) | changed | 1 → 1 | D094 | - | - |
 | P114 | [Web/CSS/Reference/Properties/height](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=77c1d711d5f2bba1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/height/index.md)) | changed | 1 → 1 | D086 | - | - |
 | P115 | [Web/CSS/Reference/Properties/image-rendering](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a4a08f4055469e2a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/image-rendering/index.md)) | changed | 1 → 1 | D053 | - | - |
 | P116 | [Web/CSS/Reference/Properties/inline-size](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=bd9634451ab1da16) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inline-size/index.md)) | changed | 1 → 1 | D044 | - | - |
-| P117 | [Web/CSS/Reference/Properties/inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=bfa9cd9f3e3857f5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset/index.md)) | changed | 1 → 1 | D133 | - | - |
-| P118 | [Web/CSS/Reference/Properties/inset-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=eb0427245a3ed3ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-block/index.md)) | changed | 1 → 1 | D121 | - | - |
+| P117 | [Web/CSS/Reference/Properties/inset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=bfa9cd9f3e3857f5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset/index.md)) | changed | 1 → 1 | D130 | - | - |
+| P118 | [Web/CSS/Reference/Properties/inset-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=eb0427245a3ed3ee) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-block/index.md)) | changed | 1 → 1 | D125 | - | - |
 | P119 | [Web/CSS/Reference/Properties/inset-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=2482a46f8585f0a4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-block-end/index.md)) | changed | 1 → 1 | D014 | - | - |
 | P120 | [Web/CSS/Reference/Properties/inset-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9acf9466001e72a9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-block-start/index.md)) | changed | 1 → 1 | D014 | - | - |
-| P121 | [Web/CSS/Reference/Properties/inset-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ba8980fe8014ea9f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-inline/index.md)) | changed | 1 → 1 | D122 | - | - |
+| P121 | [Web/CSS/Reference/Properties/inset-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ba8980fe8014ea9f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-inline/index.md)) | changed | 1 → 1 | D126 | - | - |
 | P122 | [Web/CSS/Reference/Properties/inset-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=82afd59da5b01658) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-inline-end/index.md)) | changed | 1 → 1 | D015 | - | - |
 | P123 | [Web/CSS/Reference/Properties/inset-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6a154f78deab0d1e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/inset-inline-start/index.md)) | changed | 1 → 1 | D015 | - | - |
 | P124 | [Web/CSS/Reference/Properties/isolation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f2a7c9bc1e71698d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/isolation/index.md)) | changed | 1 → 1 | D070 | - | - |
 | P125 | [Web/CSS/Reference/Properties/justify-content](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3e4d45f906727a24) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/justify-content/index.md)) | changed | 1 → 1 | D089 | - | - |
 | P126 | [Web/CSS/Reference/Properties/left](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=1179d8c7430a2e28) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/left/index.md)) | changed | 1 → 1 | D099 | - | - |
-| P127 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fd54df519679aa43) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D135 | - | - |
-| P128 | [Web/CSS/Reference/Properties/margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=292638a39f14996a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-block/index.md)) | changed | 1 → 1 | D143 | - | - |
+| P127 | [Web/CSS/Reference/Properties/margin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fd54df519679aa43) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin/index.md)) | changed | 1 → 1 | D131 | - | - |
+| P128 | [Web/CSS/Reference/Properties/margin-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=292638a39f14996a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-block/index.md)) | changed | 1 → 1 | D149 | - | - |
 | P129 | [Web/CSS/Reference/Properties/margin-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=345b64405143fdb1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-block-start/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P130 | [Web/CSS/Reference/Properties/margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=bed45c31bc5a76f4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-bottom/index.md)) | changed | 1 → 1 | D033 | - | - |
-| P131 | [Web/CSS/Reference/Properties/margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=468a374a7b5ef6ff) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-inline/index.md)) | changed | 1 → 1 | D144 | - | - |
+| P130 | [Web/CSS/Reference/Properties/margin-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=bed45c31bc5a76f4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-bottom/index.md)) | changed | 1 → 1 | D034 | - | - |
+| P131 | [Web/CSS/Reference/Properties/margin-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=468a374a7b5ef6ff) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-inline/index.md)) | changed | 1 → 1 | D150 | - | - |
 | P132 | [Web/CSS/Reference/Properties/margin-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6085db4c8d8b760d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-inline-end/index.md)) | changed | 1 → 1 | D006 | - | - |
 | P133 | [Web/CSS/Reference/Properties/margin-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b92610b33c6f17ed) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/margin-inline-start/index.md)) | changed | 1 → 1 | D006 | - | - |
-| P134 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fad9cbd34bcd9393) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D141 | - | - |
+| P134 | [Web/CSS/Reference/Properties/mask](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fad9cbd34bcd9393) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/mask/index.md)) | changed | 1 → 1 | D151 | - | - |
 | P135 | [Web/CSS/Reference/Properties/mask-clip](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=03fe5ce193d98d84) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/mask-clip/index.md)) | changed | 1 → 1 | D016 | - | - |
 | P136 | [Web/CSS/Reference/Properties/mask-image](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0f02845ca5afbb6c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/mask-image/index.md)) | changed | 1 → 1 | D110 | - | - |
 | P137 | [Web/CSS/Reference/Properties/mask-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9ad91818be76d5ad) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/mask-origin/index.md)) | changed | 1 → 1 | D016 | - | - |
@@ -234,31 +234,31 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P145 | [Web/CSS/Reference/Properties/object-position](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=830aabd9f835e338) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/object-position/index.md)) | changed | 1 → 1 | D101 | - | - |
 | P146 | [Web/CSS/Reference/Properties/opacity](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=33e77735e80c54e9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/opacity/index.md)) | changed | 1 → 1 | D077 | - | - |
 | P147 | [Web/CSS/Reference/Properties/order](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=fd6f437cf2369fc3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/order/index.md)) | changed | 1 → 1 | D073 | - | - |
-| P148 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=20d92f8d9c7784cb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D128 | - | - |
+| P148 | [Web/CSS/Reference/Properties/outline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=20d92f8d9c7784cb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/outline/index.md)) | changed | 1 → 1 | D152 | - | - |
 | P149 | [Web/CSS/Reference/Properties/outline-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ddeb9f1aeed42f69) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/outline-color/index.md)) | changed | 1 → 1 | D080 | - | - |
 | P150 | [Web/CSS/Reference/Properties/outline-offset](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e38b64700d3fb691) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/outline-offset/index.md)) | changed | 1 → 1 | D082 | - | - |
 | P151 | [Web/CSS/Reference/Properties/outline-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9a66d4f978bbe4a5) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/outline-style/index.md)) | changed | 1 → 1 | D079 | - | - |
 | P152 | [Web/CSS/Reference/Properties/outline-width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c461f389083bc7e7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/outline-width/index.md)) | changed | 1 → 1 | D081 | - | - |
 | P153 | [Web/CSS/Reference/Properties/overflow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f21511b9022ca93d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/overflow/index.md)) | changed | 1 → 1 | D071 | - | - |
-| P154 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c004f649e2d09dbd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D136 | - | - |
-| P155 | [Web/CSS/Reference/Properties/padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c1f1c8080079945c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-block/index.md)) | changed | 1 → 1 | D149 | - | - |
+| P154 | [Web/CSS/Reference/Properties/padding](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c004f649e2d09dbd) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding/index.md)) | changed | 1 → 1 | D132 | - | - |
+| P155 | [Web/CSS/Reference/Properties/padding-block](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c1f1c8080079945c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-block/index.md)) | changed | 1 → 1 | D153 | - | - |
 | P156 | [Web/CSS/Reference/Properties/padding-block-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=865fc7c0b568195e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-block-end/index.md)) | changed | 1 → 1 | D005 | - | - |
 | P157 | [Web/CSS/Reference/Properties/padding-block-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f9156f9c5faf9263) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-block-start/index.md)) | changed | 1 → 1 | D005 | - | - |
 | P158 | [Web/CSS/Reference/Properties/padding-bottom](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=a2eea02af95e40c7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-bottom/index.md)) | changed | 1 → 1 | D012 | - | - |
-| P159 | [Web/CSS/Reference/Properties/padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ace1fe4ddba3f3c3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-inline/index.md)) | changed | 1 → 1 | D150 | - | - |
+| P159 | [Web/CSS/Reference/Properties/padding-inline](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ace1fe4ddba3f3c3) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-inline/index.md)) | changed | 1 → 1 | D154 | - | - |
 | P160 | [Web/CSS/Reference/Properties/padding-inline-end](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=e02d19fdb480b0c7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-inline-end/index.md)) | changed | 1 → 1 | D005 | - | - |
 | P161 | [Web/CSS/Reference/Properties/padding-inline-start](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=061f51e231ad74de) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-inline-start/index.md)) | changed | 1 → 1 | D005 | - | - |
 | P162 | [Web/CSS/Reference/Properties/padding-top](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=9a70df2d5bde1eb7) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/padding-top/index.md)) | changed | 1 → 1 | D012 | - | - |
 | P163 | [Web/CSS/Reference/Properties/perspective](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=308616528bcd28bc) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/perspective/index.md)) | changed | 1 → 1 | D104 | - | - |
-| P164 | [Web/CSS/Reference/Properties/quotes](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=7e540692404b5372) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/quotes/index.md)) | changed | 1 → 1 | D119 | - | - |
+| P164 | [Web/CSS/Reference/Properties/quotes](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=7e540692404b5372) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/quotes/index.md)) | changed | 1 → 1 | D124 | - | - |
 | P165 | [Web/CSS/Reference/Properties/resize](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6c214cc13fa1c054) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/resize/index.md)) | changed | 1 → 1 | D113 | - | - |
 | P166 | [Web/CSS/Reference/Properties/scroll-behavior](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f6368410f47ea66c) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/scroll-behavior/index.md)) | changed | 1 → 1 | D102 | - | - |
-| P167 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f2bdce7fc28191f2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D160 | - | - |
-| P168 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c3f4b2009120383f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D154 | - | - |
-| P169 | [Web/CSS/Reference/Properties/text-decoration-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0a21edf0418eddd9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration-color/index.md)) | changed | 1 → 1 | D037 | - | - |
+| P167 | [Web/CSS/Reference/Properties/text-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f2bdce7fc28191f2) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-align/index.md)) | changed | 1 → 1 | D160 | - | I024 x1 |
+| P168 | [Web/CSS/Reference/Properties/text-decoration](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=c3f4b2009120383f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration/index.md)) | changed | 1 → 1 | D120 | - | - |
+| P169 | [Web/CSS/Reference/Properties/text-decoration-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0a21edf0418eddd9) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration-color/index.md)) | changed | 1 → 1 | D038 | - | - |
 | P170 | [Web/CSS/Reference/Properties/text-decoration-line](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ccf946425404022a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration-line/index.md)) | changed | 1 → 1 | D057 | - | - |
-| P171 | [Web/CSS/Reference/Properties/text-decoration-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b171f9f075ad57ce) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration-style/index.md)) | changed | 1 → 1 | D039 | - | - |
-| P172 | [Web/CSS/Reference/Properties/text-emphasis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6c04d54f10c5be21) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-emphasis/index.md)) | changed | 1 → 1 | D148 | - | - |
+| P171 | [Web/CSS/Reference/Properties/text-decoration-style](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=b171f9f075ad57ce) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-decoration-style/index.md)) | changed | 1 → 1 | D040 | - | - |
+| P172 | [Web/CSS/Reference/Properties/text-emphasis](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6c04d54f10c5be21) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-emphasis/index.md)) | changed | 1 → 1 | D116 | - | - |
 | P173 | [Web/CSS/Reference/Properties/text-emphasis-color](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=19e5b8618a08940a) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-emphasis-color/index.md)) | changed | 1 → 1 | D061 | - | - |
 | P174 | [Web/CSS/Reference/Properties/text-orientation](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=898d2252709e2339) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-orientation/index.md)) | changed | 1 → 1 | D059 | - | - |
 | P175 | [Web/CSS/Reference/Properties/text-shadow](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=175888fbacc77f52) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-shadow/index.md)) | changed | 1 → 1 | D067 | - | - |
@@ -266,12 +266,12 @@ Table counts are main → PR. "Missing output" is distinct from zero tables. Eac
 | P177 | [Web/CSS/Reference/Properties/text-wrap](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=ceff1d29253efb05) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/text-wrap/index.md)) | changed | 1 → 1 | D069 | - | - |
 | P178 | [Web/CSS/Reference/Properties/transform](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=0b2f71dd23d3e12e) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/transform/index.md)) | changed | 1 → 1 | D103 | - | - |
 | P179 | [Web/CSS/Reference/Properties/transform-origin](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=65c9739b8ca922bb) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/transform-origin/index.md)) | changed | 1 → 1 | D155 | - | - |
-| P180 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f2429c5fdabb15b4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D138 | - | - |
+| P180 | [Web/CSS/Reference/Properties/transition](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f2429c5fdabb15b4) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/transition/index.md)) | changed | 1 → 1 | D119 | - | - |
 | P181 | [Web/CSS/Reference/Properties/transition-delay](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=f3b42199b5059e0d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/transition-delay/index.md)) | changed | 1 → 1 | D051 | - | - |
 | P182 | [Web/CSS/Reference/Properties/transition-property](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=39d3cb488b57292f) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/transition-property/index.md)) | changed | 1 → 1 | D047 | - | - |
 | P183 | [Web/CSS/Reference/Properties/user-modify](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6ec9760136bde6c1) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/user-modify/index.md)) | missing-both | 0 → 0 | - | I017 x1 | I016 x1 |
 | P184 | [Web/CSS/Reference/Properties/user-select](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=09f2c8248c50c6e0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/user-select/index.md)) | changed | 1 → 1 | D076 | - | - |
-| P185 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3c9b50c65e87d69d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D042 | - | - |
+| P185 | [Web/CSS/Reference/Properties/vertical-align](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=3c9b50c65e87d69d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/vertical-align/index.md)) | changed | 1 → 1 | D032 | - | - |
 | P186 | [Web/CSS/Reference/Properties/white-space](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=784e86c7be5f28d0) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/white-space/index.md)) | changed | 1 → 1 | D052 | - | - |
 | P187 | [Web/CSS/Reference/Properties/widows](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=6b2d022e644f070d) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/widows/index.md)) | changed | 1 → 1 | D060 | - | - |
 | P188 | [Web/CSS/Reference/Properties/width](https://caugner.github.io/mdn-rari-cssinfo-review/#locale=es&status=all&doc=88d57e1b717cf399) ([source](https://github.com/mdn/translated-content/blob/1d013d20b24acfe89b8a30eaa5d43268f4731359/files/es/web/css/reference/properties/width/index.md)) | changed | 1 → 1 | D075 | - | - |
@@ -1619,6 +1619,89 @@ Pages: P016.
 
 ### D032: 1 page(s)
 
+Pages: P185.
+
+```diff
+--- main
++++ PR 912
+@@ -10,11 +10,22 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>as each of the properties of the shorthand:. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/es/docs/Web/CSS/Reference/Selectors/::first-line">
+-<code>::first-line</code>
+-</a>.</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/alignment-baseline" class="only-in-en-us">
++<code>alignment-baseline</code>
++</a>: cajas de nivel en línea, elementos flex, elementos grid, celdas de tabla y elementos de contenido de texto SVG</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/baseline-shift" class="only-in-en-us">
++<code>baseline-shift</code>
++</a>: cajas de nivel en línea y elementos de contenido de texto SVG</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/baseline-source" class="only-in-en-us">
++<code>baseline-source</code>
++</a>: inline-level boxes that establish an independent formatting context</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -26,13 +37,43 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/alignment-baseline" class="only-in-en-us">
++<code>alignment-baseline</code>
++</a>: palabra clave especificada</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/baseline-shift" class="only-in-en-us">
++<code>baseline-shift</code>
++</a>: la palabra clave especificada o un valor &lt;length-percentage&gt; calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/baseline-source" class="only-in-en-us">
++<code>baseline-source</code>
++</a>: palabra clave especificada</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>discrete</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/alignment-baseline" class="only-in-en-us">
++<code>alignment-baseline</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/baseline-shift" class="only-in-en-us">
++<code>baseline-shift</code>
++</a>: por tipo de valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/baseline-source" class="only-in-en-us">
++<code>baseline-source</code>
++</a>: discrete</li>
++</ul>
++</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D033: 1 page(s)
+
 Pages: P041.
 
 ```diff
@@ -1648,7 +1731,7 @@ Pages: P041.
  </table>
 ```
 
-### D033: 1 page(s)
+### D034: 1 page(s)
 
 Pages: P130.
 
@@ -1698,7 +1781,7 @@ Pages: P130.
  </table>
 ```
 
-### D034: 1 page(s)
+### D035: 1 page(s)
 
 Pages: P064.
 
@@ -1747,7 +1830,7 @@ Pages: P064.
  </table>
 ```
 
-### D035: 1 page(s)
+### D036: 1 page(s)
 
 Pages: P062.
 
@@ -1785,7 +1868,7 @@ Pages: P062.
  </table>
 ```
 
-### D036: 1 page(s)
+### D037: 1 page(s)
 
 Pages: P063.
 
@@ -1816,7 +1899,7 @@ Pages: P063.
  <th scope="row">
 ```
 
-### D037: 1 page(s)
+### D038: 1 page(s)
 
 Pages: P169.
 
@@ -1855,7 +1938,7 @@ Pages: P169.
  </table>
 ```
 
-### D038: 1 page(s)
+### D039: 1 page(s)
 
 Pages: P044.
 
@@ -1886,7 +1969,7 @@ Pages: P044.
  <th scope="row">
 ```
 
-### D039: 1 page(s)
+### D040: 1 page(s)
 
 Pages: P171.
 
@@ -1917,7 +2000,7 @@ Pages: P171.
  <th scope="row">
 ```
 
-### D040: 1 page(s)
+### D041: 1 page(s)
 
 Pages: P043.
 
@@ -1950,7 +2033,7 @@ Pages: P043.
  <th scope="row">
 ```
 
-### D041: 1 page(s)
+### D042: 1 page(s)
 
 Pages: P042.
 
@@ -1976,44 +2059,6 @@ Pages: P042.
  </th>
 -<td>a repeatable list</td>
 +<td>lista repetible</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D042: 1 page(s)
-
-Pages: P185.
-
-```diff
---- main
-+++ PR 912
-@@ -10,11 +10,7 @@
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>as each of the properties of the shorthand:. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/es/docs/Web/CSS/Reference/Selectors/::first-line">
--<code>::first-line</code>
--</a>.</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -26,13 +22,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>discrete</td>
-+<td>consulta las propiedades individuales</td>
  </tr>
  </tbody>
  </table>
@@ -2453,7 +2498,7 @@ Pages: P186.
  <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
  </th>
 -<td>yes</td>
-+<td>consulta las propiedades individuales</td>
++<td>sí</td>
  </tr>
  <tr>
  <th scope="row">
@@ -3117,12 +3162,23 @@ Pages: P177.
 ```diff
 --- main
 +++ PR 912
-@@ -10,62 +10,29 @@
+@@ -10,43 +10,39 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
 -<td>text and block containers</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
++<code>text-wrap-mode</code>
++</a>: text</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
++<code>text-wrap-style</code>
++</a>: contenedores de bloque que establecen un contexto de formato en línea</li>
++</ul>
++</td>
  </tr>
  <tr>
  <th scope="row">
@@ -3144,50 +3200,48 @@ Pages: P177.
 -</a>: no</li>
 -</ul>
 -</td>
-+<td>consulta las propiedades individuales</td>
++<td>sí</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
--<code>text-wrap-mode</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
+ <code>text-wrap-mode</code>
 -</a>: como se especifica</li>
--<li>
++</a>: palabra clave especificada</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
--<code>text-wrap-style</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
+ <code>text-wrap-style</code>
 -</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++</a>: palabra clave especificada</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -54,14 +50,14 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
--<code>text-wrap-mode</code>
--</a>: discrete</li>
--<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-wrap-mode" class="only-in-en-us">
+ <code>text-wrap-mode</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
--<code>text-wrap-style</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-wrap-style" class="only-in-en-us">
+ <code>text-wrap-style</code>
+ </a>: discrete</li>
+ </ul>
 ```
 
 ### D070: 1 page(s)
@@ -3233,34 +3287,35 @@ Pages: P153.
  </tr>
  <tr>
  <th scope="row">
-@@ -22,26 +22,7 @@
+@@ -22,24 +22,16 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
--<code>overflow-x</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
+ <code>overflow-x</code>
 -</a>: como se especifica, excepto que si <a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
 -<code>overflow-x</code>
 -</a> o bien <a href="/es/docs/Web/CSS/Reference/Properties/overflow-y">
 -<code>overflow-y</code>
 -</a> es distinto de <code>visible</code> o <code>clip</code>, estos dos valores computan a <code>auto</code> o <code>hidden</code> respectivamente</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/overflow-y">
--<code>overflow-y</code>
++</a>: normalmente el valor especificado, pero consulta el texto</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/overflow-y">
+ <code>overflow-y</code>
 -</a>: como se especifica, excepto que si <a href="/en-US/docs/Web/CSS/Reference/Properties/overflow-x" class="only-in-en-us">
 -<code>overflow-x</code>
 -</a> o bien <a href="/es/docs/Web/CSS/Reference/Properties/overflow-y">
 -<code>overflow-y</code>
 -</a> es distinto de <code>visible</code> o <code>clip</code>, estos dos valores computan a <code>auto</code> o <code>hidden</code> respectivamente</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: normalmente el valor especificado, pero consulta el texto</li>
+ </ul>
+ </td>
  </tr>
- <tr>
- <th scope="row">
 ```
 
 ### D072: 1 page(s)
@@ -4808,106 +4863,192 @@ Pages: P165.
 
 ### D114: 1 page(s)
 
-Pages: P078.
+Pages: P061.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,114 +4,33 @@
+@@ -4,10 +4,10 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-left-radius">
--<code>border-top-left-radius</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-right-radius">
--<code>border-top-right-radius</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-right-radius">
--<code>border-bottom-right-radius</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-left-radius">
--<code>border-bottom-left-radius</code>
--</a>: <code>0</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
+ <code>border-image-source</code>
+ </a>: <code>none</code>
+ </li>
+@@ -17,7 +17,7 @@
+ </a>: <code>100%</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+ <code>border-image-width</code>
+ </a>: <code>1</code>
+ </li>
+@@ -36,11 +36,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
--<td>all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when <a href="/es/docs/Web/CSS/Reference/Properties/border-collapse">
+-<td>all elements, except internal table elements when <a href="/es/docs/Web/CSS/Reference/Properties/border-collapse">
 -<code>border-collapse</code>
--</a> is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-</a> is <code>collapse</code>. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
 -<code>::first-letter</code>
 -</a>.</td>
-+<td>consulta las propiedades individuales</td>
++<td>Todos los elementos, excepto los elementos internos de tabla cuando border-collapse es collapse</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>refer to the corresponding dimension of the border box</td>
-+<td>consulta las propiedades individuales</td>
+@@ -49,46 +45,31 @@
+ <td>no</td>
  </tr>
  <tr>
+-<th scope="row">Percentages</th>
+-<td>as each of the properties of the shorthand:<br>
++<th scope="row">
++<a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
++</th>
++<td>consulta las propiedades individuales<br>
+ <ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
++<code>border-image-source</code>
++</a>: la palabra clave none o la &lt;image&gt; calculada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
+ <code>border-image-slice</code>
+-</a>: refer to the size of the border image</li>
++</a>: cuatro valores, cada uno un número o un porcentaje; más una palabra clave fill si se especifica</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+ <code>border-image-width</code>
+-</a>: refer to the width or height of the border image area</li>
+-</ul>
+-</td>
+-</tr>
+-<tr>
+-<th scope="row">
+-<a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+-</th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
+-<code>border-image-source</code>
+-</a>: <code>none</code> or the image with its URI made absolute</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
+-<code>border-image-slice</code>
+-</a>: one to four percentage(s) (as specified) or absolute length(s), plus the keyword <code>fill</code> if specified</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+-<code>border-image-width</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
++</a>: cuatro valores, cada uno un número, la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-image-outset">
+ <code>border-image-outset</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
++</a>: cuatro valores, cada uno un número o una longitud absoluta</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-image-repeat">
+ <code>border-image-repeat</code>
+-</a>: como se especifica</li>
++</a>: dos palabras clave, una por eje</li>
+ </ul>
+ </td>
+ </tr>
+@@ -96,24 +77,24 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
+ <code>border-image-source</code>
+ </a>: discrete</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
+ <code>border-image-slice</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
+ <code>border-image-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-image-outset">
+ <code>border-image-outset</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-image-repeat">
+ <code>border-image-repeat</code>
+```
+
+### D115: 1 page(s)
+
+Pages: P109.
+
+```diff
+--- main
++++ PR 912
+@@ -4,10 +4,10 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+ <code>row-gap</code>
+ </a>: <code>normal</code>
+ </li>
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>multi-column elements, flex containers, grid containers</td>
++<td>multi-column containers, flex containers, grid containers, and grid lanes containers</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,35 +33,28 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-left-radius">
--<code>border-top-left-radius</code>
--</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-right-radius">
--<code>border-top-right-radius</code>
--</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-right-radius">
--<code>border-bottom-right-radius</code>
--</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-left-radius">
--<code>border-bottom-left-radius</code>
--</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
--<code>&lt;percentage&gt;</code>
--</a>s</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+ <code>row-gap</code>
+-</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
++</a>: palabra clave especificada; en caso contrario, un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
+ <code>column-gap</code>
+-</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
++</a>: palabra clave especificada; en caso contrario, un valor &lt;length-percentage&gt; calculado</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>refer to corresponding dimension of the content area</td>
  </tr>
  <tr>
  <th scope="row">
@@ -4916,79 +5057,1363 @@ Pages: P078.
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-left-radius">
--<code>border-top-left-radius</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
+-<code>row-gap</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-right-radius">
--<code>border-top-right-radius</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-right-radius">
--<code>border-bottom-right-radius</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-left-radius">
--<code>border-bottom-left-radius</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
+-<code>column-gap</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
 -</ul>
 -</td>
-+<td>consulta las propiedades individuales</td>
++<td>por tipo de valor calculado</td>
  </tr>
  </tbody>
  </table>
 ```
 
-### D115: 1 page(s)
+### D116: 1 page(s)
 
-Pages: P100.
+Pages: P172.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,151 +4,33 @@
+@@ -4,10 +4,10 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
+ <code>text-emphasis-style</code>
+ </a>: <code>none</code>
+ </li>
+@@ -21,28 +21,28 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>text</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
+ </th>
+-<td>yes</td>
++<td>sí</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
+ <code>text-emphasis-style</code>
+-</a>: como se especifica</li>
++</a>: la palabra clave none, un par de palabras clave que representan la forma y el relleno, o una cadena</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-color">
+ <code>text-emphasis-color</code>
+-</a>: computed color</li>
++</a>: color calculado</li>
+ </ul>
+ </td>
+ </tr>
+@@ -50,17 +50,16 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
++<code>text-emphasis-style</code>
++</a>: discrete</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-color">
+ <code>text-emphasis-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
+-<code>text-emphasis-style</code>
+-</a>: discrete</li>
++</a>: por tipo de valor calculado</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D117: 1 page(s)
+
+Pages: P047.
+
+```diff
+--- main
++++ PR 912
+@@ -4,12 +4,12 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-width">
+-<code>border-block-width</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start">
++<code>border-block-start</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+@@ -17,38 +17,31 @@
+ </a>: <code>medium</code>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+-<code>border-block-end-width</code>
+-</a>: <code>medium</code>
+-</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-style">
+-<code>border-block-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
+ <code>border-block-start-style</code>
+ </a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
+-<code>border-block-end-style</code>
+-</a>: <code>none</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
++<code>border-block-start-color</code>
++</a>: <code>currentcolor</code>
+ </li>
+ </ul>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-color">
+-<code>border-block-color</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end">
++<code>border-block-end</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+-<code>border-block-start-color</code>
+-</a>: <code>currentcolor</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
++<code>border-block-end-width</code>
++</a>: <code>medium</code>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
++<code>border-block-end-style</code>
++</a>: <code>none</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+@@ -62,7 +55,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -74,55 +67,44 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-width">
+-<code>border-block-width</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start">
++<code>border-block-start</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+ <code>border-block-start-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
++<code>border-block-start-style</code>
++</a>: palabra clave especificada</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
++<code>border-block-start-color</code>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
++</ul>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end">
++<code>border-block-end</code>
++</a>: consulta las propiedades individuales<br>
++<ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+ <code>border-block-end-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-style">
+-<code>border-block-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
+-<code>border-block-start-style</code>
+-</a>: como se especifica</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
+ <code>border-block-end-style</code>
+-</a>: como se especifica</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-color">
+-<code>border-block-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+-<code>border-block-start-color</code>
+-</a>: computed color</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+ <code>border-block-end-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </li>
+ </ul>
+@@ -132,40 +114,44 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-width">
+-<code>border-block-width</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start">
++<code>border-block-start</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+ <code>border-block-start-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
++<code>border-block-start-style</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
++<code>border-block-start-color</code>
++</a>: consulta el texto explicativo</li>
++</ul>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end">
++<code>border-block-end</code>
++</a>: consulta las propiedades individuales<br>
++<ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+ <code>border-block-end-width</code>
+-</a>: by computed value type</li>
+-</ul>
+-</li>
++</a>: por valor calculado</li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-style">
+-<code>border-block-style</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
++<code>border-block-end-style</code>
+ </a>: discrete</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-color">
+-<code>border-block-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+-<code>border-block-start-color</code>
+-</a>: by computed value type</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+ <code>border-block-end-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </li>
+ </ul>
+```
+
+### D118: 1 page(s)
+
+Pages: P065.
+
+```diff
+--- main
++++ PR 912
+@@ -4,12 +4,12 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-width">
+-<code>border-inline-width</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start">
++<code>border-inline-start</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+@@ -17,38 +17,31 @@
+ </a>: <code>medium</code>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+-<code>border-inline-end-width</code>
+-</a>: <code>medium</code>
+-</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-style">
+-<code>border-inline-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+ <code>border-inline-start-style</code>
+ </a>: <code>none</code>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+-<code>border-inline-end-style</code>
+-</a>: <code>none</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
++<code>border-inline-start-color</code>
++</a>: <code>currentcolor</code>
+ </li>
+ </ul>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-color">
+-<code>border-inline-color</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end">
++<code>border-inline-end</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
+-</a>: <code>currentcolor</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
++<code>border-inline-end-width</code>
++</a>: <code>medium</code>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
++<code>border-inline-end-style</code>
++</a>: <code>none</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+@@ -62,7 +55,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -74,55 +67,44 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-width">
+-<code>border-inline-width</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start">
++<code>border-inline-start</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+ <code>border-inline-start-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
++<code>border-inline-start-style</code>
++</a>: palabra clave especificada</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
++<code>border-inline-start-color</code>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
++</ul>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end">
++<code>border-inline-end</code>
++</a>: consulta las propiedades individuales<br>
++<ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+ <code>border-inline-end-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-style">
+-<code>border-inline-style</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+-<code>border-inline-start-style</code>
+-</a>: como se especifica</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+ <code>border-inline-end-style</code>
+-</a>: como se especifica</li>
+-</ul>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-color">
+-<code>border-inline-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
+-</a>: computed color</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+ <code>border-inline-end-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </li>
+ </ul>
+@@ -132,40 +114,44 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-width">
+-<code>border-inline-width</code>
+-</a>: as each of the properties of the shorthand:<br>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start">
++<code>border-inline-start</code>
++</a>: consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+ <code>border-inline-start-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
++<code>border-inline-start-style</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
++<code>border-inline-start-color</code>
++</a>: consulta el texto explicativo</li>
++</ul>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end">
++<code>border-inline-end</code>
++</a>: consulta las propiedades individuales<br>
++<ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+ <code>border-inline-end-width</code>
+-</a>: by computed value type</li>
+-</ul>
+-</li>
++</a>: por valor calculado</li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-style">
+-<code>border-inline-style</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
++<code>border-inline-end-style</code>
+ </a>: discrete</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-color">
+-<code>border-inline-color</code>
+-</a>: as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+-<code>border-inline-start-color</code>
+-</a>: by computed value type</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+ <code>border-inline-end-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </li>
+ </ul>
+```
+
+### D119: 1 page(s)
+
+Pages: P180.
+
+```diff
+--- main
++++ PR 912
+@@ -4,12 +4,12 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/transition-delay">
+-<code>transition-delay</code>
+-</a>: <code>0s</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-property">
++<code>transition-property</code>
++</a>: <code>all</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/transition-duration">
+@@ -17,17 +17,17 @@
+ </a>: <code>0s</code>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/transition-property">
+-<code>transition-property</code>
+-</a>: <code>all</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
+ <code>transition-timing-function</code>
+ </a>: <code>ease</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-delay">
++<code>transition-delay</code>
++</a>: <code>0s</code>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
+ <code>transition-behavior</code>
+ </a>: <code>normal</code>
+ </li>
+@@ -36,12 +36,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>todos los elementos y los <a href="/es/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudoelementos</a> <a href="/es/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> y <a href="/es/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a>
+-</td>
++<td>todos los elementos</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -53,26 +48,26 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-property">
++<code>transition-property</code>
++</a>: la palabra clave none o, en su defecto, una lista de identificadores</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-duration">
++<code>transition-duration</code>
++</a>: lista, en la que cada elemento es una duración</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
++<code>transition-timing-function</code>
++</a>: como se especifica</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/transition-delay">
+ <code>transition-delay</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es una duración</li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/transition-duration">
+-<code>transition-duration</code>
+-</a>: como se especifica</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/transition-property">
+-<code>transition-property</code>
+-</a>: como se especifica</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
+-<code>transition-timing-function</code>
+-</a>: como se especifica</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
+ <code>transition-behavior</code>
+ </a>: como se especifica</li>
+ </ul>
+@@ -82,7 +77,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>no animable</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D120: 1 page(s)
+
+Pages: P168.
+
+```diff
+--- main
++++ PR 912
+@@ -4,12 +4,17 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
+-<code>text-decoration-color</code>
+-</a>: <code>currentcolor</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
++<code>text-decoration-line</code>
++</a>: <code>none</code>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: <code>auto</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
+@@ -17,49 +22,87 @@
+ </a>: <code>solid</code>
+ </li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
+-<code>text-decoration-line</code>
+-</a>: <code>none</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
++<code>text-decoration-color</code>
++</a>: <code>currentcolor</code>
+ </li>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/es/docs/Web/CSS/Reference/Selectors/::first-line">
+-<code>::first-line</code>
+-</a>.</td>
++<td>todos los elementos</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
+ </th>
+-<td>no</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
++<code>text-decoration-line</code>
++</a>: no (pero consulta el texto explicativo anterior)</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: no</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
++<code>text-decoration-style</code>
++</a>: no</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
++<code>text-decoration-color</code>
++</a>: no</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
+ <code>text-decoration-line</code>
+-</a>: como se especifica</li>
++</a>: palabra(s) clave especificada(s)</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: como se especifica, con los valores &lt;length-percentage&gt; calculados</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
+ <code>text-decoration-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
+ <code>text-decoration-color</code>
+-</a>: computed color</li>
++</a>: color calculado</li>
++</ul>
++</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>consulta las propiedades individuales<br>
++<ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
++<code>text-decoration-line</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
+ <code>text-decoration-thickness</code>
+-</a>: como se especifica</li>
++</a>: N/D</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
++<code>text-decoration-style</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
++<code>text-decoration-color</code>
++</a>: n/d</li>
+ </ul>
+ </td>
+ </tr>
+@@ -67,25 +110,24 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
+-<code>text-decoration-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
++<code>text-decoration-line</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
++<code>text-decoration-thickness</code>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
+ <code>text-decoration-style</code>
+ </a>: discrete</li>
+ <li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
+-<code>text-decoration-line</code>
+-</a>: discrete</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
+-<code>text-decoration-thickness</code>
+-</a>: by computed value type</li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
++<code>text-decoration-color</code>
++</a>: por tipo de valor calculado</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D121: 1 page(s)
+
+Pages: P077.
+
+```diff
+--- main
++++ PR 912
+@@ -4,15 +4,15 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
+ <code>border-left-width</code>
+ </a>: <code>medium</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
+ <code>border-left-style</code>
+ </a>: <code>none</code>
+ </li>
+@@ -26,9 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,22 +38,20 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
+ <code>border-left-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
+ <code>border-left-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,22 +59,20 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
+ <code>border-left-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: por valor calculado</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
+ <code>border-left-style</code>
+ </a>: discrete</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-left-color">
+ <code>border-left-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D122: 1 page(s)
+
+Pages: P079.
+
+```diff
+--- main
++++ PR 912
+@@ -4,15 +4,15 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
+ <code>border-top-width</code>
+ </a>: <code>medium</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
+ <code>border-top-style</code>
+ </a>: <code>none</code>
+ </li>
+@@ -26,9 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -40,22 +38,20 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
+ <code>border-top-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
+ <code>border-top-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -63,22 +59,20 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
+ <code>border-top-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: por valor calculado</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
+ <code>border-top-style</code>
+ </a>: discrete</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-color">
+ <code>border-top-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D123: 1 page(s)
+
+Pages: P030.
+
+```diff
+--- main
++++ PR 912
+@@ -4,18 +4,24 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>
+-<code>0s</code>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/animation-delay-start" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>animation-delay-start</code>
++</a>: <code>0s</code>
++</li>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/animation-delay-end" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>animation-delay-end</code>
++</a>: <code>0s</code>
++</li>
++</ul>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>todos los elementos y los <a href="/es/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudoelementos</a> <a href="/es/docs/Web/CSS/Reference/Selectors/::before">
+-<code>::before</code>
+-</a> y <a href="/es/docs/Web/CSS/Reference/Selectors/::after">
+-<code>::after</code>
+-</a>
+-</td>
++<td>todos los elementos</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -27,13 +33,35 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>como se especifica</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/animation-delay-start" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>animation-delay-start</code>
++</a>: lista, en la que cada elemento es una duración</li>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/animation-delay-end" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>animation-delay-end</code>
++</a>: lista, en la que cada elemento es una duración</li>
++</ul>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/animation-delay-start" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>animation-delay-start</code>
++</a>: no animable</li>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/animation-delay-end" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>animation-delay-end</code>
++</a>: no animable</li>
++</ul>
++</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D124: 1 page(s)
+
+Pages: P164.
+
+```diff
+--- main
++++ PR 912
+@@ -4,23 +4,25 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>depends on user agent</td>
++<td>
++<code>auto</code>
++</td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
+ </th>
+-<td>yes</td>
++<td>sí</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>como se especifica</td>
++<td>la palabra clave none, la palabra clave auto o match-parent, o una lista en la que cada elemento es un par de valores de cadena</td>
+ </tr>
+ <tr>
+ <th scope="row">
+```
+
+### D125: 1 page(s)
+
+Pages: P118.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,13 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-style">
--<code>font-style</code>
--</a>: <code>normal</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/inset-block-start">
+-<code>inset-block-start</code>
+-</a>: <code>auto</code>
 -</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-variant">
--<code>font-variant</code>
--</a>: <code>normal</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/inset-block-end">
+-<code>inset-block-end</code>
+-</a>: <code>auto</code>
 -</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-weight">
--<code>font-weight</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/font-stretch" class="only-in-en-us">
--<code>font-stretch</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-size">
--<code>font-size</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/line-height">
--<code>line-height</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-family">
--<code>font-family</code>
--</a>: depends on user agent</li>
 -</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>
++<code>auto</code>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>positioned elements</td>
++<td>elementos posicionados</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -30,47 +19,31 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>logical-height of containing block</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/inset-block-start">
+ <code>inset-block-start</code>
+-</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
+-<code>top</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
+-<code>right</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
+-<code>bottom</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
+-<code>left</code>
+-</a> properties except that directions are logical</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/inset-block-end">
+ <code>inset-block-end</code>
+-</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
+-<code>top</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
+-<code>right</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
+-<code>bottom</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
+-<code>left</code>
+-</a> properties except that directions are logical</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ </ul>
+ </td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>refer to size of containing block; see prose</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</td>
++<td>por tipo de valor calculado</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D126: 1 page(s)
+
+Pages: P121.
+
+```diff
+--- main
++++ PR 912
+@@ -4,24 +4,13 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-start">
+-<code>inset-inline-start</code>
+-</a>: <code>auto</code>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-end">
+-<code>inset-inline-end</code>
+-</a>: <code>auto</code>
+-</li>
+-</ul>
++<td>
++<code>auto</code>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>positioned elements</td>
++<td>elementos posicionados</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -30,47 +19,31 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>logical-width of containing block</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-start">
+ <code>inset-inline-start</code>
+-</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
+-<code>top</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
+-<code>right</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
+-<code>bottom</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
+-<code>left</code>
+-</a> properties except that directions are logical</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-end">
+ <code>inset-inline-end</code>
+-</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
+-<code>top</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
+-<code>right</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
+-<code>bottom</code>
+-</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
+-<code>left</code>
+-</a> properties except that directions are logical</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ </ul>
+ </td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>refer to size of containing block; see prose</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</td>
++<td>por tipo de valor calculado</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D127: 1 page(s)
+
+Pages: P101.
+
+```diff
+--- main
++++ PR 912
+@@ -4,27 +4,23 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>depends on user agent</td>
++<td>depende del agente de usuario</td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -5004,177 +6429,143 @@ Pages: P100.
  <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
  </th>
 -<td>yes</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-size">
--<code>font-size</code>
--</a>: refer to the parent element's font size</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/line-height">
--<code>line-height</code>
--</a>: refer to the font size of the element itself</li>
--</ul>
--</td>
 +<td>sí</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-style">
--<code>font-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-variant">
--<code>font-variant</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-weight">
--<code>font-weight</code>
--</a>: the keyword or the numerical value as specified, with <code>bolder</code> and <code>lighter</code> transformed to the real value</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/font-stretch" class="only-in-en-us">
--<code>font-stretch</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-size">
--<code>font-size</code>
--</a>: absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/line-height">
--<code>line-height</code>
--</a>: for percentage and length values, the absolute length, otherwise as specified</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-family">
--<code>font-family</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
+-<td>como se especifica</td>
++<td>list, each item a string and/or &lt;generic-font-family&gt; keywords</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-style">
--<code>font-style</code>
--</a>: by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-variant">
--<code>font-variant</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-weight">
--<code>font-weight</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/font-stretch" class="only-in-en-us">
--<code>font-stretch</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-size">
--<code>font-size</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/line-height">
--<code>line-height</code>
--</a>: either number or length</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/font-family">
--<code>font-family</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
 ```
 
-### D116: 1 page(s)
+### D128: 1 page(s)
 
-Pages: P047.
+Pages: P093.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,172 +4,33 @@
+@@ -4,29 +4,13 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-width">
--<code>border-block-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: <code>medium</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
+-<code>flex-grow</code>
+-</a>: <code>0</code>
 -</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: <code>medium</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
+-<code>flex-shrink</code>
+-</a>: <code>1</code>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
+-<code>flex-basis</code>
+-</a>: <code>auto</code>
 -</li>
 -</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-style">
--<code>border-block-style</code>
--</a>: as each of the properties of the shorthand:<br>
++<td>
++<code>0 1 auto</code>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>flex items, including in-flow pseudo-elements</td>
++<td>elementos flex</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,20 +22,39 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
+ <code>flex-grow</code>
+-</a>: como se especifica</li>
++</a>: número especificado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
+ <code>flex-shrink</code>
+-</a>: como se especifica</li>
++</a>: valor especificado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
+ <code>flex-basis</code>
+-</a>: as specified, but with relative lengths converted into absolute lengths</li>
++</a>: palabra clave especificada o un valor &lt;length-percentage&gt; calculado</li>
++</ul>
++</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
++<code>flex-grow</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
++<code>flex-shrink</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
++<code>flex-basis</code>
++</a>: relative to the flex container’s inner main size</li>
+ </ul>
+ </td>
+ </tr>
+@@ -59,24 +62,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
--</a>: <code>none</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
+-<code>flex-grow</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/number#interpolation" title="Values of the &lt;number&gt; CSS data type are interpolated as real, floating-point, numbers.">number</a>
 -</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
+-<a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
+-<code>flex-shrink</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/number#interpolation" title="Values of the &lt;number&gt; CSS data type are interpolated as real, floating-point, numbers.">number</a>
 -</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-color">
--<code>border-block-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
+-<code>flex-basis</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
 -</ul>
 -</td>
++<td>por tipo de valor calculado</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D129: 1 page(s)
+
+Pages: P028.
+
+```diff
+--- main
++++ PR 912
+@@ -4,33 +4,33 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>There is no practical initial value for it.</td>
 +<td>consulta las propiedades individuales</td>
  </tr>
  <tr>
@@ -5193,59 +6584,7 @@ Pages: P047.
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-width">
--<code>border-block-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-style">
--<code>border-block-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
--</a>: como se especifica</li>
--</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-color">
--<code>border-block-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: computed color</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: computed color</li>
--</ul>
--</li>
--</ul>
--</td>
+-<td>as the specified value applies to each property this is a shorthand for.</td>
 +<td>consulta las propiedades individuales</td>
 +</tr>
 +<tr>
@@ -5256,249 +6595,347 @@ Pages: P047.
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-width">
--<code>border-block-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: by computed value type</li>
--</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-style">
--<code>border-block-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-color">
--<code>border-block-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</li>
--</ul>
--</td>
+-<td>as each of the properties of the shorthand (all properties but <a href="/en-US/docs/Web/CSS/Reference/Properties/unicode-bidi" class="only-in-en-us">
+-<code>unicode-bidi</code>
+-</a> and <a href="/es/docs/Web/CSS/Reference/Properties/direction">
+-<code>direction</code>
+-</a>)</td>
 +<td>consulta las propiedades individuales</td>
  </tr>
  </tbody>
  </table>
 ```
 
-### D117: 1 page(s)
+### D130: 1 page(s)
 
-Pages: P065.
+Pages: P117.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,172 +4,33 @@
+@@ -4,34 +4,13 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-width">
--<code>border-inline-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: <code>medium</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/top">
+-<code>top</code>
+-</a>: <code>auto</code>
 -</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: <code>medium</code>
+-<a href="/es/docs/Web/CSS/Reference/Properties/bottom">
+-<code>bottom</code>
+-</a>: <code>auto</code>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/left">
+-<code>left</code>
+-</a>: <code>auto</code>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/right">
+-<code>right</code>
+-</a>: <code>auto</code>
 -</li>
 -</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-style">
--<code>border-inline-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-color">
--<code>border-inline-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>
++<code>auto</code>
+ </td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
+-<td>positioned elements</td>
++<td>elementos posicionados</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
+@@ -40,43 +19,39 @@
+ <td>no</td>
  </tr>
  <tr>
+-<th scope="row">Percentages</th>
+-<td>relative to the containing block's size in the corresponding axis (e.g. width for left or right, height for top or bottom)</td>
+-</tr>
+-<tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-width">
--<code>border-inline-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/top">
+ <code>top</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
+-</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/right">
++<code>right</code>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
+ <code>bottom</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
+-</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/left">
+ <code>left</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
 -</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-style">
--<code>border-inline-style</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: como se especifica</li>
--</ul>
+-<a href="/es/docs/Web/CSS/Reference/Properties/right">
+-<code>right</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
 -</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-color">
--<code>border-inline-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: computed color</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: computed color</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>refer to size of containing block; see prose</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-width">
--<code>border-inline-width</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: by computed value type</li>
--</ul>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-style">
--<code>border-inline-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-color">
--<code>border-inline-color</code>
--</a>: as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
+-<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</td>
++<td>por tipo de valor calculado</td>
  </tr>
  </tbody>
  </table>
 ```
 
-### D118: 1 page(s)
+### D131: 1 page(s)
+
+Pages: P127.
+
+```diff
+--- main
++++ PR 912
+@@ -4,38 +4,13 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/margin-bottom">
+-<code>margin-bottom</code>
+-</a>: <code>0</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-left" class="only-in-en-us">
+-<code>margin-left</code>
+-</a>: <code>0</code>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/margin-right">
+-<code>margin-right</code>
+-</a>: <code>0</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-top" class="only-in-en-us">
+-<code>margin-top</code>
+-</a>: <code>0</code>
+-</li>
+-</ul>
++<td>
++<code>0</code>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements, except elements with table <a href="/es/docs/Web/CSS/Reference/Properties/display">
+-<code>display</code>
+-</a> types other than <code>table-caption</code>, <code>table</code> and <code>inline-table</code>. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>todos los elementos excepto los elementos internos de tabla, los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -44,40 +19,39 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>refer to the width of the containing block</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-top" class="only-in-en-us">
++<code>margin-top</code>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-right">
++<code>margin-right</code>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/margin-bottom">
+ <code>margin-bottom</code>
+-</a>: the percentage as specified or the absolute length</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-left" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-left" class="only-in-en-us">
+ <code>margin-left</code>
+-</a>: the percentage as specified or the absolute length</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/margin-right">
+-<code>margin-right</code>
+-</a>: the percentage as specified or the absolute length</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-top" class="only-in-en-us">
+-<code>margin-top</code>
+-</a>: the percentage as specified or the absolute length</li>
++</a>: la palabra clave auto o un valor &lt;length-percentage&gt; calculado</li>
+ </ul>
+ </td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>refer to logical width of containing block</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</td>
++<td>por tipo de valor calculado</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D132: 1 page(s)
+
+Pages: P154.
+
+```diff
+--- main
++++ PR 912
+@@ -4,38 +4,13 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/padding-bottom">
+-<code>padding-bottom</code>
+-</a>: <code>0</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-left" class="only-in-en-us">
+-<code>padding-left</code>
+-</a>: <code>0</code>
+-</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-right" class="only-in-en-us">
+-<code>padding-right</code>
+-</a>: <code>0</code>
+-</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/padding-top">
+-<code>padding-top</code>
+-</a>: <code>0</code>
+-</li>
+-</ul>
++<td>
++<code>0</code>
+ </td>
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a> and <a href="/es/docs/Web/CSS/Reference/Selectors/::first-line">
+-<code>::first-line</code>
+-</a>.</td>
++<td>todos los elementos excepto: los elementos internos de tabla que no sean celdas de tabla, los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -44,40 +19,39 @@
+ <td>no</td>
+ </tr>
+ <tr>
+-<th scope="row">Percentages</th>
+-<td>refer to the width of the containing block</td>
+-</tr>
+-<tr>
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-top">
++<code>padding-top</code>
++</a>: un valor &lt;length-percentage&gt; calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-right" class="only-in-en-us">
++<code>padding-right</code>
++</a>: un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-bottom">
+ <code>padding-bottom</code>
+-</a>: the percentage as specified or the absolute length</li>
++</a>: un valor &lt;length-percentage&gt; calculado</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-left" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-left" class="only-in-en-us">
+ <code>padding-left</code>
+-</a>: the percentage as specified or the absolute length</li>
+-<li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-right" class="only-in-en-us">
+-<code>padding-right</code>
+-</a>: the percentage as specified or the absolute length</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/padding-top">
+-<code>padding-top</code>
+-</a>: the percentage as specified or the absolute length</li>
++</a>: un valor &lt;length-percentage&gt; calculado</li>
+ </ul>
+ </td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>refer to logical width of containing block</td>
+ </tr>
+ <tr>
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</td>
++<td>por tipo de valor calculado</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D133: 1 page(s)
 
 Pages: P110.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,193 +4,35 @@
+@@ -4,64 +4,13 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
@@ -5566,41 +7003,76 @@ Pages: P110.
  </tr>
  <tr>
  <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
+@@ -70,8 +19,41 @@
+ <td>no</td>
+ </tr>
+ <tr>
++<th scope="row">
++<a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
++</th>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-rows">
++<code>grid-template-rows</code>
++</a>: la palabra clave none o una lista de tracks calculada</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-columns">
++<code>grid-template-columns</code>
++</a>: la palabra clave none o una lista de tracks calculada</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-areas">
++<code>grid-template-areas</code>
++</a>: la palabra clave none o una lista de valores de cadena</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-rows">
++<code>grid-auto-rows</code>
++</a>: consulta Track Sizing</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-columns">
++<code>grid-auto-columns</code>
++</a>: consulta Track Sizing</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-flow" class="only-in-en-us">
++<code>grid-auto-flow</code>
++</a>: palabra(s) clave especificada(s)</li>
++</ul>
++</td>
++</tr>
++<tr>
+ <th scope="row">Percentages</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-rows">
--<code>grid-template-rows</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-template-rows">
+@@ -82,62 +64,21 @@
+ <code>grid-template-columns</code>
+ </a>: refer to corresponding dimension of the content area</li>
+ <li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-areas">
++<code>grid-template-areas</code>
++</a>: n/d</li>
++<li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-rows">
+ <code>grid-auto-rows</code>
 -</a>: refer to corresponding dimension of the content area</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-columns">
--<code>grid-template-columns</code>
--</a>: refer to corresponding dimension of the content area</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-rows">
--<code>grid-auto-rows</code>
--</a>: refer to corresponding dimension of the content area</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-columns">
--<code>grid-auto-columns</code>
++</a>: consulta Track Sizing</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-columns">
+ <code>grid-auto-columns</code>
 -</a>: refer to corresponding dimension of the content area</li>
 -</ul>
 -</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
+-</tr>
+-<tr>
+-<th scope="row">
+-<a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+-</th>
 -<td>as each of the properties of the shorthand:<br>
 -<ul>
--<li>
++</a>: consulta Track Sizing</li>
+ <li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-rows">
 -<code>grid-template-rows</code>
 -</a>: as specified, but with relative lengths converted into absolute lengths</li>
@@ -5622,7 +7094,8 @@ Pages: P110.
 -</a>: the percentage as specified or the absolute length</li>
 -<li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-auto-flow" class="only-in-en-us">
--<code>grid-auto-flow</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-flow" class="only-in-en-us">
+ <code>grid-auto-flow</code>
 -</a>: como se especifica</li>
 -<li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
@@ -5640,44 +7113,46 @@ Pages: P110.
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
 -<code>row-gap</code>
 -</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++</a>: n/d</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -145,16 +86,16 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-rows">
--<code>grid-template-rows</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-template-rows">
+ <code>grid-template-rows</code>
 -</a>: simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-columns">
--<code>grid-template-columns</code>
++</a>: si las longitudes de la lista coinciden, por tipo de valor calculado por elemento en la lista de tracks calculada (consulta § 7.2.5 Computed Value of a Track Listing y § 7.2.3.3 Interpolation/Combination of repeat()); en caso contrario, discreto</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-template-columns">
+ <code>grid-template-columns</code>
 -</a>: simple list of length, percentage, or calc, provided the only differences are in the values of the length, percentage, or calc components in the list</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-template-areas">
--<code>grid-template-areas</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-rows">
--<code>grid-auto-rows</code>
++</a>: si las longitudes de la lista coinciden, por tipo de valor calculado por elemento en la lista de tracks calculada (consulta § 7.2.5 Computed Value of a Track Listing y § 7.2.3.3 Interpolation/Combination of repeat()); en caso contrario, discreto</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-template-areas">
+ <code>grid-template-areas</code>
+@@ -162,33 +103,15 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-rows">
+ <code>grid-auto-rows</code>
 -</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-columns">
--<code>grid-auto-columns</code>
++</a>: si las longitudes de la lista coinciden, por tipo de valor calculado por elemento; en caso contrario, discreto</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-columns">
+ <code>grid-auto-columns</code>
 -</a>: by computed value type</li>
--<li>
++</a>: si las longitudes de la lista coinciden, por tipo de valor calculado por elemento; en caso contrario, discreto</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/grid-auto-flow" class="only-in-en-us">
--<code>grid-auto-flow</code>
--</a>: discrete</li>
++<a href="/es/docs/Web/CSS/Reference/Properties/grid-auto-flow" class="only-in-en-us">
+ <code>grid-auto-flow</code>
+ </a>: discrete</li>
 -<li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
 -<code>grid-column-gap</code>
@@ -5696,29 +7171,28 @@ Pages: P110.
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
 -<code>row-gap</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
 ```
 
-### D119: 1 page(s)
+### D134: 1 page(s)
 
-Pages: P164.
+Pages: P023.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,23 +4,25 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
--<td>depends on user agent</td>
-+<td>
-+<code>auto</code>
-+</td>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width">
+@@ -21,31 +21,28 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -5736,286 +7210,1092 @@ Pages: P164.
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
--<td>como se especifica</td>
-+<td>la palabra clave none, la palabra clave auto o match-parent, o una lista en la que cada elemento es un par de valores de cadena</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D120: 1 page(s)
-
-Pages: P109.
-
-```diff
---- main
-+++ PR 912
-@@ -4,24 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: <code>normal</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width">
+ <code>-webkit-text-stroke-width</code>
+-</a>: absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>
 -</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
--<code>column-gap</code>
--</a>: <code>normal</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: longitud absoluta</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color">
+ <code>-webkit-text-stroke-color</code>
+-</a>: computed color</li>
++</a>: un color RGBA</li>
+ </ul>
+ </td>
  </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>multi-column elements, flex containers, grid containers</td>
-+<td>multi-column containers, flex containers, grid containers, and grid lanes containers</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -33,35 +20,17 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
--<code>column-gap</code>
--</a>: as specified, with &lt;length&gt;s made absolute, and normal computing to zero except on multi-column elements</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>refer to corresponding dimension of the content area</td>
- </tr>
- <tr>
+@@ -53,7 +50,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width">
+@@ -62,8 +59,7 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color">
+ <code>-webkit-text-stroke-color</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
+-</li>
++</a>: por tipo de valor calculado</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D135: 1 page(s)
+
+Pages: P029.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-name">
+@@ -14,7 +14,7 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-duration">
+ <code>animation-duration</code>
+-</a>: <code>0s</code>
++</a>: <code>auto</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-timing-function">
+@@ -47,7 +47,7 @@
+ </a>: <code>running</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
+ <code>animation-timeline</code>
+ </a>: <code>auto</code>
+ </li>
+@@ -56,7 +56,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -68,45 +68,44 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-name">
+ <code>animation-name</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es un identificador CSS sensible a mayúsculas o la palabra clave none</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-duration">
+ <code>animation-duration</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es un tiempo o la palabra clave auto</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-timing-function">
+ <code>animation-timing-function</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es una &lt;easing-function&gt; calculada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-delay">
+ <code>animation-delay</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es una duración</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/animation-iteration-count">
++<code>animation-iteration-count</code>
++</a>: lista, en la que cada elemento es un número o la palabra clave infinite</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-direction">
+ <code>animation-direction</code>
+-</a>: como se especifica</li>
 -<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/row-gap" class="only-in-en-us">
--<code>row-gap</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/column-gap">
--<code>column-gap</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--</ul>
--</td>
-+<td>por tipo de valor calculado</td>
+-<a href="/es/docs/Web/CSS/Reference/Properties/animation-iteration-count">
+-<code>animation-iteration-count</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es una palabra clave según se especifica</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-fill-mode">
+ <code>animation-fill-mode</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es una palabra clave según se especifica</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/animation-play-state">
+ <code>animation-play-state</code>
+-</a>: como se especifica</li>
++</a>: lista, en la que cada elemento es una palabra clave según se especifica</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
+ <code>animation-timeline</code>
+-</a>: a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>
+-</li>
++</a>: lista, en la que cada elemento es la palabra clave none, la palabra clave auto, un identificador CSS sensible a mayúsculas, una función scroll() calculada o una función view() calculada</li>
+ </ul>
+ </td>
+ </tr>
+@@ -114,7 +113,7 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>Not animatable</td>
++<td>no animable</td>
  </tr>
  </tbody>
  </table>
 ```
 
-### D121: 1 page(s)
+### D136: 1 page(s)
 
-Pages: P118.
+Pages: P049.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,13 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-block-start">
--<code>inset-block-start</code>
--</a>: <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-block-end">
--<code>inset-block-end</code>
--</a>: <code>auto</code>
--</li>
--</ul>
-+<td>
-+<code>auto</code>
- </td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+@@ -26,7 +26,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
--<td>positioned elements</td>
-+<td>elementos posicionados</td>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
  </tr>
  <tr>
  <th scope="row">
-@@ -30,47 +19,20 @@
+@@ -38,22 +38,20 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+ <code>border-block-end-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
+ <code>border-block-end-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+ <code>border-block-end-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -61,12 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+ <code>border-block-end-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
+ <code>border-block-end-style</code>
+@@ -74,7 +72,7 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+ <code>border-block-end-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D137: 1 page(s)
+
+Pages: P048.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+ <code>border-block-start-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+ <code>border-block-end-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -50,16 +50,16 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+ <code>border-block-start-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
+ <code>border-block-end-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D138: 1 page(s)
+
+Pages: P057.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
+ <code>border-block-start-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
+ <code>border-block-end-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ </ul>
+ </td>
+ </tr>
+@@ -50,7 +50,18 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>discrete</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
++<code>border-block-start-style</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
++<code>border-block-end-style</code>
++</a>: discrete</li>
++</ul>
++</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D139: 1 page(s)
+
+Pages: P058.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,20 +33,16 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+ <code>border-block-start-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+ <code>border-block-end-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ </ul>
+ </td>
+ </tr>
+@@ -54,16 +50,16 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+ <code>border-block-start-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
+ <code>border-block-end-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D140: 1 page(s)
+
+Pages: P053.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+@@ -26,7 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,22 +38,20 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+ <code>border-block-start-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
+ <code>border-block-start-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+ <code>border-block-start-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -61,12 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
+ <code>border-block-start-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
+ <code>border-block-start-style</code>
+@@ -74,7 +72,7 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
+ <code>border-block-start-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D141: 1 page(s)
+
+Pages: P067.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+@@ -26,7 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,22 +38,20 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+ <code>border-inline-end-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+ <code>border-inline-end-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+ <code>border-inline-end-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -61,12 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+ <code>border-inline-end-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+ <code>border-inline-end-style</code>
+@@ -74,7 +72,7 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+ <code>border-inline-end-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D142: 1 page(s)
+
+Pages: P066.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+ <code>border-inline-start-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+ <code>border-inline-end-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -50,16 +50,16 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+ <code>border-inline-start-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
+ <code>border-inline-end-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D143: 1 page(s)
+
+Pages: P075.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,16 +33,16 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+ <code>border-inline-start-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
+ <code>border-inline-end-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ </ul>
+ </td>
+ </tr>
+@@ -50,7 +50,18 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>discrete</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
++<code>border-inline-start-style</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
++<code>border-inline-end-style</code>
++</a>: discrete</li>
++</ul>
++</td>
+ </tr>
+ </tbody>
+ </table>
+```
+
+### D144: 1 page(s)
+
+Pages: P076.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+@@ -21,7 +21,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -33,20 +33,16 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+ <code>border-inline-start-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+ <code>border-inline-end-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ </ul>
+ </td>
+ </tr>
+@@ -54,16 +50,16 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+ <code>border-inline-start-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
+ <code>border-inline-end-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D145: 1 page(s)
+
+Pages: P071.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+@@ -26,7 +26,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements</td>
++<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -38,22 +38,20 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+ <code>border-inline-start-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+ <code>border-inline-start-style</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+ <code>border-inline-start-color</code>
+-</a>: computed color</li>
++</a>: el color calculado y/o una función de imagen unidimensional</li>
+ </ul>
+ </td>
+ </tr>
+@@ -61,12 +59,12 @@
+ <th scope="row">
+ <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
+ <code>border-inline-start-width</code>
+-</a>: by computed value type</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
+ <code>border-inline-start-style</code>
+@@ -74,7 +72,7 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
+ <code>border-inline-start-color</code>
+-</a>: by computed value type</li>
++</a>: consulta el texto explicativo</li>
+ </ul>
+ </td>
+ </tr>
+```
+
+### D146: 1 page(s)
+
+Pages: P078.
+
+```diff
+--- main
++++ PR 912
+@@ -4,7 +4,7 @@
+ <th scope="row">
+ <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
+ </th>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-left-radius">
+@@ -31,11 +31,7 @@
+ </tr>
+ <tr>
+ <th scope="row">Applies to</th>
+-<td>all elements; but User Agents are not required to apply to <code>table</code> and <code>inline-table</code> elements when <a href="/es/docs/Web/CSS/Reference/Properties/border-collapse">
+-<code>border-collapse</code>
+-</a> is <code>collapse</code>. The behavior on internal table elements is undefined for the moment.. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
+-<code>::first-letter</code>
+-</a>.</td>
++<td>todos los elementos (pero consulta el texto explicativo)</td>
+ </tr>
+ <tr>
+ <th scope="row">
+@@ -44,72 +40,56 @@
  <td>no</td>
  </tr>
  <tr>
 -<th scope="row">Percentages</th>
--<td>logical-height of containing block</td>
+-<td>refer to the corresponding dimension of the border box</td>
 -</tr>
 -<tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-block-start">
--<code>inset-block-start</code>
--</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
--<code>top</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
--<code>right</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
--<code>bottom</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
--<code>left</code>
--</a> properties except that directions are logical</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-block-end">
--<code>inset-block-end</code>
--</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
--<code>top</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
--<code>right</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
--<code>bottom</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
--<code>left</code>
--</a> properties except that directions are logical</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-left-radius">
+ <code>border-top-left-radius</code>
+-</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: par de valores &lt;length-percentage&gt; calculados</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-right-radius">
+ <code>border-top-right-radius</code>
+-</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: par de valores &lt;length-percentage&gt; calculados</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-right-radius">
+ <code>border-bottom-right-radius</code>
+-</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: par de valores &lt;length-percentage&gt; calculados</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-left-radius">
+ <code>border-bottom-left-radius</code>
+-</a>: two absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>s or <a href="/es/docs/Web/CSS/Reference/Values/percentage">
+-<code>&lt;percentage&gt;</code>
+-</a>s</li>
++</a>: par de valores &lt;length-percentage&gt; calculados</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>Refer to corresponding dimension of the border box.</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
--<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</td>
-+<td>por tipo de valor calculado</td>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-left-radius">
+ <code>border-top-left-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-top-right-radius">
+ <code>border-top-right-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-right-radius">
+ <code>border-bottom-right-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/border-bottom-left-radius">
+ <code>border-bottom-left-radius</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
++</a>: por valor calculado</li>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
 ```
 
-### D122: 1 page(s)
+### D147: 1 page(s)
 
-Pages: P121.
+Pages: P095.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,24 +4,13 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-start">
--<code>inset-inline-start</code>
--</a>: <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-end">
--<code>inset-inline-end</code>
--</a>: <code>auto</code>
--</li>
--</ul>
-+<td>
-+<code>auto</code>
- </td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-direction">
+@@ -21,7 +21,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
--<td>positioned elements</td>
-+<td>elementos posicionados</td>
+-<td>flex containers</td>
++<td>contenedores flex</td>
  </tr>
  <tr>
  <th scope="row">
-@@ -30,47 +19,20 @@
- <td>no</td>
- </tr>
- <tr>
--<th scope="row">Percentages</th>
--<td>logical-width of containing block</td>
--</tr>
--<tr>
+@@ -33,16 +33,16 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-start">
--<code>inset-inline-start</code>
--</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
--<code>top</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
--<code>right</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
--<code>bottom</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
--<code>left</code>
--</a> properties except that directions are logical</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/inset-inline-end">
--<code>inset-inline-end</code>
--</a>: same as box offsets: <a href="/es/docs/Web/CSS/Reference/Properties/top">
--<code>top</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/right">
--<code>right</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/bottom">
--<code>bottom</code>
--</a>, <a href="/es/docs/Web/CSS/Reference/Properties/left">
--<code>left</code>
--</a> properties except that directions are logical</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-direction">
+ <code>flex-direction</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-wrap">
+ <code>flex-wrap</code>
+-</a>: como se especifica</li>
++</a>: palabra clave especificada</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -50,7 +50,7 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
--<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</td>
-+<td>por tipo de valor calculado</td>
- </tr>
- </tbody>
- </table>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/flex-direction">
 ```
 
-### D123: 1 page(s)
+### D148: 1 page(s)
 
-Pages: P101.
+Pages: P100.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,27 +4,23 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
--<td>depends on user agent</td>
-+<td>depende del agente de usuario</td>
+-<td>as each of the properties of the shorthand:<br>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-style">
+@@ -22,11 +22,6 @@
+ </a>: <code>normal</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/font-stretch" class="only-in-en-us">
+-<code>font-stretch</code>
+-</a>: <code>normal</code>
+-</li>
+-<li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-size">
+ <code>font-size</code>
+ </a>: <code>medium</code>
+@@ -39,49 +34,30 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-family">
+ <code>font-family</code>
+-</a>: depends on user agent</li>
++</a>: depende del agente de usuario</li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -6031,1564 +8311,374 @@ Pages: P101.
  <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
  </th>
 -<td>yes</td>
+-</tr>
+-<tr>
+-<th scope="row">Percentages</th>
+-<td>as each of the properties of the shorthand:<br>
+-<ul>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/font-size">
+-<code>font-size</code>
+-</a>: refer to the parent element's font size</li>
+-<li>
+-<a href="/es/docs/Web/CSS/Reference/Properties/line-height">
+-<code>line-height</code>
+-</a>: refer to the font size of the element itself</li>
+-</ul>
+-</td>
 +<td>sí</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
--<td>como se especifica</td>
-+<td>list, each item a string and/or &lt;generic-font-family&gt; keywords</td>
- </tr>
- <tr>
- <th scope="row">
-```
-
-### D124: 1 page(s)
-
-Pages: P049.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,45 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-style">
+ <code>font-style</code>
 -</a>: como se especifica</li>
++</a>: la palabra clave especificada, más el ángulo en grados si se ha especificado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-variant">
+ <code>font-variant</code>
+@@ -89,26 +65,50 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-weight">
+ <code>font-weight</code>
+-</a>: the keyword or the numerical value as specified, with <code>bolder</code> and <code>lighter</code> transformed to the real value</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D125: 1 page(s)
-
-Pages: P053.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,45 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/font-stretch" class="only-in-en-us">
+-<code>font-stretch</code>
 -</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D126: 1 page(s)
-
-Pages: P067.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,45 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
++</a>: un número; ver más abajo</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-size">
+ <code>font-size</code>
+-</a>: absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
+-</a>
+-</li>
++</a>: una longitud absoluta</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/line-height">
+ <code>line-height</code>
+-</a>: for percentage and length values, the absolute length, otherwise as specified</li>
++</a>: la palabra clave especificada, un número o un valor &lt;length&gt; calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-family">
+ <code>font-family</code>
 -</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D127: 1 page(s)
-
-Pages: P071.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,45 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D128: 1 page(s)
-
-Pages: P148.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-color">
--<code>outline-color</code>
--</a>: <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>todos los elementos</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,47 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-color">
--<code>outline-color</code>
--</a>: For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-width">
--<code>outline-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-style">
--<code>outline-style</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/outline-color">
--<code>outline-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D129: 1 page(s)
-
-Pages: P093.
-
-```diff
---- main
-+++ PR 912
-@@ -4,29 +4,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
--<code>flex-grow</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
--<code>flex-shrink</code>
--</a>: <code>1</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
--<code>flex-basis</code>
--</a>: <code>auto</code>
--</li>
--</ul>
-+<td>
-+<code>0 1 auto</code>
++</a>: list, each item a string and/or &lt;generic-font-family&gt; keywords</li>
++</ul>
++</td>
++</tr>
++<tr>
++<th scope="row">Percentages</th>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/font-style">
++<code>font-style</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/font-variant">
++<code>font-variant</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/font-weight">
++<code>font-weight</code>
++</a>: n/d</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/font-size">
++<code>font-size</code>
++</a>: refer to parent element’s font size</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/line-height">
++<code>line-height</code>
++</a>: computed relative to 1em</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/font-family">
++<code>font-family</code>
++</a>: n/d</li>
+ </ul>
  </td>
  </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>flex items, including in-flow pseudo-elements</td>
-+<td>elementos flex</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -38,45 +22,17 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
--<code>flex-grow</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
--<code>flex-shrink</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
--<code>flex-basis</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
+@@ -116,13 +116,12 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-grow">
--<code>flex-grow</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/number#interpolation" title="Values of the &lt;number&gt; CSS data type are interpolated as real, floating-point, numbers.">number</a>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-style">
+ <code>font-style</code>
+-</a>: by computed value type; <code>normal</code> animates as <code>oblique 0deg</code>
 -</li>
++</a>: by computed value type; normal animates as oblique 0deg</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-variant">
+ <code>font-variant</code>
+@@ -130,19 +129,15 @@
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-weight">
+ <code>font-weight</code>
+-</a>: by computed value type</li>
 -<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-shrink">
--<code>flex-shrink</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/number#interpolation" title="Values of the &lt;number&gt; CSS data type are interpolated as real, floating-point, numbers.">number</a>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-basis">
--<code>flex-basis</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</li>
--</ul>
--</td>
-+<td>por tipo de valor calculado</td>
- </tr>
- </tbody>
- </table>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/font-stretch" class="only-in-en-us">
+-<code>font-stretch</code>
+-</a>: by computed value type</li>
++</a>: por tipo de valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-size">
+ <code>font-size</code>
+-</a>: by computed value type</li>
++</a>: por tipo de valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/line-height">
+ <code>line-height</code>
+-</a>: either number or length</li>
++</a>: por tipo de valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/font-family">
+ <code>font-family</code>
 ```
 
-### D130: 1 page(s)
+### D149: 1 page(s)
 
-Pages: P077.
+Pages: P128.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,31 +4,11 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
--<code>border-left-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
--<code>border-left-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/margin-block-start">
+@@ -12,7 +12,7 @@
+ </a>: <code>0</code>
+ </li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
+ <code>margin-block-end</code>
+ </a>: <code>0</code>
+ </li>
+@@ -21,10 +21,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
--<td>all elements. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
--<code>border-left-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
--<code>border-left-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-width" class="only-in-en-us">
--<code>border-left-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-left-style" class="only-in-en-us">
--<code>border-left-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-left-color">
--<code>border-left-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D131: 1 page(s)
-
-Pages: P079.
-
-```diff
---- main
-+++ PR 912
-@@ -4,31 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
--<code>border-top-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
--<code>border-top-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>todos los elementos excepto los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,47 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
--<code>border-top-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
--<code>border-top-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-width" class="only-in-en-us">
--<code>border-top-width</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-top-style" class="only-in-en-us">
--<code>border-top-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-top-color">
--<code>border-top-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D132: 1 page(s)
-
-Pages: P028.
-
-```diff
---- main
-+++ PR 912
-@@ -4,33 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>There is no practical initial value for it.</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as the specified value applies to each property this is a shorthand for.</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand (all properties but <a href="/en-US/docs/Web/CSS/Reference/Properties/unicode-bidi" class="only-in-en-us">
--<code>unicode-bidi</code>
--</a> and <a href="/es/docs/Web/CSS/Reference/Properties/direction">
--<code>direction</code>
--</a>)</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D133: 1 page(s)
-
-Pages: P117.
-
-```diff
---- main
-+++ PR 912
-@@ -4,34 +4,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/top">
--<code>top</code>
--</a>: <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/bottom">
--<code>bottom</code>
--</a>: <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/left">
--<code>left</code>
--</a>: <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/right">
--<code>right</code>
--</a>: <code>auto</code>
--</li>
--</ul>
-+<td>
-+<code>auto</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>positioned elements</td>
-+<td>elementos posicionados</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -40,43 +19,20 @@
- <td>no</td>
- </tr>
- <tr>
--<th scope="row">Percentages</th>
--<td>relative to the containing block's size in the corresponding axis (e.g. width for left or right, height for top or bottom)</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/top">
--<code>top</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/bottom">
--<code>bottom</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/left">
--<code>left</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/right">
--<code>right</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>, <a href="/en-US/docs/Web/CSS/Reference/Values/percentage#interpolation" title="Values of the &lt;percentage&gt; CSS data type are interpolated as real, floating-point numbers.">percentage</a> or calc();</td>
-+<td>por tipo de valor calculado</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D134: 1 page(s)
-
-Pages: P030.
-
-```diff
---- main
-+++ PR 912
-@@ -4,36 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>
--<code>0s</code>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>todos los elementos y los <a href="/es/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudoelementos</a> <a href="/es/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> y <a href="/es/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
+-<td>same as <a href="/es/docs/Web/CSS/Reference/Properties/margin">
+-<code>margin</code>
 -</a>
 -</td>
-+<td>consulta las propiedades individuales</td>
++<td>Igual que margin-top</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>como se especifica</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D135: 1 page(s)
-
-Pages: P127.
-
-```diff
---- main
-+++ PR 912
-@@ -4,38 +4,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-bottom">
--<code>margin-bottom</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-left" class="only-in-en-us">
--<code>margin-left</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-right">
--<code>margin-right</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-top" class="only-in-en-us">
--<code>margin-top</code>
--</a>: <code>0</code>
--</li>
--</ul>
-+<td>
-+<code>0</code>
- </td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements, except elements with table <a href="/es/docs/Web/CSS/Reference/Properties/display">
--<code>display</code>
--</a> types other than <code>table-caption</code>, <code>table</code> and <code>inline-table</code>. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>todos los elementos excepto los elementos internos de tabla, los contenedores de base ruby y los contenedores de anotación ruby</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -44,40 +19,20 @@
+@@ -33,33 +30,41 @@
  <td>no</td>
  </tr>
  <tr>
 -<th scope="row">Percentages</th>
--<td>refer to the width of the containing block</td>
+-<td>depends on layout model</td>
 -</tr>
 -<tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-bottom">
--<code>margin-bottom</code>
--</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-left" class="only-in-en-us">
--<code>margin-left</code>
--</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-right">
--<code>margin-right</code>
--</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-top" class="only-in-en-us">
--<code>margin-top</code>
--</a>: the percentage as specified or the absolute length</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/margin-block-start">
+ <code>margin-block-start</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
+-</li>
++</a>: Igual que las propiedades margin-* correspondientes</li>
+ <li>
+-<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
+ <code>margin-block-end</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
+-</li>
++</a>: Igual que las propiedades margin-* correspondientes</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>refer to logical width of containing block</td>
++<td>As for the corresponding physical property</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</td>
-+<td>por tipo de valor calculado</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-block-start">
++<code>margin-block-start</code>
++</a>: por tipo de valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
++<code>margin-block-end</code>
++</a>: por tipo de valor calculado</li>
++</ul>
+ </td>
  </tr>
  </tbody>
- </table>
 ```
 
-### D136: 1 page(s)
+### D150: 1 page(s)
 
-Pages: P154.
+Pages: P131.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,38 +4,13 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-bottom">
--<code>padding-bottom</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-left" class="only-in-en-us">
--<code>padding-left</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-right" class="only-in-en-us">
--<code>padding-right</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-top">
--<code>padding-top</code>
--</a>: <code>0</code>
--</li>
--</ul>
-+<td>
-+<code>0</code>
- </td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-start">
+@@ -21,10 +21,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
--<td>all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/es/docs/Web/CSS/Reference/Selectors/::first-line">
--<code>::first-line</code>
--</a>.</td>
-+<td>todos los elementos excepto: los elementos internos de tabla que no sean celdas de tabla, los contenedores de base ruby y los contenedores de anotación ruby</td>
+-<td>same as <a href="/es/docs/Web/CSS/Reference/Properties/margin">
+-<code>margin</code>
+-</a>
+-</td>
++<td>Igual que margin-top</td>
  </tr>
  <tr>
  <th scope="row">
-@@ -44,40 +19,20 @@
+@@ -33,33 +30,41 @@
  <td>no</td>
  </tr>
  <tr>
 -<th scope="row">Percentages</th>
--<td>refer to the width of the containing block</td>
+-<td>depends on layout model</td>
 -</tr>
 -<tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-bottom">
--<code>padding-bottom</code>
--</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-left" class="only-in-en-us">
--<code>padding-left</code>
--</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/padding-right" class="only-in-en-us">
--<code>padding-right</code>
--</a>: the percentage as specified or the absolute length</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-top">
--<code>padding-top</code>
--</a>: the percentage as specified or the absolute length</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-start">
+ <code>margin-inline-start</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
+-</li>
++</a>: Igual que las propiedades margin-* correspondientes</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-end">
+ <code>margin-inline-end</code>
+-</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
+-</li>
++</a>: Igual que las propiedades margin-* correspondientes</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>refer to logical width of containing block</td>
++<td>As for the corresponding physical property</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</td>
-+<td>por tipo de valor calculado</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-start">
++<code>margin-inline-start</code>
++</a>: por tipo de valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-end">
++<code>margin-inline-end</code>
++</a>: por tipo de valor calculado</li>
++</ul>
+ </td>
  </tr>
  </tbody>
- </table>
 ```
 
-### D137: 1 page(s)
-
-Pages: P061.
-
-```diff
---- main
-+++ PR 912
-@@ -4,43 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
--<code>border-image-source</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: <code>100%</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: <code>1</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-outset">
--<code>border-image-outset</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-repeat">
--<code>border-image-repeat</code>
--</a>: <code>stretch</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements, except internal table elements when <a href="/es/docs/Web/CSS/Reference/Properties/border-collapse">
--<code>border-collapse</code>
--</a> is <code>collapse</code>. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a>.</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -49,77 +17,16 @@
- <td>no</td>
- </tr>
- <tr>
--<th scope="row">Percentages</th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: refer to the size of the border image</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: refer to the width or height of the border image area</li>
--</ul>
--</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
--<code>border-image-source</code>
--</a>: <code>none</code> or the image with its URI made absolute</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: one to four percentage(s) (as specified) or absolute length(s), plus the keyword <code>fill</code> if specified</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-outset">
--<code>border-image-outset</code>
--</a>: as specified, but with relative lengths converted into absolute lengths</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-repeat">
--<code>border-image-repeat</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-source" class="only-in-en-us">
--<code>border-image-source</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-slice">
--<code>border-image-slice</code>
--</a>: by computed value type</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/border-image-width" class="only-in-en-us">
--<code>border-image-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-outset">
--<code>border-image-outset</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-image-repeat">
--<code>border-image-repeat</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D138: 1 page(s)
-
-Pages: P180.
-
-```diff
---- main
-+++ PR 912
-@@ -4,44 +4,11 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/transition-delay">
--<code>transition-delay</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/transition-duration">
--<code>transition-duration</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/transition-property">
--<code>transition-property</code>
--</a>: <code>all</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
--<code>transition-timing-function</code>
--</a>: <code>ease</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
--<code>transition-behavior</code>
--</a>: <code>normal</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>todos los elementos y los <a href="/es/docs/Web/CSS/Reference/Selectors/Pseudo-elements">pseudoelementos</a> <a href="/es/docs/Web/CSS/Reference/Selectors/::before">
--<code>::before</code>
--</a> y <a href="/es/docs/Web/CSS/Reference/Selectors/::after">
--<code>::after</code>
--</a>
--</td>
-+<td>todos los elementos</td>
- </tr>
- <tr>
- <th scope="row">
-@@ -53,36 +20,13 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/transition-delay">
--<code>transition-delay</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/transition-duration">
--<code>transition-duration</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/transition-property">
--<code>transition-property</code>
--</a>: como se especifica</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function" class="only-in-en-us">
--<code>transition-timing-function</code>
--</a>: como se especifica</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/transition-behavior" class="only-in-en-us">
--<code>transition-behavior</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>no animable</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D139: 1 page(s)
-
-Pages: P057.
-
-```diff
---- main
-+++ PR 912
-@@ -4,53 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-style">
--<code>border-block-start-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-style">
--<code>border-block-end-style</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>discrete</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D140: 1 page(s)
-
-Pages: P075.
-
-```diff
---- main
-+++ PR 912
-@@ -4,53 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-style">
--<code>border-inline-start-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-style">
--<code>border-inline-end-style</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>discrete</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D141: 1 page(s)
+### D151: 1 page(s)
 
 Pages: P134.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,56 +4,11 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
--<code>mask-image</code>
--</a>: <code>none</code>
--</li>
--<li>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
+@@ -12,9 +12,14 @@
+ </a>: <code>none</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
 -<code>mask-mode</code>
 -</a>: <code>match-source</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
--<code>mask-repeat</code>
--</a>: <code>repeat</code>
--</li>
--<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
++<code>mask-position</code>
++</a>: <code>0% 0%</code>
++</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: <code>auto</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
+@@ -22,9 +27,9 @@
+ </a>: <code>repeat</code>
+ </li>
+ <li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
 -<code>mask-position</code>
 -</a>: <code>0% 0%</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
--<code>mask-clip</code>
--</a>: <code>border-box</code>
--</li>
--<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
++<code>mask-origin</code>
++</a>: <code>border-box</code>
+ </li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
+@@ -32,28 +37,21 @@
+ </a>: <code>border-box</code>
+ </li>
+ <li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
 -<code>mask-origin</code>
 -</a>: <code>border-box</code>
--</li>
--<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
++</a>: <code>add</code>
+ </li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
 -<code>mask-size</code>
 -</a>: <code>auto</code>
@@ -7597,10 +8687,12 @@ Pages: P134.
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
 -<code>mask-composite</code>
 -</a>: <code>add</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
++</a>: <code>match-source</code>
+ </li>
+ </ul>
+ </td>
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -7611,55 +8703,106 @@ Pages: P134.
  </tr>
  <tr>
  <th scope="row">
-@@ -62,106 +17,20 @@
+@@ -62,58 +60,82 @@
  <td>no</td>
  </tr>
  <tr>
 -<th scope="row">Percentages</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
--<code>mask-position</code>
++<th scope="row">
++<a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
++</th>
++<td>consulta las propiedades individuales<br>
+ <ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
++<code>mask-image</code>
++</a>: lista, en la que cada elemento es la palabra clave none, una &lt;image&gt; calculada o una &lt;url&gt; calculada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
+ <code>mask-position</code>
 -</a>: refer to size of mask painting area minus size of mask layer image (see the text for <a href="/es/docs/Web/CSS/Reference/Properties/background-position">
 -<code>background-position</code>
 -</a>)</li>
--</ul>
--</td>
--</tr>
--<tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
++</a>: lista, en la que cada elemento consta de dos palabras clave que representan el origen y dos desplazamientos desde ese origen, cada uno dado como una longitud absoluta (si se da una &lt;length&gt;), o bien como un porcentaje.</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: lista, en la que cada elemento es como se especifica, pero con las longitudes convertidas en absolutas</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
++<code>mask-repeat</code>
++</a>: lista, en la que cada elemento es un par de palabras clave, una por dimensión</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
++<code>mask-origin</code>
++</a>: lista, en la que cada elemento es la palabra clave según se especifica</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
++<code>mask-clip</code>
++</a>: lista, en la que cada elemento es la palabra clave según se especifica</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
++</a>: lista, en la que cada elemento es la palabra clave según se especifica</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
++</a>: lista, en la que cada elemento es la palabra clave según se especifica</li>
+ </ul>
+ </td>
+ </tr>
+ <tr>
+-<th scope="row">
+-<a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
+-</th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
--<code>mask-image</code>
++<th scope="row">Percentages</th>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
+ <code>mask-image</code>
 -</a>: as specified, but with <a href="/es/docs/Web/CSS/Reference/Values/url_value">
 -<code>&lt;url&gt;</code>
 -</a> values made absolute</li>
--<li>
++</a>: n/d</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
 -<code>mask-mode</code>
 -</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
--<code>mask-repeat</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
++<code>mask-position</code>
++</a>: refer to size of mask painting area minus size of mask layer image; see text background-position [CSS3BG]</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: n/d</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
+ <code>mask-repeat</code>
 -</a>: Consists of two keywords, one per dimension</li>
--<li>
++</a>: n/d</li>
+ <li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
 -<code>mask-position</code>
 -</a>: Consists of two keywords representing the origin and two offsets from that origin, each given as an absolute length (if given a &lt;length&gt;), otherwise as a percentage.</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
--<code>mask-clip</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
++<code>mask-origin</code>
++</a>: n/d</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
+ <code>mask-clip</code>
 -</a>: como se especifica</li>
--<li>
++</a>: n/d</li>
+ <li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
 -<code>mask-origin</code>
 -</a>: como se especifica</li>
--<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
++<code>mask-composite</code>
++</a>: n/d</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
 -<code>mask-size</code>
 -</a>: as specified, but with relative lengths converted into absolute lengths</li>
@@ -7667,31 +8810,37 @@ Pages: P134.
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
 -<code>mask-composite</code>
 -</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
++</a>: n/d</li>
+ </ul>
+ </td>
  </tr>
- <tr>
+@@ -121,47 +143,42 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
--<code>mask-image</code>
--</a>: discrete</li>
--<li>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-image">
+ <code>mask-image</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
 -<code>mask-mode</code>
 -</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
--<code>mask-repeat</code>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
++<code>mask-position</code>
++</a>: lista repetible</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
++<code>mask-size</code>
++</a>: lista repetible</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-repeat">
+ <code>mask-repeat</code>
 -</a>: discrete</li>
 -<li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/mask-position">
@@ -7700,93 +8849,56 @@ Pages: P134.
 -<li>
 -<a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
 -<code>mask-clip</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
--<code>mask-origin</code>
--</a>: discrete</li>
--<li>
+ </a>: discrete</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/mask-origin">
+ <code>mask-origin</code>
+ </a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-size" class="only-in-en-us">
 -<code>mask-size</code>
 -</a>: a repeatable list</li>
--<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-clip">
++<code>mask-clip</code>
++</a>: discrete</li>
+ <li>
 -<a href="/en-US/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
--<code>mask-composite</code>
--</a>: discrete</li>
--</ul>
--</td>
--</tr>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-composite" class="only-in-en-us">
+ <code>mask-composite</code>
++</a>: discrete</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/mask-mode" class="only-in-en-us">
++<code>mask-mode</code>
+ </a>: discrete</li>
+ </ul>
+ </td>
+ </tr>
 -<tr>
 -<th scope="row">Creates <a href="/en-US/docs/Web/CSS/Guides/Positioned_layout/Stacking_context">stacking context</a>
 -</th>
 -<td>yes</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
+-</tr>
  </tbody>
  </table>
 ```
 
-### D142: 1 page(s)
+### D152: 1 page(s)
 
-Pages: P029.
+Pages: P148.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,59 +4,11 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-name">
--<code>animation-name</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-duration">
--<code>animation-duration</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-timing-function">
--<code>animation-timing-function</code>
--</a>: <code>ease</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-delay">
--<code>animation-delay</code>
--</a>: <code>0s</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-iteration-count">
--<code>animation-iteration-count</code>
--</a>: <code>1</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-direction">
--<code>animation-direction</code>
--</a>: <code>normal</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-fill-mode">
--<code>animation-fill-mode</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-play-state">
--<code>animation-play-state</code>
--</a>: <code>running</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
--<code>animation-timeline</code>
--</a>: <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-width">
+@@ -26,7 +26,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
@@ -7795,1093 +8907,228 @@ Pages: P029.
  </tr>
  <tr>
  <th scope="row">
-@@ -68,53 +20,13 @@
+@@ -38,22 +38,20 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-name">
--<code>animation-name</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-width">
+ <code>outline-width</code>
+-</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
+-<code>&lt;length&gt;</code>
+-</a>, snapped as a line width</li>
++</a>: absolute length, snapped as a border width</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-style">
+ <code>outline-style</code>
 -</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-duration">
--<code>animation-duration</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-timing-function">
--<code>animation-timing-function</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-delay">
--<code>animation-delay</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-direction">
--<code>animation-direction</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-iteration-count">
--<code>animation-iteration-count</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-fill-mode">
--<code>animation-fill-mode</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/animation-play-state">
--<code>animation-play-state</code>
--</a>: como se especifica</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/animation-timeline" class="only-in-en-us">
--<code>animation-timeline</code>
--</a>: a list, each item either a case-sensitive CSS identifier or the keywords <code>none</code>, <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: palabra clave especificada</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-color">
+ <code>outline-color</code>
+-</a>: For the keyword <code>auto</code>, the computed value is <code>currentcolor</code>. For the color value, if the value is translucent, the computed value will be the <code>rgba()</code> corresponding one. If it isn't, it will be the <code>rgb()</code> corresponding one. The <code>transparent</code> keyword maps to <code>rgba(0,0,0,0)</code>.</li>
++</a>: ver más abajo</li>
+ </ul>
+ </td>
  </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>Not animatable</td>
-+<td>no animable</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D143: 1 page(s)
-
-Pages: P128.
-
-```diff
---- main
-+++ PR 912
-@@ -4,63 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-block-start">
--<code>margin-block-start</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
--<code>margin-block-end</code>
--</a>: <code>0</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>same as <a href="/es/docs/Web/CSS/Reference/Properties/margin">
--<code>margin</code>
--</a>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>depends on layout model</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-block-start">
--<code>margin-block-start</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/margin-block-end" class="only-in-en-us">
--<code>margin-block-end</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D144: 1 page(s)
-
-Pages: P131.
-
-```diff
---- main
-+++ PR 912
-@@ -4,63 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-start">
--<code>margin-inline-start</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-end">
--<code>margin-inline-end</code>
--</a>: <code>0</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>same as <a href="/es/docs/Web/CSS/Reference/Properties/margin">
--<code>margin</code>
--</a>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>depends on layout model</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-start">
--<code>margin-inline-start</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/margin-inline-end">
--<code>margin-inline-end</code>
--</a>: if specified as a length, the corresponding absolute length; if specified as a percentage, the specified value; otherwise, <code>auto</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D145: 1 page(s)
-
-Pages: P048.
-
-```diff
---- main
-+++ PR 912
-@@ -4,64 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
--</a>: computed color</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
+@@ -61,22 +59,20 @@
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-color">
--<code>border-block-start-color</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-width">
+ <code>outline-width</code>
+-</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
+-</li>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-style">
+ <code>outline-style</code>
 -</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-color">
--<code>border-block-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D146: 1 page(s)
-
-Pages: P066.
-
-```diff
---- main
-+++ PR 912
-@@ -4,64 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: computed color</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-color">
--<code>border-inline-start-color</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-color">
--<code>border-inline-end-color</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D147: 1 page(s)
-
-Pages: P095.
-
-```diff
---- main
-+++ PR 912
-@@ -4,64 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-direction">
--<code>flex-direction</code>
--</a>: <code>row</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-wrap">
--<code>flex-wrap</code>
--</a>: <code>nowrap</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>flex containers</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-direction">
--<code>flex-direction</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-wrap">
--<code>flex-wrap</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-direction">
--<code>flex-direction</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/flex-wrap">
--<code>flex-wrap</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D148: 1 page(s)
-
-Pages: P172.
-
-```diff
---- main
-+++ PR 912
-@@ -4,65 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
--<code>text-emphasis-style</code>
--</a>: <code>none</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-color">
--<code>text-emphasis-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>yes</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
--<code>text-emphasis-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-color">
--<code>text-emphasis-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-emphasis-color">
--<code>text-emphasis-color</code>
++</a>: por valor calculado</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/outline-color">
+ <code>outline-color</code>
 -</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
 -</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style" class="only-in-en-us">
--<code>text-emphasis-style</code>
--</a>: discrete</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: por valor calculado</li>
+ </ul>
+ </td>
  </tr>
- </tbody>
- </table>
 ```
 
-### D149: 1 page(s)
+### D153: 1 page(s)
 
 Pages: P155.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,65 +4,33 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-block-start">
--<code>padding-block-start</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-block-end">
--<code>padding-block-end</code>
--</a>: <code>0</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-block-start">
+@@ -21,8 +21,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
 -<td>all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>
 -</td>
-+<td>consulta las propiedades individuales</td>
++<td>Igual que padding-top</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>logical-width of containing block</td>
-+<td>consulta las propiedades individuales</td>
+@@ -31,37 +30,41 @@
+ <td>no</td>
  </tr>
  <tr>
+-<th scope="row">Percentages</th>
+-<td>logical-width of containing block</td>
+-</tr>
+-<tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-block-start">
--<code>padding-block-start</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-block-start">
+ <code>padding-block-start</code>
 -</a>: as <a href="/es/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>
 -</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-block-end">
--<code>padding-block-end</code>
++</a>: Igual que las propiedades padding-* correspondientes</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-block-end">
+ <code>padding-block-end</code>
 -</a>: as <a href="/es/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>
 -</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: Igual que las propiedades padding-* correspondientes</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>As for the corresponding physical property</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-block-start">
++<code>padding-block-start</code>
++</a>: por tipo de valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-block-end">
++<code>padding-block-end</code>
++</a>: por tipo de valor calculado</li>
++</ul>
+ </td>
  </tr>
  </tbody>
- </table>
 ```
 
-### D150: 1 page(s)
+### D154: 1 page(s)
 
 Pages: P159.
 
 ```diff
 --- main
 +++ PR 912
-@@ -4,65 +4,33 @@
+@@ -4,7 +4,7 @@
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-start">
--<code>padding-inline-start</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-end">
--<code>padding-inline-end</code>
--</a>: <code>0</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-start">
+@@ -21,8 +21,7 @@
  </tr>
  <tr>
  <th scope="row">Applies to</th>
 -<td>all elements, except <code>table-row-group</code>, <code>table-header-group</code>, <code>table-footer-group</code>, <code>table-row</code>, <code>table-column-group</code> and <code>table-column</code>
 -</td>
-+<td>consulta las propiedades individuales</td>
++<td>Igual que padding-top</td>
  </tr>
  <tr>
  <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
--</tr>
--<tr>
--<th scope="row">Percentages</th>
--<td>logical-width of containing block</td>
-+<td>consulta las propiedades individuales</td>
+@@ -31,37 +30,41 @@
+ <td>no</td>
  </tr>
  <tr>
+-<th scope="row">Percentages</th>
+-<td>logical-width of containing block</td>
+-</tr>
+-<tr>
  <th scope="row">
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-start">
--<code>padding-inline-start</code>
++<td>consulta las propiedades individuales<br>
+ <ul>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-start">
+ <code>padding-inline-start</code>
 -</a>: as <a href="/es/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>
 -</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-end">
--<code>padding-inline-end</code>
++</a>: Igual que las propiedades padding-* correspondientes</li>
+ <li>
+ <a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-end">
+ <code>padding-inline-end</code>
 -</a>: as <a href="/es/docs/Web/CSS/Reference/Values/length">
 -<code>&lt;length&gt;</code>
 -</a>
 -</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
++</a>: Igual que las propiedades padding-* correspondientes</li>
+ </ul>
+ </td>
 +</tr>
 +<tr>
 +<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>As for the corresponding physical property</td>
  </tr>
  <tr>
  <th scope="row">
  <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
  </th>
 -<td>a <a href="/en-US/docs/Web/CSS/Reference/Values/length#interpolation" title="Values of the &lt;length&gt; CSS data type are interpolated as real, floating-point numbers.">length</a>
--</td>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-start">
++<code>padding-inline-start</code>
++</a>: por tipo de valor calculado</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/padding-inline-end">
++<code>padding-inline-end</code>
++</a>: por tipo de valor calculado</li>
++</ul>
+ </td>
  </tr>
  </tbody>
- </table>
-```
-
-### D151: 1 page(s)
-
-Pages: P023.
-
-```diff
---- main
-+++ PR 912
-@@ -4,68 +4,29 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width">
--<code>-webkit-text-stroke-width</code>
--</a>: <code>0</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color">
--<code>-webkit-text-stroke-color</code>
--</a>: <code>currentcolor</code>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>yes</td>
-+<td>sí</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width">
--<code>-webkit-text-stroke-width</code>
--</a>: absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color">
--<code>-webkit-text-stroke-color</code>
--</a>: computed color</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width">
--<code>-webkit-text-stroke-width</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color">
--<code>-webkit-text-stroke-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--</ul>
--</td>
-+<td>Ver propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D152: 1 page(s)
-
-Pages: P058.
-
-```diff
---- main
-+++ PR 912
-@@ -4,68 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: <code>medium</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-start-width">
--<code>border-block-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-block-end-width">
--<code>border-block-end-width</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D153: 1 page(s)
-
-Pages: P076.
-
-```diff
---- main
-+++ PR 912
-@@ -4,68 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: <code>medium</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: <code>medium</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: the absolute <a href="/es/docs/Web/CSS/Reference/Values/length">
--<code>&lt;length&gt;</code>
--</a>, snapped as a line width</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-start-width">
--<code>border-inline-start-width</code>
--</a>: by computed value type</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/border-inline-end-width">
--<code>border-inline-end-width</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
-```
-
-### D154: 1 page(s)
-
-Pages: P168.
-
-```diff
---- main
-+++ PR 912
-@@ -4,90 +4,33 @@
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
--<code>text-decoration-color</code>
--</a>: <code>currentcolor</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
--<code>text-decoration-style</code>
--</a>: <code>solid</code>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
--<code>text-decoration-line</code>
--</a>: <code>none</code>
--</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">Applies to</th>
--<td>all elements. It also applies to <a href="/es/docs/Web/CSS/Reference/Selectors/::first-letter">
--<code>::first-letter</code>
--</a> and <a href="/es/docs/Web/CSS/Reference/Selectors/::first-line">
--<code>::first-line</code>
--</a>.</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Inheritance">Heredable</a>
- </th>
--<td>no</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
--<code>text-decoration-line</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
--<code>text-decoration-style</code>
--</a>: como se especifica</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
--<code>text-decoration-color</code>
--</a>: computed color</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
--<code>text-decoration-thickness</code>
--</a>: como se especifica</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
- </tr>
- <tr>
- <th scope="row">
- <a href="/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties" class="only-in-en-us">Animation type</a>
- </th>
--<td>as each of the properties of the shorthand:<br>
--<ul>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-color">
--<code>text-decoration-color</code>
--</a>: a <a href="/en-US/docs/Web/CSS/Reference/Values/color_value#interpolation" title="Values of the &lt;color&gt; CSS data type are interpolated on each of their red, green, blue components, each handled as a real, floating-point number. Note that interpolation of colors happens in the alpha-premultiplied sRGBA color space to prevent unexpected grey colors to appear.">color</a>
--</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-style">
--<code>text-decoration-style</code>
--</a>: discrete</li>
--<li>
--<a href="/es/docs/Web/CSS/Reference/Properties/text-decoration-line">
--<code>text-decoration-line</code>
--</a>: discrete</li>
--<li>
--<a href="/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness" class="only-in-en-us">
--<code>text-decoration-thickness</code>
--</a>: by computed value type</li>
--</ul>
--</td>
-+<td>consulta las propiedades individuales</td>
- </tr>
- </tbody>
- </table>
 ```
 
 ### D155: 1 page(s)
@@ -9166,7 +9413,7 @@ Pages: P167.
 ```diff
 --- main
 +++ PR 912
-@@ -5,28 +5,28 @@
+@@ -5,27 +5,34 @@
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#initial_value">Valor inicial</a>
  </th>
  <td>
@@ -9195,15 +9442,20 @@ Pages: P167.
  <a href="/es/docs/Web/CSS/Guides/Cascade/Property_value_processing#computed_value">Valor calculado</a>
  </th>
 -<td>as specified, except for the <code>match-parent</code> value which is calculated against its parent's <code>direction</code> value and results in a computed value of either <code>left</code> or <code>right</code>
--</td>
-+<td>consulta las propiedades individuales</td>
-+</tr>
-+<tr>
-+<th scope="row">Percentages</th>
-+<td>consulta las propiedades individuales</td>
++<td>consulta las propiedades individuales<br>
++<ul>
++<li>
++<a class="page-not-created" data-href="/es/docs/Web/CSS/Reference/Properties/text-align-all" title="La documentación acerca de este tema no ha sido escrita todavía. ¡Por favor considera contribuir!">
++<code>text-align-all</code>
++</a>: palabra clave según se especifica, excepto match-parent, que se calcula como se ha definido arriba</li>
++<li>
++<a href="/es/docs/Web/CSS/Reference/Properties/text-align-last" class="only-in-en-us">
++<code>text-align-last</code>
++</a>: palabra clave según se especifica, excepto match-parent, que se calcula como se ha definido arriba</li>
++</ul>
+ </td>
  </tr>
  <tr>
- <th scope="row">
 ```
 
 ### D161: 1 page(s)
@@ -9632,6 +9884,66 @@ Main pages (1): P110.
 PR pages (0): none.
 New or increased occurrences (0 pages): none.
 Resolved or decreased occurrences (1 pages): P110.
+
+### I022
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/es/docs/Web/CSS/Reference/Properties/animation-delay-end"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P030.
+New or increased occurrences (1 pages): P030.
+Resolved or decreased occurrences (0 pages): none.
+
+### I023
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/es/docs/Web/CSS/Reference/Properties/animation-delay-start"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P030.
+New or increased occurrences (1 pages): P030.
+Resolved or decreased occurrences (0 pages): none.
+
+### I024
+
+```json
+[
+  [
+    "source",
+    "templ-broken-link"
+  ],
+  [
+    "url",
+    "/es/docs/Web/CSS/Reference/Properties/text-align-all"
+  ]
+]
+```
+
+Main pages (0): none.
+PR pages (1): P167.
+New or increased occurrences (1 pages): P167.
+Resolved or decreased occurrences (0 pages): none.
 
 ## Attribution
 

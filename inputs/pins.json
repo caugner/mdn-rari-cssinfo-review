@@ -2,7 +2,7 @@
   "snapshotDate": "2026-09-16",
   "revisions": {
     "rari-main": "8015a37e8a5c648a6b5cfcabed48932da26c6a94",
-    "rari-pr": "e1953aa720f43d6049e8ff1d6889525f8cb7af64",
+    "rari-pr": "1ba098b8e78d947e660627a85e6bb8f696db3ef4",
     "content": "8e307de115d41e9214fcacbd7fe89532756816b4",
     "translated-content": "1d013d20b24acfe89b8a30eaa5d43268f4731359"
   },
@@ -15,7 +15,7 @@
     "@webref/css": "8.7.4",
     "@mdn/browser-compat-data": "8.1.0"
   },
-  "dependencyArchiveSha256": "026f0d96f1e726f02fbe2c796fc180446ed12ca225f5816eee4dc6310ff802b5",
+  "dependencyArchiveSha256": "32e839ba17f60508f05d625e63067109d7fdc0e0236d2dc3cfd56c572183425e",
   "rust": "1.97",
   "locales": [
     "en-US",
